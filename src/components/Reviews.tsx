@@ -15,19 +15,6 @@ export default function Reviews() {
           </h2>
         </div>
 
-        {/* Rating Badge */}
-        <div className="animate-on-scroll mx-auto mt-10 flex max-w-sm flex-col items-center rounded-2xl bg-white p-6 shadow-lg">
-          <div className="flex gap-1">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="h-7 w-7 fill-gold text-gold" />
-            ))}
-          </div>
-          <p className="mt-2 text-4xl font-bold text-plum">{BUSINESS.rating}</p>
-          <p className="mt-1 text-sm text-charcoal-light">
-            {BUSINESS.reviewCount} reviews on Google
-          </p>
-        </div>
-
         {/* Review Cards */}
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {REVIEWS.map((review, i) => (
