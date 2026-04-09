@@ -11,15 +11,8 @@ export default function About() {
   return (
     <section id="about" className="py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-          {/* Image */}
-          <div className="animate-on-scroll relative">
-            <div className="placeholder-img aspect-[4/5] rounded-2xl shadow-2xl" />
-            <div className="absolute -bottom-4 -right-4 -z-10 h-full w-full rounded-2xl border-2 border-rose/30" />
-          </div>
-
-          {/* Content */}
-          <div className="animate-on-scroll-delay">
+        <div className="mx-auto max-w-3xl">
+          <div className="animate-on-scroll text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-rose-dark">
               About the Artist
             </p>
@@ -48,7 +41,7 @@ export default function About() {
             </div>
 
             {/* Highlight badges */}
-            <div className="mt-8 grid grid-cols-2 gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
               {highlights.map(({ icon: Icon, label }) => (
                 <div
                   key={label}
