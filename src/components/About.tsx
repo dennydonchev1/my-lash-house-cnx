@@ -14,7 +14,11 @@ export default function About() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Image */}
           <div className="animate-on-scroll relative">
-            <div className="placeholder-img aspect-[4/5] rounded-2xl shadow-2xl" />
+            <img
+              src="/images/ig-grid-3.png"
+              alt="My Lash House work samples"
+              className="aspect-[4/5] rounded-2xl object-cover object-top shadow-2xl"
+            />
             <div className="absolute -bottom-4 -right-4 -z-10 h-full w-full rounded-2xl border-2 border-rose/30" />
           </div>
 

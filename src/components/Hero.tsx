@@ -7,8 +7,14 @@ import { BUSINESS } from "@/lib/constants";
 export default function Hero() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
-      {/* Background — placeholder gradient until real photo */}
-      <div className="absolute inset-0 placeholder-img-dark" />
+      {/* Background */}
+      <div className="absolute inset-0">
+        <img
+          src="/images/ig-grid-1.png"
+          alt=""
+          className="h-full w-full object-cover"
+        />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/30 to-black/60" />
 
       {/* Content */}

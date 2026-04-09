@@ -1,5 +1,5 @@
 import { Camera } from "lucide-react";
-import { BUSINESS, GALLERY_IMAGES } from "@/lib/constants";
+import { BUSINESS } from "@/lib/constants";
 
 export default function Gallery() {
   return (
@@ -18,24 +18,31 @@ export default function Gallery() {
           </p>
         </div>
 
-        {/* Gallery Grid */}
-        <div className="mt-14 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
-          {GALLERY_IMAGES.map((img, i) => (
-            <div
-              key={i}
-              className={`animate-on-scroll group relative overflow-hidden rounded-xl ${
-                i === 0 || i === 5
-                  ? "row-span-2 aspect-[3/4]"
-                  : "aspect-square"
-              }`}
-            >
-              <div className="placeholder-img h-full w-full transition-transform duration-500 group-hover:scale-105" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-              <p className="absolute bottom-3 left-3 text-xs font-medium text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                {img.alt}
-              </p>
+        {/* Instagram Grid Images */}
+        <div className="mt-14 space-y-4">
+          <div className="animate-on-scroll overflow-hidden rounded-2xl shadow-lg">
+            <img
+              src="/images/ig-grid-1.png"
+              alt="My Lash House portfolio — lash extensions, nail art, and beauty work"
+              className="w-full"
+            />
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="animate-on-scroll overflow-hidden rounded-2xl shadow-lg">
+              <img
+                src="/images/ig-grid-2.png"
+                alt="My Lash House lash extension styles and nail designs"
+                className="w-full"
+              />
             </div>
-          ))}
+            <div className="animate-on-scroll overflow-hidden rounded-2xl shadow-lg">
+              <img
+                src="/images/ig-grid-3.png"
+                alt="My Lash House close-up lash work and beauty services"
+                className="w-full"
+              />
+            </div>
+          </div>
         </div>
 
         {/* Instagram CTA */}
