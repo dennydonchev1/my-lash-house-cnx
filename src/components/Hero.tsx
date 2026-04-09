@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background — placeholder gradient until real photo */}
       <div className="absolute inset-0 placeholder-img-dark" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/30 to-black/60" />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
