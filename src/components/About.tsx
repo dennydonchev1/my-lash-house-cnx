@@ -14,11 +14,7 @@ export default function About() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Image */}
           <div className="animate-on-scroll relative">
-            <img
-              src="/images/crop-7.jpg"
-              alt="Lash extension close-up by My Lash House"
-              className="aspect-[4/5] rounded-2xl object-cover shadow-2xl"
-            />
+            <div className="placeholder-img aspect-[4/5] rounded-2xl shadow-2xl" />
             <div className="absolute -bottom-4 -right-4 -z-10 h-full w-full rounded-2xl border-2 border-rose/30" />
           </div>
 
