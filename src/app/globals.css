@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-rose: #EF569F;
+  --color-rose-light: #EC86B6;
+  --color-rose-dark: #ED1D7E;
+  --color-plum: #CA1D5D;
+  --color-plum-light: #ED1D7E;
+  --color-cream: #FFF9F7;
+  --color-cream-dark: #F5ECE9;
+  --color-gold: #C9A96E;
+  --color-gold-light: #E0CCA0;
+  --color-charcoal: #1A1A1A;
+  --color-charcoal-light: #4A4A4A;
+  --color-pink-soft: #FCEEF5;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #FFF9F5;
+  --foreground: #1A1A1A;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-rose);
+  border-radius: 4px;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--color-rose-light);
+  color: var(--color-plum);
+}
+
+/* Scroll reveal animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-on-scroll {
+  animation: fadeInUp 0.6s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 30%;
+}
+
+.animate-on-scroll-delay {
+  animation: fadeInUp 0.6s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 5% entry 35%;
+}
+
+/* Placeholder images — gradient fills until real photos are added */
+.placeholder-img {
+  background: linear-gradient(135deg, #FCEEF5 0%, #EC86B6 50%, #EF569F 100%);
+}
+
+.placeholder-img-dark {
+  background: linear-gradient(135deg, #3D0A1E 0%, #CA1D5D 40%, #ED1D7E 70%, #EF569F 100%);
 }
