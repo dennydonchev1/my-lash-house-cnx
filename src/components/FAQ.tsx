@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "How do I book an appointment?",
-    a: "You can book through LINE (@164sepuk), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 10 AM to 7 PM.",
+    a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 10 AM to 7 PM.",
   },
   {
     q: "Is the studio easy to find?",
