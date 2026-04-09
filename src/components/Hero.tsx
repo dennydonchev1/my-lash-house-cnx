@@ -19,9 +19,9 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 backdrop-blur-sm">
-            <span className="text-xs font-medium uppercase tracking-widest text-gold-light">
-              ★ 5.0 Rated · {BUSINESS.reviewCount} Reviews
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 backdrop-blur-sm">
+            <span className="text-xs font-medium uppercase tracking-widest text-gold-light flex items-center gap-1.5">
+              ★★★★★ 5.0 Rated
             </span>
           </div>
 
