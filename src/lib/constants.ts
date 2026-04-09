@@ -47,7 +47,7 @@ export const LASH_SERVICES = [
     description:
       "One extension per natural lash for a subtle, natural enhancement. Perfect for first-timers.",
     priceRange: "490–790",
-    image: "/images/classic.jpg",
+    image: "/images/crop-9.jpg",
   },
   {
     name: "2D Volume",
@@ -55,7 +55,7 @@ export const LASH_SERVICES = [
     description:
       "Two ultra-fine extensions per natural lash. A soft, slightly fuller look while staying natural.",
     priceRange: "690–890",
-    image: "/images/2d.jpg",
+    image: "/images/crop-13.jpg",
   },
   {
     name: "3D Volume",
@@ -63,7 +63,7 @@ export const LASH_SERVICES = [
     description:
       "Three extensions per lash for noticeable fullness. The most popular choice for everyday glam.",
     priceRange: "790–990",
-    image: "/images/3d.jpg",
+    image: "/images/crop-4.jpg",
   },
   {
     name: "4D Volume",
@@ -71,7 +71,7 @@ export const LASH_SERVICES = [
     description:
       "Four extensions per lash delivering lush, dramatic volume. Ideal for a bold, striking look.",
     priceRange: "890–1,090",
-    image: "/images/4d.jpg",
+    image: "/images/crop-7.jpg",
   },
   {
     name: "5D Volume",
@@ -79,7 +79,7 @@ export const LASH_SERVICES = [
     description:
       "Five extensions per lash for luxurious density. Full, fluffy, and head-turning.",
     priceRange: "990–1,190",
-    image: "/images/5d.jpg",
+    image: "/images/crop-11.jpg",
   },
   {
     name: "Mega Volume",
@@ -87,7 +87,7 @@ export const LASH_SERVICES = [
     description:
       "Maximum volume with ultra-fine fans. The ultimate dramatic lash set for special occasions.",
     priceRange: "1,190–1,390",
-    image: "/images/mega.jpg",
+    image: "/images/crop-17.jpg",
   },
 ] as const;
 
@@ -170,12 +170,16 @@ export const REVIEWS = [
 ] as const;
 
 export const GALLERY_IMAGES = [
-  { src: "/images/gallery-1.jpg", alt: "Wispy volume cat eye lash extensions", category: "volume" },
-  { src: "/images/gallery-2.jpg", alt: "Classic natural lash extensions close-up", category: "classic" },
-  { src: "/images/gallery-3.jpg", alt: "Mega volume dramatic lash set", category: "mega" },
-  { src: "/images/gallery-4.jpg", alt: "Doll eye lash extension style", category: "volume" },
-  { src: "/images/gallery-5.jpg", alt: "Natural look lash extensions", category: "classic" },
-  { src: "/images/gallery-6.jpg", alt: "Wispy volume lash extensions", category: "volume" },
-  { src: "/images/gallery-7.jpg", alt: "Custom nail art design", category: "nails" },
-  { src: "/images/gallery-8.jpg", alt: "Cat eye lash extension style", category: "volume" },
+  { src: "/images/crop-4.jpg", alt: "Wispy volume cat eye lash extensions" },
+  { src: "/images/crop-6.jpg", alt: "Wispy volume lash extensions" },
+  { src: "/images/crop-9.jpg", alt: "Classic lash extensions close-up" },
+  { src: "/images/crop-11.jpg", alt: "Wispy volume lash style" },
+  { src: "/images/crop-13.jpg", alt: "Lash extensions with My Lash House branding" },
+  { src: "/images/crop-5.jpg", alt: "Floral nail art design" },
+  { src: "/images/crop-7.jpg", alt: "Mega volume dramatic lash set" },
+  { src: "/images/crop-17.jpg", alt: "Lash extension close-up detail" },
+  { src: "/images/crop-3.jpg", alt: "Nail art colorful design" },
+  { src: "/images/crop-10.jpg", alt: "Cat eye lash extension style" },
+  { src: "/images/crop-14.jpg", alt: "Milky white nail design" },
+  { src: "/images/crop-18.jpg", alt: "Lash work showcase" },
 ] as const;
