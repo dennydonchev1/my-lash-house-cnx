@@ -38,7 +38,7 @@ export default function Hero() {
           </p>
 
           {/* USPs */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-white/70">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-white/90">
             <span>100% Handmade Fans</span>
             <span className="hidden sm:inline">·</span>
             <span>Certified Artist</span>

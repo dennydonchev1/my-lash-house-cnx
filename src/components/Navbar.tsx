@@ -25,10 +25,10 @@ export default function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between sm:h-20">
-          {/* Logo */}
+          {/* Logo — swap between white (over hero) and black (scrolled) */}
           <a href="#" className="flex items-center">
             <Image
-              src="/images/logo-black.png"
+              src={scrolled ? "/images/logo-black.png" : "/images/logo-white.png"}
               alt="My Lash House"
               width={160}
               height={60}
@@ -43,7 +43,11 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium tracking-wide text-charcoal-light transition-colors hover:text-plum"
+                className={`text-sm font-medium tracking-wide transition-colors ${
+                  scrolled
+                    ? "text-charcoal-light hover:text-plum"
+                    : "text-white/90 hover:text-white"
+                }`}
               >
                 {link.label}
               </a>
@@ -52,7 +56,11 @@ export default function Navbar() {
               href={BUSINESS.lineUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-plum px-5 py-2.5 text-sm font-semibold text-white transition-all hover:bg-plum-light hover:shadow-lg"
+              className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all hover:shadow-lg ${
+                scrolled
+                  ? "bg-plum text-white hover:bg-plum-light"
+                  : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
+              }`}
             >
               <MessageCircle className="h-4 w-4" />
               Book Now
@@ -62,7 +70,11 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="rounded-lg p-2 text-charcoal transition-colors hover:bg-cream-dark md:hidden"
+            className={`rounded-lg p-2 transition-colors md:hidden ${
+              scrolled
+                ? "text-charcoal hover:bg-cream-dark"
+                : "text-white hover:bg-white/10"
+            }`}
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
