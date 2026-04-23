@@ -23,13 +23,14 @@ export default function Gallery() {
           {GALLERY_IMAGES.map((img, i) => (
             <div
               key={i}
-              className={`animate-on-scroll group relative overflow-hidden rounded-xl ${
-                i === 0 || i === 6
-                  ? "row-span-2 aspect-[3/4]"
-                  : "aspect-square"
-              }`}
+              className="animate-on-scroll group relative aspect-square overflow-hidden rounded-xl bg-cream-dark"
             >
-              <div className="placeholder-img h-full w-full" />
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
             </div>
           ))}
         </div>

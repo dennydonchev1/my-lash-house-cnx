@@ -45,7 +45,14 @@ export default function Services() {
               key={service.name}
               className="animate-on-scroll group relative overflow-hidden rounded-2xl border border-cream-dark bg-cream transition-all hover:border-rose/30 hover:shadow-xl"
             >
-              <div className="placeholder-img aspect-[4/3]" />
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src={service.image}
+                  alt={service.name}
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
               <div className="p-6">
                 <div className="flex items-baseline justify-between">
                   <h3 className="font-heading text-xl font-bold">
