@@ -9,6 +9,8 @@ export const BUSINESS = {
   email: "",
   line: "@604ymska",
   lineUrl: "https://page.line.me/604ymska",
+  whatsapp: "+66 85 474 7314",
+  whatsappUrl: "https://wa.me/66854747314",
   instagram: "@my_lash_house.cnx",
   instagramUrl: "https://www.instagram.com/my_lash_house.cnx/",
   facebook: "Mylashhouse29",
@@ -25,9 +27,9 @@ export const BUSINESS = {
     time: "10:00 AM – 7:00 PM",
   },
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.5!2d99.12!3d18.78!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDQ2JzQ4LjAiTiA5OcKwMDcnMTIuMCJF!5e0!3m2!1sen!2sth!4v1",
+    "https://maps.google.com/maps?q=My+Lash+House+Chiang+Mai,89/117+Pruksa+Ville,San+Klang,San+Kamphaeng,Chiang+Mai+50130&hl=en&z=16&output=embed",
   googleMapsUrl:
-    "https://www.google.com/maps/place/My+Lash+House+Chiang+Mai/@18.7902072,99.1200000",
+    "https://www.google.com/maps/place/My+Lash+House+Chiang+Mai/@18.7870732,99.0412865,17z",
   rating: 5.0,
   reviewCount: 18,
 } as const;
