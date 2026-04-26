@@ -203,17 +203,15 @@ export const REVIEWS = [
 ] as const;
 
 export const GALLERY_IMAGES = [
-  { src: "/images/lash-1.jpg", alt: "Wispy volume lash extensions with cat eye styling" },
-  { src: "/images/lash-2.jpg", alt: "Voluminous lash extensions close-up" },
-  { src: "/images/lash-3.jpg", alt: "Classic doll eye lash extensions" },
-  { src: "/images/lash-4.jpg", alt: "Dramatic mega volume lash set" },
-  { src: "/images/lash-5.jpg", alt: "Volume lash extensions with defined shape" },
-  { src: "/images/lash-6.jpg", alt: "Natural look lash extensions" },
-  { src: "/images/lash-7.jpg", alt: "Wispy style lash extensions" },
-  { src: "/images/lash-8.jpg", alt: "Full volume lash extensions" },
-  { src: "/images/lash-9.jpg", alt: "Cat eye wispy lash extensions close-up" },
-  { src: "/images/lash-10.jpg", alt: "Lush handmade fan lash volume" },
-  { src: "/images/lash-11.jpg", alt: "Red color lash accent extensions" },
-  { src: "/images/lash-12.jpg", alt: "Natural volume lash extensions" },
-  { src: "/images/lash-13.jpg", alt: "Signature My Lash House extensions" },
+  { src: "/images/service-classic.jpg", alt: "Classic 1:1 lash extensions" },
+  { src: "/images/service-natural.jpg", alt: "Natural look lash extensions" },
+  { src: "/images/service-hybrid.jpg", alt: "Hybrid lash extensions" },
+  { src: "/images/service-classic-volume.jpg", alt: "Classic volume lash extensions" },
+  { src: "/images/service-light-volume.jpg", alt: "Light volume lash extensions" },
+  { src: "/images/service-mega.jpg", alt: "Mega volume lash extensions" },
+  { src: "/images/service-wet-look.jpg", alt: "Wet look lash extensions" },
+  { src: "/images/service-russian.jpg", alt: "Russian volume lash extensions" },
+  { src: "/images/service-wispy.jpg", alt: "Wispy volume lash extensions" },
+  { src: "/images/service-strip.jpg", alt: "Strip lash extensions" },
+  { src: "/images/service-color.jpg", alt: "Color lash extensions accent" },
 ] as const;
