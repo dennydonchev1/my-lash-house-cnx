@@ -1,5 +1,5 @@
 import { MessageCircle, Check } from "lucide-react";
-import { LASH_SERVICES, BUSINESS } from "@/lib/constants";
+import { LASH_SERVICES, LASH_ADDON, BUSINESS } from "@/lib/constants";
 
 export default function Pricing() {
   return (
@@ -22,9 +22,8 @@ export default function Pricing() {
         {/* Pricing Table */}
         <div className="animate-on-scroll mx-auto mt-14 max-w-3xl overflow-hidden rounded-2xl border border-cream-dark bg-cream shadow-lg">
           {/* Header row */}
-          <div className="grid grid-cols-3 bg-plum px-6 py-4 text-sm font-semibold text-white">
+          <div className="grid grid-cols-2 bg-plum px-6 py-4 text-sm font-semibold text-white">
             <span>Style</span>
-            <span className="text-center">Volume</span>
             <span className="text-right">Price (THB)</span>
           </div>
 
@@ -32,9 +31,9 @@ export default function Pricing() {
           {LASH_SERVICES.map((service, i) => (
             <div
               key={service.name}
-              className={`grid grid-cols-3 items-center px-6 py-4 ${
+              className={`grid grid-cols-2 items-center px-6 py-4 ${
                 i % 2 === 0 ? "bg-cream" : "bg-white"
-              } ${i < LASH_SERVICES.length - 1 ? "border-b border-cream-dark" : ""}`}
+              } border-b border-cream-dark`}
             >
               <div>
                 <span className="font-semibold">{service.name}</span>
@@ -42,18 +41,29 @@ export default function Pricing() {
                   {service.thai}
                 </span>
               </div>
-              <p className="text-center text-sm text-charcoal-light">
-                {service.name.includes("Classic")
-                  ? "1 fan/lash"
-                  : service.name.includes("Mega")
-                  ? "6+ fans/lash"
-                  : `${service.name.charAt(0)} fans/lash`}
-              </p>
               <p className="text-right text-lg font-bold text-plum">
-                ฿{service.priceRange}
+                ฿{service.price}
               </p>
             </div>
           ))}
+
+          {/* Add-on row */}
+          <div className="grid grid-cols-2 items-center bg-rose/10 px-6 py-4">
+            <div>
+              <span className="text-xs font-semibold uppercase tracking-wider text-rose-dark">
+                Add-on
+              </span>
+              <div>
+                <span className="font-semibold">{LASH_ADDON.name}</span>
+                <span className="ml-2 text-xs text-charcoal-light">
+                  {LASH_ADDON.thai}
+                </span>
+              </div>
+            </div>
+            <p className="text-right text-lg font-bold text-plum">
+              ฿{LASH_ADDON.price}
+            </p>
+          </div>
         </div>
 
         {/* Included with every set */}

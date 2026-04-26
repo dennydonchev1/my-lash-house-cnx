@@ -42,62 +42,95 @@ export const NAV_LINKS = [
 
 export const LASH_SERVICES = [
   {
-    name: "Classic (1D)",
+    name: "Classic 1:1",
     thai: "คลาสสิค",
     description:
       "One extension per natural lash for a subtle, natural enhancement. Perfect for first-timers.",
-    priceRange: "490–790",
-    image: "/images/lash-6.jpg",
+    price: "590",
+    image: "/images/service-classic.jpg",
   },
   {
-    name: "2D Volume",
-    thai: "2D",
+    name: "Natural Look",
+    thai: "เนเชอรัล",
     description:
-      "Two ultra-fine extensions per natural lash. A soft, slightly fuller look while staying natural.",
-    priceRange: "690–890",
-    image: "/images/lash-9.jpg",
+      "Soft, lightweight extensions that mimic your natural lashes — only better.",
+    price: "790",
+    image: "/images/service-natural.jpg",
   },
   {
-    name: "3D Volume",
-    thai: "3D",
+    name: "Hybrid",
+    thai: "ไฮบริด",
     description:
-      "Three extensions per lash for noticeable fullness. The most popular choice for everyday glam.",
-    priceRange: "790–990",
-    image: "/images/lash-2.jpg",
+      "A mix of classic and volume techniques for a textured, dimensional look.",
+    price: "990",
+    image: "/images/service-hybrid.jpg",
   },
   {
-    name: "4D Volume",
-    thai: "4D",
+    name: "Classic Volume",
+    thai: "คลาสสิควอลลุ่ม",
     description:
-      "Four extensions per lash delivering lush, dramatic volume. Ideal for a bold, striking look.",
-    priceRange: "890–1,090",
-    image: "/images/lash-5.jpg",
+      "Hand-crafted fans for noticeable fullness while staying refined.",
+    price: "990",
+    image: "/images/service-classic-volume.jpg",
   },
   {
-    name: "5D Volume",
-    thai: "5D",
+    name: "Light Volume",
+    thai: "ไลท์วอลลุ่ม",
     description:
-      "Five extensions per lash for luxurious density. Full, fluffy, and head-turning.",
-    priceRange: "990–1,190",
-    image: "/images/lash-8.jpg",
+      "Soft volume fans for a fluffy, polished look with breathable density.",
+    price: "1,090",
+    image: "/images/service-light-volume.jpg",
   },
   {
     name: "Mega Volume",
-    thai: "เมก้า",
+    thai: "เมก้าวอลลุ่ม",
     description:
-      "Maximum volume with ultra-fine fans. The ultimate dramatic lash set for special occasions.",
-    priceRange: "1,190–1,390",
-    image: "/images/lash-11.jpg",
+      "Ultra-fine fans layered for maximum density. Bold, fluffy, head-turning.",
+    price: "1,190",
+    image: "/images/service-mega.jpg",
+  },
+  {
+    name: "Wet Look",
+    thai: "เว็ทลุค",
+    description:
+      "Spiked, glossy lash clusters for an editorial, just-came-out-of-the-water finish.",
+    price: "1,290",
+    image: "/images/service-wet-look.jpg",
+  },
+  {
+    name: "Russian Volume",
+    thai: "รัสเซียนวอลลุ่ม",
+    description:
+      "Dense, hand-made Russian-style fans delivering luxurious, fluffy volume.",
+    price: "1,390",
+    image: "/images/service-russian.jpg",
+  },
+  {
+    name: "Wispy Volume",
+    thai: "วิสปี้วอลลุ่ม",
+    description:
+      "Mixed lengths and spikes for a textured, fluttery, doll-like effect.",
+    price: "1,490",
+    image: "/images/service-wispy.jpg",
+  },
+  {
+    name: "Strip Lash",
+    thai: "สตริปแลช",
+    description:
+      "Pre-made segments applied for instant drama. The most extra look in the menu.",
+    price: "1,590",
+    image: "/images/service-strip.jpg",
   },
 ] as const;
 
-export const LASH_STYLES = [
-  "Natural",
-  "Cat Eye",
-  "Doll Eye",
-  "Wispy Volume",
-  "Color Lashes",
-] as const;
+export const LASH_ADDON = {
+  name: "Color Lashes",
+  thai: "ขนตาสี",
+  description:
+    "Add a pop of colored lashes to any set — choose from a range of accent shades.",
+  price: "150–300",
+  image: "/images/service-color.jpg",
+} as const;
 
 export const OTHER_SERVICES = [
   {

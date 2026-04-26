@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "How much do lash extensions cost?",
-    a: "Prices range from ฿490 for Classic (1D) to ฿1,390 for Mega Volume. The final price depends on the lash length and style you choose. A personal consultation is included with every booking.",
+    a: "Prices range from ฿590 for Classic 1:1 to ฿1,590 for Strip Lash. Color lash add-ons are ฿150–300. The final price depends on the style you choose. A personal consultation is included with every booking.",
   },
   {
     q: "How long do lash extensions last?",

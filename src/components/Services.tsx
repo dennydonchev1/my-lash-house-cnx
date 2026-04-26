@@ -7,7 +7,7 @@ import {
   GraduationCap,
   ArrowRight,
 } from "lucide-react";
-import { LASH_SERVICES, LASH_STYLES, OTHER_SERVICES, BUSINESS } from "@/lib/constants";
+import { LASH_SERVICES, LASH_ADDON, OTHER_SERVICES, BUSINESS } from "@/lib/constants";
 
 const iconMap: Record<string, React.ElementType> = {
   RefreshCw,
@@ -67,7 +67,7 @@ export default function Services() {
                 </p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-bold text-plum">
-                    ฿{service.priceRange}
+                    ฿{service.price}
                   </span>
                   <a
                     href={BUSINESS.lineUrl}
@@ -83,20 +83,36 @@ export default function Services() {
           ))}
         </div>
 
-        {/* Available Styles */}
-        <div className="animate-on-scroll mt-12 text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-charcoal-light">
-            Available Styles
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            {LASH_STYLES.map((style) => (
-              <span
-                key={style}
-                className="rounded-full border border-rose/30 bg-cream px-5 py-2 text-sm font-medium text-plum"
-              >
-                {style}
+        {/* Add-on */}
+        <div className="animate-on-scroll mt-14">
+          <div className="mx-auto flex max-w-3xl flex-col items-center gap-6 rounded-2xl border border-rose/30 bg-rose/5 p-6 sm:flex-row sm:p-8">
+            <div className="aspect-square w-32 shrink-0 overflow-hidden rounded-xl">
+              <img
+                src={LASH_ADDON.image}
+                alt={LASH_ADDON.name}
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="flex-1 text-center sm:text-left">
+              <p className="text-xs font-semibold uppercase tracking-widest text-rose-dark">
+                Add-on
+              </p>
+              <h3 className="mt-1 font-heading text-xl font-bold">
+                {LASH_ADDON.name}{" "}
+                <span className="text-sm font-normal text-charcoal-light">
+                  {LASH_ADDON.thai}
+                </span>
+              </h3>
+              <p className="mt-2 text-sm text-charcoal-light">
+                {LASH_ADDON.description}
+              </p>
+            </div>
+            <div className="text-center">
+              <span className="text-2xl font-bold text-plum">
+                ฿{LASH_ADDON.price}
               </span>
-            ))}
+            </div>
           </div>
         </div>
 

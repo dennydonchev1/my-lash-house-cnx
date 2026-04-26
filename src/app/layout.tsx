@@ -99,7 +99,7 @@ export default function RootLayout({
       reviewCount: BUSINESS.reviewCount,
       bestRating: 5,
     },
-    priceRange: "฿490–฿1,390",
+    priceRange: "฿590–฿1,590",
     image: "https://mylashhousecnx.com/images/hero.jpg",
     sameAs: [
       BUSINESS.instagramUrl,
@@ -110,49 +110,25 @@ export default function RootLayout({
       "@type": "OfferCatalog",
       name: "Lash Extension Services",
       itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Classic Lash Extensions (1D)",
-            description: "One extension per natural lash for a subtle, natural enhancement",
-          },
-          priceSpecification: {
-            "@type": "PriceSpecification",
-            priceCurrency: "THB",
-            minPrice: 490,
-            maxPrice: 790,
-          },
+        { name: "Classic 1:1", price: 590 },
+        { name: "Natural Look", price: 790 },
+        { name: "Hybrid", price: 990 },
+        { name: "Classic Volume", price: 990 },
+        { name: "Light Volume", price: 1090 },
+        { name: "Mega Volume", price: 1190 },
+        { name: "Wet Look", price: 1290 },
+        { name: "Russian Volume", price: 1390 },
+        { name: "Wispy Volume", price: 1490 },
+        { name: "Strip Lash", price: 1590 },
+      ].map(({ name, price }) => ({
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name },
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "THB",
+          price,
         },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Volume Lash Extensions (2D-5D)",
-            description: "Multiple ultra-fine extensions per natural lash for fuller looks",
-          },
-          priceSpecification: {
-            "@type": "PriceSpecification",
-            priceCurrency: "THB",
-            minPrice: 690,
-            maxPrice: 1190,
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Mega Volume Lash Extensions",
-            description: "Maximum volume with ultra-fine handmade fans",
-          },
-          priceSpecification: {
-            "@type": "PriceSpecification",
-            priceCurrency: "THB",
-            minPrice: 1190,
-            maxPrice: 1390,
-          },
-        },
-      ],
+      })),
     },
   };
 
@@ -165,7 +141,7 @@ export default function RootLayout({
         name: "How much do lash extensions cost at My Lash House Chiang Mai?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Lash extension prices range from 490 THB for Classic (1D) to 1,390 THB for Mega Volume. Price varies by lash length and style chosen.",
+          text: "Lash extension prices range from 590 THB for Classic 1:1 to 1,590 THB for Strip Lash. Color lashes add-on available for 150–300 THB. Each set is custom designed during your appointment.",
         },
       },
       {
