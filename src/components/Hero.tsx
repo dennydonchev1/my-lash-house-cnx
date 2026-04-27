@@ -25,15 +25,6 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* Artist Portrait — fully transparent cutout */}
-          <div className="mx-auto -mb-2 w-72 sm:-mb-3 sm:w-80 lg:-mb-4 lg:w-[28rem]">
-            <img
-              src="/images/hero-logo.png"
-              alt="Ying — Founder & Lash Artist at My Lash House Chiang Mai"
-              className="mx-auto h-auto w-full drop-shadow-2xl"
-            />
-          </div>
-
           {/* Heading */}
           <h1 className="font-heading text-5xl font-bold leading-tight text-white sm:text-6xl md:text-7xl lg:text-8xl">
             My{" "}
