@@ -1,17 +1,20 @@
 import { Star, ExternalLink } from "lucide-react";
 import { REVIEWS, BUSINESS } from "@/lib/constants";
+import { dict, type Lang } from "@/lib/i18n";
 
-export default function Reviews() {
+export default function Reviews({ lang = "en" }: { lang?: Lang }) {
+  const t = dict[lang].reviews;
   return (
     <section id="reviews" className="py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="animate-on-scroll text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-rose-dark">
-            Testimonials
+            {t.eyebrow}
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold sm:text-4xl lg:text-5xl">
-            What Clients <span className="italic text-plum">Say</span>
+            {t.heading}
+            <span className="italic text-plum">{t.headingHighlight}</span>
           </h2>
         </div>
 
@@ -46,7 +49,7 @@ export default function Reviews() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-plum transition-colors hover:text-rose-dark"
           >
-            View All Google Reviews
+            {t.googleCta}
             <ExternalLink className="h-3.5 w-3.5" />
           </a>
         </div>

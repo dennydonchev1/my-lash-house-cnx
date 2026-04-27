@@ -2,12 +2,18 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Menu, X, MessageCircle } from "lucide-react";
-import { NAV_LINKS, BUSINESS } from "@/lib/constants";
+import { Menu, X, MessageCircle, Globe } from "lucide-react";
+import { BUSINESS } from "@/lib/constants";
+import { dict, NAV_LINKS_BY_LANG, type Lang } from "@/lib/i18n";
 
-export default function Navbar() {
+export default function Navbar({ lang = "en" }: { lang?: Lang }) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const t = dict[lang].nav;
+  const navLinks = NAV_LINKS_BY_LANG[lang];
+  const otherLang: Lang = lang === "en" ? "th" : "en";
+  const otherLangPath = otherLang === "th" ? "/th" : "/";
+  const otherLangLabel = otherLang === "th" ? "ไทย" : "EN";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -26,7 +32,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between sm:h-20">
           {/* Logo — swap between white (over hero) and black (scrolled) */}
-          <a href="#" className="flex items-center">
+          <a href={lang === "th" ? "/th" : "/"} className="flex items-center">
             <Image
               src={scrolled ? "/images/logo-black.png" : "/images/logo-white.png"}
               alt="My Lash House"
@@ -39,7 +45,7 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden items-center gap-8 md:flex">
-            {NAV_LINKS.map((link) => (
+            {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -52,6 +58,19 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
+            {/* Language toggle */}
+            <a
+              href={otherLangPath}
+              className={`flex items-center gap-1 text-sm font-medium tracking-wide transition-colors ${
+                scrolled
+                  ? "text-charcoal-light hover:text-plum"
+                  : "text-white/90 hover:text-white"
+              }`}
+              hrefLang={otherLang}
+            >
+              <Globe className="h-3.5 w-3.5" />
+              {otherLangLabel}
+            </a>
             <a
               href={BUSINESS.lineUrl}
               target="_blank"
@@ -63,7 +82,7 @@ export default function Navbar() {
               }`}
             >
               <MessageCircle className="h-4 w-4" />
-              Book Now
+              {t.bookNow}
             </a>
           </div>
 
@@ -89,7 +108,7 @@ export default function Navbar() {
         }`}
       >
         <div className="space-y-1 bg-cream/95 px-4 pb-6 pt-2 backdrop-blur-md">
-          {NAV_LINKS.map((link) => (
+          {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
@@ -100,13 +119,22 @@ export default function Navbar() {
             </a>
           ))}
           <a
+            href={otherLangPath}
+            onClick={() => setIsOpen(false)}
+            className="flex items-center gap-2 rounded-lg px-4 py-3 text-base font-medium text-charcoal-light transition-colors hover:bg-cream-dark hover:text-plum"
+            hrefLang={otherLang}
+          >
+            <Globe className="h-4 w-4" />
+            {otherLangLabel}
+          </a>
+          <a
             href={BUSINESS.lineUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 flex items-center justify-center gap-2 rounded-full bg-plum px-5 py-3 text-base font-semibold text-white"
           >
             <MessageCircle className="h-5 w-5" />
-            Book Now on LINE
+            {t.bookOnLine}
           </a>
         </div>
       </div>

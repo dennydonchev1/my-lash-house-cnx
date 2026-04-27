@@ -3,8 +3,10 @@
 import { ChevronDown, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { BUSINESS } from "@/lib/constants";
+import { dict, type Lang } from "@/lib/i18n";
 
-export default function Hero() {
+export default function Hero({ lang = "en" }: { lang?: Lang }) {
+  const t = dict[lang].hero;
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background — placeholder gradient until real photo */}
@@ -21,7 +23,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 backdrop-blur-sm">
             <span className="text-xs font-medium uppercase tracking-widest text-gold-light flex items-center gap-1.5">
-              ★★★★★ 5.0 Rated
+              {t.ratedBadge}
             </span>
           </div>
 
@@ -32,18 +34,23 @@ export default function Hero() {
             House
           </h1>
 
+          {/* Subhead — keyword-rich H2 for SEO */}
+          <p className="mx-auto mt-4 max-w-2xl text-base font-medium tracking-wide text-white/90 sm:text-lg">
+            {t.seoSubhead}
+          </p>
+
           {/* Tagline */}
-          <p className="mx-auto mt-4 max-w-xl text-lg font-light tracking-wide text-white/80 sm:text-xl">
-            Private Lash Studio · Chiang Mai
+          <p className="mx-auto mt-2 max-w-xl text-base font-light tracking-wide text-white/70 sm:text-lg">
+            {t.tagline}
           </p>
 
           {/* USPs */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-white/90">
-            <span>100% Handmade Fans</span>
+            <span>{t.usp1}</span>
             <span className="hidden sm:inline">·</span>
-            <span>Certified Artist</span>
+            <span>{t.usp2}</span>
             <span className="hidden sm:inline">·</span>
-            <span>7+ Years Experience</span>
+            <span>{t.usp3}</span>
           </div>
 
           {/* CTAs */}
@@ -55,13 +62,13 @@ export default function Hero() {
               className="inline-flex items-center gap-2 rounded-full bg-plum px-8 py-4 text-base font-semibold text-white shadow-xl transition-all hover:bg-plum-light hover:shadow-2xl"
             >
               <MessageCircle className="h-5 w-5" />
-              Book on LINE
+              {t.ctaPrimary}
             </a>
             <a
               href="#services"
               className="inline-flex items-center gap-2 rounded-full border border-white/30 px-8 py-4 text-base font-medium text-white backdrop-blur-sm transition-all hover:border-white/60 hover:bg-white/10"
             >
-              View Services
+              {t.ctaSecondary}
             </a>
           </div>
         </motion.div>

@@ -3,35 +3,66 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import { dict, type Lang } from "@/lib/i18n";
 
-const faqs = [
-  {
-    q: "How much do lash extensions cost?",
-    a: "Prices range from ฿590 for Classic 1:1 to ฿1,590 for Strip Lash. Color lash add-ons are ฿150–300. The final price depends on the style you choose. A personal consultation is included with every booking.",
-  },
-  {
-    q: "How long do lash extensions last?",
-    a: "A full set typically lasts 3–4 weeks with proper care. We recommend refill appointments every 2–3 weeks to maintain a full, fresh look.",
-  },
-  {
-    q: "What makes handmade fans different from premade?",
-    a: "Handmade fans are crafted in real-time during your appointment, allowing precise customization for your eye shape and desired look. They're lighter, more comfortable, and create a more natural appearance compared to premade fans.",
-  },
-  {
-    q: "How do I book an appointment?",
-    a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 10 AM to 7 PM.",
-  },
-  {
-    q: "Is the studio easy to find?",
-    a: "We're located at 89/117 Pruksa Ville in San Klang, San Kamphaeng District, Chiang Mai. It's a private home studio — we'll send you a pin on LINE when you book so you can find us easily.",
-  },
-  {
-    q: "Do you offer lash training courses?",
-    a: "Yes! We offer professional certification courses for aspiring lash artists. You'll learn handmade fan techniques from a certified instructor with 7+ years of experience. Contact us for course details and scheduling.",
-  },
-];
+const faqs = {
+  en: [
+    {
+      q: "How much do lash extensions cost?",
+      a: "Prices range from ฿590 for Classic 1:1 to ฿1,590 for Strip Lash. Color lash add-ons are ฿150–300. The final price depends on the style you choose. A personal consultation is included with every booking.",
+    },
+    {
+      q: "How long do lash extensions last?",
+      a: "A full set typically lasts 3–4 weeks with proper care. We recommend refill appointments every 2–3 weeks to maintain a full, fresh look.",
+    },
+    {
+      q: "What makes handmade fans different from premade?",
+      a: "Handmade fans are crafted in real-time during your appointment, allowing precise customization for your eye shape and desired look. They're lighter, more comfortable, and create a more natural appearance compared to premade fans.",
+    },
+    {
+      q: "How do I book an appointment?",
+      a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 10 AM to 7 PM.",
+    },
+    {
+      q: "Is the studio easy to find?",
+      a: "We're located at 89/117 Pruksa Ville in San Klang, San Kamphaeng District, Chiang Mai. It's a private home studio — we'll send you a pin on LINE when you book so you can find us easily.",
+    },
+    {
+      q: "Do you offer lash training courses?",
+      a: "Yes! We offer professional certification courses for aspiring lash artists. You'll learn handmade fan techniques from a certified instructor with 7+ years of experience. Contact us for course details and scheduling.",
+    },
+  ],
+  th: [
+    {
+      q: "ต่อขนตา ราคาเท่าไหร่?",
+      a: "ราคาเริ่มต้นที่ 590 บาท (คลาสสิก 1:1) ถึง 1,590 บาท (สตริปแลช) ออปชั่นขนตาสีเพิ่ม 150–300 บาท ราคาขึ้นอยู่กับสไตล์ที่เลือก ทุกการจองรวมการให้คำปรึกษาส่วนตัว",
+    },
+    {
+      q: "ขนตาที่ต่ออยู่ได้นานแค่ไหน?",
+      a: "เซ็ตเต็มอยู่ได้ประมาณ 3–4 สัปดาห์หากดูแลดี แนะนำให้รีฟิลทุก 2–3 สัปดาห์เพื่อให้ขนตาดูฟูสดใสตลอด",
+    },
+    {
+      q: "ขนตาแฮนด์เมดต่างจากขนตาสำเร็จยังไง?",
+      a: "พัดแฮนด์เมดทำสดในวันต่อ ปรับให้เข้ากับรูปดวงตาและลุคที่ต้องการได้แม่นยำ น้ำหนักเบากว่า ใส่สบายกว่า และดูเป็นธรรมชาติกว่าพัดสำเร็จ",
+    },
+    {
+      q: "จองคิวยังไง?",
+      a: "จองผ่าน LINE (@604ymska), Instagram DM (@my_lash_house.cnx) หรือโทร 085-474-7314 ค่ะ เปิดทุกวัน 10:00–19:00",
+    },
+    {
+      q: "ร้านหาง่ายไหม?",
+      a: "ร้านอยู่ที่ 89/117 หมู่บ้านพฤกษาวิลล์ ต.สันกลาง อ.สันกำแพง จ.เชียงใหม่ เป็นโฮมสตูดิโอส่วนตัว เมื่อจองคิวแล้วจะส่งพิกัดบน LINE ให้ค่ะ",
+    },
+    {
+      q: "มีคอร์สสอนต่อขนตาไหม?",
+      a: "มีค่ะ คอร์สสอนต่อขนตามืออาชีพ มีใบประกาศรับรอง สอนเทคนิคทำพัดด้วยมือจากครูที่มีประสบการณ์ 7+ ปี ติดต่อสอบถามรายละเอียดและตารางเรียนได้",
+    },
+  ],
+} as const;
 
-export default function FAQ() {
+export default function FAQ({ lang = "en" }: { lang?: Lang }) {
+  const t = dict[lang].faq;
+  const items = faqs[lang];
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
@@ -45,16 +76,17 @@ export default function FAQ() {
           className="text-center"
         >
           <p className="text-sm font-semibold uppercase tracking-widest text-rose-dark">
-            FAQ
+            {t.eyebrow}
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold sm:text-4xl">
-            Common <span className="italic text-plum">Questions</span>
+            {t.heading}
+            <span className="italic text-plum">{t.headingHighlight}</span>
           </h2>
         </motion.div>
 
         {/* FAQ Items */}
         <div className="mt-12 space-y-3">
-          {faqs.map((faq, i) => (
+          {items.map((faq, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 10 }}

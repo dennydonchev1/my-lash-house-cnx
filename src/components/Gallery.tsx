@@ -1,20 +1,23 @@
 import { Camera } from "lucide-react";
 import { BUSINESS, GALLERY_IMAGES } from "@/lib/constants";
+import { dict, type Lang } from "@/lib/i18n";
 
-export default function Gallery() {
+export default function Gallery({ lang = "en" }: { lang?: Lang }) {
+  const t = dict[lang].gallery;
   return (
     <section id="gallery" className="py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="animate-on-scroll text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-rose-dark">
-            Our Work
+            {t.eyebrow}
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold sm:text-4xl lg:text-5xl">
-            Lash <span className="italic text-plum">Gallery</span>
+            {t.heading}
+            <span className="italic text-plum">{t.headingHighlight}</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-charcoal-light">
-            Every set is unique — designed for your eye shape and personal style.
+            {t.intro}
           </p>
         </div>
 
@@ -44,7 +47,7 @@ export default function Gallery() {
             className="inline-flex items-center gap-2 rounded-full border border-plum/20 bg-plum/5 px-6 py-3 text-sm font-semibold text-plum transition-all hover:bg-plum/10"
           >
             <Camera className="h-4 w-4" />
-            See More on Instagram
+            {t.instagramCta}
           </a>
         </div>
       </div>

@@ -16,34 +16,50 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: `${BUSINESS.fullName} | Premium Eyelash Extensions`,
-  description: BUSINESS.description,
+  metadataBase: new URL("https://mylashhouse.com"),
+  title: "Lash Extensions Chiang Mai · 100% Handmade Fans · My Lash House",
+  description:
+    "Premium eyelash extensions in San Kamphaeng, Chiang Mai. 100% handmade fans by a certified artist with 7+ years experience. Open daily 10am–7pm. Book on LINE.",
   keywords: [
     "lash extensions chiang mai",
-    "eyelash extensions san kamphaeng",
-    "my lash house cnx",
-    "volume lashes chiang mai",
-    "eyelash salon chiang mai",
-    "ต่อขนตา เชียงใหม่",
-    "ต่อขนตา สันกำแพง",
+    "eyelash extensions chiang mai",
+    "lashes chiang mai",
     "lash lift chiang mai",
-    "mega volume lashes thailand",
-    "best lash extensions chiang mai",
-    "private lash studio chiang mai",
+    "eyelash salon chiang mai",
+    "san kamphaeng lash",
+    "my lash house cnx",
+    "ต่อขนตา",
+    "ต่อขนตา เชียงใหม่",
+    "ร้านต่อขนตา",
+    "ลิฟติ้งขนตา",
+    "ต่อขนตาแบบธรรมชาติ",
+    "ต่อขนตาทรงบาร์บี้",
+    "ทรงต่อขนตา",
     "handmade fan lashes",
   ],
   openGraph: {
-    title: `${BUSINESS.fullName} | Premium Eyelash Extensions`,
-    description: BUSINESS.description,
+    title: "Lash Extensions Chiang Mai · My Lash House",
+    description:
+      "Premium eyelash extensions in San Kamphaeng, Chiang Mai. 100% handmade fans · Certified artist · 7+ years experience.",
     url: "https://mylashhouse.com",
     siteName: BUSINESS.fullName,
-    locale: "en_US",
+    locale: "en_TH",
     type: "website",
+    images: [
+      {
+        url: "/images/service-mega.jpg",
+        width: 1200,
+        height: 1200,
+        alt: "Mega volume lash extensions by My Lash House Chiang Mai",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${BUSINESS.fullName} | Premium Eyelash Extensions`,
-    description: BUSINESS.description,
+    title: "Lash Extensions Chiang Mai · My Lash House",
+    description:
+      "Premium handmade lash extensions in San Kamphaeng, Chiang Mai. Certified artist · 7+ yrs experience.",
+    images: ["/images/service-mega.jpg"],
   },
   robots: {
     index: true,
@@ -58,6 +74,11 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://mylashhouse.com",
+    languages: {
+      "en-TH": "https://mylashhouse.com",
+      "th-TH": "https://mylashhouse.com/th",
+      "x-default": "https://mylashhouse.com",
+    },
   },
 };
 
@@ -69,10 +90,17 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
+    "@id": "https://mylashhouse.com/#business",
     name: BUSINESS.fullName,
+    alternateName: ["My Lash House", "My Lash House CNX", "ต่อขนตา My Lash House"],
     description: BUSINESS.description,
     url: "https://mylashhouse.com",
     telephone: BUSINESS.phoneTel,
+    knowsLanguage: ["en", "th"],
+    areaServed: {
+      "@type": "City",
+      name: "Chiang Mai",
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: "89/117 Pruksa Ville, San Klang",
@@ -188,7 +216,7 @@ export default function RootLayout({
 
   return (
     <html
-      lang="en"
+      lang="en-TH"
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
       <head>

@@ -10,6 +10,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly",
       priority: 1.0,
+      alternates: {
+        languages: {
+          en: `${base}`,
+          th: `${base}/th`,
+        },
+      },
+    },
+    {
+      url: `${base}/th`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 1.0,
+      alternates: {
+        languages: {
+          en: `${base}`,
+          th: `${base}/th`,
+        },
+      },
     },
     {
       url: `${base}/#services`,

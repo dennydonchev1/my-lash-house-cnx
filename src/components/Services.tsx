@@ -8,6 +8,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { LASH_SERVICES, LASH_ADDON, OTHER_SERVICES, BUSINESS } from "@/lib/constants";
+import { dict, type Lang } from "@/lib/i18n";
 
 const iconMap: Record<string, React.ElementType> = {
   RefreshCw,
@@ -18,69 +19,73 @@ const iconMap: Record<string, React.ElementType> = {
   GraduationCap,
 };
 
-export default function Services() {
+export default function Services({ lang = "en" }: { lang?: Lang }) {
+  const t = dict[lang].services;
   return (
     <section id="services" className="bg-white py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="animate-on-scroll text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-rose-dark">
-            Our Services
+            {t.eyebrow}
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold sm:text-4xl lg:text-5xl">
-            Lash Extensions{" "}
-            <span className="italic text-plum">ต่อขนตา</span>
+            {t.heading}
+            <span className="italic text-plum">{t.headingHighlight}</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-charcoal-light">
-            Choose your perfect volume — from subtle classics to dramatic mega
-            sets. Every fan is handmade during your appointment for a truly
-            custom fit.
+            {t.intro}
           </p>
         </div>
 
         {/* Lash Extension Grid */}
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {LASH_SERVICES.map((service) => (
-            <div
-              key={service.name}
-              className="animate-on-scroll group relative overflow-hidden rounded-2xl border border-cream-dark bg-cream transition-all hover:border-rose/30 hover:shadow-xl"
-            >
-              <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src={service.image}
-                  alt={service.name}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-6">
-                <div className="flex items-baseline justify-between">
-                  <h3 className="font-heading text-xl font-bold">
-                    {service.name}
-                  </h3>
-                  <span className="text-xs text-charcoal-light">
-                    {service.thai}
-                  </span>
+          {LASH_SERVICES.map((service) => {
+            const primaryName = lang === "th" ? service.thai : service.name;
+            const secondaryName = lang === "th" ? service.name : service.thai;
+            const desc = lang === "th" ? service.descriptionTh : service.description;
+            return (
+              <div
+                key={service.name}
+                className="animate-on-scroll group relative overflow-hidden rounded-2xl border border-cream-dark bg-cream transition-all hover:border-rose/30 hover:shadow-xl"
+              >
+                <div className="aspect-[4/3] overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={primaryName}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                  />
                 </div>
-                <p className="mt-2 text-sm leading-relaxed text-charcoal-light">
-                  {service.description}
-                </p>
-                <div className="mt-4 flex items-center justify-between">
-                  <span className="text-lg font-bold text-plum">
-                    ฿{service.price}
-                  </span>
-                  <a
-                    href={BUSINESS.lineUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-sm font-medium text-rose-dark transition-colors hover:text-plum"
-                  >
-                    Book <ArrowRight className="h-3.5 w-3.5" />
-                  </a>
+                <div className="p-6">
+                  <div className="flex items-baseline justify-between">
+                    <h3 className="font-heading text-xl font-bold">
+                      {primaryName}
+                    </h3>
+                    <span className="text-xs text-charcoal-light">
+                      {secondaryName}
+                    </span>
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed text-charcoal-light">
+                    {desc}
+                  </p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-lg font-bold text-plum">
+                      ฿{service.price}
+                    </span>
+                    <a
+                      href={BUSINESS.lineUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-rose-dark transition-colors hover:text-plum"
+                    >
+                      {t.bookCta} <ArrowRight className="h-3.5 w-3.5" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Add-on */}
@@ -89,23 +94,23 @@ export default function Services() {
             <div className="aspect-square w-32 shrink-0 overflow-hidden rounded-xl">
               <img
                 src={LASH_ADDON.image}
-                alt={LASH_ADDON.name}
+                alt={lang === "th" ? LASH_ADDON.thai : LASH_ADDON.name}
                 className="h-full w-full object-cover"
                 loading="lazy"
               />
             </div>
             <div className="flex-1 text-center sm:text-left">
               <p className="text-xs font-semibold uppercase tracking-widest text-rose-dark">
-                Add-on
+                {t.addonLabel}
               </p>
               <h3 className="mt-1 font-heading text-xl font-bold">
-                {LASH_ADDON.name}{" "}
+                {lang === "th" ? LASH_ADDON.thai : LASH_ADDON.name}{" "}
                 <span className="text-sm font-normal text-charcoal-light">
-                  {LASH_ADDON.thai}
+                  {lang === "th" ? LASH_ADDON.name : LASH_ADDON.thai}
                 </span>
               </h3>
               <p className="mt-2 text-sm text-charcoal-light">
-                {LASH_ADDON.description}
+                {lang === "th" ? LASH_ADDON.descriptionTh : LASH_ADDON.description}
               </p>
             </div>
             <div className="text-center">
@@ -122,13 +127,16 @@ export default function Services() {
         {/* Other Services */}
         <div className="animate-on-scroll text-center">
           <h3 className="font-heading text-2xl font-bold sm:text-3xl">
-            More Services
+            {t.moreServicesHeading}
           </h3>
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {OTHER_SERVICES.map((service) => {
             const Icon = iconMap[service.icon] || Sparkles;
+            const primaryName = lang === "th" ? service.thai : service.name;
+            const secondaryName = lang === "th" ? service.name : service.thai;
+            const desc = lang === "th" ? service.descriptionTh : service.description;
             return (
               <div
                 key={service.name}
@@ -139,13 +147,13 @@ export default function Services() {
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    {service.name}{" "}
+                    {primaryName}{" "}
                     <span className="text-xs font-normal text-charcoal-light">
-                      {service.thai}
+                      {secondaryName}
                     </span>
                   </h4>
                   <p className="mt-1 text-sm leading-relaxed text-charcoal-light">
-                    {service.description}
+                    {desc}
                   </p>
                 </div>
               </div>

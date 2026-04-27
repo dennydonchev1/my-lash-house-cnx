@@ -6,6 +6,7 @@ import {
   Camera,
 } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
+import { dict, type Lang } from "@/lib/i18n";
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg
@@ -18,45 +19,52 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-const contactMethods = [
-  {
-    icon: MessageCircle,
-    label: "LINE",
-    value: BUSINESS.line,
-    href: BUSINESS.lineUrl,
-    primary: true,
-  },
-  {
-    icon: WhatsAppIcon,
-    label: "WhatsApp",
-    value: BUSINESS.whatsapp,
-    href: BUSINESS.whatsappUrl,
-  },
-  {
-    icon: Phone,
-    label: "Call / Text",
-    value: BUSINESS.phone,
-    href: `tel:${BUSINESS.phoneTel}`,
-  },
-  {
-    icon: Camera,
-    label: "Instagram",
-    value: BUSINESS.instagram,
-    href: BUSINESS.instagramUrl,
-  },
-];
+const contactMethodLabels = {
+  en: { line: "LINE", whatsapp: "WhatsApp", phone: "Call / Text", instagram: "Instagram" },
+  th: { line: "LINE", whatsapp: "WhatsApp", phone: "โทร / ข้อความ", instagram: "Instagram" },
+};
 
-export default function Location() {
+export default function Location({ lang = "en" }: { lang?: Lang }) {
+  const t = dict[lang].location;
+  const labels = contactMethodLabels[lang];
+  const contactMethods = [
+    {
+      icon: MessageCircle,
+      label: labels.line,
+      value: BUSINESS.line,
+      href: BUSINESS.lineUrl,
+      primary: true,
+    },
+    {
+      icon: WhatsAppIcon,
+      label: labels.whatsapp,
+      value: BUSINESS.whatsapp,
+      href: BUSINESS.whatsappUrl,
+    },
+    {
+      icon: Phone,
+      label: labels.phone,
+      value: BUSINESS.phone,
+      href: `tel:${BUSINESS.phoneTel}`,
+    },
+    {
+      icon: Camera,
+      label: labels.instagram,
+      value: BUSINESS.instagram,
+      href: BUSINESS.instagramUrl,
+    },
+  ];
   return (
     <section id="contact" className="bg-white py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="animate-on-scroll text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-rose-dark">
-            Visit Us
+            {t.eyebrow}
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold sm:text-4xl lg:text-5xl">
-            Find <span className="italic text-plum">My Lash House</span>
+            {t.heading}
+            <span className="italic text-plum">{t.headingHighlight}</span>
           </h2>
         </div>
 
@@ -82,12 +90,12 @@ export default function Location() {
             <div className="flex gap-4">
               <MapPin className="mt-1 h-5 w-5 shrink-0 text-plum" />
               <div>
-                <p className="font-semibold">Studio Location</p>
+                <p className="font-semibold">{t.studioLabel}</p>
                 <p className="mt-1 text-sm leading-relaxed text-charcoal-light">
-                  {BUSINESS.address.full}
+                  {lang === "th" ? BUSINESS.address.thai : BUSINESS.address.full}
                 </p>
                 <p className="mt-1 text-sm text-charcoal-light">
-                  {BUSINESS.address.thai}
+                  {lang === "th" ? BUSINESS.address.full : BUSINESS.address.thai}
                 </p>
               </div>
             </div>
@@ -96,9 +104,11 @@ export default function Location() {
             <div className="mt-6 flex gap-4">
               <Clock className="mt-1 h-5 w-5 shrink-0 text-plum" />
               <div>
-                <p className="font-semibold">Hours</p>
+                <p className="font-semibold">{t.hoursLabel}</p>
                 <p className="mt-1 text-sm text-charcoal-light">
-                  {BUSINESS.hours.days} · {BUSINESS.hours.time}
+                  {lang === "th"
+                    ? `เปิดทุกวัน · 10:00–19:00`
+                    : `${BUSINESS.hours.days} · ${BUSINESS.hours.time}`}
                 </p>
               </div>
             </div>
@@ -108,7 +118,7 @@ export default function Location() {
 
             {/* Contact Methods */}
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-charcoal-light">
-              Book Your Appointment
+              {t.bookHeading}
             </p>
             <div className="space-y-3">
               {contactMethods.map(({ icon: Icon, label, value, href, primary }) => (
@@ -142,7 +152,7 @@ export default function Location() {
               className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-plum transition-colors hover:text-rose-dark"
             >
               <MapPin className="h-4 w-4" />
-              Get Directions on Google Maps
+              {t.directionsLink}
             </a>
           </div>
         </div>

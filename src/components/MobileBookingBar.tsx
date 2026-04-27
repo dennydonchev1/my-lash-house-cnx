@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 import { MessageCircle } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
+import { dict, type Lang } from "@/lib/i18n";
 
-export default function MobileBookingBar() {
+export default function MobileBookingBar({ lang = "en" }: { lang?: Lang }) {
   const [visible, setVisible] = useState(false);
+  const t = dict[lang].mobileBar;
 
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 600);
@@ -26,7 +28,7 @@ export default function MobileBookingBar() {
         className="flex w-full items-center justify-center gap-2 rounded-full bg-plum py-3.5 text-base font-semibold text-white shadow-lg"
       >
         <MessageCircle className="h-5 w-5" />
-        Book Now on LINE
+        {t.cta}
       </a>
     </div>
   );

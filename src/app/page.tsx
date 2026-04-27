@@ -13,19 +13,19 @@ import MobileBookingBar from "@/components/MobileBookingBar";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar lang="en" />
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <Gallery />
-        <Pricing />
-        <Reviews />
-        <FAQ />
-        <Location />
+        <Hero lang="en" />
+        <About lang="en" />
+        <Services lang="en" />
+        <Gallery lang="en" />
+        <Pricing lang="en" />
+        <Reviews lang="en" />
+        <FAQ lang="en" />
+        <Location lang="en" />
       </main>
-      <Footer />
-      <MobileBookingBar />
+      <Footer lang="en" />
+      <MobileBookingBar lang="en" />
     </>
   );
 }
