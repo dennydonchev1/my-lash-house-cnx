@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${BUSINESS.fullName} | Premium Eyelash Extensions`,
     description: BUSINESS.description,
-    url: "https://mylashhousecnx.com",
+    url: "https://mylashhouse.com",
     siteName: BUSINESS.fullName,
     locale: "en_US",
     type: "website",
@@ -46,11 +46,18 @@ export const metadata: Metadata = {
     description: BUSINESS.description,
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   alternates: {
-    canonical: "https://mylashhousecnx.com",
+    canonical: "https://mylashhouse.com",
   },
 };
 
@@ -64,7 +71,7 @@ export default function RootLayout({
     "@type": "BeautySalon",
     name: BUSINESS.fullName,
     description: BUSINESS.description,
-    url: "https://mylashhousecnx.com",
+    url: "https://mylashhouse.com",
     telephone: BUSINESS.phoneTel,
     address: {
       "@type": "PostalAddress",
@@ -76,8 +83,8 @@ export default function RootLayout({
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 18.7902,
-      longitude: 99.12,
+      latitude: 18.7870732,
+      longitude: 99.0412865,
     },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
@@ -100,7 +107,7 @@ export default function RootLayout({
       bestRating: 5,
     },
     priceRange: "฿590–฿1,590",
-    image: "https://mylashhousecnx.com/images/hero.jpg",
+    image: "https://mylashhouse.com/images/hero.jpg",
     sameAs: [
       BUSINESS.instagramUrl,
       BUSINESS.facebookUrl,
@@ -173,7 +180,7 @@ export default function RootLayout({
         name: "What lash styles are available?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Available styles include Natural, Cat Eye, Doll Eye, Wispy Volume, and Color Lashes, offered in Classic (1D), Volume (2D-5D), and Mega Volume densities.",
+          text: "Available styles include Classic 1:1, Natural Look, Hybrid, Classic Volume, Light Volume, Mega Volume, Wet Look, Russian Volume, Wispy Volume, and Strip Lash. Color lashes can be added to any set as an accent.",
         },
       },
     ],
