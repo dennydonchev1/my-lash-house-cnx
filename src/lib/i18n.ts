@@ -95,7 +95,7 @@ export const dict = {
       copyright: "All rights reserved.",
     },
     mobileBar: {
-      cta: "Book on LINE",
+      cta: "Book on Instagram",
     },
   },
   th: {
@@ -189,7 +189,7 @@ export const dict = {
       copyright: "สงวนลิขสิทธิ์",
     },
     mobileBar: {
-      cta: "จองผ่าน LINE",
+      cta: "ทักทาง Instagram",
     },
   },
 } as const;

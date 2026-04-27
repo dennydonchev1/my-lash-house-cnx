@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { MessageCircle } from "lucide-react";
+import { Instagram } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
 
@@ -22,12 +22,12 @@ export default function MobileBookingBar({ lang = "en" }: { lang?: Lang }) {
       }`}
     >
       <a
-        href={BUSINESS.lineUrl}
+        href={BUSINESS.instagramUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="flex w-full items-center justify-center gap-2 rounded-full bg-plum py-3.5 text-base font-semibold text-white shadow-lg"
       >
-        <MessageCircle className="h-5 w-5" />
+        <Instagram className="h-5 w-5" />
         {t.cta}
       </a>
     </div>
