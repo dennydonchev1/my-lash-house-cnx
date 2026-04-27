@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Menu, X, Instagram, Globe } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
+import Instagram from "@/components/icons/InstagramIcon";
 import { BUSINESS } from "@/lib/constants";
 import { dict, NAV_LINKS_BY_LANG, type Lang } from "@/lib/i18n";
 

@@ -1,4 +1,5 @@
-import { Instagram, Check } from "lucide-react";
+import { Check } from "lucide-react";
+import Instagram from "@/components/icons/InstagramIcon";
 import { LASH_SERVICES, LASH_ADDON, BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
 

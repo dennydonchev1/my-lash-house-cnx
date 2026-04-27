@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Instagram } from "lucide-react";
+import Instagram from "@/components/icons/InstagramIcon";
 import { BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
 

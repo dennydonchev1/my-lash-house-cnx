@@ -1,9 +1,12 @@
 "use client";
 
-import { ChevronDown, Instagram } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
 import { BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
+import InstagramIcon from "@/components/icons/InstagramIcon";
+
+const Instagram = InstagramIcon;
 
 export default function Hero({ lang = "en" }: { lang?: Lang }) {
   const t = dict[lang].hero;
