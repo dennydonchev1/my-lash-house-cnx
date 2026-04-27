@@ -74,7 +74,7 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
                       ฿{service.price}
                     </span>
                     <a
-                      href={BUSINESS.lineUrl}
+                      href={BUSINESS.instagramUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 text-sm font-medium text-rose-dark transition-colors hover:text-plum"

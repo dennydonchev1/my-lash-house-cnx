@@ -29,11 +29,17 @@ export default function Location({ lang = "en" }: { lang?: Lang }) {
   const labels = contactMethodLabels[lang];
   const contactMethods = [
     {
+      icon: Camera,
+      label: labels.instagram,
+      value: BUSINESS.instagram,
+      href: BUSINESS.instagramUrl,
+      primary: true,
+    },
+    {
       icon: MessageCircle,
       label: labels.line,
       value: BUSINESS.line,
       href: BUSINESS.lineUrl,
-      primary: true,
     },
     {
       icon: WhatsAppIcon,
@@ -46,12 +52,6 @@ export default function Location({ lang = "en" }: { lang?: Lang }) {
       label: labels.phone,
       value: BUSINESS.phone,
       href: `tel:${BUSINESS.phoneTel}`,
-    },
-    {
-      icon: Camera,
-      label: labels.instagram,
-      value: BUSINESS.instagram,
-      href: BUSINESS.instagramUrl,
     },
   ];
   return (

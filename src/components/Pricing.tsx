@@ -1,4 +1,4 @@
-import { MessageCircle, Check } from "lucide-react";
+import { Instagram, Check } from "lucide-react";
 import { LASH_SERVICES, LASH_ADDON, BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
 
@@ -92,12 +92,12 @@ export default function Pricing({ lang = "en" }: { lang?: Lang }) {
         {/* CTA */}
         <div className="animate-on-scroll mt-10 text-center">
           <a
-            href={BUSINESS.lineUrl}
+            href={BUSINESS.instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-plum px-8 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-plum-light hover:shadow-xl"
           >
-            <MessageCircle className="h-5 w-5" />
+            <Instagram className="h-5 w-5" />
             {t.ctaButton}
           </a>
         </div>

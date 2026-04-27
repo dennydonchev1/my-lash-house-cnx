@@ -12,7 +12,7 @@ export const dict = {
       reviews: "Reviews",
       contact: "Contact",
       bookNow: "Book Now",
-      bookOnLine: "Book on LINE",
+      bookOnInstagram: "Book on Instagram",
     },
     hero: {
       ratedBadge: "★★★★★ 5.0 Rated",
@@ -106,7 +106,7 @@ export const dict = {
       reviews: "รีวิว",
       contact: "ติดต่อ",
       bookNow: "จองคิว",
-      bookOnLine: "จองผ่าน LINE",
+      bookOnInstagram: "ทักทาง Instagram",
     },
     hero: {
       ratedBadge: "★★★★★ คะแนน 5.0",

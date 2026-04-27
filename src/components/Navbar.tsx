@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Menu, X, MessageCircle, Globe } from "lucide-react";
+import { Menu, X, Instagram, Globe } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { dict, NAV_LINKS_BY_LANG, type Lang } from "@/lib/i18n";
 
@@ -72,7 +72,7 @@ export default function Navbar({ lang = "en" }: { lang?: Lang }) {
               {otherLangLabel}
             </a>
             <a
-              href={BUSINESS.lineUrl}
+              href={BUSINESS.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all hover:shadow-lg ${
@@ -81,7 +81,7 @@ export default function Navbar({ lang = "en" }: { lang?: Lang }) {
                   : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
               }`}
             >
-              <MessageCircle className="h-4 w-4" />
+              <Instagram className="h-4 w-4" />
               {t.bookNow}
             </a>
           </div>
@@ -128,13 +128,13 @@ export default function Navbar({ lang = "en" }: { lang?: Lang }) {
             {otherLangLabel}
           </a>
           <a
-            href={BUSINESS.lineUrl}
+            href={BUSINESS.instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 flex items-center justify-center gap-2 rounded-full bg-plum px-5 py-3 text-base font-semibold text-white"
           >
-            <MessageCircle className="h-5 w-5" />
-            {t.bookOnLine}
+            <Instagram className="h-5 w-5" />
+            {t.bookOnInstagram}
           </a>
         </div>
       </div>
