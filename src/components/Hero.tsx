@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, MessageCircle } from "lucide-react";
+import { ChevronDown, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 import { BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
@@ -56,12 +56,12 @@ export default function Hero({ lang = "en" }: { lang?: Lang }) {
           {/* CTAs */}
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href={BUSINESS.lineUrl}
+              href={BUSINESS.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-plum px-8 py-4 text-base font-semibold text-white shadow-xl transition-all hover:bg-plum-light hover:shadow-2xl"
             >
-              <MessageCircle className="h-5 w-5" />
+              <Instagram className="h-5 w-5" />
               {t.ctaPrimary}
             </a>
             <a

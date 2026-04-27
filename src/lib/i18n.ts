@@ -21,7 +21,7 @@ export const dict = {
       usp1: "100% Handmade Fans",
       usp2: "Certified Artist",
       usp3: "7+ Years Experience",
-      ctaPrimary: "Book on LINE",
+      ctaPrimary: "Book on Instagram",
       ctaSecondary: "View Services",
     },
     about: {
@@ -115,7 +115,7 @@ export const dict = {
       usp1: "ขนตาแฮนด์เมด 100%",
       usp2: "ช่างที่ได้รับการรับรอง",
       usp3: "ประสบการณ์ 7+ ปี",
-      ctaPrimary: "จองผ่าน LINE",
+      ctaPrimary: "ทักทาง Instagram",
       ctaSecondary: "ดูบริการ",
     },
     about: {
