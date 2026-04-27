@@ -25,20 +25,24 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* Hero Logo Image */}
-          <div className="mx-auto mt-2 w-full max-w-md sm:max-w-lg lg:max-w-xl">
+          {/* Artist Portrait Badge */}
+          <div className="mx-auto mb-6 w-44 sm:w-52 lg:w-60">
             <img
-              src="/images/hero-logo.jpg"
-              alt="My Lash House — Eyelash Extensions"
-              className="mx-auto h-auto w-full rounded-2xl shadow-2xl"
+              src="/images/hero-logo.png"
+              alt="Ying — Founder & Lash Artist at My Lash House Chiang Mai"
+              className="mx-auto h-auto w-full drop-shadow-2xl"
             />
           </div>
 
-          {/* Visually hidden H1 for SEO/accessibility */}
-          <h1 className="sr-only">My Lash House — Eyelash Extensions, Chiang Mai</h1>
+          {/* Heading */}
+          <h1 className="font-heading text-5xl font-bold leading-tight text-white sm:text-6xl md:text-7xl lg:text-8xl">
+            My{" "}
+            <span className="italic text-rose-light">Lash</span>{" "}
+            House
+          </h1>
 
           {/* Tagline */}
-          <p className="mx-auto mt-6 max-w-xl text-lg font-light tracking-wide text-white/80 sm:text-xl">
+          <p className="mx-auto mt-4 max-w-xl text-lg font-light tracking-wide text-white/80 sm:text-xl">
             Private Lash Studio · Chiang Mai
           </p>
 
