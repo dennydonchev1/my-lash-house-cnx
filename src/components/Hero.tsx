@@ -25,8 +25,8 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* Artist Portrait Badge */}
-          <div className="mx-auto mb-6 w-44 sm:w-52 lg:w-60">
+          {/* Artist Portrait — fully transparent cutout */}
+          <div className="mx-auto -mb-2 w-72 sm:-mb-3 sm:w-80 lg:-mb-4 lg:w-[28rem]">
             <img
               src="/images/hero-logo.png"
               alt="Ying — Founder & Lash Artist at My Lash House Chiang Mai"
