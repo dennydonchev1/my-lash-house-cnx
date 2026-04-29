@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
 import { BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
@@ -23,11 +23,19 @@ export default function Hero({ lang = "en" }: { lang?: Lang }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 backdrop-blur-sm">
-            <span className="text-xs font-medium uppercase tracking-widest text-gold-light flex items-center gap-1.5">
-              {t.ratedBadge}
-            </span>
+          {/* Badges */}
+          <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 backdrop-blur-sm">
+              <span className="text-xs font-medium uppercase tracking-widest text-gold-light flex items-center gap-1.5">
+                {t.ratedBadge}
+              </span>
+            </div>
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-rose/40 bg-rose/15 px-5 py-2 backdrop-blur-sm">
+              <ShieldCheck className="h-3.5 w-3.5 text-rose-light" />
+              <span className="text-xs font-medium uppercase tracking-widest text-rose-light">
+                {t.guaranteeBadge}
+              </span>
+            </div>
           </div>
 
           {/* Heading */}

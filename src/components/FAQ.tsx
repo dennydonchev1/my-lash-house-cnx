@@ -8,6 +8,10 @@ import { dict, type Lang } from "@/lib/i18n";
 const faqs = {
   en: [
     {
+      q: "Do you offer a guarantee on the lashes?",
+      a: "Yes — every set comes with a 5-day retouch guarantee. If your extensions show abnormal shedding within 5 days due to glue failure, we'll retouch them free. The guarantee doesn't cover loss caused by avoidable factors like rubbing, premature water exposure, or oil-based products. Just message us on Instagram within 5 days and we'll set up your retouch.",
+    },
+    {
       q: "How much do lash extensions cost?",
       a: "Prices range from ฿590 for Classic 1:1 to ฿1,590 for Strip Lash. Color lash add-ons are ฿150–300. The final price depends on the style you choose. A personal consultation is included with every booking.",
     },
@@ -33,6 +37,10 @@ const faqs = {
     },
   ],
   th: [
+    {
+      q: "มีรับประกันขนตาไหม?",
+      a: "มีค่ะ — ทุกเซ็ตรับประกันรีทัช 5 วัน หากขนตาหลุดผิดปกติภายใน 5 วันหลังต่อ เนื่องจากปัญหากาว เราจะรีทัชให้ฟรี การรับประกันไม่ครอบคลุมการหลุดที่เกิดจากการขยี้ตา โดนน้ำเร็วเกินไป หรือใช้ผลิตภัณฑ์ที่มีน้ำมัน ทักมาทาง Instagram ภายใน 5 วันแล้วเราจะนัดรีทัชให้ค่ะ",
+    },
     {
       q: "ต่อขนตา ราคาเท่าไหร่?",
       a: "ราคาเริ่มต้นที่ 590 บาท (คลาสสิก 1:1) ถึง 1,590 บาท (สตริปแลช) ออปชั่นขนตาสีเพิ่ม 150–300 บาท ราคาขึ้นอยู่กับสไตล์ที่เลือก ทุกการจองรวมการให้คำปรึกษาส่วนตัว",

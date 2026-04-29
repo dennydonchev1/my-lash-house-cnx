@@ -173,6 +173,14 @@ export default function RootLayout({
     mainEntity: [
       {
         "@type": "Question",
+        name: "Does My Lash House offer a guarantee on lash extensions?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — every set comes with a 5-day retouch guarantee. If lashes show abnormal shedding within 5 days due to glue failure, retouching is free. The guarantee does not cover loss caused by rubbing, premature water exposure, or oil-based products.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "How much do lash extensions cost at My Lash House Chiang Mai?",
         acceptedAnswer: {
           "@type": "Answer",

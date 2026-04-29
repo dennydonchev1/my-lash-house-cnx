@@ -16,6 +16,7 @@ export const dict = {
     },
     hero: {
       ratedBadge: "★★★★★ 5.0 Rated",
+      guaranteeBadge: "5-Day Retouch Guarantee",
       seoSubhead: "Lash Extensions in Chiang Mai · ต่อขนตา เชียงใหม่",
       tagline: "Private Studio in San Kamphaeng",
       usp1: "100% Handmade Fans",
@@ -110,6 +111,7 @@ export const dict = {
     },
     hero: {
       ratedBadge: "★★★★★ คะแนน 5.0",
+      guaranteeBadge: "รับประกันรีทัช 5 วัน",
       seoSubhead: "ต่อขนตา เชียงใหม่ · สันกำแพง",
       tagline: "สตูดิโอส่วนตัว ใน อ.สันกำแพง",
       usp1: "ขนตาแฮนด์เมด 100%",
