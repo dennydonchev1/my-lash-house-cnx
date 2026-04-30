@@ -42,6 +42,9 @@ export default function BlogPost({
   const blogIndexHref = lang === "th" ? "/th/blog" : "/blog";
   const homeHref = lang === "th" ? "/th" : "/";
   const canonicalUrl = `https://mylashhouse.com${getPostUrl(post, lang)}`;
+  // Language toggle should jump to the SAME post in the other language
+  const otherLang: Lang = lang === "en" ? "th" : "en";
+  const otherLangHref = getPostUrl(post, otherLang);
 
   // Article schema
   const articleSchema = {
@@ -115,7 +118,7 @@ export default function BlogPost({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <Navbar lang={lang} />
+      <Navbar lang={lang} otherLangHref={otherLangHref} />
 
       <main className="bg-cream pt-24 sm:pt-28">
         <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">

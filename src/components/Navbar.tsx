@@ -7,13 +7,19 @@ import Instagram from "@/components/icons/InstagramIcon";
 import { BUSINESS } from "@/lib/constants";
 import { dict, NAV_LINKS_BY_LANG, type Lang } from "@/lib/i18n";
 
-export default function Navbar({ lang = "en" }: { lang?: Lang }) {
+export default function Navbar({
+  lang = "en",
+  otherLangHref,
+}: {
+  lang?: Lang;
+  otherLangHref?: string;
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const t = dict[lang].nav;
   const navLinks = NAV_LINKS_BY_LANG[lang];
   const otherLang: Lang = lang === "en" ? "th" : "en";
-  const otherLangPath = otherLang === "th" ? "/th" : "/";
+  const otherLangPath = otherLangHref ?? (otherLang === "th" ? "/th" : "/");
   const otherLangLabel = otherLang === "th" ? "ไทย" : "EN";
 
   useEffect(() => {
