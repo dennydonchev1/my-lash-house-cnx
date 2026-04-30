@@ -20,8 +20,8 @@ export type BlogPostMeta = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
-    slug: "lash-extension-style-by-eye-shape-chiang-mai",
-    slugTh: "tor-khon-ta-baeb-nai-dee",
+    slug: "lash-extensions-by-eye-shape-chiang-mai",
+    slugTh: "ต่อขนตาแบบไหนดี",
     title: {
       en: "Which Lash Extension Style Is Right for You? An Eye-Shape Guide for First-Timers in Chiang Mai",
       th: "ต่อขนตาแบบไหนดี? เทียบรูปตา → ทรงที่ใช่ (เชียงใหม่)",

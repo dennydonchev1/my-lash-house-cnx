@@ -250,6 +250,7 @@ export const NAV_LINKS_BY_LANG = {
     { label: "Gallery", href: "#gallery" },
     { label: "Pricing", href: "#pricing" },
     { label: "Reviews", href: "#reviews" },
+    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "#contact" },
   ],
   th: [
@@ -257,6 +258,7 @@ export const NAV_LINKS_BY_LANG = {
     { label: "ผลงาน", href: "#gallery" },
     { label: "ราคา", href: "#pricing" },
     { label: "รีวิว", href: "#reviews" },
+    { label: "บทความ", href: "/th/blog" },
     { label: "ติดต่อ", href: "#contact" },
   ],
 } as const;

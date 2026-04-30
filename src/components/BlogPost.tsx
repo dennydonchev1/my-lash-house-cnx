@@ -5,6 +5,7 @@ import { ChevronLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
+import FAQAccordion from "@/components/FAQAccordion";
 import type { BlogPostMeta } from "@/lib/blog";
 import { getPostUrl } from "@/lib/blog";
 import { dict, type Lang } from "@/lib/i18n";
@@ -170,6 +171,16 @@ export default function BlogPost({
               {content}
             </ReactMarkdown>
           </div>
+
+          {/* FAQ accordion (matches home page FAQ styling) */}
+          <section className="mt-16 border-t border-cream-dark pt-12">
+            <FAQAccordion
+              items={post.faq[lang] as unknown as { q: string; a: string }[]}
+              eyebrow={dict[lang].faq.eyebrow}
+              heading={dict[lang].faq.heading}
+              headingHighlight={dict[lang].faq.headingHighlight}
+            />
+          </section>
 
           {/* Back to blog link */}
           <div className="mt-16 mb-12 border-t border-cream-dark pt-8">
