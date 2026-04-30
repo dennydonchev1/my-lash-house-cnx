@@ -16,7 +16,7 @@ export const dict = {
     },
     hero: {
       ratedBadge: "★★★★★ 5.0 Rated",
-      guaranteeBadge: "5-Day Retouch Guarantee",
+      guaranteeBadge: "3-Day Retouch Guarantee",
       seoSubhead: "Lash Extensions in Chiang Mai · ต่อขนตา เชียงใหม่",
       tagline: "Private Studio in San Kamphaeng",
       usp1: "100% Handmade Fans",
@@ -69,6 +69,29 @@ export const dict = {
       ],
       ctaButton: "Book Your Appointment",
     },
+    guarantee: {
+      eyebrow: "Our Promise",
+      heading: "3-Day Retouch ",
+      headingHighlight: "Guarantee",
+      subhead:
+        "We stand behind every set we craft. Notice unusual shedding within 3 days of your appointment? We'll retouch you free — no hassle, no questions about who's at fault if it's a glue issue.",
+      coveredLabel: "What's covered",
+      coveredItems: [
+        "Premature glue failure",
+        "Abnormal shedding within 3 days",
+        "Workmanship issues",
+      ],
+      notCoveredLabel: "Not covered",
+      notCoveredItems: [
+        "Rubbing or pulling at lashes",
+        "Water exposure within 24 hours",
+        "Oil-based makeup or skincare",
+      ],
+      howToClaimLabel: "How to claim",
+      howToClaimText:
+        "DM us on Instagram within 3 days of your appointment with a clear photo. We'll book your free retouch.",
+      ctaLabel: "Message us on Instagram",
+    },
     reviews: {
       eyebrow: "Reviews",
       heading: "What clients ",
@@ -111,7 +134,7 @@ export const dict = {
     },
     hero: {
       ratedBadge: "★★★★★ คะแนน 5.0",
-      guaranteeBadge: "รับประกันรีทัช 5 วัน",
+      guaranteeBadge: "รับประกันรีทัช 3 วัน",
       seoSubhead: "ต่อขนตา เชียงใหม่ · สันกำแพง",
       tagline: "สตูดิโอส่วนตัว ใน อ.สันกำแพง",
       usp1: "ขนตาแฮนด์เมด 100%",
@@ -163,6 +186,29 @@ export const dict = {
         "คำแนะนำการดูแลรักษา",
       ],
       ctaButton: "จองคิวต่อขนตา",
+    },
+    guarantee: {
+      eyebrow: "คำสัญญาของเรา",
+      heading: "รับประกัน",
+      headingHighlight: "รีทัช 3 วัน",
+      subhead:
+        "เรามั่นใจในทุกเซ็ตที่เราต่อ หากขนตาหลุดผิดปกติภายใน 3 วันหลังต่อจากปัญหากาว เราจะรีทัชให้ฟรี ไม่ต้องลังเล",
+      coveredLabel: "สิ่งที่ครอบคลุม",
+      coveredItems: [
+        "กาวเสื่อมสภาพก่อนเวลา",
+        "ขนตาหลุดผิดปกติภายใน 3 วัน",
+        "ปัญหาที่เกิดจากฝีมือช่าง",
+      ],
+      notCoveredLabel: "สิ่งที่ไม่ครอบคลุม",
+      notCoveredItems: [
+        "การขยี้หรือดึงขนตา",
+        "โดนน้ำภายใน 24 ชั่วโมง",
+        "เครื่องสำอาง/สกินแคร์ที่มีน้ำมัน",
+      ],
+      howToClaimLabel: "วิธีรับการรับประกัน",
+      howToClaimText:
+        "ทักมาทาง Instagram ภายใน 3 วันหลังต่อ พร้อมรูปขนตาที่ชัด เราจะนัดรีทัชให้ฟรี",
+      ctaLabel: "ทักมาทาง Instagram",
     },
     reviews: {
       eyebrow: "รีวิว",

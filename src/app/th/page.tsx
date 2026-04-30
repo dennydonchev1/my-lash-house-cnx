@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import Pricing from "@/components/Pricing";
+import Guarantee from "@/components/Guarantee";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -74,6 +75,7 @@ export default function HomeTh() {
         <Services lang="th" />
         <Gallery lang="th" />
         <Pricing lang="th" />
+        <Guarantee lang="th" />
         <Reviews lang="th" />
         <FAQ lang="th" />
         <Location lang="th" />

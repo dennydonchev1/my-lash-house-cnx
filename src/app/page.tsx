@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import Pricing from "@/components/Pricing";
+import Guarantee from "@/components/Guarantee";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -20,6 +21,7 @@ export default function Home() {
         <Services lang="en" />
         <Gallery lang="en" />
         <Pricing lang="en" />
+        <Guarantee lang="en" />
         <Reviews lang="en" />
         <FAQ lang="en" />
         <Location lang="en" />
