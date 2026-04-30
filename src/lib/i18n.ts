@@ -18,7 +18,7 @@ export const dict = {
       ratedBadge: "★★★★★ 5.0 Rated",
       guaranteeBadge: "3-Day Retouch Guarantee",
       seoSubhead: "Lash Extensions in Chiang Mai · ต่อขนตา เชียงใหม่",
-      tagline: "Private Studio in San Kamphaeng",
+      tagline: "Private Studio · Near Payap University",
       usp1: "100% Handmade Fans",
       usp2: "Certified Artist",
       usp3: "7+ Years Experience",
@@ -29,7 +29,7 @@ export const dict = {
       eyebrow: "About the Artist",
       heading: "Meet ",
       headingHighlight: "Ying",
-      p1: "Hi, I'm Ying — a certified lash artist with over 7 years of experience creating custom eyelash extensions in Chiang Mai. I run My Lash House as a private studio in San Kamphaeng, where every appointment is one-on-one and every fan is handmade by hand during your session.",
+      p1: "Hi, I'm Ying — a certified lash artist with over 7 years of experience creating custom eyelash extensions in Chiang Mai. I run My Lash House as a private studio just minutes from the city center, near Payap University. Every appointment is one-on-one and every fan is handmade during your session.",
       p2: "I'm certified in advanced techniques and constantly refining my craft through workshops and training. Quality, comfort, and lash health come first — never premade fans, never rushed work.",
       p3: "Whether you want a subtle natural enhancement or dramatic mega volume, my studio is your space to relax, recharge, and leave feeling your absolute best.",
       badges: ["Certified Artist", "100% Handmade", "Private Studio", "7+ Years"],
@@ -84,8 +84,8 @@ export const dict = {
       notCoveredLabel: "Not covered",
       notCoveredItems: [
         "Rubbing or pulling at lashes",
-        "Water exposure within 24 hours",
-        "Oil-based makeup or skincare",
+        "Water exposure within 2 hours",
+        "Oil-based cleansers (use water-based only)",
       ],
       howToClaimLabel: "How to claim",
       howToClaimText:
@@ -113,7 +113,7 @@ export const dict = {
       directionsLink: "Get Directions on Google Maps",
     },
     footer: {
-      tagline: "Premium handmade eyelash extensions in San Kamphaeng, Chiang Mai.",
+      tagline: "Premium handmade eyelash extensions · Near Payap University, Chiang Mai.",
       navHeading: "Navigate",
       connectHeading: "Connect",
       copyright: "All rights reserved.",
@@ -135,8 +135,8 @@ export const dict = {
     hero: {
       ratedBadge: "★★★★★ คะแนน 5.0",
       guaranteeBadge: "รับประกันรีทัช 3 วัน",
-      seoSubhead: "ต่อขนตา เชียงใหม่ · สันกำแพง",
-      tagline: "สตูดิโอส่วนตัว ใน อ.สันกำแพง",
+      seoSubhead: "ต่อขนตา เชียงใหม่ · ใกล้ ม.พายัพ",
+      tagline: "สตูดิโอส่วนตัว · ใกล้ ม.พายัพ",
       usp1: "ขนตาแฮนด์เมด 100%",
       usp2: "ช่างที่ได้รับการรับรอง",
       usp3: "ประสบการณ์ 7+ ปี",
@@ -147,7 +147,7 @@ export const dict = {
       eyebrow: "เกี่ยวกับช่าง",
       heading: "ทำความรู้จักกับ ",
       headingHighlight: "ครูหญิง",
-      p1: "สวัสดีค่ะ ครูหญิงเองค่ะ — ช่างต่อขนตาที่ได้รับการรับรอง ประสบการณ์มากกว่า 7 ปี ในเชียงใหม่ ที่ My Lash House เปิดเป็นสตูดิโอส่วนตัวในสันกำแพง รับลูกค้าครั้งละหนึ่งท่าน ทุกพัด (fan) ทำสดด้วยมือระหว่างการต่อ ไม่ใช้ pre-made",
+      p1: "สวัสดีค่ะ ครูหญิงเองค่ะ — ช่างต่อขนตาที่ได้รับการรับรอง ประสบการณ์มากกว่า 7 ปี ในเชียงใหม่ ที่ My Lash House เป็นสตูดิโอส่วนตัว ใกล้ ม.พายัพ ห่างจากตัวเมืองเชียงใหม่เพียงไม่กี่นาที รับลูกค้าครั้งละหนึ่งท่าน ทุกพัด (fan) ทำสดด้วยมือระหว่างการต่อ ไม่ใช้ pre-made",
       p2: "ครูหญิงได้รับการรับรองในเทคนิคขั้นสูง และพัฒนาฝีมืออย่างต่อเนื่องผ่านเวิร์กช็อปและคอร์สเทรนนิ่ง คุณภาพ ความสบาย และสุขภาพขนตามาเป็นอันดับแรกเสมอ — ไม่เร่ง ไม่ใช้ขนตาสำเร็จรูป",
       p3: "ไม่ว่าคุณจะอยากได้ลุคธรรมชาติแบบเบา ๆ หรือเมก้าวอลลุ่มแบบจัดเต็ม สตูดิโอของเราคือที่ที่คุณจะได้พักผ่อนและกลับไปอย่างสวยมั่นใจ",
       badges: ["ช่างได้รับการรับรอง", "ขนตาแฮนด์เมด 100%", "สตูดิโอส่วนตัว", "ประสบการณ์ 7+ ปี"],
@@ -202,8 +202,8 @@ export const dict = {
       notCoveredLabel: "สิ่งที่ไม่ครอบคลุม",
       notCoveredItems: [
         "การขยี้หรือดึงขนตา",
-        "โดนน้ำภายใน 24 ชั่วโมง",
-        "เครื่องสำอาง/สกินแคร์ที่มีน้ำมัน",
+        "โดนน้ำภายใน 2 ชั่วโมง",
+        "คลีนเซอร์ที่มีน้ำมัน (ให้ใช้สูตรน้ำเท่านั้น)",
       ],
       howToClaimLabel: "วิธีรับการรับประกัน",
       howToClaimText:
@@ -231,7 +231,7 @@ export const dict = {
       directionsLink: "ดูเส้นทางบน Google Maps",
     },
     footer: {
-      tagline: "ต่อขนตาแฮนด์เมดพรีเมียม สันกำแพง เชียงใหม่",
+      tagline: "ต่อขนตาแฮนด์เมดพรีเมียม · ใกล้ ม.พายัพ เชียงใหม่",
       navHeading: "เมนู",
       connectHeading: "ช่องทางติดต่อ",
       copyright: "สงวนลิขสิทธิ์",

@@ -19,7 +19,19 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mylashhouse.com"),
   title: "Lash Extensions Chiang Mai · 100% Handmade Fans · My Lash House",
   description:
-    "Premium eyelash extensions in San Kamphaeng, Chiang Mai. 100% handmade fans by a certified artist with 7+ years experience. Open daily 10am–7pm. Book on LINE.",
+    "Premium eyelash extensions in Chiang Mai, near Payap University. 100% handmade fans by a certified artist with 7+ years experience. Open daily 10am–7pm.",
+  icons: {
+    icon: [
+      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   keywords: [
     "lash extensions chiang mai",
     "eyelash extensions chiang mai",
@@ -40,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lash Extensions Chiang Mai · My Lash House",
     description:
-      "Premium eyelash extensions in San Kamphaeng, Chiang Mai. 100% handmade fans · Certified artist · 7+ years experience.",
+      "Premium eyelash extensions in Chiang Mai, near Payap University. 100% handmade fans · Certified artist · 7+ years experience.",
     url: "https://mylashhouse.com",
     siteName: BUSINESS.fullName,
     locale: "en_TH",
@@ -58,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lash Extensions Chiang Mai · My Lash House",
     description:
-      "Premium handmade lash extensions in San Kamphaeng, Chiang Mai. Certified artist · 7+ yrs experience.",
+      "Premium handmade lash extensions in Chiang Mai, near Payap University. Certified artist · 7+ yrs experience.",
     images: ["/images/service-mega.jpg"],
   },
   robots: {
@@ -176,7 +188,7 @@ export default function RootLayout({
         name: "Does My Lash House offer a guarantee on lash extensions?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — every set comes with a 3-day retouch guarantee. If lashes show abnormal shedding within 3 days due to glue failure, retouching is free. The guarantee does not cover loss caused by rubbing, premature water exposure, or oil-based products.",
+          text: "Yes — every set comes with a 3-day retouch guarantee. If lashes show abnormal shedding within 3 days due to glue failure, retouching is free. The guarantee does not cover loss caused by rubbing the lashes, getting them wet within the first 2 hours, or using oil-based cleansers (use water-based only).",
         },
       },
       {
@@ -192,7 +204,7 @@ export default function RootLayout({
         name: "Where is My Lash House located in Chiang Mai?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "My Lash House is a private studio located at 89/117 Pruksa Ville, San Klang, San Kamphaeng District, Chiang Mai 50130, Thailand.",
+          text: "My Lash House is a private studio in San Klang, near Payap University in Chiang Mai — about 10 minutes from the city center. Official address: 89/117 Pruksa Ville, San Klang, San Kamphaeng District, Chiang Mai 50130, Thailand.",
         },
       },
       {
