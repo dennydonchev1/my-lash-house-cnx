@@ -21,7 +21,9 @@ export type BlogPostMeta = {
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
     slug: "lash-extensions-by-eye-shape-chiang-mai",
-    slugTh: "ต่อขนตาแบบไหนดี",
+    // NOTE: Thai-script slugs trigger 404 in Next.js standalone server (known issue).
+    // Using transliteration as fallback. Schema/title still uses Thai script for SEO signals.
+    slugTh: "tor-khon-ta-baeb-nai-dee",
     title: {
       en: "Which Lash Extension Style Is Right for You? An Eye-Shape Guide for First-Timers in Chiang Mai",
       th: "ต่อขนตาแบบไหนดี? เทียบรูปตา → ทรงที่ใช่ (เชียงใหม่)",
