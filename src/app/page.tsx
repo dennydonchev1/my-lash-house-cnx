@@ -10,10 +10,16 @@ import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
 import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
+import { buildFaqJsonLd } from "@/lib/faq";
 
 export default function Home() {
+  const faqSchema = buildFaqJsonLd("en");
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Navbar lang="en" />
       <main>
         <Hero lang="en" />

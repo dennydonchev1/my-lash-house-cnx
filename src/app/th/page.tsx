@@ -65,9 +65,16 @@ export const metadata: Metadata = {
   },
 };
 
+import { buildFaqJsonLd } from "@/lib/faq";
+
 export default function HomeTh() {
+  const faqSchema = buildFaqJsonLd("th");
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Navbar lang="th" />
       <main>
         <Hero lang="th" />

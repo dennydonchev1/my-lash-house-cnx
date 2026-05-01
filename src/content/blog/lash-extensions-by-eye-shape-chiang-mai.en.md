@@ -43,6 +43,8 @@ The shape of the lid, the visible eyelid space, and how your lashes grow will al
 
 ### Single eyelid (ตาชั้นเดียว, monolid)
 
+![Illustration of a single eyelid (monolid) — example for lash style guide](/images/blog/eye-shapes/single-eyelid.webp)
+
 Recommended: **Wispy Volume** or **Light Volume**.
 
 A single eyelid has little to no visible crease. That means lashes can sit close to or under the lid when the eye is open. The goal is to lift, not to add density that gets hidden.
@@ -57,6 +59,8 @@ Skip: Mega Volume in long lengths. The added weight can pull the lid down and un
 
 ### Double eyelid (ตาสองชั้น)
 
+![Illustration of a double eyelid eye shape](/images/blog/eye-shapes/double-eyelid.webp)
+
 Recommended: **Classic Volume** or **Hybrid**.
 
 A defined double eyelid gives the lashes a natural display surface. Most styles work here.
@@ -68,6 +72,8 @@ Hybrid mixes single classic extensions with handmade fans. The look has a bit mo
 If you’ve worn mascara comfortably for years and want lashes that feel like a polished version of that, this is the place to start.
 
 ### Downturned eyes (หางตาตก)
+
+![Illustration of downturned eyes — outer corners lower than inner corners](/images/blog/eye-shapes/downturned.webp)
 
 Recommended: **Mega Volume** with **cat-eye** mapping.
 
@@ -81,6 +87,8 @@ Both are worth discussing in the consultation. A heavy hand on cat-eye styling c
 
 ### Round eyes (ตากลม)
 
+![Illustration of round eyes — fully open and circular](/images/blog/eye-shapes/round.webp)
+
 Recommended: **Russian Volume** with **doll-eye** mapping.
 
 Round eyes already sit open. Adding length and density across the whole lash line can over-round them. The goal is to elongate.
@@ -92,6 +100,8 @@ Russian Volume’s soft, fluffy fans suit this shape. They add length without ha
 A small note from our chair. Many round-eyed clients are surprised by how subtle a properly mapped doll-eye set looks on day one. The shape only fully reads after a couple of days of wearing the lashes in real light.
 
 ### Hooded eyes (หนังตาปิด)
+
+![Illustration of hooded eyes — extra lid skin partly covering the lash line](/images/blog/eye-shapes/hooded.webp)
 
 Recommended: **Wispy Volume**.
 
@@ -106,6 +116,8 @@ Curl needs care here too. Too much curl, and the lashes press up into the hood. 
 This is one of the eye shapes where in-person mapping makes the biggest difference. Every hood is shaped a little differently.
 
 ### Wide-set eyes (ตาห่าง)
+
+![Illustration of wide-set eyes](/images/blog/eye-shapes/wide-set.webp)
 
 Recommended: **Hybrid** or **Classic Volume**, weight at the inner corners.
 
