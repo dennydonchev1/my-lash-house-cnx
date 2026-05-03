@@ -10,9 +10,18 @@ This is the guide we wish more first-time clients had read before booking. It’
 
 ## Quick reference: eye shape to lash style
 
-If you only read one section, read this one. Find your eye shape on the left. The style we’d usually recommend is on the right.
+If you only read one section, read this one. The chart below pairs each of the six common eye shapes with two things — the lash style we’d start from, and the lash mapping (the directional pattern of lengths) that flatters that shape best.
 
-Each row is a starting point. Ying refines the choice in person, once she sees how your lashes actually grow.
+![Comparison chart: six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — each with the recommended lash extension styles (Classic, Hybrid, Light Volume, Wispy Volume, Mega Volume) and lash mappings (Cat Eye, Doll Eye, Kitten Eye), from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
+
+**How to read the chart:**
+
+- **Recommended Styles** — the volume technique (Classic, Hybrid, Light Volume, Wispy, Russian, Mega). This decides how dense and dramatic the set looks.
+- **Lash Mappings** — the directional pattern (Cat Eye, Doll Eye, Kitten Eye, Hybrid). This decides where the longest lashes sit, which is what reshapes the eye.
+
+Style controls *how much*. Mapping controls *what shape*. Most clients only think about the first one before booking — the second is usually what makes the difference between a flattering set and a generic one.
+
+Each pairing is a starting point. Ying refines the choice in person, once she sees how your lashes actually grow.
 
 | Eye shape | Recommended starting style | Effect |
 |---|---|---|
