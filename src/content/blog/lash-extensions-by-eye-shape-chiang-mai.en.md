@@ -8,29 +8,7 @@ The same set of lashes will look completely different on a monolid than on a hoo
 
 This is the guide we wish more first-time clients had read before booking. It’s based on how Ying maps lashes at My Lash House. Every fan is handmade during your appointment, and every set is designed around the eye it’s going on.
 
-## Quick reference: eye shape to lash style
-
-If you only read one section, read this one. The chart below pairs each of the six common eye shapes with two things — the lash style we’d start from, and the lash mapping (the directional pattern of lengths) that flatters that shape best.
-
-![Comparison chart: six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — each with the recommended lash extension styles (Classic, Hybrid, Light Volume, Wispy Volume, Mega Volume) and lash mappings (Cat Eye, Doll Eye, Kitten Eye), from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
-
-**How to read the chart:**
-
-- **Recommended Styles** — the volume technique (Classic, Hybrid, Light Volume, Wispy, Russian, Mega). This decides how dense and dramatic the set looks.
-- **Lash Mappings** — the directional pattern (Cat Eye, Doll Eye, Kitten Eye, Hybrid). This decides where the longest lashes sit, which is what reshapes the eye.
-
-Style controls *how much*. Mapping controls *what shape*. Most clients only think about the first one before booking — the second is usually what makes the difference between a flattering set and a generic one.
-
-Each pairing is a starting point. Ying refines the choice in person, once she sees how your lashes actually grow.
-
-| Eye shape | Recommended starting style | Effect |
-|---|---|---|
-| Single eyelid (ตาชั้นเดียว) | Wispy Volume or Light Volume | Lifts the lid, opens the eye |
-| Double eyelid (ตาสองชั้น) | Classic Volume or Hybrid | Soft, balanced, beginner-friendly |
-| Downturned (หางตาตก) | Mega Volume, cat-eye mapping | Lifts the outer corner |
-| Round (ตากลม) | Russian Volume, doll-eye mapping | Elongates without widening |
-| Hooded (หนังตาปิด) | Wispy Volume | Stays visible past the hood |
-| Wide-set (ตาห่าง) | Hybrid or Classic Volume, inner-corner weight | Pulls the eyes visually closer |
+If you’d rather skim than read, there’s a comparison chart at the end you can save.
 
 ## Why eye shape matters more than the trend
 
@@ -43,6 +21,19 @@ Custom mapping changes the result. Before any glue is applied, your artist marks
 At My Lash House, every fan is built by hand during your appointment, for the lash it’s going on. The design shifts as Ying works through your eye.
 
 Two clients with the “same” eye shape can still walk out with different sets. That’s the point.
+
+## Lash mapping: where the longest lashes go
+
+The style decides how dense and dramatic the set looks. The mapping decides what shape the eye reads as. They’re separate decisions, and the second is what most first-timers don’t realise they’re choosing.
+
+A mapping is the placement pattern: which sections of the lash line get the longest fans, which get medium, and which stay shorter. The four common ones at My Lash House:
+
+- **Cat Eye** — heaviest at the outer corner, tapering shorter toward the inner. Lifts the eye and pulls it longer. Best on **downturned** eyes, and anyone wanting a sultry, slightly upturned read.
+- **Doll Eye** — heaviest in the centre, shorter at both corners. Opens the eye and adds roundness. Be careful on already-round eyes — it can read as surprised.
+- **Kitten Eye** — a softer cat eye. Slight outer-corner bias without the full dramatic flick. Versatile and daytime-friendly.
+- **Hybrid / Natural** — lengths follow the natural growth pattern with no engineered bias. Reads as “just longer lashes,” not as a reshape.
+
+The same volume technique with two different mappings produces two different sets. Ying picks the mapping in person by reading how your eyes sit when relaxed, where your natural lashes already dominate, and which direction you want the eye to read.
 
 ## Find your eye shape
 
@@ -184,6 +175,23 @@ Aftercare we’ll cover in detail at the end. The short version: no water for th
 Every set comes with a **3-day retouch guarantee**. If lashes shed unusually fast in the first three days because of a glue or application issue on our side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos. We’ll book you in for a free retouch.
 
 The guarantee doesn’t cover damage from rubbing, water exposure too soon after the appointment, or oil-based products.
+
+## Quick reference: eye shape to lash style
+
+The cheat-sheet version of everything above. Find your eye shape, see the style and mapping that pair with it.
+
+![Comparison chart: six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — each with the recommended lash extension styles (Classic, Hybrid, Light Volume, Wispy Volume, Mega Volume) and lash mappings (Cat Eye, Doll Eye, Kitten Eye), from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
+
+| Eye shape | Recommended starting style | Effect |
+|---|---|---|
+| Single eyelid (ตาชั้นเดียว) | Wispy Volume or Light Volume | Lifts the lid, opens the eye |
+| Double eyelid (ตาสองชั้น) | Classic Volume or Hybrid | Soft, balanced, beginner-friendly |
+| Downturned (หางตาตก) | Mega Volume, cat-eye mapping | Lifts the outer corner |
+| Round (ตากลม) | Russian Volume, doll-eye mapping | Elongates without widening |
+| Hooded (หนังตาปิด) | Wispy Volume | Stays visible past the hood |
+| Wide-set (ตาห่าง) | Hybrid or Classic Volume, inner-corner weight | Pulls the eyes visually closer |
+
+Each pairing is a starting point. Ying refines the choice in person, once she sees how your lashes actually grow.
 
 ## Still not sure? Send us a photo
 
