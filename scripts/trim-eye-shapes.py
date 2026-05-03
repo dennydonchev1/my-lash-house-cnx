@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Restitch eye-shape illustrations into 1.5:1 frames.
+Restitch eye-shape illustrations into 1:1.5 portrait frames.
 
-Each source webp is 418x627 with this vertical structure:
+Each source webp is 418x627 (already 1:1.5) with this vertical structure:
     top margin (cream)
     eyebrow      (dark)
     gap          (cream)
@@ -15,9 +15,9 @@ Each source webp is 418x627 with this vertical structure:
 
 Goal:
     - Keep ALL four content elements (eyebrow, eye, EN text, TH text).
-    - Remove the surplus whitespace between them.
-    - Output at exactly 1.5:1 ratio (418 wide x 279 tall).
-    - Use consistent, proportionally-distributed gaps across the 6 images.
+    - Output at 1:1.5 portrait ratio (418 wide x 627 tall, matches source).
+    - Internal gaps are aggressively compressed; freed space goes to
+      symmetric top + bottom margins so the element cluster sits centered.
 
 Algorithm:
     1. Detect dark-row spans (rows where >2% of pixels are dark) with an
@@ -53,12 +53,17 @@ except ImportError as e:
 ROOT = Path("/Users/dennydonchev1/Downloads/my-lash-house-cnx/public/images/blog/eye-shapes")
 NAMES = ["double-eyelid", "single-eyelid", "downturned", "round", "hooded", "wide-set"]
 
-TARGET_RATIO = 1.5            # width:height
+TARGET_W = 418                # output width (matches source)
+TARGET_H = 627                # output height (1:1.5 portrait, matches source)
 DARK_THRESHOLD = 80           # pixel value < this counts as "dark"
 ROW_DARK_FRAC = 0.02          # fraction of width that must be dark for a row to count as "dark"
 MERGE_GAP_TOL = 8             # cream rows ≤ this many merge two adjacent dark spans
 MIN_SPAN_PX = 6               # ignore dark spans shorter than this (noise)
-GAP_WEIGHTS = [1, 3, 3, 1, 1] # top, eb-eye, eye-EN, EN-TH, bottom
+
+# Compressed internal gap sizes (px). The remaining space becomes symmetric
+# top + bottom margins. gap1 keeps a bit of natural skin between eyebrow and
+# lashes; gap2 (eye-to-text) is the most compressible; gap3 (EN-to-TH) is tight.
+INTERNAL_GAPS = {"gap1_eb_eye": 55, "gap2_eye_text": 30, "gap3_en_th": 15}
 
 
 def detect_spans(img: Image.Image) -> list[tuple[int, int]]:
@@ -120,17 +125,28 @@ def restitch(img: Image.Image, target_w: int, target_h: int) -> Image.Image:
     ]
 
     content_h = sum(e - s + 1 for s, e in spans)
-    available = target_h - content_h
+    fixed_internal = (
+        INTERNAL_GAPS["gap1_eb_eye"]
+        + INTERNAL_GAPS["gap2_eye_text"]
+        + INTERNAL_GAPS["gap3_en_th"]
+    )
+    available_for_margins = target_h - content_h - fixed_internal
 
-    if available <= 0:
-        # Content already too tall — scale full image down.
-        scale = target_h / content_h
+    if available_for_margins < 0:
+        # Content + fixed gaps don't fit; fall back to scaling the source down.
+        scale = target_h / (content_h + fixed_internal)
         scaled = img.resize((target_w, int(img.height * scale)), Image.LANCZOS)
         return restitch(scaled, target_w, target_h)
 
-    total_w = sum(GAP_WEIGHTS)
-    gap_sizes = [round(available * wt / total_w) for wt in GAP_WEIGHTS]
-    gap_sizes[-1] = available - sum(gap_sizes[:-1])
+    top_margin = available_for_margins // 2
+    bottom_margin = available_for_margins - top_margin
+    gap_sizes = [
+        top_margin,
+        INTERNAL_GAPS["gap1_eb_eye"],
+        INTERNAL_GAPS["gap2_eye_text"],
+        INTERNAL_GAPS["gap3_en_th"],
+        bottom_margin,
+    ]
 
     def resize_gap(idx: int) -> Image.Image | None:
         gs, ge = gap_regions[idx]
@@ -177,9 +193,7 @@ def restitch(img: Image.Image, target_w: int, target_h: int) -> Image.Image:
 
 
 def main():
-    target_w = 418
-    target_h = round(target_w / TARGET_RATIO)  # 279
-    print(f"Target: {target_w}x{target_h} ({TARGET_RATIO}:1)\n")
+    print(f"Target: {TARGET_W}x{TARGET_H} (1:1.5 portrait)\n")
 
     for name in NAMES:
         path = ROOT / f"{name}.webp"
@@ -187,7 +201,7 @@ def main():
         spans = detect_spans(img)
         print(f"{name:14s} src={img.width}x{img.height}  spans={len(spans)}: "
               f"{[(s, e, e - s + 1) for s, e in spans]}")
-        new_img = restitch(img, target_w, target_h)
+        new_img = restitch(img, TARGET_W, TARGET_H)
         new_img.save(path, "WEBP", quality=85, method=6)
         size = path.stat().st_size
         print(f"               -> {new_img.width}x{new_img.height}  ({size:,} bytes)\n")
