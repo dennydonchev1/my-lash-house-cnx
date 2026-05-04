@@ -58,15 +58,15 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How long does a first lash extension appointment take?",
-          a: "Around two hours for a full set, including consultation and mapping.",
+          a: "Plan for two to two-and-a-half hours for a full set. The first 10 to 15 minutes are consultation and mapping — Ying examines how your natural lashes grow, picks the curl and length range, and marks placement zones before any extension is applied. The rest of the time is the actual application, isolating and bonding one natural lash at a time. The room is calm and many clients fall asleep through it; expect to walk out around the two-hour mark with a full set.",
         },
         {
           q: "How often do I need to come back for a refill?",
           a: "Refills are recommended every two to three weeks to keep the set looking full as natural lashes shed. They're shorter and less expensive than a full set.",
         },
         {
-          q: "What is the 3-day retouch guarantee at My Lash House?",
-          a: "If lashes shed unusually fast in the first three days because of a glue or application issue on our side, we'll fix it for free. Message us on Instagram within three days with clear photos and we'll schedule a retouch appointment.",
+          q: "What if my chosen lash style doesn't suit my eye shape once it's applied?",
+          a: "Tell Ying during the appointment. If the mapping isn't sitting right on your eye, she can adjust the curl, length distribution, or fan placement before more sets are bonded. After the appointment, if you're unhappy with the stylistic call (rather than abnormal shedding), the natural moment to change direction is your next refill or full set. Abnormal shedding from glue or application issues within three days is covered separately by the retouch guarantee.",
         },
         {
           q: "Is My Lash House English-friendly?",
@@ -88,15 +88,15 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "นัดต่อขนตาครั้งแรกใช้เวลานานแค่ไหน",
-          a: "ประมาณสองชั่วโมงสำหรับเซตเต็ม รวมการคุยและ mapping",
+          a: "เผื่อเวลา 2 ถึง 2 ชั่วโมงครึ่งสำหรับเซตเต็ม 10-15 นาทีแรกคือการคุยและ mapping — ครูหญิงจะดูว่าขนตาธรรมชาติของคุณขึ้นยังไง เลือกเคิร์ลและช่วงความยาว แล้วทำเครื่องหมายโซนการวางก่อนต่อเส้นแรก ที่เหลือคือเวลาในการต่อทีละเส้น ห้องเงียบสบาย ลูกค้าส่วนใหญ่หลับไประหว่างนั้น คาดว่าจะเสร็จและออกจากร้านราว ๆ สองชั่วโมงพร้อมเซตเต็ม",
         },
         {
           q: "ต้องกลับมาเติมขนตาบ่อยแค่ไหน",
           a: "แนะนำเติมทุก 2-3 สัปดาห์เพื่อรักษาความเต็มของเซตในขณะที่ขนตาธรรมชาติหลุดตามวงจร การเติมใช้เวลาน้อยกว่าและถูกกว่าการต่อเซตใหม่",
         },
         {
-          q: "รับประกันรีทัช 3 วัน ของ My Lash House คืออะไร",
-          a: "ถ้าขนตาหลุดเร็วผิดปกติใน 3 วันแรกจากปัญหากาวหรือการต่อทางเรา จะแก้ให้ฟรี ทักไอจีพร้อมรูปชัด ๆ ภายใน 3 วัน เราจะนัดเวลารีทัช",
+          q: "ถ้าทรงที่เลือกไม่เข้ากับรูปตาเราตอนใส่จริงล่ะ",
+          a: "บอกครูหญิงตอนนัดได้เลย ถ้า mapping ยังไม่เข้าที่กับตา จะปรับเคิร์ล การกระจายความยาว หรือตำแหน่งแฟนได้ก่อนวางเซตเยอะขึ้น หลังเซตเสร็จ ถ้าไม่ถูกใจการตัดสินใจเรื่องทรง (ไม่ใช่ขนตาหลุดผิดปกติ) จุดที่ปรับทิศทางได้ตามธรรมชาติคือเซตเติมหรือเซตใหม่ครั้งถัดไป การหลุดผิดปกติจากปัญหากาวหรือการต่อใน 3 วันแรกครอบคลุมในรับประกันรีทัชต่างหาก",
         },
         {
           q: "ถ้าต่อขนตาครั้งแรก ควรเริ่มจากทรงไหน",
