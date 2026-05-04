@@ -58,7 +58,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How long does a first lash extension appointment take?",
-          a: "Plan for two to two-and-a-half hours for a full set. The first 10 to 15 minutes are consultation and mapping — Ying examines how your natural lashes grow, picks the curl and length range, and marks placement zones before any extension is applied. The rest of the time is the actual application, isolating and bonding one natural lash at a time. The room is calm and many clients fall asleep through it; expect to walk out around the two-hour mark with a full set.",
+          a: "Anywhere from 1 hour to 2.5 hours, depending on the style you pick and the mapping. Lighter styles like Classic 1:1 or Light Volume sit at the shorter end; Mega Volume and detailed cat-eye or doll-eye mapping sit at the longer end. Ying confirms the timing at the start of every appointment, after the quick consultation, so you know exactly how long to plan for before any extensions are applied.",
         },
         {
           q: "How often do I need to come back for a refill?",
@@ -66,7 +66,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "What if my chosen lash style doesn't suit my eye shape once it's applied?",
-          a: "Tell Ying during the appointment. If the mapping isn't sitting right on your eye, she can adjust the curl, length distribution, or fan placement before more sets are bonded. After the appointment, if you're unhappy with the stylistic call (rather than abnormal shedding), the natural moment to change direction is your next refill or full set. Abnormal shedding from glue or application issues within three days is covered separately by the retouch guarantee.",
+          a: "Most fine-tuning happens at your next refill — Ying adjusts the mapping, length distribution, or curl to bring the set closer to what's working for you. If you want a full stylistic change before your refill, it can be redone for a partial fee. Right after every appointment, every client gets a quick aftercare consultation — what to do and not do in the first 24 to 48 hours — so the set holds the way it was designed.",
         },
         {
           q: "Is My Lash House English-friendly?",
@@ -88,7 +88,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "นัดต่อขนตาครั้งแรกใช้เวลานานแค่ไหน",
-          a: "เผื่อเวลา 2 ถึง 2 ชั่วโมงครึ่งสำหรับเซตเต็ม 10-15 นาทีแรกคือการคุยและ mapping — ครูหญิงจะดูว่าขนตาธรรมชาติของคุณขึ้นยังไง เลือกเคิร์ลและช่วงความยาว แล้วทำเครื่องหมายโซนการวางก่อนต่อเส้นแรก ที่เหลือคือเวลาในการต่อทีละเส้น ห้องเงียบสบาย ลูกค้าส่วนใหญ่หลับไประหว่างนั้น คาดว่าจะเสร็จและออกจากร้านราว ๆ สองชั่วโมงพร้อมเซตเต็ม",
+          a: "ใช้เวลาประมาณ 1 ถึง 2.5 ชั่วโมง ขึ้นอยู่กับทรงที่เลือกและรูปแบบการ mapping ทรงเบา ๆ อย่าง Classic 1:1 หรือ Light Volume จะอยู่ฝั่งสั้น ส่วน Mega Volume หรือการ mapping แบบ cat-eye/doll-eye ละเอียดจะอยู่ฝั่งยาว ครูหญิงจะยืนยันเวลาที่ต้องใช้ตอนเริ่มนัดทุกครั้ง หลังคุยสั้น ๆ ลูกค้าจะรู้ก่อนเลยว่าใช้เวลาประมาณไหน ก่อนที่จะเริ่มต่อเส้นแรก",
         },
         {
           q: "ต้องกลับมาเติมขนตาบ่อยแค่ไหน",
@@ -96,7 +96,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ถ้าทรงที่เลือกไม่เข้ากับรูปตาเราตอนใส่จริงล่ะ",
-          a: "บอกครูหญิงตอนนัดได้เลย ถ้า mapping ยังไม่เข้าที่กับตา จะปรับเคิร์ล การกระจายความยาว หรือตำแหน่งแฟนได้ก่อนวางเซตเยอะขึ้น หลังเซตเสร็จ ถ้าไม่ถูกใจการตัดสินใจเรื่องทรง (ไม่ใช่ขนตาหลุดผิดปกติ) จุดที่ปรับทิศทางได้ตามธรรมชาติคือเซตเติมหรือเซตใหม่ครั้งถัดไป การหลุดผิดปกติจากปัญหากาวหรือการต่อใน 3 วันแรกครอบคลุมในรับประกันรีทัชต่างหาก",
+          a: "การปรับเล็ก ๆ ส่วนใหญ่ทำในรอบเติมถัดไป — ครูหญิงปรับ mapping การกระจายความยาว หรือเคิร์ล ให้เข้ากับลุคที่ลงตัวกับคุณมากขึ้น ถ้าอยากเปลี่ยนทรงทั้งเซตก่อนถึงรอบเติม สามารถทำใหม่ได้ในราคาบางส่วน หลังเซตเสร็จทุกครั้ง ลูกค้าจะได้คุยสั้น ๆ เรื่องวิธีดูแล — สิ่งที่ทำได้และทำไม่ได้ใน 24-48 ชั่วโมงแรก — เพื่อให้เซตอยู่ทรงตามที่ออกแบบไว้",
         },
         {
           q: "ถ้าต่อขนตาครั้งแรก ควรเริ่มจากทรงไหน",
