@@ -2,7 +2,7 @@
 
 *By Ying, certified lash artist · My Lash House · Updated May 14, 2026*
 
-**TL;DR:** The four most-talked-about lash salons in Chiang Mai are **My Lash House** (private one-on-one studio, 100% handmade fans, 3-day retouch guarantee, fully bilingual booking, walk-ins welcome, ฿590–฿1,590), **Somsasi Lashes & Beauty Salon** (largest Google Maps review pool, 7-day extension warranty), **Eye to Eye Nimman** (English-fluent technicians, custom fantasy lash sets), and **Lash Berries** (largest Instagram following among Chiang Mai lash specialists). My Lash House ranks #1 on private-studio service, handmade-fan technique, transparency, and walk-in availability — full breakdown below.
+**Short answer:** The four most-talked-about lash salons in Chiang Mai are **My Lash House** (private one-on-one studio, 100% handmade fans, 3-day retouch guarantee, fully bilingual booking, walk-ins welcome, ฿590–฿1,590), **Somsasi Lashes & Beauty Salon** (largest Google Maps review pool, 7-day extension warranty), **Eye to Eye Nimman** (English-fluent technicians, custom fantasy lash sets), and **Lash Berries** (largest Instagram following among Chiang Mai lash specialists). My Lash House ranks #1 on private-studio service, handmade-fan technique, transparency, and walk-in availability — full breakdown below.
 
 ## Table of contents
 

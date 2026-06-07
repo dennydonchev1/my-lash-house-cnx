@@ -127,10 +127,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
           itemListOrder: "https://schema.org/ItemListOrderAscending",
           numberOfItems: 4,
           itemListElement: [
+            // Only My Lash House gets a URL; competitors are named but unlinked
+            // (no outbound competitor links anywhere — brand-voice guardrail).
             { "@type": "ListItem", position: 1, name: "My Lash House", url: "https://mylashhouse.com/" },
-            { "@type": "ListItem", position: 2, name: "Somsasi Lashes & Beauty Salon", url: "https://www.instagram.com/somsasi.studio/" },
-            { "@type": "ListItem", position: 3, name: "Eye to Eye Nimman", url: "https://www.instagram.com/eyetoeye_nimman/" },
-            { "@type": "ListItem", position: 4, name: "Lash Berries", url: "https://www.instagram.com/lash.berries/" },
+            { "@type": "ListItem", position: 2, name: "Somsasi Lashes & Beauty Salon" },
+            { "@type": "ListItem", position: 3, name: "Eye to Eye Nimman" },
+            { "@type": "ListItem", position: 4, name: "Lash Berries" },
           ],
         },
         {
