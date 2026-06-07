@@ -127,8 +127,13 @@ export default async function RootLayout({
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 18.7870732,
-      longitude: 99.0412865,
+      // San Klang sub-district centroid (San Kamphaeng District, postcode 50130).
+      // OSM had no entry for Pruksa Ville San Klang specifically; previous coords
+      // (18.7870732, 99.0412865) reverse-geocoded ~10km away in the wrong district
+      // (Nong Pa Khrang / Mueang Chiang Mai, postcode 50000). Replace with precise
+      // GBP pin coordinates when available.
+      latitude: 18.7664587,
+      longitude: 99.0553967,
     },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",

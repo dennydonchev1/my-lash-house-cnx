@@ -149,7 +149,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
             postalCode: "50130",
             addressCountry: "TH",
           },
-          geo: { "@type": "GeoCoordinates", latitude: 18.7870732, longitude: 99.0412865 },
+          // San Klang sub-district centroid (San Kamphaeng, 50130). Replace with the precise GBP pin when available.
+          geo: { "@type": "GeoCoordinates", latitude: 18.7664587, longitude: 99.0553967 },
           openingHoursSpecification: [
             {
               "@type": "OpeningHoursSpecification",
