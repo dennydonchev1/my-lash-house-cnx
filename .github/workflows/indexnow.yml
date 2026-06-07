@@ -1,0 +1,24 @@
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract URLs from sitemap and ping IndexNow
+        run: |
+          SITEMAP_URL="https://mylashhouse.com/sitemap.xml"
+          curl -s "$SITEMAP_URL" \
+            | grep -oP '(?<=<loc>)[^<]+' \
+            | jq -R . | jq -s . > urls.json
+          URLS=$(cat urls.json)
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"host\": \"mylashhouse.com\",
+              \"key\": \"b41d7864b572482362e847ed5854099c\",
+              \"keyLocation\": \"https://mylashhouse.com/b41d7864b572482362e847ed5854099c.txt\",
+              \"urlList\": $URLS
+            }"
