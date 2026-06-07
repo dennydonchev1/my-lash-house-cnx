@@ -161,7 +161,7 @@ export default function BlogPost({
           </div>
 
           {/* Markdown content */}
-          <div className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-charcoal prose-h1:text-4xl prose-h1:sm:text-5xl prose-h2:text-2xl prose-h2:sm:text-3xl prose-h2:mt-12 prose-h3:text-xl prose-h3:sm:text-2xl prose-a:text-plum hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:border-rose prose-blockquote:not-italic prose-li:my-1">
+          <div className="prose prose-lg max-w-none break-words prose-headings:font-heading prose-headings:text-charcoal prose-h1:text-3xl prose-h1:sm:text-4xl prose-h1:lg:text-5xl prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:lg:text-3xl prose-h2:mt-12 prose-h3:text-lg prose-h3:sm:text-xl prose-h3:lg:text-2xl prose-a:text-plum prose-a:break-words hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:border-rose prose-blockquote:not-italic prose-li:my-1 prose-img:rounded-xl">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
@@ -177,6 +177,26 @@ export default function BlogPost({
                     <img src={src as string} alt={alt ?? ""} loading="lazy" className="rounded-xl" />
                   );
                 },
+                // Wrap every markdown table in a horizontal-scroll container so wide
+                // tables (e.g. the listicle's 8-column at-a-glance) don't blow out
+                // mobile viewports. Without this, the page itself horizontally scrolls.
+                table: ({ children }) => (
+                  <div className="not-prose -mx-4 my-6 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+                    <table className="min-w-full text-sm">
+                      {children}
+                    </table>
+                  </div>
+                ),
+                th: ({ children }) => (
+                  <th className="whitespace-nowrap border-b border-cream-dark bg-cream-dark px-3 py-2 text-left font-semibold">
+                    {children}
+                  </th>
+                ),
+                td: ({ children }) => (
+                  <td className="border-b border-cream-dark/50 px-3 py-2 align-top">
+                    {children}
+                  </td>
+                ),
               }}
             >
               {content}
