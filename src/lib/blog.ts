@@ -22,6 +22,95 @@ export type BlogPostMeta = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "how-long-do-lash-extensions-last-chiang-mai",
+    // Thai-script slugs trigger 404 in Next.js standalone server; using transliteration.
+    slugTh: "tor-khon-ta-yoo-dai-nan-mai",
+    title: {
+      en: "How Long Do Lash Extensions Last? An Honest Answer from a Chiang Mai Lash Artist",
+      th: "ต่อขนตาอยู่ได้นานแค่ไหน? คำตอบตรง ๆ จากช่างต่อขนตาในเชียงใหม่",
+    },
+    metaTitle: {
+      en: "How Long Do Lash Extensions Last? (Chiang Mai Guide)",
+      th: "ต่อขนตาอยู่ได้นานแค่ไหน? คู่มือจากช่างเชียงใหม่",
+    },
+    description: {
+      en: "How long do lash extensions actually last, what affects shedding, and the aftercare rules that get you the full 3–4 weeks. Includes our 3-day retouch guarantee.",
+      th: "ต่อขนตาอยู่ได้นานแค่ไหนจริง ๆ อะไรทำให้หลุดเร็ว และวิธีดูแลที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์ พร้อมรายละเอียดรับประกันรีทัช 3 วันของเรา",
+    },
+    publishedAt: "2026-06-07",
+    updatedAt: "2026-06-07",
+    author: "Ying",
+    heroImage: "/images/service-natural.jpg",
+    heroImageAlt: {
+      en: "Close-up of natural-look lash extensions by My Lash House Chiang Mai, illustrating typical lash extension longevity and aftercare",
+      th: "ภาพระยะใกล้ของขนตาต่อทรงธรรมชาติ โดย My Lash House เชียงใหม่ แสดงอายุการใช้งานและการดูแลหลังต่อขนตา",
+    },
+    readingMinutes: 7,
+    tags: ["lash extensions", "longevity", "aftercare", "retouch guarantee", "chiang mai", "ต่อขนตา"],
+    faq: {
+      en: [
+        {
+          q: "How long do lash extensions last?",
+          a: "With proper aftercare, a professionally applied set lasts 3–4 weeks before you'll want a refill. Individual extensions shed with the natural lash they're glued to, on your normal 60–90 day lash cycle.",
+        },
+        {
+          q: "Why did my last lash extensions fall out in a week?",
+          a: "Almost always one of three things: cheap or expired glue that breaks down in Chiang Mai's humidity, premade fans that are too heavy for the natural lash, or rushed isolation that glues two natural lashes together so they pull each other out. Aftercare (water, oil-based products, rubbing) can also halve the lifespan of any set.",
+        },
+        {
+          q: "What does My Lash House's 3-day retouch guarantee cover?",
+          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side — message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 2 hours, or using oil-based cleansers and removers.",
+        },
+        {
+          q: "Can I get lash extensions wet?",
+          a: "Not for the first 24 hours — that's when the glue is curing. After day one, normal showering and gentle washing is fine. Avoid steam rooms, saunas, and submerging your face for long periods. Always pat dry with a lint-free cloth; never rub.",
+        },
+        {
+          q: "How often should I get a refill?",
+          a: "Every 2–3 weeks is the sweet spot. The set still looks dense, and the artist has enough remaining lashes to map cleanly into. If you wait longer than 4 weeks, a refill often costs the same as a fresh full set and looks worse — better to start over.",
+        },
+        {
+          q: "Will lash extensions damage my natural lashes?",
+          a: "Properly applied extensions don't damage natural lashes. Damage comes from oversized fans on weak lashes, poor isolation, or pulling at them yourself. The 0.05mm handmade fans we use sit lightly and shed with the natural lash on its normal cycle.",
+        },
+        {
+          q: "How do I clean lash extensions?",
+          a: "Use a dedicated lash shampoo (foam-type works best), once a day. Apply with the soft brush, rinse with cool water, pat dry with a lint-free cloth, then brush through with the spoolie we send you home with. Avoid cotton pads and any oil-based cleansers near the eye area.",
+        },
+      ],
+      th: [
+        {
+          q: "ต่อขนตาอยู่ได้นานแค่ไหน",
+          a: "ถ้าดูแลถูกวิธี เซตที่ต่อโดยช่างมืออาชีพจะอยู่ได้ 3–4 สัปดาห์ก่อนต้องเข้ามาเติม เส้นที่ต่อจะหลุดไปพร้อมกับขนตาธรรมชาติเส้นที่มันติด ตามวงจรขนตาปกติ 60–90 วัน",
+        },
+        {
+          q: "ทำไมขนตาที่ต่อรอบที่แล้วหลุดภายในสัปดาห์เดียว",
+          a: "ส่วนใหญ่เกิดจาก 3 สาเหตุ: กาวคุณภาพต่ำหรือหมดอายุที่ทนความชื้นเชียงใหม่ไม่ไหว แฟนสำเร็จรูปที่หนักเกินไปสำหรับขนตาธรรมชาติ หรือการแยกขนแบบรีบที่ติดขนตาธรรมชาติสองเส้นเข้าด้วยกันจนดึงกันออก การดูแลผิดวิธี (โดนน้ำ ใช้ของที่มีน้ำมัน ขยี้ตา) ก็ตัดอายุเซตลงครึ่งหนึ่งได้",
+        },
+        {
+          q: "การรับประกันรีทัช 3 วันของ My Lash House ครอบคลุมอะไรบ้าง",
+          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา — แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
+        },
+        {
+          q: "ต่อขนตาแล้วโดนน้ำได้ไหม",
+          a: "24 ชั่วโมงแรกห้ามโดน เป็นช่วงที่กาวยังเซตตัวอยู่ หลังจากวันแรกอาบน้ำและล้างหน้าเบา ๆ ได้ตามปกติ หลีกเลี่ยงห้องอบไอน้ำ ซาวน่า และการแช่น้ำนาน ๆ ซับให้แห้งด้วยผ้าไม่มีขุยเสมอ ห้ามถู",
+        },
+        {
+          q: "ควรเข้ามาเติมขนตาบ่อยแค่ไหน",
+          a: "ช่วง 2–3 สัปดาห์คือช่วงที่เหมาะที่สุด เซตยังดูแน่นพอ และช่างยังมีเส้นเหลือมากพอจะ map ทับได้สะอาด ถ้าทิ้งนานเกิน 4 สัปดาห์ การเติมมักราคาเท่ากับต่อเซตใหม่และผลออกมาแย่กว่า — ต่อใหม่จะดีกว่า",
+        },
+        {
+          q: "ต่อขนตาทำให้ขนตาธรรมชาติเสียไหม",
+          a: "ขนตาที่ต่อถูกต้องไม่ทำให้ขนตาธรรมชาติเสีย ความเสียหายเกิดจากแฟนใหญ่เกินไปบนขนตาบอบบาง การแยกขนไม่ดี หรือการดึงเองที่บ้าน แฟนแฮนด์เมด 0.05 มม. ที่เราใช้นั่งเบาและหลุดตามขนตาธรรมชาติในวงจรปกติ",
+        },
+        {
+          q: "ทำความสะอาดขนตาที่ต่อยังไง",
+          a: "ใช้แชมพูล้างขนตาโดยเฉพาะ (ชนิดโฟมใช้ดีที่สุด) วันละครั้ง ทาด้วยแปรงนิ่ม ๆ ล้างออกด้วยน้ำเย็น ซับด้วยผ้าไม่มีขุย แล้วหวีด้วยสปูลีย์ที่ทางร้านให้ติดมือไป หลีกเลี่ยงสำลีและคลีนเซอร์สูตรน้ำมันบริเวณรอบดวงตา",
+        },
+      ],
+    },
+  },
+  {
     slug: "lash-extensions-by-eye-shape-chiang-mai",
     // NOTE: Thai-script slugs trigger 404 in Next.js standalone server (known issue).
     // Using transliteration as fallback. Schema/title still uses Thai script for SEO signals.

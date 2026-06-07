@@ -160,8 +160,9 @@ export default function BlogPost({
               components={{
                 // Skip the markdown's first H1 image (we render hero above) and first H1 heading (we render in the markdown naturally)
                 img: ({ src, alt }) => {
-                  // Hero is rendered above; skip the first image in markdown if it points to hero
-                  if (src && typeof src === "string" && src.includes("eye-shape-lash-style-guide-chiang-mai")) {
+                  // Hero is rendered above; skip any markdown image that matches the post's hero image
+                  const heroBase = post.heroImage.split("/").pop()?.replace(/\.[^.]+$/, "");
+                  if (src && typeof src === "string" && heroBase && src.includes(heroBase)) {
                     return null;
                   }
                   return (
