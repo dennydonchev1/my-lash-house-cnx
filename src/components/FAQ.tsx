@@ -1,7 +1,19 @@
 "use client";
 
+import Link from "next/link";
 import FAQAccordion from "@/components/FAQAccordion";
 import { dict, type Lang } from "@/lib/i18n";
+
+const COMPARE_LINK = {
+  en: {
+    href: "/blog/best-lash-extensions-chiang-mai",
+    label: "See how we compare to other Chiang Mai lash studios →",
+  },
+  th: {
+    href: "/th/blog/tor-khon-ta-chiang-mai-tee-nai-dee",
+    label: "เปรียบเทียบกับร้านต่อขนตาอื่นในเชียงใหม่ →",
+  },
+};
 
 const faqs = {
   en: [
@@ -70,6 +82,8 @@ export default function FAQ({ lang = "en" }: { lang?: Lang }) {
   const t = dict[lang].faq;
   const items = faqs[lang];
 
+  const compare = COMPARE_LINK[lang];
+
   return (
     <section className="py-20 sm:py-28">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
@@ -79,6 +93,14 @@ export default function FAQ({ lang = "en" }: { lang?: Lang }) {
           heading={t.heading}
           headingHighlight={t.headingHighlight}
         />
+        <div className="mt-10 text-center">
+          <Link
+            href={compare.href}
+            className="text-sm font-medium text-plum underline-offset-4 transition-colors hover:text-rose-dark hover:underline"
+          >
+            {compare.label}
+          </Link>
+        </div>
       </div>
     </section>
   );
