@@ -25,10 +25,10 @@ export default function MobileBookingBar({ lang = "en" }: { lang?: Lang }) {
         href={BUSINESS.instagramUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex w-full items-center justify-center gap-2 rounded-full bg-plum py-3.5 text-base font-semibold text-white shadow-lg"
+        className="relative flex w-full items-center justify-center rounded-full bg-plum py-3.5 text-base font-semibold text-white shadow-lg"
       >
-        <Instagram className="h-5 w-5" />
-        {t.cta}
+        <Instagram className="absolute left-5 h-5 w-5" />
+        <span>{t.cta}</span>
       </a>
     </div>
   );
