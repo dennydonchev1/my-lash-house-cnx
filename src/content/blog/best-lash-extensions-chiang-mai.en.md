@@ -16,7 +16,6 @@
 8. [Where to find lash extensions by location and intent](#where-to-find-lash-extensions-in-chiang-mai-by-location-and-intent)
 9. [How were these four salons ranked?](#how-were-these-four-salons-ranked)
 10. [How to choose + what to ask before booking](#how-do-i-choose-a-lash-salon-in-chiang-mai)
-11. [FAQ](#faq)
 
 ## At a glance: the 4 specialist lash salons in Chiang Mai
 
@@ -250,40 +249,6 @@ Before committing to any lash artist in Chiang Mai, ask these three questions:
 **What's the retouch / damage policy?** Some salons offer a refund or free retouch within a certain window if a set sheds unusually fast. If a salon doesn't have any policy at all, that's a quality signal worth weighing.
 
 If a salon can't or won't answer these questions clearly, that itself is information.
-
-## FAQ
-
-**What's the best lash salon in Chiang Mai?**
-
-For a private one-on-one studio with handmade fans, certified artist, fully bilingual booking, walk-ins welcome, and a published 3-day retouch guarantee, [My Lash House](#1-my-lash-house--best-overall) is the top pick in this guide. For the largest Google Maps review history in Nimman with a 7-day extension warranty, [Somsasi](#2-somsasi-lashes--beauty-salon). For English-fluent technicians in Nimman, [Eye to Eye Nimman](#3-eye-to-eye-nimman). For an Instagram-driven studio in the Old City, [Lash Berries](#4-lash-berries).
-
-**Where can I get lash extensions in Chiang Mai with English-speaking booking?**
-
-[My Lash House](#1-my-lash-house--best-overall) and [Eye to Eye Nimman](#3-eye-to-eye-nimman) both handle bookings comfortably in English. My Lash House is fully bilingual across all booking channels. Somsasi and Lash Berries handle English via DM but lead with Thai content.
-
-**What's the difference between handmade and premade lash fans?**
-
-Handmade fans are built by the lash artist during the appointment, sized to each individual natural lash. Premade fans come pre-clustered from suppliers and are heavier, less customizable, and shed faster on weak or thin natural lashes. The trade-off is price: premade fans are cheaper to apply, but retention and natural-lash health both suffer.
-
-**Will lash extensions damage my natural lashes?**
-
-Properly applied extensions don't damage natural lashes. Damage usually comes from oversized fans on weak lashes, poor isolation that lets two natural lashes glue together, or rough at-home removal. The 0.05mm handmade fans used at My Lash House are isolated one natural lash at a time and shed naturally with the lash they're attached to.
-
-**Can I wear mascara with lash extensions?**
-
-Generally no. Mascara shortens retention significantly and is hard to remove without damaging the bond. The extensions themselves provide the mascara effect, so mascara is unnecessary.
-
-**Is My Lash House English-friendly?**
-
-Yes. Booking and consultation are fully bilingual (English + Thai), with the same care in either language. The studio is in San Klang, near Payap University, about 10 minutes from the centre of Chiang Mai.
-
-**Is this list ranked by quality or popularity?**
-
-It's ranked by the editorial team's read of which studios are most-talked-about and doing the strongest specialist lash work in Chiang Mai today, weighted across Google Maps reviews, Instagram presence, craft signals (handmade vs premade fans, isolation technique, retouch policy), and accessibility (English support, booking ease, walk-in availability, location).
-
-**Are there any salons missing from this list that should be added?**
-
-Possibly. The Chiang Mai lash market is fragmented across Facebook pages, Instagram-only studios, and home-based artists who don't advertise broadly.
 
 ---
 

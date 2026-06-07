@@ -194,7 +194,7 @@ export default function BlogPost({
           </section>
 
           {/* Back to blog link */}
-          <div className="mt-16 mb-12 border-t border-cream-dark pt-8">
+          <div className="mt-16 mb-12 border-t border-cream-dark pt-8 text-center">
             <Link
               href={blogIndexHref}
               className="inline-flex items-center gap-2 text-sm font-medium text-plum transition-colors hover:text-rose-dark"
