@@ -117,6 +117,13 @@ export default function BlogPost({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {post.extraSchemas?.[lang]?.map((schema, i) => (
+        <script
+          key={`extra-schema-${i}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
       <Navbar lang={lang} otherLangHref={otherLangHref} />
 

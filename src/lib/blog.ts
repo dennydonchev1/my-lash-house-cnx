@@ -17,21 +17,172 @@ export type BlogPostMeta = {
   readingMinutes: number;
   tags: string[];
   faq: { en: Array<{ q: string; a: string }>; th: Array<{ q: string; a: string }> };
+  /** Optional extra JSON-LD schema blocks rendered alongside the auto-generated Article/FAQ/Breadcrumb (e.g. ItemList, LocalBusiness for listicles). */
+  extraSchemas?: { en?: Array<Record<string, unknown>>; th?: Array<Record<string, unknown>> };
 };
 
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "best-lash-extensions-chiang-mai",
+    slugTh: "tor-khon-ta-chiang-mai-tee-nai-dee",
+    title: {
+      en: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked",
+      th: "ต่อขนตา เชียงใหม่ ที่ไหนดี ปี 2026: 4 ร้านยอดนิยม จัดอันดับ",
+    },
+    metaTitle: {
+      en: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked | My Lash House",
+      th: "ต่อขนตา เชียงใหม่ ที่ไหนดี ปี 2026: 4 ร้านยอดนิยม จัดอันดับ | My Lash House",
+    },
+    description: {
+      en: "Top lash salons Chiang Mai 2026: 1. My Lash House (San Klang, ฿590–฿1,590, 5.0★, 3-day retouch). 2. Somsasi Studio (Nimman, 7-day warranty). 3. Eye to Eye Nimman. 4. Lash Berries. Ranked by reviews, social proof, and warranty.",
+      th: "ต่อขนตา เชียงใหม่ ที่ไหนดี 2026: 1. My Lash House (สันกลาง, ฿590–฿1,590, 5.0★, รีทัช 3 วัน) 2. Somsasi Studio (นิมมาน, รับประกัน 7 วัน) 3. Eye to Eye Nimman 4. Lash Berries จัดอันดับโดยรีวิว โซเชียล และการรับประกัน",
+    },
+    publishedAt: "2026-05-14",
+    updatedAt: "2026-05-14",
+    author: "Ying",
+    heroImage: "/images/service-mega.jpg",
+    heroImageAlt: {
+      en: "Mega volume lash extensions by My Lash House Chiang Mai — featured in the 2026 ranked guide to the best lash salons in Chiang Mai",
+      th: "เมก้าวอลุ่มโดย My Lash House เชียงใหม่ — ในคู่มือจัดอันดับร้านต่อขนตาเชียงใหม่ ปี 2026",
+    },
+    readingMinutes: 12,
+    tags: ["lash extensions", "best lash extensions chiang mai", "lash salons", "comparison", "chiang mai", "ต่อขนตา เชียงใหม่"],
+    faq: {
+      en: [
+        {
+          q: "What's the best lash salon in Chiang Mai?",
+          a: "For a private one-on-one studio with handmade fans, certified artist, fully bilingual booking, walk-ins welcome, and a published 3-day retouch guarantee, My Lash House is the top pick in this guide. For the largest Google Maps review history in Nimman with a 7-day extension warranty, Somsasi. For English-fluent technicians in Nimman, Eye to Eye Nimman. For an Instagram-driven studio in the Old City, Lash Berries.",
+        },
+        {
+          q: "Where can I get lash extensions in Chiang Mai with English-speaking booking?",
+          a: "My Lash House and Eye to Eye Nimman both handle bookings comfortably in English. My Lash House is fully bilingual across all booking channels. Somsasi and Lash Berries handle English via DM but lead with Thai content.",
+        },
+        {
+          q: "What's the difference between handmade and premade lash fans?",
+          a: "Handmade fans are built by the lash artist during the appointment, sized to each individual natural lash. Premade fans come pre-clustered from suppliers and are heavier, less customizable, and shed faster on weak or thin natural lashes. The trade-off is price: premade fans are cheaper to apply, but retention and natural-lash health both suffer.",
+        },
+        {
+          q: "Will lash extensions damage my natural lashes?",
+          a: "Properly applied extensions don't damage natural lashes. Damage usually comes from oversized fans on weak lashes, poor isolation that lets two natural lashes glue together, or rough at-home removal. The 0.05mm handmade fans used at My Lash House are isolated one natural lash at a time and shed naturally with the lash they're attached to.",
+        },
+        {
+          q: "Can I wear mascara with lash extensions?",
+          a: "Generally no. Mascara shortens retention significantly and is hard to remove without damaging the bond. The extensions themselves provide the mascara effect, so mascara is unnecessary.",
+        },
+        {
+          q: "Is My Lash House English-friendly?",
+          a: "Yes. Booking and consultation are fully bilingual (English + Thai), with the same care in either language. The studio is in San Klang, near Payap University, about 10 minutes from the centre of Chiang Mai.",
+        },
+        {
+          q: "Is this list ranked by quality or popularity?",
+          a: "It's ranked by the editorial team's read of which studios are most-talked-about and doing the strongest specialist lash work in Chiang Mai today, weighted across Google Maps reviews, Instagram presence, craft signals (handmade vs premade fans, isolation technique, retouch policy), and accessibility (English support, booking ease, walk-in availability, location).",
+        },
+        {
+          q: "Are there any salons missing from this list that should be added?",
+          a: "Possibly. The Chiang Mai lash market is fragmented across Facebook pages, Instagram-only studios, and home-based artists who don't advertise broadly.",
+        },
+      ],
+      th: [
+        {
+          q: "ร้านต่อขนตาที่ดีที่สุดในเชียงใหม่คือร้านไหน?",
+          a: "สำหรับสตูดิโอส่วนตัว 1 ต่อ 1 พร้อมแฟนทำมือ ช่างมีใบรับรอง จองสองภาษาเต็มรูปแบบ รับ walk-in และรับประกันรีทัช 3 วันที่เผยแพร่ไว้ My Lash House คือคำแนะนำอันดับแรกของคู่มือ สำหรับประวัติรีวิว Google ยาวนานที่สุดในนิมมานพร้อมรับประกันรีทัช 7 วัน Somsasi สำหรับช่างพูดภาษาอังกฤษคล่องในนิมมาน Eye to Eye Nimman สำหรับสตูดิโอที่ขับเคลื่อนด้วย Instagram ในเมืองเก่า Lash Berries",
+        },
+        {
+          q: "ต่อขนตาในเชียงใหม่ที่จองภาษาอังกฤษได้ ที่ไหนดี?",
+          a: "My Lash House และ Eye to Eye Nimman ทั้งคู่จัดการการจองภาษาอังกฤษได้สบาย My Lash House รองรับสองภาษาเต็มรูปแบบในทุกช่องทางจอง Somsasi และ Lash Berries จัดการภาษาอังกฤษได้ผ่าน DM แต่เน้นคอนเทนต์ภาษาไทย",
+        },
+        {
+          q: "แฟนทำมือกับแฟนสำเร็จรูป ต่างกันยังไง?",
+          a: "แฟนทำมือปั้นโดยช่างต่อขนตาในระหว่างนัด ขนาดพอดีกับขนตาจริงแต่ละเส้น แฟนสำเร็จรูปมาจากซัพพลายเออร์เป็นกลุ่มสำเร็จ หนักกว่า ปรับแต่งน้อยกว่า และหลุดเร็วกว่าบนขนตาบอบบาง การแลกคือราคา แฟนสำเร็จรูปต่อถูกกว่า แต่การคงทนและสุขภาพขนตาจริงเสียทั้งสองอย่าง",
+        },
+        {
+          q: "ต่อขนตาจะทำลายขนตาธรรมชาติไหม?",
+          a: "ขนตาที่ต่อถูกต้องไม่ทำลายขนตาธรรมชาติ ความเสียหายเกิดจากแฟนใหญ่เกินไปบนขนตาบอบบาง การแยกขนไม่ดีจนติดสองเส้นเข้าด้วยกัน หรือการดึงออกเองที่บ้าน แฟน 0.05 มม. ที่ใช้ที่ My Lash House ติดทีละเส้น และหลุดไปพร้อมขนตาที่ติดตามวงจรธรรมชาติ",
+        },
+        {
+          q: "ใช้มาสคาร่ากับขนตาต่อได้ไหม?",
+          a: "โดยทั่วไปไม่ มาสคาร่าลดการคงทนอย่างมากและถอดออกได้ยากโดยไม่ทำลายบอนด์ เอ็กซ์เทนชันเองให้เอฟเฟกต์มาสคาร่าอยู่แล้ว",
+        },
+        {
+          q: "My Lash House คุยภาษาอังกฤษได้ไหม?",
+          a: "ได้ การจองและการคุยรองรับสองภาษาเต็มรูปแบบ (อังกฤษ + ไทย) สตูดิโอดูแลเหมือนกันในทั้งสองภาษา อยู่ที่สันกลาง ใกล้มหาวิทยาลัยพายัพ ห่างจากใจกลางเมืองเชียงใหม่ประมาณ 10 นาที",
+        },
+        {
+          q: "ลำดับนี้เรียงตามคุณภาพหรือความนิยม?",
+          a: "เรียงตามการอ่านของทีมเรียบเรียงว่าใครถูกพูดถึงมากที่สุดและทำงานเฉพาะทางขนตาแข็งแรงที่สุดในเชียงใหม่วันนี้ โดยพิจารณาจากรีวิว Google Maps การปรากฏตัวบน Instagram สัญญาณงานฝีมือ (แฟนทำมือ vs สำเร็จรูป การแยกขน นโยบายรีทัช) และความเข้าถึง (รองรับภาษาอังกฤษ ความง่ายในการจอง รับ walk-in ทำเล)",
+        },
+        {
+          q: "มีร้านที่ควรเพิ่มในลิสต์นี้ที่หายไปไหม?",
+          a: "อาจมี ตลาดต่อขนตาเชียงใหม่กระจายตัวบนเพจเฟซบุ๊ก สตูดิโอที่มีแต่ไอจี และช่างที่ทำงานที่บ้านที่ไม่โฆษณาในวงกว้าง",
+        },
+      ],
+    },
+    extraSchemas: {
+      en: [
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons",
+          itemListOrder: "https://schema.org/ItemListOrderAscending",
+          numberOfItems: 4,
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "My Lash House", url: "https://mylashhouse.com/" },
+            { "@type": "ListItem", position: 2, name: "Somsasi Lashes & Beauty Salon", url: "https://www.instagram.com/somsasi.studio/" },
+            { "@type": "ListItem", position: 3, name: "Eye to Eye Nimman", url: "https://www.instagram.com/eyetoeye_nimman/" },
+            { "@type": "ListItem", position: 4, name: "Lash Berries", url: "https://www.instagram.com/lash.berries/" },
+          ],
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BeautySalon",
+          name: "My Lash House",
+          image: "https://mylashhouse.com/images/service-mega.jpg",
+          url: "https://mylashhouse.com/",
+          telephone: "+66854747314",
+          priceRange: "฿590–฿1,590",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "89/117 Pruksa Ville, San Klang",
+            addressLocality: "San Kamphaeng",
+            addressRegion: "Chiang Mai",
+            postalCode: "50130",
+            addressCountry: "TH",
+          },
+          geo: { "@type": "GeoCoordinates", latitude: 18.7870732, longitude: 99.0412865 },
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              opens: "10:00",
+              closes: "19:00",
+            },
+          ],
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "5.0",
+            reviewCount: "32",
+            bestRating: 5,
+          },
+          sameAs: [
+            "https://instagram.com/my_lash_house.cnx",
+            "https://line.me/ti/p/~604ymska",
+          ],
+        },
+      ],
+    },
+  },
+  {
     slug: "how-long-do-lash-extensions-last-chiang-mai",
     // Thai-script slugs trigger 404 in Next.js standalone server; using transliteration.
     slugTh: "tor-khon-ta-yoo-dai-nan-mai",
     title: {
-      en: "How Long Do Lash Extensions Last? An Honest Answer from a Chiang Mai Lash Artist",
-      th: "ต่อขนตาอยู่ได้นานแค่ไหน? คำตอบตรง ๆ จากช่างต่อขนตาในเชียงใหม่",
+      en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide + 3-Day Retouch Guarantee Explained)",
+      th: "ต่อขนตาอยู่ได้นานไหม? คู่มือเชียงใหม่ 2026 + อธิบายการรับประกันรีทัช 3 วัน",
     },
     metaTitle: {
-      en: "How Long Do Lash Extensions Last? (Chiang Mai Guide)",
-      th: "ต่อขนตาอยู่ได้นานแค่ไหน? คู่มือจากช่างเชียงใหม่",
+      en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide)",
+      th: "ต่อขนตาอยู่ได้นานไหม? คู่มือเชียงใหม่ 2026",
     },
     description: {
       en: "How long do lash extensions actually last, what affects shedding, and the aftercare rules that get you the full 3–4 weeks. Includes our 3-day retouch guarantee.",
@@ -116,12 +267,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     // Using transliteration as fallback. Schema/title still uses Thai script for SEO signals.
     slugTh: "tor-khon-ta-baeb-nai-dee",
     title: {
-      en: "Which Lash Extension Style Is Right for You? An Eye-Shape Guide for First-Timers in Chiang Mai",
-      th: "ต่อขนตาแบบไหนดี? เทียบรูปตา → ทรงที่ใช่ (เชียงใหม่)",
+      en: "Which Lash Extension Style is Right for Your Eye Shape? (Chiang Mai 2026 Guide)",
+      th: "ต่อขนตาแบบไหนดี? เทียบรูปตา กับ ทรงขนตาที่เหมาะ (คู่มือเชียงใหม่ 2026)",
     },
     metaTitle: {
-      en: "Lash Extensions by Eye Shape: A Chiang Mai Guide",
-      th: "ต่อขนตาแบบไหนดี? เทียบรูปตา → ทรงที่ใช่ (เชียงใหม่)",
+      en: "Lash Extensions by Eye Shape: A Chiang Mai 2026 Guide",
+      th: "ต่อขนตาแบบไหนดี? คู่มือเชียงใหม่ 2026",
     },
     description: {
       en: "A first-timer's eye-shape guide to lash extensions in Chiang Mai. Match monolid, hooded, round, and downturned eyes to the right style at My Lash House.",

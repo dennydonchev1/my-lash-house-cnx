@@ -1,58 +1,51 @@
-# Which Lash Extension Style Is Right for You? An Eye-Shape Guide for First-Timers in Chiang Mai
+# Which Lash Extension Style is Right for Your Eye Shape? (Chiang Mai 2026 Guide)
 
-![Editorial illustration of six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — labelled in English and Thai, for the My Lash House lash style guide](/images/blog/eye-shape-lash-style-guide-chiang-mai.jpeg)
+*Published by My Lash House · Compiled by Ying, certified lash artist · Originally published April 30, 2026 · Last updated May 12, 2026*
 
-If it’s your first time getting lash extensions in Chiang Mai, the style you pick matters more than the price.
+*Disclosure: This guide is published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. It reflects the mapping methodology used at the studio. Where a different approach (a specific salon style, a different lash technique) might suit a reader better, this guide says so directly.*
 
-The same set of lashes will look completely different on a monolid than on a hooded eye. The right match is what makes a good set look like *you* on a good morning. Not someone else’s eyes pasted onto your face.
+![Editorial illustration of six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — labelled in English and Thai, for the My Lash House lash style guide](/images/blog/eye-shape-lash-style-guide-chiang-mai.webp)
 
-This is the guide we wish more first-time clients had read before booking. It’s based on how Ying maps lashes at My Lash House. Every fan is handmade during your appointment, and every set is designed around the eye it’s going on.
+For a first lash extension appointment in Chiang Mai, the style choice matters more than the price. The same set will look completely different on a monolid than on a hooded eye. The right match makes a good set look like *the client* on a good morning, not like someone else's eyes pasted onto their face.
 
-## The short answer: eye shape to lash style
+This guide outlines how Ying maps lashes at My Lash House. Every fan is handmade during the appointment, every set is designed around the eye it's going on, and every appointment opens with a real consultation rather than a paperwork form.
 
-![Comparison chart: six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — each with the recommended lash extension styles (Classic, Hybrid, Light Volume, Wispy Volume, Mega Volume) and lash mappings (Cat Eye, Doll Eye, Kitten Eye), from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
+## The short answer
+
+The right lash extension style depends on the eye shape it's going on. The starting points: **Wispy Volume or Light Volume for monolids** (lifts the lid); **Classic Volume or Hybrid for double eyelids** (soft and balanced); **Mega Volume with cat-eye mapping for downturned eyes** (lifts the outer corner); **Russian Volume with doll-eye mapping for round eyes** (elongates without widening); **Wispy Volume for hooded eyes** (stays visible past the hood); **Hybrid or Classic Volume with inner-corner weight for wide-set eyes** (visual centre of gravity moves inward). Each row in the quick-reference table below is a starting point. The final design is refined during the in-person consultation, once the artist can see how the client's natural lashes actually grow.
+
+## Quick reference: eye shape to lash style
+
+![Comparison chart: six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — each with the recommended lash extension styles and lash mappings, from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
 
 | Eye shape | Recommended starting style | Effect |
 |---|---|---|
-| Single eyelid (ตาชั้นเดียว) | Wispy Volume or Light Volume | Lifts the lid, opens the eye |
+| Single eyelid (ตาชั้นเดียว / monolid) | Wispy Volume or Light Volume | Lifts the lid, opens the eye |
 | Double eyelid (ตาสองชั้น) | Classic Volume or Hybrid | Soft, balanced, beginner-friendly |
 | Downturned (หางตาตก) | Mega Volume, cat-eye mapping | Lifts the outer corner |
 | Round (ตากลม) | Russian Volume, doll-eye mapping | Elongates without widening |
 | Hooded (หนังตาปิด) | Wispy Volume | Stays visible past the hood |
 | Wide-set (ตาห่าง) | Hybrid or Classic Volume, inner-corner weight | Pulls the eyes visually closer |
 
-Each pairing is a starting point. The *why* and the *how it gets refined* — and what "Cat Eye" or "Doll Eye" actually mean in practice — are below.
+## What makes the My Lash House eye-shape mapping different
 
-## Why eye shape matters more than the trend
+My Lash House is a private one-on-one lash studio in San Klang, Chiang Mai. Founder Ying is a certified lash artist with 7+ years of experience. Every fan is handmade during the appointment, never premade. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 32 Google reviews. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, with walk-ins and same-day appointments accepted subject to availability.
 
-A trending style on Instagram is usually one shape of eye, wearing one specific style of lash.
+For a broader comparison of all the specialist lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai (2026) ranked guide](/blog/best-lash-extensions-chiang-mai).
 
-Apply the same set to a different shape, and it can look heavy, droopy, or just generic. That’s the problem with premade fans and one-size menus. They don’t adjust.
+## Why does eye shape matter more than the trend?
 
-Custom mapping changes the result. Before any glue is applied, your artist marks out the lash line in zones. She decides where the longest pieces go, where to taper, and which curl will sit cleanly against your lid.
+A trending style on Instagram or TikTok is usually one specific shape of eye wearing one specific style of lash. Apply the same set to a different shape and it can look heavy, droopy, or just generic. That's the trade-off with premade fans and one-size menus: they don't adjust.
 
-At My Lash House, every fan is built by hand during your appointment, for the lash it’s going on. The design shifts as Ying works through your eye.
+Custom mapping changes the result. Before any glue is applied, the artist marks out the lash line in zones. She decides where the longest pieces go, where to taper, and which curl will sit cleanly against the lid.
 
-Two clients with the “same” eye shape can still walk out with different sets. That’s the point.
+Two clients with the same broad eye shape can still walk out with different sets. That's the point.
 
-## Lash mapping: where the longest lashes go
+## How do I find my eye shape?
 
-The style decides how dense and dramatic the set looks. The mapping decides what shape the eye reads as. They’re separate decisions, and the second is what most first-timers don’t realise they’re choosing.
+For readers who've never thought about their eye shape before: take three photos in natural light. One looking straight ahead, one with eyes closed, and one in profile. The shape of the lid, the visible eyelid space, and the angle the lashes grow at will tell the artist where to start.
 
-A mapping is the placement pattern: which sections of the lash line get the longest fans, which get medium, and which stay shorter. The four common ones at My Lash House:
-
-- **Cat Eye** — heaviest at the outer corner, tapering shorter toward the inner. Lifts the eye and pulls it longer. Best on **downturned** eyes, and anyone wanting a sultry, slightly upturned read.
-- **Doll Eye** — heaviest in the centre, shorter at both corners. Opens the eye and adds roundness. Be careful on already-round eyes — it can read as surprised.
-- **Kitten Eye** — a softer cat eye. Slight outer-corner bias without the full dramatic flick. Versatile and daytime-friendly.
-- **Hybrid / Natural** — lengths follow the natural growth pattern with no engineered bias. Reads as “just longer lashes,” not as a reshape.
-
-The same volume technique with two different mappings produces two different sets. Ying picks the mapping in person by reading how your eyes sit when relaxed, where your natural lashes already dominate, and which direction you want the eye to read.
-
-## Find your eye shape
-
-If you’ve never thought about your eye shape before, take a few photos in good light. One straight on, one with eyes closed, and one in profile.
-
-The shape of the lid, the visible eyelid space, and how your lashes grow will all tell us where to start.
+The six common shapes are covered in detail below. Some readers fit into two categories at once (downturned and hooded, for example). That's normal, and a good lash artist maps to both at once.
 
 ### Single eyelid (ตาชั้นเดียว, monolid)
 
@@ -60,15 +53,13 @@ The shape of the lid, the visible eyelid space, and how your lashes grow will al
 
 Recommended: **Wispy Volume** or **Light Volume**.
 
-A single eyelid has little to no visible crease. That means lashes can sit close to or under the lid when the eye is open. The goal is to lift, not to add density that gets hidden.
+A single eyelid has little to no visible crease. Lashes can sit close to or under the lid when the eye is open. The goal is to lift, not to add density that gets hidden.
 
-Wispy Volume creates separated pieces of varied length. The longer “spike” pieces poke through the lid line, so the eye reads more open.
+Wispy Volume creates separated pieces of varied length. The longer "spike" pieces poke through the lid line, so the eye reads more open. Light Volume is softer and reads as natural-to-the-client. A lot of first-time monolid clients prefer it for everyday wear.
 
-Light Volume is softer and reads as natural-to-you. A lot of first-time monolid clients prefer it for everyday wear.
+Curl is the other half of the decision. A stronger curl (CC or D depending on natural lash) lifts off the lid better than a flatter J curl. Ying checks the angle lashes grow at, then picks during mapping.
 
-Curl is the other half of the decision. A stronger curl, often a CC or D depending on your natural lash, lifts off the lid better than a flatter J curl. Ying checks the angle your lashes grow at, then picks during mapping.
-
-Skip: Mega Volume in long lengths. The added weight can pull the lid down and undo the lift you’re after.
+Skip: Mega Volume in long lengths. The added weight can pull the lid down and undo the lift.
 
 ### Double eyelid (ตาสองชั้น)
 
@@ -76,13 +67,9 @@ Skip: Mega Volume in long lengths. The added weight can pull the lid down and un
 
 Recommended: **Classic Volume** or **Hybrid**.
 
-A defined double eyelid gives the lashes a natural display surface. Most styles work here.
+A defined double eyelid gives the lashes a natural display surface. Most styles work here. Classic Volume is a good first set: full enough to feel finished, light enough to wear daily without thinking about it. Hybrid mixes single classic extensions with handmade fans, gives the look a bit more texture, photographs well, and doesn't feel dramatic in person.
 
-Classic Volume is a good first set. Full enough to feel finished, light enough to wear daily without thinking about it.
-
-Hybrid mixes single classic extensions with handmade fans. The look has a bit more texture, photographs well, and doesn’t feel dramatic in person.
-
-If you’ve worn mascara comfortably for years and want lashes that feel like a polished version of that, this is the place to start.
+For clients who've worn mascara comfortably for years and want lashes that feel like a polished version of that, this is the place to start.
 
 ### Downturned eyes (หางตาตก)
 
@@ -90,13 +77,9 @@ If you’ve worn mascara comfortably for years and want lashes that feel like a 
 
 Recommended: **Mega Volume** with **cat-eye** mapping.
 
-Downturned eyes have outer corners that sit lower than the inner corners. They can read as soft or sleepy.
+Downturned eyes have outer corners that sit lower than the inner corners. They can read as soft or sleepy. Cat-eye mapping puts the longest, fullest pieces at the outer third of the lash line. The visual weight pulls upward, and the eye looks lifted. Mega Volume gives that section the density it needs to actually create the lift.
 
-Cat-eye mapping puts the longest, fullest pieces at the outer third of the lash line. The visual weight pulls upward, and the eye looks lifted. Mega Volume gives that section the density it needs to actually create the lift.
-
-Want something lighter for daytime? The same mapping works with Wispy Volume, a gentler version of the same effect.
-
-Both are worth discussing in the consultation. A heavy hand on cat-eye styling can tip from elegant to harsh quickly.
+For a lighter daytime look, the same mapping works with Wispy Volume, a gentler version of the same effect. Both are worth discussing in the consultation. A heavy hand on cat-eye styling can tip from elegant to harsh quickly.
 
 ### Round eyes (ตากลม)
 
@@ -104,13 +87,11 @@ Both are worth discussing in the consultation. A heavy hand on cat-eye styling c
 
 Recommended: **Russian Volume** with **doll-eye** mapping.
 
-Round eyes already sit open. Adding length and density across the whole lash line can over-round them. The goal is to elongate.
+Round eyes already sit open. Adding length and density across the whole lash line can over-round them. The goal is to elongate. Doll-eye mapping puts the longest pieces in the centre of the lid. The eye stretches horizontally, without flattening.
 
-Doll-eye mapping puts the longest pieces in the centre of the lid. The eye stretches horizontally, without flattening.
+Russian Volume's soft, fluffy fans suit this shape. They add length without harsh lines.
 
-Russian Volume’s soft, fluffy fans suit this shape. They add length without harsh lines.
-
-A small note from our chair. Many round-eyed clients are surprised by how subtle a properly mapped doll-eye set looks on day one. The shape only fully reads after a couple of days of wearing the lashes in real light.
+A note from the chair: many round-eyed clients are surprised by how subtle a properly mapped doll-eye set looks on day one. The shape only fully reads after a couple of days of wearing the lashes in real light.
 
 ### Hooded eyes (หนังตาปิด)
 
@@ -118,15 +99,11 @@ A small note from our chair. Many round-eyed clients are surprised by how subtle
 
 Recommended: **Wispy Volume**.
 
-Hooded eyes have a brow bone or extra lid skin that partly covers the lash line when the eye is open.
+Hooded eyes have a brow bone or extra lid skin that partly covers the lash line when the eye is open. The challenge is that a beautiful set applied flat against the lash line can disappear under the hood.
 
-The challenge is that a beautiful set, applied flat against the lash line, can disappear under the hood.
+Wispy Volume solves this. Longer "spike" pieces sit at the points where the hood lifts away from the lash. The lashes show through at the right moments instead of being swallowed.
 
-Wispy Volume solves this. Longer “spike” pieces sit at the points where the hood lifts away from the lash. The lashes show through at the right moments, instead of being swallowed.
-
-Curl needs care here too. Too much curl, and the lashes press up into the hood. Too little, and they tuck behind it.
-
-This is one of the eye shapes where in-person mapping makes the biggest difference. Every hood is shaped a little differently.
+Curl needs care here too. Too much curl, and the lashes press up into the hood. Too little, and they tuck behind it. This is one of the eye shapes where in-person mapping makes the biggest difference. Every hood is shaped a little differently.
 
 ### Wide-set eyes (ตาห่าง)
 
@@ -136,15 +113,13 @@ Recommended: **Hybrid** or **Classic Volume**, weight at the inner corners.
 
 Wide-set eyes have more space than usual between them. Cat-eye styling, which suits downturned eyes, tends to make wide-set eyes look even wider.
 
-The fix is the opposite map. More density and a touch more length at the inner corners, easing toward the outer edge. Hybrid or Classic Volume both balance this well, without going dramatic.
+The fix is the opposite map. More density and a touch more length at the inner corners, easing toward the outer edge. Hybrid or Classic Volume both balance this well, without going dramatic. The effect is subtle. The eyes don't actually move. The visual centre of gravity does, and the face reads more balanced.
 
-The effect is subtle. The eyes don’t actually move. The visual centre of gravity does, and the face reads more balanced.
+## What lash styles are on the menu?
 
-## Lash style menu at a glance
+For readers who want a sense of the full menu before the consultation:
 
-If you’d like a sense of the full menu before your consultation, here’s the short version.
-
-Pricing across the lash extension menu is currently ฿590–฿1,590. Check the [live menu on mylashhouse.com](/#pricing) for the current per-style price.
+Pricing across the lash extension menu is currently ฿590–฿1,590. The live menu on [mylashhouse.com](/#pricing) has the current per-style price.
 
 | Style (EN) | Style (TH) | Drama level | Best for |
 |---|---|---|---|
@@ -159,45 +134,69 @@ Pricing across the lash extension menu is currently ฿590–฿1,590. Check the
 | Mega Volume | เมก้าวอลุ่ม | 4 / 5 | Cat-eye, photoshoots, weddings |
 | Strip Lash | ขนตาปลอมทั้งแถบ | varies | Event or one-off wear |
 
-Add-ons available: color lashes, lash lift and tint.
+Add-ons available: color lashes, lash lift and tint. The studio also offers nails and waxing services for clients who want to combine appointments.
 
-## Other things to think about before you book
+## Pros and cons of choosing by eye shape (vs. picking from a trend)
 
-The right style for your eye shape is the starting point. A few practical factors usually shape the final call.
+**Pros of eye-shape mapping:**
 
-**Your daily routine.** Active days at the gym, in the pool, or working through Chiang Mai’s rainy-season humidity wear extensions down faster. If your week is mostly outdoors and sweaty, a lighter set holds up better than a heavy one.
+- The set actually flatters the individual face rather than copying a generic look
+- Lashes shed more evenly because the weight is matched to the natural lash strength in each zone
+- The set photographs well at multiple angles, not just the one Instagram shot
+- Fewer first-set surprises — clients know in advance whether the recommended style suits their daily routine
+- Retouches and infills are easier because the mapping is documented
 
-**How often you’d like to come in for a refill.** Most clients refill every two to three weeks. Heavier styles look fuller on day one. They can feel sparser sooner if you skip refills, simply because there’s more lash to lose. Lighter sets age more gracefully between visits.
+**Cons / things to consider:**
 
-**Whether you’ve worn lashes before.** First sets often feel slightly heavier than expected, even with a light style. Your eye adjusts within a day or two. If this is your first time, lean toward the lighter end of what suits your eye shape, not the most dramatic version.
+- The consultation takes longer than a "pick from the menu" booking
+- A bespoke map costs slightly more time at first set (20–30 extra minutes); pricing isn't different
+- The most-dramatic style isn't always the recommendation — clients who specifically want maximum drama may need to discuss whether the eye shape supports it
+- Two clients with similar eye shapes can walk out with different sets, which can feel surprising if a reader expects an off-the-shelf result
 
-**Eye sensitivity and contact lenses.** Tell us about any history of irritation, adhesive allergies, or daily contact-lens use during the consultation. We can adjust glue, tape placement, and aftercare advice to fit.
+## What else should I think about before booking?
 
-## What to expect at your first appointment
+The right style for the eye shape is the starting point. A few practical factors usually shape the final call.
 
-Your first set takes around two hours. Most of that is the application. But the appointment opens with a real consultation, not a paperwork form.
+**Daily routine.** Active days at the gym, in the pool, or working through Chiang Mai's rainy-season humidity wear extensions down faster. For a mostly-outdoor week, a lighter set holds up better than a heavy one.
 
-We’ll talk through your eye shape, daily routine, and the look you have in mind. Ying checks how your natural lashes grow, the condition they’re in, and which curl and length range will sit cleanly.
+**Refill frequency.** Most clients refill every two to three weeks. Heavier styles look fuller on day one. They can feel sparser sooner if refills get skipped, simply because there's more lash to lose. Lighter sets age more gracefully between visits. For a deeper look at how long extensions last between infills and what the 3-day retouch guarantee covers, see the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
-Then she maps the set on your closed eye, before any fans are made. Every fan is built by hand during the appointment, for the lash it’s going on. The design can be adjusted in real time as the set takes shape.
+**Prior experience with lashes.** First sets often feel slightly heavier than expected, even with a light style. The eye adjusts within a day or two. For a first appointment, leaning toward the lighter end of what suits the eye shape (not the most dramatic version) is the safer call.
 
-You lie back with your eyes closed for the application. The studio is quiet, one client at a time, no rushing. Many clients fall asleep, which is fine.
+**Eye sensitivity and contact lenses.** Tell the artist about any history of irritation, adhesive allergies, or daily contact-lens use during the consultation. The studio adjusts glue, tape placement, and aftercare to fit.
 
-Aftercare we’ll cover in detail at the end. The short version: no water for the first 24 hours, no oil-based products near the eyes, and a gentle clean with lash shampoo every day after that.
+## What happens at the first appointment?
 
-Every set comes with a **3-day retouch guarantee**. If lashes shed unusually fast in the first three days because of a glue or application issue on our side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos. We’ll book you in for a free retouch.
+A first set takes around 1.5–2.5 hours. Most of that is the application. The appointment opens with a real consultation, not a paperwork form. A red flag worth knowing: studios advertising a "30–45 minute full set" usually mean the artist isn't doing proper isolation or mapping — that's the most common cause of damaged natural lashes from extensions. The artist talks through eye shape, daily routine, and the look the client has in mind. Ying checks how the natural lashes grow, the condition they're in, and which curl and length range will sit cleanly.
 
-The guarantee doesn’t cover damage from rubbing, water exposure too soon after the appointment, or oil-based products.
+She then maps the set on the closed eye, before any fans are made. Every fan is built by hand during the appointment, for the lash it's going on. The design can be adjusted in real time as the set takes shape.
 
-## Still not sure? Send us a photo
+The client lies back with eyes closed for the application. The studio is quiet, one client at a time, no rushing. Many clients fall asleep, which is fine.
 
-If you can’t decide between two styles, or your eyes don’t fit one of the shapes above, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/). Send a clear photo with your eyes open, and one with them closed.
+Aftercare is covered in detail at the end. The short version: no water for the first 24 hours, no oil-based products near the eyes, and a gentle clean with lash shampoo every day after that.
 
-Ying replies with a recommendation, an estimated price, and the next available appointment.
+Every set comes with a **3-day retouch guarantee**. If lashes shed unusually fast in the first three days because of a glue or application issue on the studio's side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos. The studio will book the client in for a free retouch. The guarantee doesn't cover damage from rubbing, water exposure too soon after the appointment, or oil-based products.
 
-We’re at My Lash House, in San Klang, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open daily, 10:00 AM to 7:00 PM.
+## How was this guide written?
+
+This guide is compiled from the mapping process used at My Lash House for every new client. It reflects standard practices in custom lash extension work: handmade-fan technique, in-person eye mapping on the closed eye, curl selection based on natural-lash angle, and style recommendations adjusted to the individual eye shape rather than the latest social-media trend. Where claims are made (eye-shape definitions, recommended styles, expected results), they reflect studio practice and may vary by artist or studio. Readers comparing studios are encouraged to ask any lash artist about handmade-vs-premade fans, isolation technique, and the retouch policy before booking. Those three questions surface most quality differences quickly.
+
+The Thai-language version of this guide is at [/th/blog/tor-khon-ta-baeb-nai-dee](/th/blog/tor-khon-ta-baeb-nai-dee).
+
+## Still not sure which style fits? Send a photo
+
+For readers who can't decide between two styles, or whose eyes don't fit one of the shapes above neatly: [message on Instagram](https://www.instagram.com/my_lash_house.cnx/) with a clear photo (eyes open, eyes closed). Ying replies with a recommendation, an estimated price, and the next available appointment.
+
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00–19:00. Walk-ins and same-day appointments welcome.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
+---
+
+## About the author
+
+**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+
+This guide is updated quarterly to reflect new techniques, menu changes, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.
