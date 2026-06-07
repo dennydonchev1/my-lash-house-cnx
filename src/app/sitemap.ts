@@ -82,35 +82,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     },
     ...blogPosts,
-    {
-      url: `${base}/#services`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${base}/#gallery`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${base}/#pricing`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${base}/#reviews`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${base}/#contact`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
   ];
 }

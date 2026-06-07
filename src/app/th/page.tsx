@@ -58,8 +58,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://mylashhouse.com/th",
     languages: {
-      "en-TH": "https://mylashhouse.com",
-      "th-TH": "https://mylashhouse.com/th",
+      en: "https://mylashhouse.com",
+      th: "https://mylashhouse.com/th",
       "x-default": "https://mylashhouse.com",
     },
   },

@@ -18,21 +18,22 @@ export async function generateMetadata({
 
   const enUrl = `https://mylashhouse.com/blog/${post.slug}`;
   const thUrl = `https://mylashhouse.com/th/blog/${post.slugTh ?? post.slug}`;
+  const metaTitleTh = post.metaTitle?.th ?? post.title.th;
 
   return {
-    title: post.title.th,
+    title: metaTitleTh,
     description: post.description.th,
     keywords: post.tags,
     alternates: {
       canonical: thUrl,
       languages: {
-        "en-TH": enUrl,
-        "th-TH": thUrl,
+        en: enUrl,
+        th: thUrl,
         "x-default": enUrl,
       },
     },
     openGraph: {
-      title: post.title.th,
+      title: metaTitleTh,
       description: post.description.th,
       url: thUrl,
       type: "article",
@@ -44,7 +45,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title.th,
+      title: metaTitleTh,
       description: post.description.th,
       images: [post.heroImage],
     },

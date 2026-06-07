@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Playfair_Display, Inter } from "next/font/google";
 import { BUSINESS } from "@/lib/constants";
 import "./globals.css";
@@ -87,18 +88,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://mylashhouse.com",
     languages: {
-      "en-TH": "https://mylashhouse.com",
-      "th-TH": "https://mylashhouse.com/th",
+      en: "https://mylashhouse.com",
+      th: "https://mylashhouse.com/th",
       "x-default": "https://mylashhouse.com",
     },
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const hdrs = await headers();
+  const pathname = hdrs.get("x-pathname") ?? "/";
+  const htmlLang = pathname === "/th" || pathname.startsWith("/th/") ? "th" : "en";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
@@ -236,7 +240,7 @@ export default function RootLayout({
 
   return (
     <html
-      lang="en-TH"
+      lang={htmlLang}
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
       <head>

@@ -6,6 +6,8 @@ export type BlogPostMeta = {
   slug: string;
   slugTh?: string;
   title: { en: string; th: string };
+  /** Optional shorter title used in <title> / OG / Twitter when the H1 title exceeds ~60 chars. Falls back to `title`. */
+  metaTitle?: { en: string; th: string };
   description: { en: string; th: string };
   publishedAt: string;
   updatedAt: string;
@@ -26,6 +28,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-baeb-nai-dee",
     title: {
       en: "Which Lash Extension Style Is Right for You? An Eye-Shape Guide for First-Timers in Chiang Mai",
+      th: "ต่อขนตาแบบไหนดี? เทียบรูปตา → ทรงที่ใช่ (เชียงใหม่)",
+    },
+    metaTitle: {
+      en: "Lash Extensions by Eye Shape: A Chiang Mai Guide",
       th: "ต่อขนตาแบบไหนดี? เทียบรูปตา → ทรงที่ใช่ (เชียงใหม่)",
     },
     description: {

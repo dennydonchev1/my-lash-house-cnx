@@ -6,16 +6,24 @@ import MobileBookingBar from "@/components/MobileBookingBar";
 import { getAllPosts, getPostUrl } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog · My Lash House Chiang Mai",
+  title: "Lash Extension Guides & Aftercare · My Lash House Chiang Mai",
   description:
-    "Lash extension guides, aftercare tips, and style advice from a certified artist in Chiang Mai.",
+    "Honest lash extension guides from a certified artist in Chiang Mai — eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
   alternates: {
     canonical: "https://mylashhouse.com/blog",
     languages: {
-      "en-TH": "https://mylashhouse.com/blog",
-      "th-TH": "https://mylashhouse.com/th/blog",
+      en: "https://mylashhouse.com/blog",
+      th: "https://mylashhouse.com/th/blog",
       "x-default": "https://mylashhouse.com/blog",
     },
+  },
+  openGraph: {
+    title: "Lash Extension Guides & Aftercare · My Lash House Chiang Mai",
+    description:
+      "Honest lash extension guides from a certified artist in Chiang Mai — eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
+    url: "https://mylashhouse.com/blog",
+    type: "website",
+    locale: "en_TH",
   },
 };
 

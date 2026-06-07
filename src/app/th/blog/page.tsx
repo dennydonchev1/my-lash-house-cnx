@@ -6,15 +6,24 @@ import MobileBookingBar from "@/components/MobileBookingBar";
 import { getAllPosts, getPostUrl } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "บทความ · My Lash House เชียงใหม่",
-  description: "คู่มือต่อขนตา วิธีดูแล และคำแนะนำจากช่างที่ได้รับการรับรอง ในเชียงใหม่",
+  title: "คู่มือต่อขนตาและวิธีดูแล · My Lash House เชียงใหม่",
+  description:
+    "คู่มือต่อขนตาตรงไปตรงมา จากช่างที่ได้รับการรับรองในเชียงใหม่ — เทียบรูปตากับทรงที่ใช่ วิธีดูแลหลังต่อ ขนตาอยู่ได้นานแค่ไหน และสิ่งที่ควรรู้ก่อนนัดครั้งแรก",
   alternates: {
     canonical: "https://mylashhouse.com/th/blog",
     languages: {
-      "en-TH": "https://mylashhouse.com/blog",
-      "th-TH": "https://mylashhouse.com/th/blog",
+      en: "https://mylashhouse.com/blog",
+      th: "https://mylashhouse.com/th/blog",
       "x-default": "https://mylashhouse.com/blog",
     },
+  },
+  openGraph: {
+    title: "คู่มือต่อขนตาและวิธีดูแล · My Lash House เชียงใหม่",
+    description:
+      "คู่มือต่อขนตาตรงไปตรงมา จากช่างที่ได้รับการรับรองในเชียงใหม่ — เทียบรูปตากับทรงที่ใช่ วิธีดูแลหลังต่อ ขนตาอยู่ได้นานแค่ไหน และสิ่งที่ควรรู้ก่อนนัดครั้งแรก",
+    url: "https://mylashhouse.com/th/blog",
+    type: "website",
+    locale: "th_TH",
   },
 };
 
