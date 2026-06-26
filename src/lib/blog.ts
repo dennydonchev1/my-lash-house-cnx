@@ -24,6 +24,94 @@ export type BlogPostMeta = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "lash-extension-aftercare-chiang-mai",
+    slugTh: "withi-doolae-khonta-lang-tor",
+    title: {
+      en: "How to Care for Lash Extensions: The Day-by-Day Aftercare Guide (Chiang Mai 2026)",
+      th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน 4–5 สัปดาห์ — คู่มือวันต่อวัน จากช่างมืออาชีพเชียงใหม่",
+    },
+    metaTitle: {
+      en: "Lash Extension Aftercare: Day-by-Day Guide (Chiang Mai)",
+      th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน | My Lash House เชียงใหม่",
+    },
+    description: {
+      en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First 24 hours, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
+      th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างเชียงใหม่ 7+ ปี — 24 ชั่วโมงแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
+    },
+    publishedAt: "2026-06-26",
+    updatedAt: "2026-06-26",
+    author: "Ying",
+    heroImage: "/images/service-classic.jpg",
+    heroImageAlt: {
+      en: "Close-up of properly maintained lash extensions by My Lash House Chiang Mai — illustrating the day-by-day aftercare routine that gets a full 3–4 weeks of retention",
+      th: "ภาพระยะใกล้ของขนตาต่อที่ดูแลถูกวิธี โดย My Lash House เชียงใหม่ — แสดงการดูแลแบบวันต่อวันที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์",
+    },
+    readingMinutes: 7,
+    tags: ["lash extensions", "aftercare", "retention", "lash care", "chiang mai", "วิธีดูแลขนตาหลังต่อ"],
+    faq: {
+      en: [
+        {
+          q: "How many days do I have to keep my lash extensions dry after the appointment?",
+          a: "24 hours minimum — that's how long the cyanoacrylate adhesive takes to fully cure. For full bond strength, the safer rule is 48 hours. No showers with water on the face, no swimming, no steam, no heavy exercise during the cure window.",
+        },
+        {
+          q: "Which cleansers are safe to use with lash extensions?",
+          a: "Water-based foaming cleansers and gel cleansers labeled 'oil-free'. The dedicated lash shampoo sent home from the appointment is the safest option for daily lash-line cleaning. Avoid oil cleansers, cleansing balms, micellar water, and makeup remover wipes — all of them shorten retention.",
+        },
+        {
+          q: "Why are my lash extensions falling out fast?",
+          a: "Three common causes, in order: oil-based products near the eye area (the biggest single factor), sleeping face-down or on the side that's shedding faster, and rubbing the eyes when sleepy or itchy. Application issues show up in the first three days; aftercare issues show up across the full set lifespan.",
+        },
+        {
+          q: "Can I use an eyelash curler with lash extensions?",
+          a: "No. Eyelash curlers bend the extensions out of shape and crack the adhesive bond at the base. The extensions themselves are pre-curled to the curl level chosen at your appointment (J, B, C, D, or L) — that curl holds for the life of the set without any additional shaping.",
+        },
+        {
+          q: "Can I sleep on my side with lash extensions?",
+          a: "Yes, but the side you sleep on will shed faster than the opposite side, and the asymmetry becomes visible by week 3. Back sleeping retains best. If side sleeping is unavoidable, a silk pillowcase reduces friction and extends retention by an estimated 20–30%.",
+        },
+        {
+          q: "How often should I get my lash extensions refilled?",
+          a: "Every 2–3 weeks for fuller styles, 3–4 weeks for lighter styles (Classic 1:1, Light Volume). The sweet spot is when about 40–60% of the original set remains — enough for the artist to map cleanly into the existing shape. If it's been 4+ weeks, a fresh full set is usually the better call.",
+        },
+        {
+          q: "Can I wear mascara with lash extensions?",
+          a: "Mascara isn't necessary — the extensions already provide the mascara effect. If you absolutely need mascara for a specific event, use only water-based, lash-extension-safe formulas and apply to the tips, never the roots. Waterproof mascara is off-limits entirely because it requires oil-based remover.",
+        },
+      ],
+      th: [
+        {
+          q: "ต่อขนตามาห้ามโดนน้ำกี่วัน?",
+          a: "24 ชั่วโมงขั้นต่ำ — เป็นเวลาที่กาว cyanoacrylate ใช้ในการ cure เต็มที่ สำหรับบอนด์เต็มกำลัง กฎที่ปลอดภัยกว่าคือ 48 ชั่วโมง ห้ามอาบน้ำให้น้ำโดนหน้า ห้ามว่ายน้ำ ห้ามไอน้ำ ห้ามออกกำลังกายหนักในช่วง cure",
+        },
+        {
+          q: "ใช้คลีนเซอร์ตัวไหนได้บ้าง?",
+          a: "คลีนเซอร์โฟมสูตรน้ำและเจลคลีนเซอร์ที่ระบุ 'oil-free' แชมพูล้างขนตาที่ทางร้านให้ติดมือไปคือตัวเลือกที่ปลอดภัยที่สุดสำหรับทำความสะอาดขอบขนตาประจำวัน หลีกเลี่ยงออยล์คลีนเซอร์ คลีนซิ่งบาล์ม น้ำ micellar และทิชชูเช็ดเครื่องสำอาง — ทุกตัวลดอายุการคงทน",
+        },
+        {
+          q: "ทำไมขนตาที่ต่อหลุดเร็ว?",
+          a: "3 สาเหตุที่พบบ่อยที่สุด เรียงตามลำดับ: ผลิตภัณฑ์น้ำมันรอบดวงตา (ปัจจัยเดี่ยวใหญ่ที่สุด) นอนคว่ำหรือนอนทับด้านที่หลุดเร็วกว่า และขยี้ตาเวลาง่วงหรือคัน ปัญหาการต่อแสดงในช่วง 3 วันแรก ปัญหาการดูแลแสดงตลอดอายุเซต",
+        },
+        {
+          q: "ใช้ที่ดัดขนตาได้ไหม?",
+          a: "ไม่ได้ ที่ดัดขนตาดัดเอ็กซ์เทนชันให้เสียทรงและทำให้บอนด์กาวที่โคนแตก เอ็กซ์เทนชันเองมีเคิร์ลตามระดับที่เลือกในวันนัด (J, B, C, D หรือ L) — เคิร์ลนั้นคงอยู่ตลอดอายุเซตโดยไม่ต้องการการดัดเพิ่ม",
+        },
+        {
+          q: "นอนตะแคงได้ไหม?",
+          a: "ได้ แต่ด้านที่นอนทับจะหลุดเร็วกว่าอีกด้าน และความไม่สมมาตรเห็นได้พอเข้าสัปดาห์ที่ 3 นอนหงายคงทนดีที่สุด ถ้าหลีกเลี่ยงการนอนตะแคงไม่ได้ ปลอกหมอนผ้าไหมลดแรงเสียดทานและยืดการคงทนประมาณ 20–30%",
+        },
+        {
+          q: "ต้องเติมขนตาบ่อยแค่ไหน?",
+          a: "ทุก 2–3 สัปดาห์สำหรับทรงหนา 3–4 สัปดาห์สำหรับทรงเบา (Classic 1:1, Light Volume) ช่วงที่เหมาะที่สุดคือเมื่อเซตเดิมเหลือประมาณ 40–60% — พอให้ช่างแมพทับลงในรูปเดิม ถ้าทิ้งนาน 4+ สัปดาห์ ต่อเซตใหม่มักเป็นทางเลือกที่ดีกว่า",
+        },
+        {
+          q: "ใส่มาสคาร่าได้ไหม?",
+          a: "มาสคาร่าไม่จำเป็น — เอ็กซ์เทนชันให้เอฟเฟกต์มาสคาร่าอยู่แล้ว ถ้าจำเป็นต้องใช้มาสคาร่าในงานเฉพาะ ใช้เฉพาะสูตรน้ำที่ใช้กับขนตาต่อได้ ทาเฉพาะปลาย ห้ามแตะโคน มาสคาร่ากันน้ำห้ามใช้เด็ดขาดเพราะต้องใช้รีมูฟเวอร์สูตรน้ำมัน",
+        },
+      ],
+    },
+  },
+  {
     slug: "natural-lash-extensions-chiang-mai",
     slugTh: "tor-khon-ta-baeb-thammachat",
     title: {
