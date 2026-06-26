@@ -24,6 +24,86 @@ export type BlogPostMeta = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "natural-lash-extensions-chiang-mai",
+    slugTh: "tor-khon-ta-baeb-thammachat",
+    title: {
+      en: "Natural Lash Extensions in Chiang Mai — A Guide for Office Wear, Brides, and Anyone Who Wants \"Better Natural\"",
+      th: "ต่อขนตาแบบธรรมชาติ — สวยเหมือนไม่ได้ต่อ คู่มือสำหรับคนทำงานและงานแต่ง",
+    },
+    metaTitle: {
+      en: "Natural Lash Extensions in Chiang Mai (2026 Guide)",
+      th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House เชียงใหม่",
+    },
+    description: {
+      en: "Natural lash extensions in Chiang Mai — what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
+      th: "อยากต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อ? เลือกทรงและความหนาที่เหมาะกับชีวิตประจำวัน คู่มือจากช่างเชียงใหม่ 7+ ปี รับประกันรีทัช 3 วัน",
+    },
+    publishedAt: "2026-06-26",
+    updatedAt: "2026-06-26",
+    author: "Ying",
+    heroImage: "/images/service-natural.jpg",
+    heroImageAlt: {
+      en: "Close-up of a natural-style lash extension set by My Lash House Chiang Mai — light, daily-wear lashes designed to look like better natural lashes",
+      th: "ภาพระยะใกล้ของขนตาต่อทรงธรรมชาติ โดย My Lash House เชียงใหม่ — เซตเบาใส่ทุกวัน ออกแบบให้ดูเหมือนขนตาธรรมชาติที่ดีขึ้น",
+    },
+    readingMinutes: 8,
+    tags: ["lash extensions", "natural lashes", "classic 1:1", "office", "brides", "chiang mai", "ต่อขนตาแบบธรรมชาติ"],
+    faq: {
+      en: [
+        {
+          q: "Do natural lash extensions actually look like 'just my own lashes'?",
+          a: "Yes, when the curl, length, and density are calibrated to your own lashes. Classic 1:1 is the most natural style on the menu and looks indistinguishable from good genetic lashes. Natural Look and Light Volume are slightly fuller but still read as 'better natural' rather than styled.",
+        },
+        {
+          q: "How long do natural lash extensions last?",
+          a: "3–4 weeks before you'll want a refill, the same as other extension styles. Retention depends on aftercare more than style choice — water exposure in the first 24 hours and oil-based products near the eyes are the two biggest shorteners.",
+        },
+        {
+          q: "How much do natural lash extensions cost at My Lash House?",
+          a: "Classic 1:1 is ฿590, Natural Look is ฿790, Hybrid is ฿990, and Light Volume is ฿1,090. The full menu and add-ons (color lashes, lash lift, tint) are on the pricing page.",
+        },
+        {
+          q: "Which natural style looks the most natural?",
+          a: "Classic 1:1 is the most natural — one extension per natural lash, no density change, just length and definition. Natural Look is slightly fuller for clients who want a bit more presence in photos. Light Volume is the lightest of the volume family and adds fluffy softness without going dramatic.",
+        },
+        {
+          q: "Can I wear natural lash extensions to work?",
+          a: "Yes — natural-family styles are specifically designed for daily and professional wear. Classic 1:1 and Natural Look are the most-booked styles by office workers, teachers, healthcare professionals, and women in client-facing roles.",
+        },
+        {
+          q: "Do I need a lash lift or tint before getting natural extensions?",
+          a: "No, but for clients with very straight natural lashes, a lash lift before extensions can give the set a cleaner base. Ying checks lash angle and condition at consultation and recommends a lift only if it would meaningfully improve the result.",
+        },
+      ],
+      th: [
+        {
+          q: "ต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อจริงไหม?",
+          a: "ใช่ เมื่อเคิร์ล ความยาว และความหนาปรับให้พอดีกับขนตาตัวเอง Classic 1:1 เป็นทรงที่ธรรมชาติที่สุดในเมนูและดูแยกไม่ออกจากขนตาพันธุกรรมดี Natural Look และ Light Volume ฟูขึ้นนิดหน่อยแต่ยังดู 'ธรรมชาติแบบดีขึ้น' ไม่ใช่ผ่านการสไตล์",
+        },
+        {
+          q: "ต่อขนตาแบบธรรมชาติ อยู่ได้นานไหม?",
+          a: "3–4 สัปดาห์ก่อนต้องเติม เหมือนทรงต่อขนตาแบบอื่น การคงทนขึ้นกับการดูแลมากกว่าการเลือกทรง — การโดนน้ำใน 24 ชั่วโมงแรกและผลิตภัณฑ์น้ำมันรอบดวงตาเป็น 2 ตัวที่ตัดอายุเซตมากที่สุด",
+        },
+        {
+          q: "ต่อขนตาแบบธรรมชาติ ราคาเท่าไหร่ที่ My Lash House?",
+          a: "Classic 1:1 ฿590, Natural Look ฿790, Hybrid ฿990 และ Light Volume ฿1,090 เมนูเต็มและ add-on (ขนตาสี ดัด ย้อมขนตา) อยู่ที่หน้าราคา",
+        },
+        {
+          q: "ทรงไหนคือธรรมชาติที่สุด?",
+          a: "Classic 1:1 ธรรมชาติที่สุด — ติดเอ็กซ์เทนชัน 1 เส้นต่อขนตาจริง 1 เส้น ไม่เพิ่มความหนา แค่เพิ่มความยาวและความชัด Natural Look ฟูขึ้นเล็กน้อยสำหรับลูกค้าที่อยากได้ความเด่นในรูปมากขึ้น Light Volume เบาที่สุดในกลุ่ม volume เพิ่มความนุ่มฟูโดยไม่ดราม่า",
+        },
+        {
+          q: "ต่อขนตาแบบธรรมชาติ ใส่ทำงานได้ไหม?",
+          a: "ได้ — ทรงในกลุ่มธรรมชาติออกแบบมาเฉพาะสำหรับการใส่ทุกวันและในบริบทมืออาชีพ Classic 1:1 และ Natural Look เป็นทรงที่จองเยอะที่สุดโดยคนทำงานออฟฟิศ คุณครู บุคลากรทางการแพทย์ และผู้หญิงที่ทำงานเจอลูกค้า",
+        },
+        {
+          q: "ต้องดัดและย้อมขนตาก่อนต่อแบบธรรมชาติไหม?",
+          a: "ไม่ต้อง แต่สำหรับลูกค้าที่ขนตาธรรมชาติตรงมาก ลิฟติ้งขนตาก่อนต่อช่วยให้เซตมีฐานที่สะอาดขึ้น ครูหญิงเช็กมุมและสภาพขนตาในวันคุยและแนะนำลิฟติ้งเฉพาะถ้าจะช่วยให้ผลลัพธ์ดีขึ้นจริง",
+        },
+      ],
+    },
+  },
+  {
     slug: "best-lash-extensions-chiang-mai",
     slugTh: "tor-khon-ta-chiang-mai-tee-nai-dee",
     title: {
