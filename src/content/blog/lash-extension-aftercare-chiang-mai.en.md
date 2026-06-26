@@ -4,7 +4,7 @@
 
 *This guide is published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. It reflects the aftercare we talk through with every client at the end of their appointment.*
 
-![Close-up of natural-style lash extensions by My Lash House Chiang Mai — illustrating the aftercare habits that get a full 3 to 4 weeks of retention](/images/service-natural.jpg)
+![Close-up of natural-style lash extensions by My Lash House Chiang Mai, illustrating the aftercare habits that get a full 3 to 4 weeks of retention](/images/service-natural.jpg)
 
 So you just got your lashes done. Now what?
 
@@ -50,7 +50,7 @@ The cyanoacrylate adhesive used in lash extensions takes a full day to reach max
 
 If you absolutely have to exercise in the first 24 hours, keep your heart rate low enough that sweat doesn't form. A short walk is fine. A hot yoga class is a no.
 
-![Hybrid lash style by My Lash House Chiang Mai — daily-wear set that benefits most from the first-week aftercare rules](/images/service-hybrid.jpg)
+![Hybrid lash style by My Lash House Chiang Mai, daily-wear set that benefits most from the first-week aftercare rules](/images/service-hybrid.jpg)
 
 ## Your first week
 
@@ -118,7 +118,7 @@ A short list of things that, in 7+ years on the chair, consistently halve a set'
 
 The sauna rule relaxes after the first 48 hours. After that, occasional steam exposure is fine. Just rinse and pat dry afterward.
 
-![Russian Volume lashes by My Lash House Chiang Mai — heavier styles need the most disciplined aftercare to hit their full retention window](/images/service-russian.jpg)
+![Russian Volume lashes by My Lash House Chiang Mai, heavier styles need the most disciplined aftercare to hit their full retention window](/images/service-russian.jpg)
 
 ## How to sleep without losing lashes
 
