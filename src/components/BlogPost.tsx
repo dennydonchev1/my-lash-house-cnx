@@ -1,7 +1,23 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Link from "next/link";
-import { ChevronLeft } from "lucide-react";
+import {
+  ChevronLeft,
+  Clock,
+  CalendarDays,
+  Sparkles,
+  AlertTriangle,
+  Moon,
+  RefreshCw,
+  ShieldCheck,
+  HelpCircle,
+  BookOpen,
+  MessageCircle,
+  Lightbulb,
+  Eye,
+  Droplets,
+  type LucideIcon,
+} from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
@@ -9,6 +25,98 @@ import FAQAccordion from "@/components/FAQAccordion";
 import type { BlogPostMeta } from "@/lib/blog";
 import { getPostUrl } from "@/lib/blog";
 import { dict, type Lang } from "@/lib/i18n";
+
+// Recursively extract plain text from React children so we can keyword-match
+// against heading content even when there are bold/italic/link nested elements.
+function extractText(children: React.ReactNode): string {
+  if (children == null || typeof children === "boolean") return "";
+  if (typeof children === "string" || typeof children === "number") return String(children);
+  if (Array.isArray(children)) return children.map(extractText).join("");
+  if (typeof children === "object" && "props" in children) {
+    return extractText((children as { props?: { children?: React.ReactNode } }).props?.children);
+  }
+  return "";
+}
+
+// Keyword → icon map for auto-prefixing blog H2s. Pattern-matches against the
+// plain text of the heading. Bilingual (EN + TH keywords).
+const HEADING_ICON_RULES: Array<{ keywords: RegExp; Icon: LucideIcon }> = [
+  { keywords: /short answer|คำตอบสั้น|tldr|tl;dr/i, Icon: Lightbulb },
+  { keywords: /24 hour|first day|24 ชั่วโมง/i, Icon: Clock },
+  { keywords: /first week|week 1|สัปดาห์แรก/i, Icon: CalendarDays },
+  { keywords: /daily|clean|brush|care routine|ดูแลประจำวัน|ทำความสะอาด/i, Icon: Sparkles },
+  { keywords: /avoid|skip|never|don'?t|ห้าม|หลีกเลี่ยง|เลี่ยง/i, Icon: AlertTriangle },
+  { keywords: /sleep|pillow|นอน|หมอน/i, Icon: Moon },
+  { keywords: /refill|come back|กลับมา|เติม/i, Icon: RefreshCw },
+  { keywords: /guarantee|retouch|warranty|รับประกัน|รีทัช/i, Icon: ShieldCheck },
+  { keywords: /how (was|this) .*(written|guide)|เขียนขึ้น|คู่มือนี้/i, Icon: BookOpen },
+  { keywords: /send a message|message|book|contact|ส่งข้อความ|ทัก|จอง/i, Icon: MessageCircle },
+  { keywords: /style|eye shape|รูปตา|ทรง/i, Icon: Eye },
+  { keywords: /water|wet|น้ำ|โดนน้ำ/i, Icon: Droplets },
+  { keywords: /\?|คำถาม|how|what|when|why|where|which/i, Icon: HelpCircle },
+];
+
+function iconForHeading(text: string): LucideIcon | null {
+  for (const rule of HEADING_ICON_RULES) {
+    if (rule.keywords.test(text)) return rule.Icon;
+  }
+  return null;
+}
+
+// Blockquote prefixes that trigger callout styling. The marker is stripped from
+// the rendered text so writers can use clean markdown:
+//   > ⚠️ Don't skip the 24-hour water rule.
+//   > ✅ Use a foam-type lash shampoo once a day.
+//   > 💡 Sleep on a silk pillowcase if you can't switch to back sleeping.
+type CalloutVariant = "warn" | "tip" | "ok";
+const CALLOUT_MARKERS: Array<{ marker: string; variant: CalloutVariant; Icon: LucideIcon }> = [
+  { marker: "⚠️", variant: "warn", Icon: AlertTriangle },
+  { marker: "💡", variant: "tip", Icon: Lightbulb },
+  { marker: "✅", variant: "ok", Icon: ShieldCheck },
+];
+
+const CALLOUT_STYLES: Record<CalloutVariant, string> = {
+  warn: "border-l-4 border-amber-500 bg-amber-50 text-amber-900",
+  tip: "border-l-4 border-plum bg-plum/5 text-charcoal",
+  ok: "border-l-4 border-emerald-500 bg-emerald-50 text-emerald-900",
+};
+
+const CALLOUT_ICON_STYLES: Record<CalloutVariant, string> = {
+  warn: "text-amber-600",
+  tip: "text-plum",
+  ok: "text-emerald-600",
+};
+
+// Strip the leading callout marker (e.g. "⚠️ ") from the first text node so
+// it doesn't render visually inside the styled callout (the icon already covers it).
+function StripMarker({ marker, children }: { marker: string; children: React.ReactNode }) {
+  function strip(node: React.ReactNode): React.ReactNode {
+    if (typeof node === "string") {
+      return node.replace(new RegExp(`^${marker}\\s*`), "");
+    }
+    if (Array.isArray(node)) {
+      let stripped = false;
+      return node.map((child, i) => {
+        if (stripped) return child;
+        const out = strip(child);
+        if (out !== child) stripped = true;
+        return out;
+      });
+    }
+    if (node && typeof node === "object" && "props" in node) {
+      const el = node as React.ReactElement<{ children?: React.ReactNode }>;
+      const childContent = el.props?.children;
+      if (childContent != null) {
+        const newChildren = strip(childContent);
+        if (newChildren !== childContent) {
+          return { ...el, props: { ...el.props, children: newChildren } };
+        }
+      }
+    }
+    return node;
+  }
+  return <>{strip(children)}</>;
+}
 
 const LABELS = {
   en: {
@@ -161,13 +269,13 @@ export default function BlogPost({
           </div>
 
           {/* Markdown content */}
-          <div className="prose prose-lg max-w-none break-words prose-headings:font-heading prose-headings:text-charcoal prose-h1:text-3xl prose-h1:sm:text-4xl prose-h1:lg:text-5xl prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:lg:text-3xl prose-h2:mt-12 prose-h3:text-lg prose-h3:sm:text-xl prose-h3:lg:text-2xl prose-a:text-plum prose-a:break-words hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:border-rose prose-blockquote:not-italic prose-li:my-1 prose-img:rounded-xl">
+          <div className="prose prose-lg max-w-none break-words prose-headings:font-heading prose-headings:text-charcoal prose-h1:text-3xl prose-h1:sm:text-4xl prose-h1:lg:text-5xl prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:lg:text-3xl prose-h2:mt-12 prose-h3:text-lg prose-h3:sm:text-xl prose-h3:lg:text-2xl prose-a:text-plum prose-a:break-words hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:not-italic prose-li:my-1 prose-img:rounded-xl">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
-                // Skip the markdown's first H1 image (we render hero above) and first H1 heading (we render in the markdown naturally)
+                // Hero is rendered above the markdown; skip any markdown image
+                // whose filename matches the post's hero image so it doesn't render twice.
                 img: ({ src, alt }) => {
-                  // Hero is rendered above; skip any markdown image that matches the post's hero image
                   const heroBase = post.heroImage.split("/").pop()?.replace(/\.[^.]+$/, "");
                   if (src && typeof src === "string" && heroBase && src.includes(heroBase)) {
                     return null;
@@ -177,9 +285,61 @@ export default function BlogPost({
                     <img src={src as string} alt={alt ?? ""} loading="lazy" className="rounded-xl" />
                   );
                 },
+
+                // H2 with auto-detected lucide icon based on heading text keywords.
+                // Gives every major section a visual anchor without forcing the
+                // markdown writer to embed icon shortcodes.
+                h2: ({ children }) => {
+                  const text = extractText(children);
+                  const Icon = iconForHeading(text);
+                  return (
+                    <h2 className="mt-12 flex items-baseline gap-3 scroll-mt-20">
+                      {Icon && (
+                        <span className="inline-flex h-9 w-9 shrink-0 translate-y-1 items-center justify-center rounded-full bg-rose/15 text-rose-dark">
+                          <Icon className="h-5 w-5" />
+                        </span>
+                      )}
+                      <span>{children}</span>
+                    </h2>
+                  );
+                },
+
+                // H3 stays clean, just adds scroll-mt for deep-linking
+                h3: ({ children }) => (
+                  <h3 className="scroll-mt-20">{children}</h3>
+                ),
+
+                // Blockquote with prefix detection. If the quote starts with one of
+                // the callout markers (⚠️ / 💡 / ✅), render as a styled callout box
+                // with the matching icon. Otherwise render as a standard quote.
+                blockquote: ({ children }) => {
+                  const text = extractText(children).trim();
+                  const match = CALLOUT_MARKERS.find((m) => text.startsWith(m.marker));
+                  if (match) {
+                    const { variant, Icon } = match;
+                    return (
+                      <aside
+                        className={`not-prose my-8 flex items-start gap-4 rounded-2xl p-5 ${CALLOUT_STYLES[variant]}`}
+                      >
+                        <Icon className={`mt-1 h-5 w-5 shrink-0 ${CALLOUT_ICON_STYLES[variant]}`} />
+                        <div className="prose prose-sm max-w-none [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
+                          {/* The marker character is stripped client-side from the
+                              first paragraph so writers can keep clean markdown. */}
+                          <StripMarker marker={match.marker}>{children}</StripMarker>
+                        </div>
+                      </aside>
+                    );
+                  }
+                  return (
+                    <blockquote className="border-l-4 border-rose pl-6 italic text-charcoal-light">
+                      {children}
+                    </blockquote>
+                  );
+                },
+
                 // Wrap every markdown table in a horizontal-scroll container so wide
                 // tables (e.g. the listicle's 8-column at-a-glance) don't blow out
-                // mobile viewports. Without this, the page itself horizontally scrolls.
+                // mobile viewports.
                 table: ({ children }) => (
                   <div className="not-prose -mx-4 my-6 overflow-x-auto px-4 sm:mx-0 sm:px-0">
                     <table className="min-w-full text-sm">
