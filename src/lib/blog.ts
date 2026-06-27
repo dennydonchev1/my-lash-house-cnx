@@ -8,6 +8,8 @@ export type BlogPostMeta = {
   title: { en: string; th: string };
   /** Optional shorter title used in <title> / OG / Twitter when the H1 title exceeds ~60 chars. Falls back to `title`. */
   metaTitle?: { en: string; th: string };
+  /** Optional editorial eyebrow rendered above the H1 (e.g. "Aftercare Guide", "Style Guide"). */
+  category?: { en: string; th: string };
   description: { en: string; th: string };
   publishedAt: string;
   updatedAt: string;
@@ -34,6 +36,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Lash Extension Aftercare: Day-by-Day Guide (Chiang Mai)",
       th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน | My Lash House เชียงใหม่",
     },
+    category: { en: "Aftercare Guide", th: "คู่มือดูแลหลังต่อ" },
     description: {
       en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First 24 hours, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
       th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างเชียงใหม่ 7+ ปี — 24 ชั่วโมงแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
@@ -41,7 +44,9 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     publishedAt: "2026-06-26",
     updatedAt: "2026-06-26",
     author: "Ying",
-    heroImage: "/images/service-classic.jpg",
+    // Matches the first inline image in the markdown so the skip-duplicate
+    // logic in BlogPost.tsx catches it and renders the hero once.
+    heroImage: "/images/service-natural.jpg",
     heroImageAlt: {
       en: "Close-up of properly maintained lash extensions by My Lash House Chiang Mai — illustrating the day-by-day aftercare routine that gets a full 3–4 weeks of retention",
       th: "ภาพระยะใกล้ของขนตาต่อที่ดูแลถูกวิธี โดย My Lash House เชียงใหม่ — แสดงการดูแลแบบวันต่อวันที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์",
@@ -122,6 +127,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Natural Lash Extensions in Chiang Mai (2026 Guide)",
       th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House เชียงใหม่",
     },
+    category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
     description: {
       en: "Natural lash extensions in Chiang Mai — what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
       th: "อยากต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อ? เลือกทรงและความหนาที่เหมาะกับชีวิตประจำวัน คู่มือจากช่างเชียงใหม่ 7+ ปี รับประกันรีทัช 3 วัน",
@@ -202,6 +208,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked | My Lash House",
       th: "ต่อขนตา เชียงใหม่ ที่ไหนดี ปี 2026: 4 ร้านยอดนิยม จัดอันดับ | My Lash House",
     },
+    category: { en: "Ranked Guide", th: "คู่มือจัดอันดับร้าน" },
     description: {
       en: "Top lash salons Chiang Mai 2026: 1. My Lash House (San Klang, ฿590–฿1,590, 5.0★, 3-day retouch). 2. Somsasi Studio (Nimman, 7-day warranty). 3. Eye to Eye Nimman. 4. Lash Berries. Ranked by reviews, social proof, and warranty.",
       th: "ต่อขนตา เชียงใหม่ ที่ไหนดี 2026: 1. My Lash House (สันกลาง, ฿590–฿1,590, 5.0★, รีทัช 3 วัน) 2. Somsasi Studio (นิมมาน, รับประกัน 7 วัน) 3. Eye to Eye Nimman 4. Lash Berries จัดอันดับโดยรีวิว โซเชียล และการรับประกัน",
@@ -355,6 +362,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide)",
       th: "ต่อขนตาอยู่ได้นานไหม? คู่มือเชียงใหม่ 2026",
     },
+    category: { en: "Longevity Guide", th: "คู่มือการคงทน" },
     description: {
       en: "How long do lash extensions actually last, what affects shedding, and the aftercare rules that get you the full 3–4 weeks. Includes our 3-day retouch guarantee.",
       th: "ต่อขนตาอยู่ได้นานแค่ไหนจริง ๆ อะไรทำให้หลุดเร็ว และวิธีดูแลที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์ พร้อมรายละเอียดรับประกันรีทัช 3 วันของเรา",
@@ -445,6 +453,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Lash Extensions by Eye Shape: A Chiang Mai 2026 Guide",
       th: "ต่อขนตาแบบไหนดี? คู่มือเชียงใหม่ 2026",
     },
+    category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
     description: {
       en: "A first-timer's eye-shape guide to lash extensions in Chiang Mai. Match monolid, hooded, round, and downturned eyes to the right style at My Lash House.",
       th: "คู่มือมือใหม่: ดูรูปตาตัวเอง แล้วเลือกทรงต่อขนตาที่เหมาะ ตาชั้นเดียว หนังตาปิด หางตาตก ตากลม ตาห่าง ที่ My Lash House เชียงใหม่",
