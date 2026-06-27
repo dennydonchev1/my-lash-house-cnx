@@ -10,6 +10,8 @@ So you just got your lashes done. Now what?
 
 The short version: keep them dry for 24 hours, stay away from oil-based anything near your eyes, and brush them daily with a clean spoolie. Do that, and your set lasts a full 3 to 4 weeks. Skip it, and you're booking a refill in week 2 wondering what happened.
 
+Already wondering whether your set is shedding faster than it should? Skip ahead to the [3-day retouch guarantee](#what-does-the-3-day-retouch-guarantee-cover) section. And if you're choosing your first style and want one that's more forgiving on daily aftercare, the [eye-shape lash style guide](/blog/lash-extensions-by-eye-shape-chiang-mai) covers which sets are easiest to live with.
+
 This is the practical day-by-day handbook. Real rules, why they matter, and which ones you can relax on once you know what you're doing.
 
 ## What's the quickest aftercare summary?
@@ -142,7 +144,7 @@ A pillow pressing against your lashes for 6 to 8 hours a night slowly breaks dow
 
 Most clients refill every 2 to 3 weeks.
 
-Lighter styles (Classic 1:1, Light Volume) hold a bit longer and can stretch to 3 to 4 weeks. Heavier styles (Russian Volume, Mega Volume) need 2 to 3 weeks to look full.
+Lighter styles like Classic 1:1 and Light Volume hold a bit longer and can stretch to 3 to 4 weeks. (For more on which natural-family style suits you, see the [natural lash extensions guide](/blog/natural-lash-extensions-chiang-mai).) Heavier styles like Russian Volume and Mega Volume need 2 to 3 weeks to look full.
 
 The sweet spot for a refill is when your set has retained roughly 40 to 60% of the original extensions. Enough remains for Ying to map cleanly into the existing shape. Not so few that the appointment becomes a near-rebuild.
 
@@ -186,7 +188,7 @@ This guide is compiled from the aftercare consultation we give every client at t
 
 Retention timeframes reflect typical results across multiple clients and lash types. Individual results vary based on skin type, sleep position, and aftercare adherence. The 3-day retouch policy reflects the published policy at My Lash House as of June 2026. Where individual cases vary, we say so directly.
 
-Readers comparing studios should ask any lash artist about their retouch policy, isolation technique, and aftercare guidance. Three signals of how seriously a studio takes long-term retention versus just selling sets.
+Readers comparing studios should ask any lash artist about their retouch policy, isolation technique, and aftercare guidance. Three signals of how seriously a studio takes long-term retention versus just selling sets. For a side-by-side comparison of the four most-talked-about lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai ranked guide](/blog/best-lash-extensions-chiang-mai).
 
 The Thai-language version of this guide is at [/th/blog/withi-doolae-khonta-lang-tor](/th/blog/withi-doolae-khonta-lang-tor).
 

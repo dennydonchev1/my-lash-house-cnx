@@ -275,14 +275,28 @@ export default function BlogPost({
               components={{
                 // Hero is rendered above the markdown; skip any markdown image
                 // whose filename matches the post's hero image so it doesn't render twice.
+                // Inline images use a banner-style crop (max ~420px tall, object-cover)
+                // so square service photos don't dominate the viewport on mobile.
                 img: ({ src, alt }) => {
                   const heroBase = post.heroImage.split("/").pop()?.replace(/\.[^.]+$/, "");
                   if (src && typeof src === "string" && heroBase && src.includes(heroBase)) {
                     return null;
                   }
                   return (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={src as string} alt={alt ?? ""} loading="lazy" className="rounded-xl" />
+                    <figure className="not-prose my-10">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={src as string}
+                        alt={alt ?? ""}
+                        loading="lazy"
+                        className="h-64 w-full rounded-2xl object-cover sm:h-80 lg:h-96"
+                      />
+                      {alt && (
+                        <figcaption className="mt-2 text-center text-xs italic text-charcoal-light">
+                          {alt}
+                        </figcaption>
+                      )}
+                    </figure>
                   );
                 },
 
