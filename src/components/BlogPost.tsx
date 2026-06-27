@@ -96,19 +96,29 @@ const CALLOUT_MARKERS: Array<{ marker: string; variant: CalloutVariant; Icon: Lu
   { marker: "❝", variant: "quote", Icon: Quote },
 ];
 
-const CALLOUT_STYLES: Record<CalloutVariant, string> = {
-  warn: "border-l-4 border-amber-500 bg-amber-50 text-amber-900",
-  tip: "border-l-4 border-plum bg-plum/5 text-charcoal",
-  ok: "border-l-4 border-emerald-500 bg-emerald-50 text-emerald-900",
-  quote:
-    "border-y border-rose/30 bg-cream py-8 px-6 my-12 text-charcoal text-center font-heading text-xl sm:text-2xl lg:text-3xl italic leading-snug",
+// Editorial palette per variant. Hairline rule color + label color.
+// Deliberately no background fill, no rounded box — those read as AI-template
+// chrome. The callouts are now type-led: thin top rule in the variant accent,
+// short small-caps label, body in italic Playfair at body+1 size.
+type CalloutPalette = { rule: string; label: string; mark: string };
+const CALLOUT_PALETTES: Record<CalloutVariant, CalloutPalette> = {
+  warn: { rule: "bg-amber-500", label: "text-amber-700", mark: "text-amber-600" },
+  tip: { rule: "bg-plum", label: "text-plum", mark: "text-plum" },
+  ok: { rule: "bg-emerald-600", label: "text-emerald-700", mark: "text-emerald-600" },
+  quote: { rule: "bg-rose-dark", label: "text-rose-dark", mark: "text-rose-dark" },
 };
 
-const CALLOUT_ICON_STYLES: Record<CalloutVariant, string> = {
-  warn: "text-amber-600",
-  tip: "text-plum",
-  ok: "text-emerald-600",
-  quote: "text-rose-dark",
+const CALLOUT_LABEL_EN: Record<CalloutVariant, string> = {
+  warn: "Heads up",
+  tip: "Note",
+  ok: "Pro tip",
+  quote: "",
+};
+const CALLOUT_LABEL_TH: Record<CalloutVariant, string> = {
+  warn: "ระวัง",
+  tip: "เคล็ดลับ",
+  ok: "ทำเลย",
+  quote: "",
 };
 
 // Strip the leading callout marker (e.g. "⚠️ ") from the first text node so
@@ -509,20 +519,27 @@ export default function BlogPost({
                   );
                 },
 
-                // H2 with auto-detected icon + slugified id for deep-linking.
+                // H2 with section-break editorial treatment: short hairline
+                // accent rule above + tiny plum icon hung at the left baseline
+                // (no chip, no fill, no rounded background). Reads like a
+                // magazine chapter mark rather than a Notion-template header.
                 h2: ({ children }) => {
                   const text = extractText(children);
                   const id = slugify(text);
                   const Icon = iconForHeading(text);
                   return (
-                    <h2 id={id} className="mt-14 flex items-baseline gap-3 scroll-mt-24">
-                      {Icon && (
-                        <span className="inline-flex h-9 w-9 shrink-0 translate-y-1 items-center justify-center rounded-full bg-rose/15 text-rose-dark">
-                          <Icon className="h-5 w-5" />
-                        </span>
-                      )}
-                      <span>{children}</span>
-                    </h2>
+                    <div className="mt-16 scroll-mt-24" id={id}>
+                      <span aria-hidden className="block h-px w-16 bg-rose-dark/50" />
+                      <h2 className="mt-6 flex items-baseline gap-4 font-heading text-2xl font-bold leading-tight text-charcoal sm:text-3xl lg:text-4xl">
+                        {Icon && (
+                          <Icon
+                            aria-hidden
+                            className="h-6 w-6 shrink-0 translate-y-1 text-plum sm:h-7 sm:w-7"
+                          />
+                        )}
+                        <span>{children}</span>
+                      </h2>
+                    </div>
                   );
                 },
 
@@ -537,40 +554,70 @@ export default function BlogPost({
                   );
                 },
 
-                // Blockquote with prefix detection. Quote variant ('❝') gets
-                // its own centered editorial-pull-quote treatment; the other
-                // three (warn/tip/ok) render as colored callout asides.
+                // Blockquote with prefix detection. Four variants, each with
+                // its own deliberately un-AI-template treatment:
+                //
+                //   > ❝ ...  -> editorial hero quote, massive italic Playfair,
+                //              giant decorative quote glyph hanging in the
+                //              corner at low opacity, hairlines above/below,
+                //              no box, no fill.
+                //
+                //   > 💡 ...  -> "Note" sidebar — top hairline accent rule in
+                //              variant color, tiny small-caps tracked label,
+                //              body in italic Playfair at body+1 scale. No
+                //              card chrome, no fill, no rounded corners.
+                //              Same shape for ⚠️ ("Heads up") and ✅
+                //              ("Pro tip"), only the accent colour changes.
+                //
+                //   Plain blockquote -> minimal left rule + body italic.
                 blockquote: ({ children }) => {
                   const text = extractText(children).trim();
                   const match = CALLOUT_MARKERS.find((m) => text.startsWith(m.marker));
+
                   if (match && match.variant === "quote") {
                     return (
-                      <aside className={`not-prose ${CALLOUT_STYLES.quote}`}>
-                        <Quote
+                      <aside className="not-prose relative my-16 px-4 sm:px-10">
+                        {/* Oversized decorative quote glyph hangs behind the
+                            text in the brand rose at 12% opacity. Pure
+                            typographic ornament — no box, no fill. */}
+                        <span
                           aria-hidden
-                          className={`mx-auto mb-3 h-7 w-7 ${CALLOUT_ICON_STYLES.quote}`}
-                        />
-                        <div>
+                          className="pointer-events-none absolute -top-6 left-0 select-none font-heading text-[10rem] leading-none text-rose-dark/15 sm:text-[14rem]"
+                        >
+                          “
+                        </span>
+                        <div className="relative font-heading text-2xl italic leading-snug text-charcoal sm:text-3xl lg:text-4xl">
                           <StripMarker marker={match.marker}>{children}</StripMarker>
                         </div>
+                        <div aria-hidden className="mt-8 ml-auto h-px w-24 bg-rose-dark/40" />
                       </aside>
                     );
                   }
+
                   if (match) {
-                    const { variant, Icon } = match;
+                    const { variant } = match;
+                    const palette = CALLOUT_PALETTES[variant];
+                    const label =
+                      lang === "th" ? CALLOUT_LABEL_TH[variant] : CALLOUT_LABEL_EN[variant];
                     return (
-                      <aside
-                        className={`not-prose my-8 flex items-start gap-4 rounded-2xl p-5 ${CALLOUT_STYLES[variant]}`}
-                      >
-                        <Icon className={`mt-1 h-5 w-5 shrink-0 ${CALLOUT_ICON_STYLES[variant]}`} />
-                        <div className="prose prose-sm max-w-none [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
+                      <aside className="not-prose my-12 max-w-2xl">
+                        <div className="flex items-center gap-3">
+                          <span aria-hidden className={`h-px w-12 ${palette.rule}`} />
+                          <p
+                            className={`text-[0.7rem] font-semibold uppercase tracking-[0.3em] ${palette.label}`}
+                          >
+                            {label}
+                          </p>
+                        </div>
+                        <div className="mt-3 font-heading text-lg italic leading-relaxed text-charcoal sm:text-xl [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
                           <StripMarker marker={match.marker}>{children}</StripMarker>
                         </div>
                       </aside>
                     );
                   }
+
                   return (
-                    <blockquote className="border-l-4 border-rose pl-6 italic text-charcoal-light">
+                    <blockquote className="my-8 border-l border-rose/50 pl-6 font-heading italic text-charcoal-light">
                       {children}
                     </blockquote>
                   );
