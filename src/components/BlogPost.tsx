@@ -96,16 +96,47 @@ const CALLOUT_MARKERS: Array<{ marker: string; variant: CalloutVariant; Icon: Lu
   { marker: "❝", variant: "quote", Icon: Quote },
 ];
 
-// Editorial palette per variant. Hairline rule color + label color.
-// Deliberately no background fill, no rounded box — those read as AI-template
-// chrome. The callouts are now type-led: thin top rule in the variant accent,
-// short small-caps label, body in italic Playfair at body+1 size.
-type CalloutPalette = { rule: string; label: string; mark: string };
+// Editorial callout palettes. On-brand tints only (warm rose for warn, deep
+// plum for note, dusty sage-emerald for pro tip) — no functional amber/red
+// alert chrome. Each callout gets a soft background tint, a hairline border
+// matching the accent, and a gradient accent rule in the header bar that
+// fades from variant color into transparent.
+type CalloutPalette = {
+  bg: string;
+  border: string;
+  accent: string;
+  label: string;
+  mark: string;
+};
 const CALLOUT_PALETTES: Record<CalloutVariant, CalloutPalette> = {
-  warn: { rule: "bg-amber-500", label: "text-amber-700", mark: "text-amber-600" },
-  tip: { rule: "bg-plum", label: "text-plum", mark: "text-plum" },
-  ok: { rule: "bg-emerald-600", label: "text-emerald-700", mark: "text-emerald-600" },
-  quote: { rule: "bg-rose-dark", label: "text-rose-dark", mark: "text-rose-dark" },
+  warn: {
+    bg: "bg-rose-dark/[0.04]",
+    border: "border-rose-dark/15",
+    accent: "from-rose-dark/50",
+    label: "text-rose-dark",
+    mark: "text-rose-dark",
+  },
+  tip: {
+    bg: "bg-plum/[0.04]",
+    border: "border-plum/15",
+    accent: "from-plum/50",
+    label: "text-plum",
+    mark: "text-plum",
+  },
+  ok: {
+    bg: "bg-emerald-800/[0.04]",
+    border: "border-emerald-800/15",
+    accent: "from-emerald-700/50",
+    label: "text-emerald-700",
+    mark: "text-emerald-700",
+  },
+  quote: {
+    bg: "",
+    border: "",
+    accent: "from-rose-dark/40",
+    label: "text-rose-dark",
+    mark: "text-rose-dark",
+  },
 };
 
 const CALLOUT_LABEL_EN: Record<CalloutVariant, string> = {
@@ -595,21 +626,35 @@ export default function BlogPost({
                   }
 
                   if (match) {
-                    const { variant } = match;
+                    const { variant, Icon } = match;
                     const palette = CALLOUT_PALETTES[variant];
                     const label =
                       lang === "th" ? CALLOUT_LABEL_TH[variant] : CALLOUT_LABEL_EN[variant];
                     return (
-                      <aside className="not-prose my-12 max-w-2xl">
-                        <div className="flex items-center gap-3">
-                          <span aria-hidden className={`h-px w-12 ${palette.rule}`} />
+                      <aside
+                        className={`not-prose my-12 rounded-2xl border p-7 shadow-[0_1px_2px_rgba(0,0,0,0.03)] sm:p-9 ${palette.bg} ${palette.border}`}
+                      >
+                        {/* Integrated header bar: small icon + small-caps label
+                            + gradient accent rule that fades into transparent.
+                            No floating icon chip, no functional-alert color
+                            language — same shape across variants, accent
+                            color carries the meaning. */}
+                        <div className="mb-5 flex items-center gap-3">
+                          <Icon
+                            aria-hidden
+                            className={`h-4 w-4 shrink-0 ${palette.mark}`}
+                          />
                           <p
                             className={`text-[0.7rem] font-semibold uppercase tracking-[0.3em] ${palette.label}`}
                           >
                             {label}
                           </p>
+                          <span
+                            aria-hidden
+                            className={`h-px flex-1 bg-gradient-to-r to-transparent ${palette.accent}`}
+                          />
                         </div>
-                        <div className="mt-3 font-heading text-lg italic leading-relaxed text-charcoal sm:text-xl [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
+                        <div className="font-heading text-lg italic leading-relaxed text-charcoal sm:text-xl [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
                           <StripMarker marker={match.marker}>{children}</StripMarker>
                         </div>
                       </aside>
