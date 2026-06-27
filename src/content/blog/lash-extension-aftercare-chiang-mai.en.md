@@ -1,18 +1,12 @@
 # How to Care for Lash Extensions: Your Day-by-Day Aftercare Guide (Chiang Mai 2026)
 
-*Published by My Lash House · Compiled by Ying, certified lash artist · Published June 26, 2026 · Last updated June 26, 2026*
+If you're reading this at 11pm because you just realized you can't wash your face the way you usually do, you're in the right place.
 
-*This guide is published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. It reflects the aftercare we talk through with every client at the end of their appointment.*
-
-![Close-up of natural-style lash extensions by My Lash House Chiang Mai, illustrating the aftercare habits that get a full 3 to 4 weeks of retention](/images/service-natural.jpg)
-
-So you just got your lashes done. Now what?
-
-The short version: keep them dry for 24 hours, stay away from oil-based anything near your eyes, and brush them daily with a clean spoolie. Do that, and your set lasts a full 3 to 4 weeks. Skip it, and you're booking a refill in week 2 wondering what happened.
-
-Already wondering whether your set is shedding faster than it should? Skip ahead to the [3-day retouch guarantee](#what-does-the-3-day-retouch-guarantee-cover) section. And if you're choosing your first style and want one that's more forgiving on daily aftercare, the [eye-shape lash style guide](/blog/lash-extensions-by-eye-shape-chiang-mai) covers which sets are easiest to live with.
+The short version: keep your lashes dry for 24 hours, stay away from oil-based anything near your eyes, and brush them daily with a clean spoolie. Do that, and your set lasts a full 3 to 4 weeks. Skip it, and you're back booking a refill in week 2 wondering what happened.
 
 This is the practical day-by-day handbook. Real rules, why they matter, and which ones you can relax on once you know what you're doing.
+
+*Published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. This guide reflects the aftercare we talk through with every client at the end of their appointment.*
 
 ## What's the quickest aftercare summary?
 
@@ -26,7 +20,7 @@ Three things move the needle on retention, and only three.
 
 Everything else (sleep position, mascara, eyelash curlers, refill cadence) matters at the margins. Nail the big three and a properly applied set lasts the full 3 to 4 weeks. Skip them and the set halves in lifespan no matter how good your artist is.
 
-> 💡 If you only remember one thing from this guide, make it the oil rule. Skincare with even a little oil near your lash line will quietly shorten retention more than almost anything else you do or skip.
+> ❝ The single most expensive mistake clients make isn't the brand of mascara or the wrong cleanser. It's an oil eye cream applied right at the lash line for two weeks straight.
 
 ## What do I do in the first 24 hours after my appointment?
 
@@ -126,6 +120,30 @@ The sauna rule relaxes after the first 48 hours. After that, occasional steam ex
 
 ![Russian Volume lashes by My Lash House Chiang Mai, heavier styles need the most disciplined aftercare to hit their full retention window](/images/service-russian.jpg)
 
+## Does Chiang Mai's weather affect lash extensions?
+
+Yes, more than people expect. A few local factors worth planning around.
+
+**Rainy season (May to October).** The constant humidity keeps your skin oilier than usual, which weakens the adhesive bond faster. Daily cleaning becomes non-negotiable in these months — it's the only thing that keeps natural oils from sitting on the lash line all day.
+
+**Hot-season sweat (March to May).** Heavy sweat during the hottest months has the same effect as water in the cure window if it's pouring down your face. Cool your face before stepping inside (cold water on the wrists works) instead of dabbing at sweaty lashes with whatever's nearby.
+
+**Hotel and condo AC.** Strong AC dries the eye area and makes the natural lashes more brittle, which causes faster shedding. A water-based eye cream applied below the brow bone (not at the lash line) helps without endangering the extensions.
+
+**Motorbike dust and rain.** If you ride, a clear pair of glasses or a helmet visor protects the set from grit and direct rain spray. Both shorten retention more than weather alone.
+
+## What if I'm flying within 48 hours of my appointment?
+
+Tourists and short-stay visitors ask this constantly. The honest version:
+
+**Within 24 hours, don't fly if you can avoid it.** Cabin pressure is fine, but the dry recycled cabin air pulls moisture out of everything including the curing adhesive. If you have to fly, drink water aggressively, skip eye makeup, and bring saline mist (not eye drops with preservatives, which can drip onto the lashes).
+
+**Between 24 and 48 hours, flying is fine** with one rule: avoid touching your face the entire flight. The cabin is dirtier than you think and the temptation to rub when you're sleepy is the real risk.
+
+**After 48 hours, fly normally.** The set is fully cured.
+
+If you're visiting Chiang Mai and want a set before you fly home, book the appointment for the morning of day 2 of your trip at minimum. That gives a 48-hour buffer before any return flight. For shorter trips, lash lift might be the better call — it has no cure window.
+
 ## How should I sleep without losing lashes?
 
 Sleep position matters more than most clients expect.
@@ -144,7 +162,7 @@ A pillow pressing against your lashes for 6 to 8 hours a night slowly breaks dow
 
 Most clients refill every 2 to 3 weeks.
 
-Lighter styles like Classic 1:1 and Light Volume hold a bit longer and can stretch to 3 to 4 weeks. (For more on which natural-family style suits you, see the [natural lash extensions guide](/blog/natural-lash-extensions-chiang-mai).) Heavier styles like Russian Volume and Mega Volume need 2 to 3 weeks to look full.
+Lighter styles like Classic 1:1 and Light Volume hold a bit longer and can stretch to 3 to 4 weeks. (Curious which natural-family style suits you? The [natural lash extensions guide](/blog/natural-lash-extensions-chiang-mai) walks through all four.) Heavier styles like Russian Volume and Mega Volume need 2 to 3 weeks to look full.
 
 The sweet spot for a refill is when your set has retained roughly 40 to 60% of the original extensions. Enough remains for Ying to map cleanly into the existing shape. Not so few that the appointment becomes a near-rebuild.
 
@@ -157,7 +175,7 @@ The sweet spot for a refill is when your set has retained roughly 40 to 60% of t
 
 If it's been 4+ weeks, a refill often costs about the same as a fresh full set and looks worse afterward. Start fresh instead.
 
-For a full breakdown of style-by-style retention timelines, see the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai).
+If you're three weeks in and worried about how much you've shed, the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai) breaks down what's normal at each week.
 
 ## What does the 3-day retouch guarantee cover?
 
@@ -188,11 +206,11 @@ This guide is compiled from the aftercare consultation we give every client at t
 
 Retention timeframes reflect typical results across multiple clients and lash types. Individual results vary based on skin type, sleep position, and aftercare adherence. The 3-day retouch policy reflects the published policy at My Lash House as of June 2026. Where individual cases vary, we say so directly.
 
-Readers comparing studios should ask any lash artist about their retouch policy, isolation technique, and aftercare guidance. Three signals of how seriously a studio takes long-term retention versus just selling sets. For a side-by-side comparison of the four most-talked-about lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai ranked guide](/blog/best-lash-extensions-chiang-mai).
+Readers comparing studios should ask any lash artist about their retouch policy, isolation technique, and aftercare guidance. Three signals of how seriously a studio takes long-term retention versus just selling sets. For a side-by-side of the four most-talked-about lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai ranked guide](/blog/best-lash-extensions-chiang-mai).
 
 The Thai-language version of this guide is at [/th/blog/withi-doolae-khonta-lang-tor](/th/blog/withi-doolae-khonta-lang-tor).
 
-## Have aftercare questions? Send us a message
+## Save this guide. Then book your next refill.
 
 For specific aftercare questions, concerns about an existing set, or to claim the 3-day retouch guarantee, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/), LINE, or WhatsApp with clear photos.
 

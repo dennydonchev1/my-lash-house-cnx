@@ -11,6 +11,10 @@ export type BlogPostMeta = {
   /** Optional editorial eyebrow rendered above the H1 (e.g. "Aftercare Guide", "Style Guide"). */
   category?: { en: string; th: string };
   description: { en: string; th: string };
+  /** Optional evocative subtitle rendered under the H1, separate from the SEO meta description. Falls back to `description`. */
+  dek?: { en: string; th: string };
+  /** When true, BlogPost.tsx auto-generates a HowTo JSON-LD schema from the post's H2 sections (procedural posts only). */
+  howTo?: boolean;
   publishedAt: string;
   updatedAt: string;
   author: string;
@@ -21,6 +25,59 @@ export type BlogPostMeta = {
   faq: { en: Array<{ q: string; a: string }>; th: Array<{ q: string; a: string }> };
   /** Optional extra JSON-LD schema blocks rendered alongside the auto-generated Article/FAQ/Breadcrumb (e.g. ItemList, LocalBusiness for listicles). */
   extraSchemas?: { en?: Array<Record<string, unknown>>; th?: Array<Record<string, unknown>> };
+};
+
+// Shared entity-graph schemas. Referenced by every blog post via stable @id so
+// Google + LLMs can connect Article → Person (Ying) → BeautySalon (My Lash House)
+// as a coherent local-business entity. Keeping a single source of truth means
+// updating Ying's bio or the studio's hours only needs to happen in one place.
+export const PERSON_YING_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://mylashhouse.com/#ying",
+  name: "Ying",
+  alternateName: "ครูหญิง",
+  jobTitle: "Certified Lash Artist & Founder",
+  description:
+    "Certified eyelash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. Trained in classic, hybrid, volume, and mega-volume techniques; works exclusively with 100% handmade fans.",
+  worksFor: { "@id": "https://mylashhouse.com/#business" },
+  knowsLanguage: ["en", "th"],
+  url: "https://mylashhouse.com/",
+  sameAs: ["https://instagram.com/my_lash_house.cnx"],
+};
+
+export const BEAUTY_SALON_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "@id": "https://mylashhouse.com/#business",
+  name: "My Lash House Chiang Mai",
+  url: "https://mylashhouse.com/",
+  telephone: "+66854747314",
+  priceRange: "฿590–฿1,590",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "89/117 Pruksa Ville, San Klang",
+    addressLocality: "San Kamphaeng",
+    addressRegion: "Chiang Mai",
+    postalCode: "50130",
+    addressCountry: "TH",
+  },
+  geo: { "@type": "GeoCoordinates", latitude: 18.7877843, longitude: 99.0435952 },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "10:00",
+      closes: "19:00",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "32",
+    bestRating: 5,
+  },
+  sameAs: ["https://instagram.com/my_lash_house.cnx", "https://line.me/ti/p/~604ymska"],
 };
 
 // Single source of truth for all blog posts. Add new entries here.
@@ -41,6 +98,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First 24 hours, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
       th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างเชียงใหม่ 7+ ปี — 24 ชั่วโมงแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
     },
+    dek: {
+      en: "Master the three rules that decide whether your set lasts 4 days or 4 weeks.",
+      th: "ทำตาม 3 กฎที่จะตัดสินว่าเซตของคุณจะอยู่ 4 วัน หรือ 4 สัปดาห์",
+    },
+    howTo: true,
     publishedAt: "2026-06-26",
     updatedAt: "2026-06-26",
     author: "Ying",
@@ -128,6 +190,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House เชียงใหม่",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
+    dek: {
+      en: "Sometimes you want lashes that read as 'just better natural.' Here's how Ying maps the four lightest styles on the menu.",
+      th: "บางครั้งคุณอยากได้ขนตาที่ดูเหมือน 'ธรรมชาติแบบดีขึ้น' นี่คือวิธีที่ครูหญิงจัดทรงเบาที่สุด 4 ทรงในเมนู",
+    },
     description: {
       en: "Natural lash extensions in Chiang Mai — what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
       th: "อยากต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อ? เลือกทรงและความหนาที่เหมาะกับชีวิตประจำวัน คู่มือจากช่างเชียงใหม่ 7+ ปี รับประกันรีทัช 3 วัน",
@@ -209,6 +275,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตา เชียงใหม่ ที่ไหนดี ปี 2026: 4 ร้านยอดนิยม จัดอันดับ | My Lash House",
     },
     category: { en: "Ranked Guide", th: "คู่มือจัดอันดับร้าน" },
+    dek: {
+      en: "Four salons everyone talks about, ranked the honest way. Reviews, warranty, technique, accessibility — what actually matters when you're booking.",
+      th: "4 ร้านที่ทุกคนพูดถึง จัดอันดับแบบซื่อสัตย์ รีวิว รับประกัน เทคนิค และความเข้าถึง — สิ่งที่สำคัญจริง ๆ ตอนจอง",
+    },
     description: {
       en: "Top lash salons Chiang Mai 2026: 1. My Lash House (San Klang, ฿590–฿1,590, 5.0★, 3-day retouch). 2. Somsasi Studio (Nimman, 7-day warranty). 3. Eye to Eye Nimman. 4. Lash Berries. Ranked by reviews, social proof, and warranty.",
       th: "ต่อขนตา เชียงใหม่ ที่ไหนดี 2026: 1. My Lash House (สันกลาง, ฿590–฿1,590, 5.0★, รีทัช 3 วัน) 2. Somsasi Studio (นิมมาน, รับประกัน 7 วัน) 3. Eye to Eye Nimman 4. Lash Berries จัดอันดับโดยรีวิว โซเชียล และการรับประกัน",
@@ -363,6 +433,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตาอยู่ได้นานไหม? คู่มือเชียงใหม่ 2026",
     },
     category: { en: "Longevity Guide", th: "คู่มือการคงทน" },
+    dek: {
+      en: "How long lashes actually last comes down to three things: the style, the artist, and the aftercare. Here's the honest breakdown by week.",
+      th: "ขนตาอยู่ได้นานแค่ไหนขึ้นกับ 3 อย่าง คือ ทรง ช่าง และวิธีดูแลหลังต่อ นี่คือการแบ่งระยะเวลาแบบซื่อสัตย์ทีละสัปดาห์",
+    },
     description: {
       en: "How long do lash extensions actually last, what affects shedding, and the aftercare rules that get you the full 3–4 weeks. Includes our 3-day retouch guarantee.",
       th: "ต่อขนตาอยู่ได้นานแค่ไหนจริง ๆ อะไรทำให้หลุดเร็ว และวิธีดูแลที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์ พร้อมรายละเอียดรับประกันรีทัช 3 วันของเรา",
@@ -454,6 +528,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตาแบบไหนดี? คู่มือเชียงใหม่ 2026",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
+    dek: {
+      en: "The right lash style is the one that matches your eye shape, not the latest TikTok trend. Here's how Ying maps every set in her studio.",
+      th: "ทรงต่อขนตาที่ใช่คือทรงที่เข้ากับรูปตา ไม่ใช่เทรนด์ TikTok ล่าสุด นี่คือวิธีที่ครูหญิงจัดทรงให้ลูกค้าทุกคน",
+    },
     description: {
       en: "A first-timer's eye-shape guide to lash extensions in Chiang Mai. Match monolid, hooded, round, and downturned eyes to the right style at My Lash House.",
       th: "คู่มือมือใหม่: ดูรูปตาตัวเอง แล้วเลือกทรงต่อขนตาที่เหมาะ ตาชั้นเดียว หนังตาปิด หางตาตก ตากลม ตาห่าง ที่ My Lash House เชียงใหม่",

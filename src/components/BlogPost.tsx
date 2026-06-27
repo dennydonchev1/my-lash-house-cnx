@@ -16,6 +16,8 @@ import {
   Lightbulb,
   Eye,
   Droplets,
+  Quote,
+  ListTree,
   type LucideIcon,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -23,7 +25,12 @@ import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
 import FAQAccordion from "@/components/FAQAccordion";
 import type { BlogPostMeta } from "@/lib/blog";
-import { getPostUrl } from "@/lib/blog";
+import {
+  getAllPosts,
+  getPostUrl,
+  PERSON_YING_SCHEMA,
+  BEAUTY_SALON_SCHEMA,
+} from "@/lib/blog";
 import { dict, type Lang } from "@/lib/i18n";
 
 // Recursively extract plain text from React children so we can keyword-match
@@ -36,6 +43,18 @@ function extractText(children: React.ReactNode): string {
     return extractText((children as { props?: { children?: React.ReactNode } }).props?.children);
   }
   return "";
+}
+
+// Lowercase, hyphenate, drop non-word chars (but keep Thai script) so heading
+// IDs match what GitHub-flavored markdown / rehype-slug would produce. The same
+// slugify runs on the TOC anchor href and on the rendered H2 id so deep-links
+// land on the correct section.
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s฀-๿-]+/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
 }
 
 // Keyword → icon map for auto-prefixing blog H2s. Pattern-matches against the
@@ -68,23 +87,28 @@ function iconForHeading(text: string): LucideIcon | null {
 //   > ⚠️ Don't skip the 24-hour water rule.
 //   > ✅ Use a foam-type lash shampoo once a day.
 //   > 💡 Sleep on a silk pillowcase if you can't switch to back sleeping.
-type CalloutVariant = "warn" | "tip" | "ok";
+//   > ❝ Big editorial pull-quote for the line worth remembering.
+type CalloutVariant = "warn" | "tip" | "ok" | "quote";
 const CALLOUT_MARKERS: Array<{ marker: string; variant: CalloutVariant; Icon: LucideIcon }> = [
   { marker: "⚠️", variant: "warn", Icon: AlertTriangle },
   { marker: "💡", variant: "tip", Icon: Lightbulb },
   { marker: "✅", variant: "ok", Icon: ShieldCheck },
+  { marker: "❝", variant: "quote", Icon: Quote },
 ];
 
 const CALLOUT_STYLES: Record<CalloutVariant, string> = {
   warn: "border-l-4 border-amber-500 bg-amber-50 text-amber-900",
   tip: "border-l-4 border-plum bg-plum/5 text-charcoal",
   ok: "border-l-4 border-emerald-500 bg-emerald-50 text-emerald-900",
+  quote:
+    "border-y border-rose/30 bg-cream py-8 px-6 my-12 text-charcoal text-center font-heading text-xl sm:text-2xl lg:text-3xl italic leading-snug",
 };
 
 const CALLOUT_ICON_STYLES: Record<CalloutVariant, string> = {
   warn: "text-amber-600",
   tip: "text-plum",
   ok: "text-emerald-600",
+  quote: "text-rose-dark",
 };
 
 // Strip the leading callout marker (e.g. "⚠️ ") from the first text node so
@@ -96,7 +120,7 @@ function StripMarker({ marker, children }: { marker: string; children: React.Rea
     }
     if (Array.isArray(node)) {
       let stripped = false;
-      return node.map((child, i) => {
+      return node.map((child) => {
         if (stripped) return child;
         const out = strip(child);
         if (out !== child) stripped = true;
@@ -126,6 +150,9 @@ const LABELS = {
     by: "By",
     home: "Home",
     blog: "Blog",
+    onThisPage: "On this page",
+    readNext: "Read next",
+    relatedGuides: "Related guides",
   },
   th: {
     backToBlog: "ดูบทความทั้งหมด",
@@ -134,8 +161,112 @@ const LABELS = {
     by: "โดย",
     home: "หน้าหลัก",
     blog: "บทความ",
+    onThisPage: "ในบทความนี้",
+    readNext: "อ่านต่อ",
+    relatedGuides: "บทความที่เกี่ยวข้อง",
   },
 };
+
+// Headings that are part of the article body but not procedural steps —
+// excluded from HowTo schema generation and from the visible TOC.
+const NON_SECTION_HEADING_RE =
+  /how was|how this guide|about the author|^faq$|send a message|send us|have .* questions|เกี่ยวกับผู้เขียน|คู่มือนี้เขียน|ส่งข้อความมา|มีคำถาม/i;
+
+function extractH2s(markdown: string): string[] {
+  const matches = [...markdown.matchAll(/^##\s+(.+)$/gm)];
+  return matches.map((m) => m[1].trim());
+}
+
+// Top-of-article table of contents. Only renders for posts with 4+ procedural
+// H2s — short posts don't need one and look awkward with it.
+function TableOfContents({ headings, lang }: { headings: string[]; lang: Lang }) {
+  if (headings.length < 4) return null;
+  return (
+    <nav
+      aria-label="Table of contents"
+      className="not-prose mb-12 rounded-2xl border border-cream-dark bg-white/70 p-6 sm:p-7"
+    >
+      <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-rose-dark">
+        <ListTree className="h-4 w-4" />
+        {LABELS[lang].onThisPage}
+      </p>
+      <ol className="mt-4 space-y-2.5 text-sm sm:columns-2 sm:gap-x-8">
+        {headings.map((h, i) => (
+          <li key={i} className="break-inside-avoid">
+            <a
+              href={`#${slugify(h)}`}
+              className="text-charcoal-light transition-colors hover:text-plum"
+            >
+              <span className="mr-2 font-semibold text-rose-dark/60">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              {h}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  );
+}
+
+// Related-reads card grid at the bottom of every blog post. Picks up to 3 other
+// posts ranked by shared-tag overlap with the current post (ties broken by
+// recency). Drives engagement + builds internal link equity for SEO.
+function RelatedReads({ current, lang }: { current: BlogPostMeta; lang: Lang }) {
+  const others = getAllPosts().filter((p) => p.slug !== current.slug);
+  if (others.length === 0) return null;
+
+  const scored = others
+    .map((p) => ({
+      post: p,
+      score: p.tags.filter((t) => current.tags.includes(t)).length,
+    }))
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return new Date(b.post.publishedAt).getTime() - new Date(a.post.publishedAt).getTime();
+    });
+  const picks = scored.slice(0, 3).map((s) => s.post);
+
+  return (
+    <section className="mt-20 border-t border-cream-dark pt-12">
+      <p className="text-center text-xs font-semibold uppercase tracking-[0.25em] text-rose-dark">
+        {LABELS[lang].readNext}
+      </p>
+      <h2 className="mt-2 text-center font-heading text-2xl font-bold text-charcoal sm:text-3xl">
+        {LABELS[lang].relatedGuides}
+      </h2>
+      <div className="mt-10 grid gap-6 sm:grid-cols-3">
+        {picks.map((p) => (
+          <Link
+            key={p.slug}
+            href={getPostUrl(p, lang)}
+            className="group block overflow-hidden rounded-2xl border border-cream-dark bg-white transition-all hover:-translate-y-0.5 hover:border-rose/40 hover:shadow-md"
+          >
+            <div className="aspect-[16/10] overflow-hidden bg-cream-dark">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={p.heroImage}
+                alt={p.heroImageAlt[lang]}
+                loading="lazy"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="p-5">
+              {p.category && (
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-rose-dark">
+                  {p.category[lang]}
+                </p>
+              )}
+              <p className="mt-2 font-heading text-base font-semibold leading-snug text-charcoal transition-colors group-hover:text-plum sm:text-lg">
+                {p.metaTitle?.[lang] ?? p.title[lang]}
+              </p>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 export default function BlogPost({
   post,
@@ -154,7 +285,14 @@ export default function BlogPost({
   const otherLang: Lang = lang === "en" ? "th" : "en";
   const otherLangHref = getPostUrl(post, otherLang);
 
-  // Article schema
+  // TOC + HowTo schema source — H2s from the markdown, minus the non-section
+  // headings (FAQ, About the author, contact CTA, etc.).
+  const allH2s = extractH2s(content);
+  const sectionH2s = allH2s.filter((h) => !NON_SECTION_HEADING_RE.test(h));
+
+  // Article schema — now references the shared Person + BeautySalon entities
+  // via stable @id so Google can connect Article → Author → Local Business as
+  // a single entity graph.
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -163,20 +301,8 @@ export default function BlogPost({
     image: `https://mylashhouse.com${post.heroImage}`,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    author: {
-      "@type": "Person",
-      name: post.author,
-      jobTitle: "Certified Eyelash Artist",
-      worksFor: { "@type": "BeautySalon", name: "My Lash House Chiang Mai" },
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "My Lash House Chiang Mai",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://mylashhouse.com/icon-512.png",
-      },
-    },
+    author: { "@id": "https://mylashhouse.com/#ying" },
+    publisher: { "@id": "https://mylashhouse.com/#business" },
     mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
     inLanguage: lang === "th" ? "th-TH" : "en-TH",
   };
@@ -185,6 +311,7 @@ export default function BlogPost({
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    inLanguage: lang === "th" ? "th-TH" : "en-TH",
     mainEntity: post.faq[lang].map((item) => ({
       "@type": "Question",
       name: item.q,
@@ -202,6 +329,27 @@ export default function BlogPost({
       { "@type": "ListItem", position: 3, name: post.title[lang], item: canonicalUrl },
     ],
   };
+
+  // HowTo schema — only generated for procedural posts (post.howTo === true).
+  // Steps are auto-built from the section H2s. Each step gets a deep-link
+  // anchor so AI assistants citing the page can point readers at the specific
+  // section, not just the page URL.
+  const howToSchema = post.howTo
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: post.title[lang],
+        description: post.description[lang],
+        image: `https://mylashhouse.com${post.heroImage}`,
+        inLanguage: lang === "th" ? "th-TH" : "en-TH",
+        step: sectionH2s.map((heading, i) => ({
+          "@type": "HowToStep",
+          position: i + 1,
+          name: heading.replace(/\?$/, ""),
+          url: `${canonicalUrl}#${slugify(heading)}`,
+        })),
+      }
+    : null;
 
   // Format date for display
   const dateFormat = lang === "th" ? "th-TH" : "en-US";
@@ -225,6 +373,23 @@ export default function BlogPost({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {/* Shared entity-graph schemas — Person (Ying) and BeautySalon (the studio)
+          appear on every blog post via stable @id so Google can link Article →
+          Author → Local Business as one coherent entity graph. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_YING_SCHEMA) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(BEAUTY_SALON_SCHEMA) }}
+      />
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
       {post.extraSchemas?.[lang]?.map((schema, i) => (
         <script
           key={`extra-schema-${i}`}
@@ -269,7 +434,7 @@ export default function BlogPost({
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl font-heading text-lg italic leading-relaxed text-charcoal-light sm:text-xl">
-              {post.description[lang]}
+              {(post.dek ?? post.description)[lang]}
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs uppercase tracking-widest text-charcoal-light">
@@ -303,8 +468,13 @@ export default function BlogPost({
             </figcaption>
           </figure>
 
+          {/* Table of contents — renders only when there are 4+ section H2s.
+              Numbered, two-column on desktop, each item a deep-link to the
+              matching slugified H2 id. */}
+          <TableOfContents headings={sectionH2s} lang={lang} />
+
           {/* Markdown content */}
-          <div className="prose prose-lg max-w-none break-words prose-headings:font-heading prose-headings:text-charcoal prose-h1:text-3xl prose-h1:sm:text-4xl prose-h1:lg:text-5xl prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:lg:text-3xl prose-h2:mt-12 prose-h3:text-lg prose-h3:sm:text-xl prose-h3:lg:text-2xl prose-a:text-plum prose-a:break-words hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:not-italic prose-li:my-1 prose-img:rounded-xl">
+          <div className="prose prose-lg max-w-none break-words prose-headings:font-heading prose-headings:text-charcoal prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:lg:text-3xl prose-h2:mt-12 prose-h3:text-lg prose-h3:sm:text-xl prose-h3:lg:text-2xl prose-a:text-plum prose-a:break-words hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:not-italic prose-li:my-1 prose-img:rounded-xl">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
@@ -315,8 +485,7 @@ export default function BlogPost({
 
                 // Hero is rendered above the markdown; skip any markdown image
                 // whose filename matches the post's hero image so it doesn't render twice.
-                // Inline images use a banner-style crop (max ~420px tall, object-cover)
-                // so square service photos don't dominate the viewport on mobile.
+                // Inline images render as figure + italic caption.
                 img: ({ src, alt }) => {
                   const heroBase = post.heroImage.split("/").pop()?.replace(/\.[^.]+$/, "");
                   if (src && typeof src === "string" && heroBase && src.includes(heroBase)) {
@@ -340,14 +509,13 @@ export default function BlogPost({
                   );
                 },
 
-                // H2 with auto-detected lucide icon based on heading text keywords.
-                // Gives every major section a visual anchor without forcing the
-                // markdown writer to embed icon shortcodes.
+                // H2 with auto-detected icon + slugified id for deep-linking.
                 h2: ({ children }) => {
                   const text = extractText(children);
+                  const id = slugify(text);
                   const Icon = iconForHeading(text);
                   return (
-                    <h2 className="mt-12 flex items-baseline gap-3 scroll-mt-20">
+                    <h2 id={id} className="mt-14 flex items-baseline gap-3 scroll-mt-24">
                       {Icon && (
                         <span className="inline-flex h-9 w-9 shrink-0 translate-y-1 items-center justify-center rounded-full bg-rose/15 text-rose-dark">
                           <Icon className="h-5 w-5" />
@@ -358,17 +526,36 @@ export default function BlogPost({
                   );
                 },
 
-                // H3 stays clean, just adds scroll-mt for deep-linking
-                h3: ({ children }) => (
-                  <h3 className="scroll-mt-20">{children}</h3>
-                ),
+                // H3 gets a slugified id for deeper linking, otherwise default styling.
+                h3: ({ children }) => {
+                  const text = extractText(children);
+                  const id = slugify(text);
+                  return (
+                    <h3 id={id} className="scroll-mt-24">
+                      {children}
+                    </h3>
+                  );
+                },
 
-                // Blockquote with prefix detection. If the quote starts with one of
-                // the callout markers (⚠️ / 💡 / ✅), render as a styled callout box
-                // with the matching icon. Otherwise render as a standard quote.
+                // Blockquote with prefix detection. Quote variant ('❝') gets
+                // its own centered editorial-pull-quote treatment; the other
+                // three (warn/tip/ok) render as colored callout asides.
                 blockquote: ({ children }) => {
                   const text = extractText(children).trim();
                   const match = CALLOUT_MARKERS.find((m) => text.startsWith(m.marker));
+                  if (match && match.variant === "quote") {
+                    return (
+                      <aside className={`not-prose ${CALLOUT_STYLES.quote}`}>
+                        <Quote
+                          aria-hidden
+                          className={`mx-auto mb-3 h-7 w-7 ${CALLOUT_ICON_STYLES.quote}`}
+                        />
+                        <div>
+                          <StripMarker marker={match.marker}>{children}</StripMarker>
+                        </div>
+                      </aside>
+                    );
+                  }
                   if (match) {
                     const { variant, Icon } = match;
                     return (
@@ -377,8 +564,6 @@ export default function BlogPost({
                       >
                         <Icon className={`mt-1 h-5 w-5 shrink-0 ${CALLOUT_ICON_STYLES[variant]}`} />
                         <div className="prose prose-sm max-w-none [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
-                          {/* The marker character is stripped client-side from the
-                              first paragraph so writers can keep clean markdown. */}
                           <StripMarker marker={match.marker}>{children}</StripMarker>
                         </div>
                       </aside>
@@ -391,14 +576,10 @@ export default function BlogPost({
                   );
                 },
 
-                // Wrap every markdown table in a horizontal-scroll container so wide
-                // tables (e.g. the listicle's 8-column at-a-glance) don't blow out
-                // mobile viewports.
+                // Tables: horizontal-scroll wrapper + standardized cell styling.
                 table: ({ children }) => (
                   <div className="not-prose -mx-4 my-6 overflow-x-auto px-4 sm:mx-0 sm:px-0">
-                    <table className="min-w-full text-sm">
-                      {children}
-                    </table>
+                    <table className="min-w-full text-sm">{children}</table>
                   </div>
                 ),
                 th: ({ children }) => (
@@ -407,9 +588,7 @@ export default function BlogPost({
                   </th>
                 ),
                 td: ({ children }) => (
-                  <td className="border-b border-cream-dark/50 px-3 py-2 align-top">
-                    {children}
-                  </td>
+                  <td className="border-b border-cream-dark/50 px-3 py-2 align-top">{children}</td>
                 ),
               }}
             >
@@ -426,6 +605,9 @@ export default function BlogPost({
               headingHighlight={dict[lang].faq.headingHighlight}
             />
           </section>
+
+          {/* Related reads — auto-picked from other posts by shared-tag overlap. */}
+          <RelatedReads current={post} lang={lang} />
 
           {/* Back to blog link */}
           <div className="mt-16 mb-12 border-t border-cream-dark pt-8 text-center">
