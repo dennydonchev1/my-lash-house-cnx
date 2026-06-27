@@ -236,7 +236,7 @@ export default function BlogPost({
       <Navbar lang={lang} otherLangHref={otherLangHref} />
 
       <main className="bg-cream pt-24 sm:pt-28">
-        <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <article className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav className="mb-6 text-sm text-charcoal-light" aria-label="Breadcrumb">
             <Link href={homeHref} className="hover:text-plum transition-colors">
