@@ -238,7 +238,7 @@ export default function BlogPost({
       <main className="bg-cream pt-24 sm:pt-28">
         <article className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
-          <nav className="mb-6 text-sm text-charcoal-light" aria-label="Breadcrumb">
+          <nav className="mb-8 text-sm text-charcoal-light" aria-label="Breadcrumb">
             <Link href={homeHref} className="hover:text-plum transition-colors">
               {L.home}
             </Link>
@@ -248,19 +248,16 @@ export default function BlogPost({
             </Link>
           </nav>
 
-          {/* Hero image */}
-          <div className="mb-8 overflow-hidden rounded-2xl bg-cream-dark">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={post.heroImage}
-              alt={post.heroImageAlt[lang]}
-              className="h-auto w-full"
-              loading="eager"
-            />
-          </div>
+          {/* H1 title - rendered above hero so the headline + answer-first
+              intro sit in the first 30% of the page (LLM citation real estate).
+              The matching # heading in the markdown is suppressed below via
+              the h1 component override so we don't double-render the title. */}
+          <h1 className="font-heading text-3xl font-bold leading-tight text-charcoal sm:text-4xl lg:text-5xl">
+            {post.title[lang]}
+          </h1>
 
           {/* Meta */}
-          <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs uppercase tracking-widest text-rose-dark">
+          <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs uppercase tracking-widest text-rose-dark">
             <span>{L.by} {post.author}</span>
             <span className="text-charcoal-light/50">·</span>
             <span>{formattedDate}</span>
@@ -268,11 +265,31 @@ export default function BlogPost({
             <span>{post.readingMinutes} {L.readingTime}</span>
           </div>
 
+          {/* Hero banner - constrained height with object-cover crop so square
+              service photos don't dominate the viewport. Focal point stays
+              centered; alt copy reads as figure caption beneath. */}
+          <figure className="mt-8 mb-12">
+            <div className="overflow-hidden rounded-2xl bg-cream-dark">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={post.heroImage}
+                alt={post.heroImageAlt[lang]}
+                className="h-56 w-full object-cover sm:h-72 md:h-80 lg:h-[420px]"
+                loading="eager"
+              />
+            </div>
+          </figure>
+
           {/* Markdown content */}
           <div className="prose prose-lg max-w-none break-words prose-headings:font-heading prose-headings:text-charcoal prose-h1:text-3xl prose-h1:sm:text-4xl prose-h1:lg:text-5xl prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:lg:text-3xl prose-h2:mt-12 prose-h3:text-lg prose-h3:sm:text-xl prose-h3:lg:text-2xl prose-a:text-plum prose-a:break-words hover:prose-a:text-rose-dark prose-strong:text-charcoal prose-table:text-sm prose-th:bg-cream-dark prose-th:font-semibold prose-blockquote:not-italic prose-li:my-1 prose-img:rounded-xl">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
+                // Title is rendered above the hero via post.title; suppress the
+                // markdown H1 so it doesn't render twice. The H1 stays in the
+                // canonical .md source for plain-text export, llms.txt, etc.
+                h1: () => null,
+
                 // Hero is rendered above the markdown; skip any markdown image
                 // whose filename matches the post's hero image so it doesn't render twice.
                 // Inline images use a banner-style crop (max ~420px tall, object-cover)
