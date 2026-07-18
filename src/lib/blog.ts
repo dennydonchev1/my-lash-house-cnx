@@ -83,6 +83,270 @@ export const BEAUTY_SALON_SCHEMA = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "lash-lifting-chiang-mai",
+    slugTh: "lifting-khon-ta-chiang-mai",
+    title: {
+      en: "Lash Lifting in Chiang Mai: The Complete Guide (2026)",
+      th: "ลิฟติ้งขนตา เชียงใหม่ คู่มือฉบับสมบูรณ์ (2026)",
+    },
+    metaTitle: {
+      en: "Lash Lifting in Chiang Mai (2026 Guide) | My Lash House",
+      th: "ลิฟติ้งขนตา เชียงใหม่ | ราคา ขั้นตอน รีวิว — My Lash House",
+    },
+    category: { en: "Lash Lifting", th: "ลิฟติ้งขนตา" },
+    dek: {
+      en: "Naturally curled lashes for 6 to 8 weeks, no extensions required. Here's the honest breakdown from a certified Chiang Mai artist.",
+      th: "ขนตางอนธรรมชาติ 6 ถึง 8 สัปดาห์ ไม่ต้องต่อขนตา นี่คือคำอธิบายซื่อสัตย์จากช่างเชียงใหม่ที่มีใบรับรอง",
+    },
+    description: {
+      en: "Lash lifting in Chiang Mai from a certified artist with 7+ years. What it is, how it differs from extensions, the 7-step process, pricing, aftercare, and the 3-day retouch guarantee.",
+      th: "ลิฟติ้งขนตาเชียงใหม่ จากช่างที่มีใบรับรอง 7+ ปี คืออะไร ต่างจากต่อขนตายังไง ขั้นตอน 7 ขั้น ราคา วิธีดูแล และรับประกันรีทัช 3 วัน",
+    },
+    publishedAt: "2026-06-27",
+    updatedAt: "2026-06-27",
+    author: "Ying",
+    heroImage: "/images/service-wet-look.jpg",
+    heroImageAlt: {
+      en: "Close-up of naturally curled lashes at My Lash House Chiang Mai, illustrating the lifted-and-open result of a lash lifting treatment",
+      th: "ภาพระยะใกล้ของขนตางอนธรรมชาติที่ My Lash House เชียงใหม่ แสดงผลลัพธ์การลิฟติ้งขนตาที่ยกและเปิดตา",
+    },
+    readingMinutes: 8,
+    tags: ["lash lifting", "ลิฟติ้งขนตา", "chiang mai", "natural lashes", "lash treatment"],
+    howTo: true,
+    faq: {
+      en: [
+        {
+          q: "What is lash lifting?",
+          a: "Lash lifting is a semi-permanent treatment that curls your natural lashes upward from the base using a gentle keratin-based lifting solution. It lasts 6 to 8 weeks, adds no synthetic material, and takes about 45 minutes in the chair.",
+        },
+        {
+          q: "How much does lash lifting cost at My Lash House?",
+          a: "Lash lift only is ฿990. Lash lift plus tint is ฿1,190. Lash lift plus tint plus lash conditioning add-on is ฿1,390. Payment on the day of the appointment.",
+        },
+        {
+          q: "How long does a lash lift last?",
+          a: "6 to 8 weeks. The curl doesn't drop gradually — it fades as your natural lashes shed and new (uncurled) growth comes in. By week 6 to 8, about half your lash line is new growth and it's time to book again.",
+        },
+        {
+          q: "Does lash lifting damage natural lashes?",
+          a: "Not when done properly with premium keratin-based lifting solutions by a careful artist. Damage happens when shops use harsh solutions or over-process (leaving the lifting solution on too long). Ask about the specific solution and processing time before booking.",
+        },
+        {
+          q: "What's the difference between lash lifting and lash extensions?",
+          a: "Lash lifting curls your natural lashes for 6 to 8 weeks with zero daily maintenance and no synthetic material added. Lash extensions add handmade fans that last 3 to 4 weeks per set and need refills every 2 to 3 weeks. Lifts are lower-commitment; extensions add more visible drama.",
+        },
+        {
+          q: "Can I wear mascara after lash lifting?",
+          a: "Yes, after 24 to 48 hours. Use only water-based mascara — waterproof formulas require oil-based remover, which can over-condition and soften the curl.",
+        },
+        {
+          q: "Where can I get lash lifting near me in Chiang Mai?",
+          a: "My Lash House is in San Klang, San Kamphaeng, near Payap University — about 10 minutes from the city centre. Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome subject to availability.",
+        },
+      ],
+      th: [
+        {
+          q: "ลิฟติ้งขนตา คืออะไร",
+          a: "ลิฟติ้งขนตาคือการดัดขนตาธรรมชาติให้งอนขึ้นจากโคน ด้วยน้ำยาเคราตินอ่อน ๆ ผลลัพธ์อยู่ได้ 6 ถึง 8 สัปดาห์ ไม่เพิ่มวัสดุสังเคราะห์ ใช้เวลาบนเก้าอี้ประมาณ 45 นาที",
+        },
+        {
+          q: "ลิฟติ้งขนตา ราคาเท่าไหร่ที่ My Lash House",
+          a: "ลิฟติ้งอย่างเดียว ฿990 ลิฟติ้ง+ย้อมสี ฿1,190 ลิฟติ้ง+ย้อมสี+คอนดิชันเนอร์บำรุง ฿1,390 ชำระเงินในวันนัด",
+        },
+        {
+          q: "ลิฟติ้งขนตา อยู่ได้นานไหม",
+          a: "6 ถึง 8 สัปดาห์ ความโค้งไม่ตกทีละน้อย แต่จางไปตามการหลุดของขนตาจริงและการงอกขึ้นของเส้นใหม่ที่ไม่ได้ผ่านน้ำยา สัปดาห์ที่ 6 ถึง 8 ประมาณครึ่งของขอบขนตาเป็นเส้นใหม่ ถึงเวลาจองอีก",
+        },
+        {
+          q: "ลิฟติ้งขนตา ทำลายขนตาจริงไหม",
+          a: "ไม่ ถ้าทำถูกต้องด้วยน้ำยาเคราตินคุณภาพสูงโดยช่างที่ระมัดระวัง ความเสียหายเกิดขึ้นเมื่อร้านใช้น้ำยาแรงหรือปล่อยไว้นานเกิน ถามเรื่องน้ำยาที่ใช้และเวลาในการทำก่อนจอง",
+        },
+        {
+          q: "ลิฟติ้งขนตา ต่างจากต่อขนตายังไง",
+          a: "ลิฟติ้งดัดขนตาจริง 6 ถึง 8 สัปดาห์ ไม่ต้องดูแลประจำวัน ไม่เพิ่มวัสดุสังเคราะห์ ต่อขนตาเพิ่มแฟนทำมือที่อยู่ 3 ถึง 4 สัปดาห์ต่อเซตและต้องเติมทุก 2 ถึง 3 สัปดาห์ ลิฟต์ผูกมัดน้อยกว่า ต่อขนตาเพิ่มดราม่าที่เห็นได้มากกว่า",
+        },
+        {
+          q: "ลิฟติ้งขนตาแล้วใส่มาสคาร่าได้ไหม",
+          a: "ได้ หลัง 24 ถึง 48 ชั่วโมง ใช้เฉพาะมาสคาร่าสูตรน้ำ สูตรกันน้ำต้องใช้รีมูฟเวอร์น้ำมันในการล้าง ซึ่งอาจบำรุงเกินและทำให้ความโค้งนุ่มลง",
+        },
+        {
+          q: "ทำลิฟติ้งขนตา ใกล้ฉัน ที่ไหนในเชียงใหม่",
+          a: "My Lash House อยู่ที่สันกลาง อำเภอสันกำแพง ใกล้มหาวิทยาลัยพายัพ ห่างจากตัวเมืองประมาณ 10 นาที เปิด 7 วันต่อสัปดาห์ 10:00 ถึง 19:00 รับ walk-in และนัดวันเดียวกันตามคิวว่าง",
+        },
+      ],
+    },
+  },
+  {
+    slug: "barbie-lash-extensions-chiang-mai",
+    slugTh: "tor-khon-ta-barbie-chiang-mai",
+    title: {
+      en: "Barbie-Style Lash Extensions in Chiang Mai: The Complete Guide (2026)",
+      th: "ต่อขนตาทรงบาร์บี้ เชียงใหม่ คู่มือฉบับสมบูรณ์ (2026)",
+    },
+    metaTitle: {
+      en: "Barbie-Style Lash Extensions in Chiang Mai (2026) | My Lash House",
+      th: "ต่อขนตาทรงบาร์บี้ เชียงใหม่ | ทรงปังเทรนด์ 2026 — My Lash House",
+    },
+    category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
+    dek: {
+      en: "Densely-set, glossy, cat-eye mapped — the Margot Robbie Barbie-era lash look, mapped to your actual face.",
+      th: "อัดแฟนแน่น ฟินิชเงา mapping แบบ cat-eye ลุคขนตายุค Barbie ของ Margot Robbie map เข้ากับหน้าคุณจริง ๆ",
+    },
+    description: {
+      en: "Barbie-style lash extensions in Chiang Mai — what makes a set 'Barbie', which eye shapes suit it, Wet vs Classic Barbie, pricing, and how My Lash House does it differently.",
+      th: "ต่อขนตาทรงบาร์บี้ เชียงใหม่ อะไรทำให้เซตเป็น 'บาร์บี้' รูปตาแบบไหนเหมาะ Wet vs Classic Barbie ราคา และ My Lash House ทำต่างจากที่อื่นยังไง",
+    },
+    publishedAt: "2026-06-27",
+    updatedAt: "2026-06-27",
+    author: "Ying",
+    heroImage: "/images/service-mega.jpg",
+    heroImageAlt: {
+      en: "Barbie-style lash extensions at My Lash House Chiang Mai — dense Mega Volume fans with cat-eye mapping and wispy spike pieces for the wet-look Barbie aesthetic",
+      th: "ต่อขนตาทรงบาร์บี้ที่ My Lash House เชียงใหม่ แฟน Mega Volume อัดแน่น mapping แบบ cat-eye พร้อมเส้น spike แบบ wispy สำหรับเอสเธติกบาร์บี้ wet-look",
+    },
+    readingMinutes: 7,
+    tags: ["barbie lash", "ต่อขนตาทรงบาร์บี้", "mega volume", "cat eye", "chiang mai", "lash extensions"],
+    faq: {
+      en: [
+        {
+          q: "What is a Barbie-style lash set?",
+          a: "A specific combination of four things: Mega Volume base (10–16 fans per natural lash), wispy spike pieces scattered through for a feathered edge, wet-look glossy density, and cat-eye mapping that lifts the outer corner. Materials: 0.07mm fans, D or DD curl, 11–14mm length range.",
+        },
+        {
+          q: "How much do Barbie-style lash extensions cost?",
+          a: "Barbie sits in the Mega Volume price tier at My Lash House. Classic Barbie (Mega Volume) is ฿1,190. Wet Barbie (Mega Volume with Wet Look add-on) is ฿1,290. Color lashes can be added for ฿150 to ฿300.",
+        },
+        {
+          q: "What's the difference between Wet Barbie and Classic Barbie?",
+          a: "Wet Barbie has more concentrated fan density at the base and a glossy wet-strand appearance — best for events and photoshoots. Classic Barbie has a slightly drier finish with more visible individual pieces — works for daily wear.",
+        },
+        {
+          q: "Can I wear Barbie lashes to work?",
+          a: "Classic Barbie in a shorter length (11–12mm) reads as full but not overtly styled and works in most office contexts. Wet Barbie is more of a special-occasion set. Conservative workplaces might find either version too much — Wispy Volume with soft cat-eye framing is the safer daily choice.",
+        },
+        {
+          q: "How long do Barbie lashes last?",
+          a: "A well-applied Barbie set looks full for 1.5 to 2 weeks and needs a refill by 2 to 3 weeks. Mega Volume sheds faster than lighter styles because each natural lash carries more weight, so refill cadence matters more for this style.",
+        },
+        {
+          q: "Which eye shape suits Barbie style?",
+          a: "Round and almond eyes carry the classic Barbie best. Hooded eyes work with a modified curl and careful spike placement. Very small eyes and very downturned eyes usually read better with a modified Wispy Volume + soft cat-eye instead of full Barbie.",
+        },
+      ],
+      th: [
+        {
+          q: "ต่อขนตาทรงบาร์บี้ คืออะไร",
+          a: "การรวม 4 อย่างเข้าด้วยกัน ฐาน Mega Volume (แฟน 10–16 เส้นต่อขนตาจริง) เส้น spike แบบ wispy กระจายเป็นขอบที่มีขน ความหนาแบบ wet-look เงา และ mapping แบบ cat-eye ยกหางตา วัสดุ แฟน 0.07 มม. เคิร์ล D หรือ DD ช่วงความยาว 11–14 มม.",
+        },
+        {
+          q: "ต่อขนตาทรงบาร์บี้ ราคาเท่าไหร่",
+          a: "บาร์บี้อยู่ในระดับราคา Mega Volume ที่ My Lash House Classic Barbie (Mega Volume) ฿1,190 Wet Barbie (Mega Volume + Wet Look add-on) ฿1,290 เพิ่มขนตาสี ฿150 ถึง ฿300",
+        },
+        {
+          q: "Wet Barbie กับ Classic Barbie ต่างกันยังไง",
+          a: "Wet Barbie แฟนเข้มข้นที่โคนกว่าและมีลุคเส้นเปียกเงา เหมาะที่สุดสำหรับงานอีเวนต์และงานถ่ายแบบ Classic Barbie ฟินิชแห้งกว่าเล็กน้อย เห็นเส้นเดี่ยวมากกว่า ใช้ได้กับการใส่ประจำวัน",
+        },
+        {
+          q: "ทรงบาร์บี้ ใส่ทำงานได้ไหม",
+          a: "Classic Barbie ในความยาวสั้นกว่า (11–12 มม.) อ่านเป็นเต็มแต่ไม่ผ่านการสไตล์ชัด และใช้ได้กับบริบทออฟฟิศส่วนใหญ่ Wet Barbie เป็นเซตโอกาสพิเศษมากกว่า ที่ทำงานอนุรักษ์นิยมอาจพบว่าทั้งสองเวอร์ชันเยอะเกิน Wispy Volume + cat-eye นุ่ม ๆ เป็นทางเลือกประจำวันที่ปลอดภัยกว่า",
+        },
+        {
+          q: "ขนตาทรงบาร์บี้ อยู่ได้นานเท่าไหร่",
+          a: "เซตบาร์บี้ที่ต่อดีดูเต็ม 1.5 ถึง 2 สัปดาห์ และต้องเติมภายใน 2 ถึง 3 สัปดาห์ Mega Volume หลุดเร็วกว่าสไตล์เบา เพราะขนตาจริงแต่ละเส้นแบกน้ำหนักมากกว่า รอบการเติมสำคัญกว่าสำหรับสไตล์นี้",
+        },
+        {
+          q: "รูปตาไหนเหมาะกับทรงบาร์บี้",
+          a: "ตากลมและตาอัลมอนด์เข้ากับ Classic Barbie ที่สุด หนังตาปิดใช้ได้ด้วยการปรับเคิร์ลและวางเส้น spike อย่างระมัดระวัง ตาเล็กและตาตกมากมักอ่านดีกว่ากับ Wispy Volume + cat-eye นุ่ม ๆ แทนบาร์บี้เต็ม",
+        },
+      ],
+    },
+  },
+  {
+    slug: "lash-extension-downsides-honest-guide",
+    slugTh: "tor-khon-ta-khor-sia",
+    title: {
+      en: "The Real Downsides of Lash Extensions: An Honest Guide from a Chiang Mai Lash Artist",
+      th: "ข้อเสียของต่อขนตา ที่ช่างมืออาชีพไม่ปกปิด และวิธีที่เรารับมือ",
+    },
+    metaTitle: {
+      en: "The Real Downsides of Lash Extensions (Honest Guide) | My Lash House",
+      th: "ต่อขนตา ข้อเสีย และวิธีแก้ | คู่มือจริงจากช่างเชียงใหม่",
+    },
+    category: { en: "Honest Guide", th: "คู่มือซื่อสัตย์" },
+    dek: {
+      en: "Five real trade-offs, three common myths, and how a careful artist mitigates every one of them.",
+      th: "5 การแลกจริง 3 ความเข้าใจผิดที่พบบ่อย และวิธีที่ช่างระมัดระวังรับมือทุกข้อ",
+    },
+    description: {
+      en: "The real downsides of lash extensions (and the three common myths that aren't actually downsides), from a certified Chiang Mai artist with 7+ years. Honest, not oversold.",
+      th: "ข้อเสียจริงของต่อขนตา (และ 3 ความเข้าใจผิดที่ไม่ใช่ข้อเสียจริง) จากช่างเชียงใหม่ที่มีใบรับรอง 7+ ปี ซื่อสัตย์ ไม่ขายเกินจริง",
+    },
+    publishedAt: "2026-06-27",
+    updatedAt: "2026-06-27",
+    author: "Ying",
+    heroImage: "/images/service-classic.jpg",
+    heroImageAlt: {
+      en: "Close-up of a well-mapped Classic lash set at My Lash House Chiang Mai, illustrating properly applied extensions that don't damage natural lashes",
+      th: "ภาพระยะใกล้ของเซตขนตาคลาสสิกที่ mapping ดีที่ My Lash House เชียงใหม่ แสดงการต่อขนตาถูกต้องที่ไม่ทำลายขนตาจริง",
+    },
+    readingMinutes: 9,
+    tags: ["lash extensions", "downsides", "ต่อขนตา ข้อเสีย", "chiang mai", "honest guide", "safety"],
+    faq: {
+      en: [
+        {
+          q: "Do lash extensions damage natural lashes?",
+          a: "Properly applied extensions don't damage natural lashes. Damage comes from three specific things: oversized fans on weak natural lashes, poor isolation that lets two natural lashes glue together, or rough at-home removal. All three are preventable with a careful, certified artist.",
+        },
+        {
+          q: "Can I be allergic to lash extension glue?",
+          a: "About 2% of clients have some level of reaction to the cyanoacrylate adhesive. Patch testing 48 hours before your first appointment catches most sensitivities. Alternative low-fume glues are available for mild sensitivities. For severe reactions, a lash lift (no cyanoacrylate exposure) is usually the better option.",
+        },
+        {
+          q: "Can I wash my face normally with lash extensions?",
+          a: "After the first 24 hours (the adhesive cure window), yes. Use water-based cleansers only — no oil cleansers, cleansing balms, or micellar water, which dissolve the adhesive bond. Pat dry with a lint-free cloth; never rub.",
+        },
+        {
+          q: "How much do lash extensions cost per month?",
+          a: "At refill cadence (every 2 to 3 weeks) plus a full set every 6 to 12 months, expect roughly ฿15,000 to ฿30,000 per year at Chiang Mai pricing. Style choice affects the number significantly — lighter styles like Classic 1:1 need less frequent refills than Mega Volume.",
+        },
+        {
+          q: "Why did my lash extensions fall out so fast?",
+          a: "Three most common causes: oil-based products near the eyes (biggest single factor), sleeping face-down or on the side that shed faster, and cheap glue that broke down in Chiang Mai humidity. Application issues show up in the first 3 days; aftercare issues show across the whole set lifespan.",
+        },
+        {
+          q: "How do I choose a good lash extension salon?",
+          a: "Ask three questions: are the fans handmade or premade, is isolation done one natural lash at a time, and what's the retouch or damage policy. If a salon can't or won't answer clearly, that itself is information.",
+        },
+      ],
+      th: [
+        {
+          q: "ต่อขนตา ทำลายขนตาจริงไหม",
+          a: "ขนตาที่ต่อถูกต้องไม่ทำลายขนตาจริง ความเสียหายมาจาก 3 อย่างเฉพาะ คือ แฟนใหญ่เกินไปบนขนตาจริงที่บอบบาง การแยกขนไม่ดีจนติดสองเส้นเข้าด้วยกัน หรือการถอดเองที่บ้านแบบรุนแรง ทั้งสามป้องกันได้ด้วยการเลือกช่างที่ระมัดระวังและมีใบรับรอง",
+        },
+        {
+          q: "ต่อขนตา แพ้กาวได้ไหม",
+          a: "ประมาณ 2% ของลูกค้ามีปฏิกิริยาต่อกาว cyanoacrylate ในระดับใดระดับหนึ่ง Patch test 48 ชั่วโมงก่อนนัดแรกจับได้ส่วนใหญ่ของความไว มีกาวสูตรกลิ่นเบาสำรองสำหรับความไวเล็กน้อย สำหรับปฏิกิริยารุนแรง ลิฟติ้งขนตา (ไม่มีการสัมผัส cyanoacrylate) มักเป็นตัวเลือกที่ดีกว่า",
+        },
+        {
+          q: "ต่อขนตา ล้างหน้าได้ปกติไหม",
+          a: "หลัง 24 ชั่วโมงแรก (ช่วง cure ของกาว) ได้ ใช้เฉพาะคลีนเซอร์สูตรน้ำ ไม่ใช่ออยล์คลีนเซอร์ คลีนซิ่งบาล์ม หรือน้ำ micellar ที่ละลายบอนด์กาว ซับด้วยผ้าไม่มีขุย ไม่ถู",
+        },
+        {
+          q: "ต่อขนตา ค่าใช้จ่ายต่อเดือนเท่าไหร่",
+          a: "รอบการเติม (ทุก 2 ถึง 3 สัปดาห์) บวกเซตเต็มทุก 6 ถึง 12 เดือน ประมาณ ฿15,000 ถึง ฿30,000 ต่อปีในราคาเชียงใหม่ การเลือกทรงมีผลต่อตัวเลขมาก ทรงเบาอย่าง Classic 1:1 ต้องการเติมน้อยกว่า Mega Volume",
+        },
+        {
+          q: "ต่อขนตา หลุดเร็ว ทำไม",
+          a: "3 สาเหตุที่พบบ่อยที่สุด ผลิตภัณฑ์น้ำมันรอบตา (ปัจจัยเดี่ยวใหญ่ที่สุด) นอนคว่ำหรือนอนทับด้านที่หลุดเร็ว และกาวถูกที่พังในความชื้นเชียงใหม่ ปัญหาการต่อแสดงใน 3 วันแรก ปัญหาการดูแลแสดงตลอดอายุเซต",
+        },
+        {
+          q: "เลือกร้านต่อขนตาที่ดียังไง",
+          a: "ถาม 3 คำถาม แฟนทำมือหรือสำเร็จรูป การแยกขนทำทีละเส้นไหม และนโยบายรีทัชหรือความเสียหายเป็นอย่างไร ถ้าร้านตอบไม่ได้หรือไม่ยอมตอบชัดเจน นั่นเองก็คือข้อมูล",
+        },
+      ],
+    },
+  },
+  {
     slug: "lash-extension-aftercare-chiang-mai",
     slugTh: "withi-doolae-khonta-lang-tor",
     title: {
