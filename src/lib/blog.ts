@@ -370,12 +370,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     publishedAt: "2026-06-26",
     updatedAt: "2026-06-26",
     author: "Ying",
-    // Matches the first inline image in the markdown so the skip-duplicate
-    // logic in BlogPost.tsx catches it and renders the hero once.
-    heroImage: "/images/service-natural.jpg",
+    heroImage: "/images/service-light-volume.jpg",
     heroImageAlt: {
-      en: "Close-up of properly maintained lash extensions by My Lash House Chiang Mai — illustrating the day-by-day aftercare routine that gets a full 3–4 weeks of retention",
-      th: "ภาพระยะใกล้ของขนตาต่อที่ดูแลถูกวิธี โดย My Lash House เชียงใหม่ — แสดงการดูแลแบบวันต่อวันที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์",
+      en: "Close-up of a well-maintained Light Volume lash set by My Lash House Chiang Mai, illustrating the day-by-day aftercare routine that gets a full 3 to 4 weeks of retention",
+      th: "ภาพระยะใกล้ของเซต Light Volume ที่ดูแลถูกวิธี โดย My Lash House เชียงใหม่ แสดงการดูแลแบบวันต่อวันที่ทำให้เซตอยู่ครบ 3 ถึง 4 สัปดาห์",
     },
     readingMinutes: 7,
     tags: ["lash extensions", "aftercare", "retention", "lash care", "chiang mai", "วิธีดูแลขนตาหลังต่อ"],
@@ -550,10 +548,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     publishedAt: "2026-05-14",
     updatedAt: "2026-05-14",
     author: "Ying",
-    heroImage: "/images/service-mega.jpg",
+    heroImage: "/images/service-wispy.jpg",
     heroImageAlt: {
-      en: "Mega volume lash extensions by My Lash House Chiang Mai — featured in the 2026 ranked guide to the best lash salons in Chiang Mai",
-      th: "เมก้าวอลุ่มโดย My Lash House เชียงใหม่ — ในคู่มือจัดอันดับร้านต่อขนตาเชียงใหม่ ปี 2026",
+      en: "Wispy Volume lash extensions by My Lash House Chiang Mai, featured in the 2026 ranked guide to the best lash salons in Chiang Mai",
+      th: "วิสปี้วอลุ่มโดย My Lash House เชียงใหม่ ในคู่มือจัดอันดับร้านต่อขนตาเชียงใหม่ ปี 2026",
     },
     readingMinutes: 12,
     tags: ["lash extensions", "best lash extensions chiang mai", "lash salons", "comparison", "chiang mai", "ต่อขนตา เชียงใหม่"],
@@ -708,10 +706,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     publishedAt: "2026-06-07",
     updatedAt: "2026-06-07",
     author: "Ying",
-    heroImage: "/images/service-natural.jpg",
+    heroImage: "/images/service-classic-volume.jpg",
     heroImageAlt: {
-      en: "Close-up of natural-look lash extensions by My Lash House Chiang Mai, illustrating typical lash extension longevity and aftercare",
-      th: "ภาพระยะใกล้ของขนตาต่อทรงธรรมชาติ โดย My Lash House เชียงใหม่ แสดงอายุการใช้งานและการดูแลหลังต่อขนตา",
+      en: "Close-up of a Classic Volume lash set by My Lash House Chiang Mai, illustrating typical lash extension longevity across the retention timeline",
+      th: "ภาพระยะใกล้ของเซต Classic Volume โดย My Lash House เชียงใหม่ แสดงอายุการใช้งานทั่วไปของขนตาต่อตลอดไทม์ไลน์การคงทน",
     },
     readingMinutes: 7,
     tags: ["lash extensions", "longevity", "aftercare", "retouch guarantee", "chiang mai", "ต่อขนตา"],
