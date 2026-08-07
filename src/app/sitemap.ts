@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts, getPostUrl } from "@/lib/blog";
+import { SERVICE_PAGES } from "@/lib/servicePages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://mylashhouse.com";
@@ -82,5 +83,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     },
     ...blogPosts,
+    ...SERVICE_PAGES.flatMap((svc) => [
+      {
+        url: `${base}/services/${svc.slug}`,
+        lastModified,
+        changeFrequency: "monthly" as const,
+        priority: 0.9,
+        alternates: {
+          languages: {
+            en: `${base}/services/${svc.slug}`,
+            th: `${base}/th/services/${svc.slug}`,
+          },
+        },
+      },
+      {
+        url: `${base}/th/services/${svc.slug}`,
+        lastModified,
+        changeFrequency: "monthly" as const,
+        priority: 0.9,
+        alternates: {
+          languages: {
+            en: `${base}/services/${svc.slug}`,
+            th: `${base}/th/services/${svc.slug}`,
+          },
+        },
+      },
+    ]),
   ];
 }
