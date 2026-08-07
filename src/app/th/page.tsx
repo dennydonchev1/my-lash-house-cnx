@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
+import StyleFinder from "@/components/StyleFinder";
 import Pricing from "@/components/Pricing";
 import Guarantee from "@/components/Guarantee";
 import Reviews from "@/components/Reviews";
@@ -80,6 +81,7 @@ export default function HomeTh() {
         <Hero lang="th" />
         <About lang="th" />
         <Services lang="th" />
+        <StyleFinder lang="th" />
         <Gallery lang="th" />
         <Pricing lang="th" />
         <Guarantee lang="th" />

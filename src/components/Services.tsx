@@ -49,13 +49,18 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
                 key={service.name}
                 className="animate-on-scroll group relative overflow-hidden rounded-2xl border border-cream-dark bg-cream transition-all hover:border-rose/30 hover:shadow-xl"
               >
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="relative aspect-[4/3] overflow-hidden">
                   <img
                     src={service.image}
                     alt={primaryName}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
+                  {service.badge && (
+                    <span className="absolute left-3 top-3 rounded-full bg-plum px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-white shadow-sm">
+                      {lang === "th" ? service.badge.th : service.badge.en}
+                    </span>
+                  )}
                 </div>
                 <div className="p-6">
                   <div className="flex items-baseline justify-between">
@@ -69,6 +74,19 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
                   <p className="mt-2 text-sm leading-relaxed text-charcoal-light">
                     {desc}
                   </p>
+                  <div className="mt-3 flex items-center gap-2">
+                    <span className="text-[10px] font-semibold uppercase tracking-widest text-charcoal-light">
+                      {lang === "th" ? "ดราม่า" : "Drama"}
+                    </span>
+                    <span className="inline-flex items-center gap-1" aria-label={`${service.drama} / 5`}>
+                      {[1, 2, 3, 4, 5].map((i) => (
+                        <span
+                          key={i}
+                          className={`h-1.5 w-1.5 rounded-full ${i <= service.drama ? "bg-rose-dark" : "bg-cream-dark"}`}
+                        />
+                      ))}
+                    </span>
+                  </div>
                   <div className="mt-4 flex items-center justify-between">
                     <span className="text-lg font-bold text-plum">
                       ฿{service.price}

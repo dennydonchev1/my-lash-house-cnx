@@ -51,6 +51,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "ต่อขนตาแบบ 1 ต่อ 1 ลุคธรรมชาติเบา ๆ เหมาะสำหรับผู้ที่ต่อขนตาเป็นครั้งแรก",
     price: "590",
+    drama: 1,
+    badge: { en: "First-timer pick", th: "เหมาะมือใหม่" },
     image: "/images/service-classic.jpg",
   },
   {
@@ -61,6 +63,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "ต่อขนตาแบบธรรมชาติ ขนเบา ฟู สวยเหมือนขนตาตัวเองแต่ดูดีกว่า",
     price: "790",
+    drama: 1,
+    badge: null,
     image: "/images/service-natural.jpg",
   },
   {
@@ -71,6 +75,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "ผสมเทคนิคคลาสสิกและวอลลุ่ม ได้ลุคที่มีมิติ ดูฟูแต่ยังเป็นธรรมชาติ",
     price: "990",
+    drama: 2,
+    badge: null,
     image: "/images/service-hybrid.jpg",
   },
   {
@@ -81,6 +87,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "พัดขนตาทำมือ ให้ความฟูที่เห็นได้ชัด แต่ยังคงความเรียบหรู",
     price: "990",
+    drama: 2,
+    badge: null,
     image: "/images/service-classic-volume.jpg",
   },
   {
@@ -91,6 +99,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "พัดวอลลุ่มแบบเบา ขนตาฟู ดูพริ้ว ไม่หนักตา",
     price: "1,090",
+    drama: 2,
+    badge: { en: "Daily-wear favorite", th: "ใส่ทำงานได้ทุกวัน" },
     image: "/images/service-light-volume.jpg",
   },
   {
@@ -101,6 +111,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "พัดเส้นเล็กพิเศษ ซ้อนกันแน่น ลุคจัดเต็ม ฟูสุด ๆ สะดุดตา",
     price: "1,190",
+    drama: 4,
+    badge: null,
     image: "/images/service-mega.jpg",
   },
   {
@@ -111,6 +123,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "ขนตาจัดกลุ่ม สไปก์ ดูเงาเหมือนเปียกน้ำ ลุคแฟชั่นจัดเต็ม",
     price: "1,290",
+    drama: 3,
+    badge: null,
     image: "/images/service-wet-look.jpg",
   },
   {
@@ -121,6 +135,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "พัดสไตล์รัสเซีย แน่น ฟู หรูหรา ทำมือทุกพัด",
     price: "1,390",
+    drama: 3,
+    badge: null,
     image: "/images/service-russian.jpg",
   },
   {
@@ -131,6 +147,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "ผสมความยาวและสไปก์ ลุคพริ้ว ตาตุ๊กตา มีมิติ",
     price: "1,490",
+    drama: 3,
+    badge: { en: "Most booked", th: "จองเยอะสุด" },
     image: "/images/service-wispy.jpg",
   },
   {
@@ -141,6 +159,8 @@ export const LASH_SERVICES = [
     descriptionTh:
       "ขนตาแบบเส้นสำเร็จ ติดด่วน ลุคจัดเต็มที่สุดในเมนู",
     price: "1,590",
+    drama: 5,
+    badge: null,
     image: "/images/service-strip.jpg",
   },
 ] as const;

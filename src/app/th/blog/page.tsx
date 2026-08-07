@@ -29,6 +29,7 @@ export const metadata: Metadata = {
 
 export default function BlogIndexTh() {
   const posts = getAllPosts();
+  const [featured, ...rest] = posts;
 
   return (
     <>
@@ -45,8 +46,37 @@ export default function BlogIndexTh() {
             </p>
           </header>
 
+          {/* โพสต์ล่าสุดเป็นการ์ดใหญ่เต็มความกว้าง */}
+          <Link
+            href={getPostUrl(featured, "th")}
+            className="group mb-10 block overflow-hidden rounded-3xl border border-cream-dark bg-white transition-all hover:border-rose/40 hover:shadow-xl md:flex"
+          >
+            <div className="aspect-[16/10] overflow-hidden bg-cream-dark md:aspect-auto md:w-1/2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={featured.heroImage}
+                alt={featured.heroImageAlt.th}
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="flex flex-col justify-center p-8 md:w-1/2 md:p-10">
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-rose-dark">
+                {featured.category ? featured.category.th : "ล่าสุด"}
+              </p>
+              <h2 className="mt-3 font-heading text-2xl font-bold leading-tight transition-colors group-hover:text-plum sm:text-3xl">
+                {featured.title.th}
+              </h2>
+              <p className="mt-4 font-heading italic leading-relaxed text-charcoal-light">
+                {(featured.dek ?? featured.description).th}
+              </p>
+              <p className="mt-6 text-xs uppercase tracking-widest text-charcoal-light">
+                {featured.readingMinutes} นาทีในการอ่าน
+              </p>
+            </div>
+          </Link>
+
           <div className="grid gap-8 sm:grid-cols-2">
-            {posts.map((post) => (
+            {rest.map((post) => (
               <Link
                 key={post.slug}
                 href={getPostUrl(post, "th")}

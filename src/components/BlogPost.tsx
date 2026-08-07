@@ -24,6 +24,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
 import FAQAccordion from "@/components/FAQAccordion";
+import ReadingProgress from "@/components/ReadingProgress";
 import type { BlogPostMeta } from "@/lib/blog";
 import {
   getAllPosts,
@@ -438,6 +439,7 @@ export default function BlogPost({
         />
       ))}
 
+      <ReadingProgress />
       <Navbar lang={lang} otherLangHref={otherLangHref} />
 
       <main className="bg-cream pt-24 sm:pt-28">
