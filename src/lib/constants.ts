@@ -187,6 +187,7 @@ export const OTHER_SERVICES = [
   {
     name: "Lash Lift & Tint",
     thai: "ลิฟติ้งขนตา",
+    href: "/services/lash-lifting",
     description:
       "Curl and tint your natural lashes for a low-maintenance, wide-eyed look.",
     descriptionTh:
@@ -211,6 +212,7 @@ export const OTHER_SERVICES = [
   },
   {
     name: "Nail Art & Extensions",
+    href: "/services/nails",
     thai: "ต่อเล็บ",
     description:
       "PVC soft gel, French nails, chrome, overlay, and custom nail art designs.",

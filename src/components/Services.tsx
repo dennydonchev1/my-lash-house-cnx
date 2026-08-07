@@ -7,6 +7,7 @@ import {
   GraduationCap,
   ArrowRight,
 } from "lucide-react";
+import Link from "next/link";
 import { LASH_SERVICES, LASH_ADDON, OTHER_SERVICES, BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
 
@@ -155,9 +156,14 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
             const primaryName = lang === "th" ? service.thai : service.name;
             const secondaryName = lang === "th" ? service.name : service.thai;
             const desc = lang === "th" ? service.descriptionTh : service.description;
+            const href = "href" in service && service.href
+              ? (lang === "th" ? `/th${service.href}` : service.href)
+              : null;
+            const Card = href ? Link : "div";
             return (
-              <div
+              <Card
                 key={service.name}
+                {...(href ? { href } : {})}
                 className="animate-on-scroll flex gap-4 rounded-xl border border-cream-dark bg-cream p-5 transition-all hover:border-rose/30 hover:shadow-md"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-plum/10">
@@ -174,7 +180,7 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
                     {desc}
                   </p>
                 </div>
-              </div>
+              </Card>
             );
           })}
         </div>

@@ -138,7 +138,7 @@
 
 ## จองลิฟติ้งขนตา
 
-สำหรับคำถามว่าลิฟต์เหมาะกับขนตาของคุณไหม หรือจองนัด [ทักไอจี](https://www.instagram.com/my_lash_house.cnx/) LINE หรือ WhatsApp
+พร้อมจองแล้ว? [หน้าบริการลิฟติ้งขนตา](/th/services/lash-lifting) รวมตัวเลือกและทางลัดการจองไว้ที่เดียว สำหรับคำถามว่าลิฟต์เหมาะกับขนตาของคุณไหม [ทักไอจี](https://www.instagram.com/my_lash_house.cnx/) LINE หรือ WhatsApp
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska

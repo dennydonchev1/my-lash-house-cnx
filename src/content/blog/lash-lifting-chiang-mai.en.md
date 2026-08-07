@@ -138,7 +138,7 @@ The Thai-language version of this guide is at [/th/blog/lifting-khon-ta-chiang-m
 
 ## Book your lash lift
 
-For questions about whether a lift is right for your lash type, or to book an appointment, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/), LINE, or WhatsApp.
+Ready to book? The [lash lifting service page](/services/lash-lifting) has the option list and booking shortcuts in one place. For questions about whether a lift is right for your lash type, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/), LINE, or WhatsApp.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska
