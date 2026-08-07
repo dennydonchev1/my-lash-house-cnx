@@ -159,13 +159,10 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
             const href = "href" in service && service.href
               ? (lang === "th" ? `/th${service.href}` : service.href)
               : null;
-            const Card = href ? Link : "div";
-            return (
-              <Card
-                key={service.name}
-                {...(href ? { href } : {})}
-                className="animate-on-scroll flex gap-4 rounded-xl border border-cream-dark bg-cream p-5 transition-all hover:border-rose/30 hover:shadow-md"
-              >
+            const cardClass =
+              "animate-on-scroll flex gap-4 rounded-xl border border-cream-dark bg-cream p-5 transition-all hover:border-rose/30 hover:shadow-md";
+            const inner = (
+              <>
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-plum/10">
                   <Icon className="h-5 w-5 text-plum" />
                 </div>
@@ -180,7 +177,16 @@ export default function Services({ lang = "en" }: { lang?: Lang }) {
                     {desc}
                   </p>
                 </div>
-              </Card>
+              </>
+            );
+            return href ? (
+              <Link key={service.name} href={href} className={cardClass}>
+                {inner}
+              </Link>
+            ) : (
+              <div key={service.name} className={cardClass}>
+                {inner}
+              </div>
             );
           })}
         </div>
