@@ -12,7 +12,7 @@ export default function Hero({ lang = "en" }: { lang?: Lang }) {
   const t = dict[lang].hero;
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
-      {/* Background — placeholder gradient until real photo */}
+      {/* Background, placeholder gradient until real photo */}
       <div className="absolute inset-0 placeholder-img-dark" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/30 to-black/60" />
 
@@ -45,7 +45,7 @@ export default function Hero({ lang = "en" }: { lang?: Lang }) {
             House
           </h1>
 
-          {/* Subhead — keyword-rich H2 for SEO */}
+          {/* Subhead, keyword-rich H2 for SEO */}
           <p className="mx-auto mt-4 max-w-2xl text-base font-medium tracking-wide text-white/90 sm:text-lg">
             {t.seoSubhead}
           </p>

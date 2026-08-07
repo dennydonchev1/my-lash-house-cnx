@@ -18,7 +18,7 @@ Five that are honest trade-offs, not deal-breakers.
 
 ### 1. Ongoing time and cost commitment
 
-Extensions need infill appointments every 2 to 4 weeks. Each infill runs 60 to 90 minutes and costs 50 to 70% of a fresh full set. Annualized, that's a real budget line — think ฿15,000 to ฿30,000 per year at Chiang Mai pricing.
+Extensions need infill appointments every 2 to 4 weeks. Each infill runs 60 to 90 minutes and costs 50 to 70% of a fresh full set. Annualized, that's a real budget line think ฿15,000 to ฿30,000 per year at Chiang Mai pricing.
 
 If you go 5+ weeks without an infill, the set stops looking good and often needs a full removal + new set, which costs more.
 
@@ -29,7 +29,7 @@ For deeper detail on the refill cadence and what happens if you wait too long, s
 Here's the honest version of the "extensions ruin your lashes" fear. Properly applied extensions do not damage natural lashes. Damage comes from three things:
 
 - **Oversized fans on weak natural lashes.** A Mega Volume fan on a fine natural lash puts too much weight at the root, and the natural lash sheds early. Enough of this over months and your lash line thins visibly.
-- **Poor isolation** — the artist glues two natural lashes together while applying the extension. When one sheds, it pulls the other with it and can pull it out at the root.
+- **Poor isolation**, the artist glues two natural lashes together while applying the extension. When one sheds, it pulls the other with it and can pull it out at the root.
 - **Rough at-home removal.** Peeling extensions off (or picking at loose ones) yanks natural lashes with them.
 
 All three are prevented by choosing a careful, certified artist and letting extensions shed naturally.
@@ -50,7 +50,7 @@ The full day-by-day list is in the [aftercare guide](/blog/lash-extension-afterc
 
 Roughly 2% of clients have some level of reaction to the cyanoacrylate adhesive used in extensions. Symptoms range from mild watering to swollen lids. Patch testing 48 hours before your first appointment catches most sensitivities.
 
-At My Lash House, we offer patch tests on request. Alternative low-fume glues are available for clients with mild sensitivity. For severe reactions, extensions aren't the right service — a lash lift (no cyanoacrylate exposure) is usually the better call.
+At My Lash House, we offer patch tests on request. Alternative low-fume glues are available for clients with mild sensitivity. For severe reactions, extensions aren't the right service, a lash lift (no cyanoacrylate exposure) is usually the better call.
 
 ### 5. A bad set is more visible than no lashes
 
@@ -88,7 +88,7 @@ Six things, in order of importance.
 
 The differentiator section, because this is a page for people already skeptical.
 
-**On damage risk:** We use only 100% handmade fans (never premade), which are lighter per natural lash. Isolation is done one natural lash at a time, always — never rushed. Fan size is calibrated to the strength of your natural lash during mapping, so the wrong-weight-for-your-lashes problem doesn't happen here.
+**On damage risk:** We use only 100% handmade fans (never premade), which are lighter per natural lash. Isolation is done one natural lash at a time, always, never rushed. Fan size is calibrated to the strength of your natural lash during mapping, so the wrong-weight-for-your-lashes problem doesn't happen here.
 
 **On lifestyle adjustments:** Every new client gets a real aftercare consultation at the end of their appointment, not a rushed handout. We explain what to avoid, what's fine, and what to do if you slip up.
 
@@ -138,6 +138,6 @@ Not sure whether extensions are right for your lash type or lifestyle? [Message 
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new safety research, client feedback, and reader corrections.

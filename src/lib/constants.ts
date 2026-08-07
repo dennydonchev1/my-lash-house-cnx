@@ -24,14 +24,14 @@ export const BUSINESS = {
   },
   hours: {
     days: "Open Daily",
-    time: "10:00 AM – 7:00 PM",
+    time: "9:00 AM – 7:00 PM",
   },
   mapEmbedUrl:
     "https://maps.google.com/maps?q=My+Lash+House+Chiang+Mai,89/117+Pruksa+Ville,San+Klang,San+Kamphaeng,Chiang+Mai+50130&hl=en&z=16&output=embed",
   googleMapsUrl:
     "https://www.google.com/maps/place/My+Lash+House+Chiang+Mai/@18.7870732,99.0412865,17z",
   rating: 5.0,
-  reviewCount: 18,
+  reviewCount: 19,
 } as const;
 
 export const NAV_LINKS = [
@@ -57,7 +57,7 @@ export const LASH_SERVICES = [
     name: "Natural Look",
     thai: "เนเชอรัล",
     description:
-      "Soft, lightweight extensions that mimic your natural lashes — only better.",
+      "Soft, lightweight extensions that mimic your natural lashes, only better.",
     descriptionTh:
       "ต่อขนตาแบบธรรมชาติ ขนเบา ฟู สวยเหมือนขนตาตัวเองแต่ดูดีกว่า",
     price: "790",
@@ -149,7 +149,7 @@ export const LASH_ADDON = {
   name: "Color Lashes",
   thai: "ขนตาสี",
   description:
-    "Add a pop of colored lashes to any set — choose from a range of accent shades.",
+    "Add a pop of colored lashes to any set, choose from a range of accent shades.",
   descriptionTh:
     "เพิ่มขนตาสีให้กับเซ็ตของคุณ มีหลายเฉดให้เลือก แต่งเติมลุคให้สดใส",
   price: "150–300",

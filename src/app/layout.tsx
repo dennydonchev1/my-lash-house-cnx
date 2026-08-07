@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display, Inter, Prompt, Sarabun } from "next/font/google";
 import { BUSINESS } from "@/lib/constants";
 import "./globals.css";
 
@@ -16,11 +16,28 @@ const inter = Inter({
   display: "swap",
 });
 
+// Thai display + body fonts. Playfair Display has NO Thai glyphs, so every
+// Thai headline was silently falling back to the system font. Prompt carries
+// the display weight for Thai; Sarabun handles Thai body text.
+const prompt = Prompt({
+  variable: "--font-prompt",
+  subsets: ["thai", "latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+const sarabun = Sarabun({
+  variable: "--font-sarabun",
+  subsets: ["thai", "latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://mylashhouse.com"),
   title: "Lash Extensions Chiang Mai · 100% Handmade Fans · My Lash House",
   description:
-    "Premium eyelash extensions in Chiang Mai, near Payap University. 100% handmade fans by a certified artist with 7+ years experience. Open daily 10am–7pm.",
+    "Premium eyelash extensions in Chiang Mai, near Payap University. 100% handmade fans by a certified artist with 7+ years experience. Open daily 9am–7pm.",
   icons: {
     icon: [
       { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
@@ -142,7 +159,7 @@ export default async function RootLayout({
         "Saturday",
         "Sunday",
       ],
-      opens: "10:00",
+      opens: "09:00",
       closes: "19:00",
     },
     aggregateRating: {
@@ -152,7 +169,7 @@ export default async function RootLayout({
       bestRating: 5,
     },
     priceRange: "฿590–฿1,590",
-    image: "https://mylashhouse.com/images/hero.jpg",
+    image: "https://mylashhouse.com/images/service-wispy.jpg",
     sameAs: [
       BUSINESS.instagramUrl,
       BUSINESS.facebookUrl,
@@ -193,7 +210,7 @@ export default async function RootLayout({
         name: "Does My Lash House offer a guarantee on lash extensions?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — every set comes with a 3-day retouch guarantee. If lashes show abnormal shedding within 3 days due to glue failure, retouching is free. The guarantee does not cover loss caused by rubbing the lashes, getting them wet within the first 2 hours, or using oil-based cleansers (use water-based only).",
+          text: "Yes, every set comes with a 3-day retouch guarantee. If lashes show abnormal shedding within 3 days due to glue failure, retouching is free. The guarantee does not cover loss caused by rubbing the lashes, getting them wet within the first 2 hours, or using oil-based cleansers (use water-based only).",
         },
       },
       {
@@ -209,7 +226,7 @@ export default async function RootLayout({
         name: "Where is My Lash House located in Chiang Mai?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "My Lash House is a private studio in San Klang, near Payap University in Chiang Mai — about 10 minutes from the city center. Official address: 89/117 Pruksa Ville, San Klang, San Kamphaeng District, Chiang Mai 50130, Thailand.",
+          text: "My Lash House is a private studio in San Klang, near Payap University in Chiang Mai, about 10 minutes from the city center. Official address: 89/117 Pruksa Ville, San Klang, San Kamphaeng District, Chiang Mai 50130, Thailand.",
         },
       },
       {
@@ -225,7 +242,7 @@ export default async function RootLayout({
         name: "How do I book an appointment at My Lash House?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "You can book via LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. The studio is open daily from 10 AM to 7 PM.",
+          text: "You can book via LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. The studio is open daily from 9 AM to 7 PM.",
         },
       },
       {
@@ -242,7 +259,7 @@ export default async function RootLayout({
   return (
     <html
       lang={htmlLang}
-      className={`${playfair.variable} ${inter.variable} h-full antialiased`}
+      className={`${playfair.variable} ${inter.variable} ${prompt.variable} ${sarabun.variable} h-full antialiased`}
     >
       <head>
         <script

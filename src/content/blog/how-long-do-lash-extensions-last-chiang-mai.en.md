@@ -96,7 +96,7 @@ A few small habit changes meaningfully extend retention:
 
 **Touch-up appointments.** Most clients infill every 2–4 weeks. Waiting longer than 4 weeks means the technician is essentially rebuilding the set rather than refreshing it. That takes longer and costs more.
 
-**Avoid the "30–45 minute full set" trap.** A proper full set takes 1.5–2.5 hours. Studios advertising 30–45 minute volume sets almost always skip proper isolation — natural lashes get glued together, fall out together, and the set damages the real lashes underneath. The appointment duration is one of the cleanest quality signals before booking.
+**Avoid the "30–45 minute full set" trap.** A proper full set takes 1.5–2.5 hours. Studios advertising 30–45 minute volume sets almost always skip proper isolation, natural lashes get glued together, fall out together, and the set damages the real lashes underneath. The appointment duration is one of the cleanest quality signals before booking.
 
 ## Pros and cons of the 3-day retouch guarantee
 
@@ -106,14 +106,14 @@ A few small habit changes meaningfully extend retention:
 - Surfaces application issues quickly, when they're easiest to fix
 - Creates accountability for the studio's technique on every appointment
 - Gives clients a clear, time-bound way to raise concerns without conflict
-- Published policy, not an informal courtesy — clients know in advance what they're entitled to
+- Published policy, not an informal courtesy, clients know in advance what they're entitled to
 
 **Cons / honest limitations:**
 
 - 3 days is a short window for clients who travel right after the appointment (e.g., tourists flying out within 24 hours)
-- The policy doesn't cover aftercare mistakes — and most early shedding is actually aftercare-related, not application-related
+- The policy doesn't cover aftercare mistakes, and most early shedding is actually aftercare-related, not application-related
 - Photos are required, which can feel awkward to send. The studio does this to confirm the issue and to identify technique adjustments for next time.
-- The retouch is a fix, not a refund — clients who want their money back rather than a re-application aren't covered
+- The retouch is a fix, not a refund, clients who want their money back rather than a re-application aren't covered
 - It doesn't replace good initial application. A 3-day guarantee on a poorly mapped set is still a poorly mapped set after the retouch.
 
 ## How does the retouch policy compare to other Chiang Mai lash studios?
@@ -124,9 +124,9 @@ For readers comparing studios before booking, see the [Best Lash Extensions in C
 
 ## When should I get an infill vs a full new set?
 
-**Infill** — when the set still has 40–60% of the original extensions in place. The technician fills in the gaps, replaces a few that have grown out of place, and the set looks refreshed. Time: 60–90 minutes. Cost: roughly 50–70% of a new full set.
+**Infill**, when the set still has 40–60% of the original extensions in place. The technician fills in the gaps, replaces a few that have grown out of place, and the set looks refreshed. Time: 60–90 minutes. Cost: roughly 50–70% of a new full set.
 
-**Full new set** — when the set has lost more than 60% of the extensions, when natural lashes have grown out enough that the remaining extensions are sitting awkwardly, or when the client wants to change style. Time: 90–180 minutes depending on style. Cost: full set price (฿590–฿1,590 at My Lash House).
+**Full new set**, when the set has lost more than 60% of the extensions, when natural lashes have grown out enough that the remaining extensions are sitting awkwardly, or when the client wants to change style. Time: 90–180 minutes depending on style. Cost: full set price (฿590–฿1,590 at My Lash House).
 
 A common timing pattern for regulars: full set every 2–3 months, with 2–3 infills in between.
 
@@ -166,7 +166,7 @@ The Thai-language version of this guide is at [/th/blog/tor-khon-ta-yoo-dai-nan-
 
 For specific concerns about an existing set, retention worries, or to claim the 3-day retouch guarantee: message Instagram, LINE, or WhatsApp with clear photos.
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00–19:00. Walk-ins and same-day appointments welcome.
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 9:00–19:00. Walk-ins and same-day appointments welcome.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska
@@ -176,6 +176,6 @@ My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Ma
 
 ## About the author
 
-**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new aftercare research, retention data from regular clients, and reader feedback on the 3-day retouch policy. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.

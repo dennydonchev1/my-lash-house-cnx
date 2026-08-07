@@ -124,7 +124,7 @@ The sauna rule relaxes after the first 48 hours. After that, occasional steam ex
 
 Yes, more than people expect. A few local factors worth planning around.
 
-**Rainy season (May to October).** The constant humidity keeps your skin oilier than usual, which weakens the adhesive bond faster. Daily cleaning becomes non-negotiable in these months — it's the only thing that keeps natural oils from sitting on the lash line all day.
+**Rainy season (May to October).** The constant humidity keeps your skin oilier than usual, which weakens the adhesive bond faster. Daily cleaning becomes non-negotiable in these months, it's the only thing that keeps natural oils from sitting on the lash line all day.
 
 **Hot-season sweat (March to May).** Heavy sweat during the hottest months has the same effect as water in the cure window if it's pouring down your face. Cool your face before stepping inside (cold water on the wrists works) instead of dabbing at sweaty lashes with whatever's nearby.
 
@@ -142,7 +142,7 @@ Tourists and short-stay visitors ask this constantly. The honest version:
 
 **After 48 hours, fly normally.** The set is fully cured.
 
-If you're visiting Chiang Mai and want a set before you fly home, book the appointment for the morning of day 2 of your trip at minimum. That gives a 48-hour buffer before any return flight. For shorter trips, lash lift might be the better call — it has no cure window.
+If you're visiting Chiang Mai and want a set before you fly home, book the appointment for the morning of day 2 of your trip at minimum. That gives a 48-hour buffer before any return flight. For shorter trips, lash lift might be the better call, it has no cure window.
 
 ## How should I sleep without losing lashes?
 
@@ -214,7 +214,7 @@ The Thai-language version of this guide is at [/th/blog/withi-doolae-khonta-lang
 
 For specific aftercare questions, concerns about an existing set, or to claim the 3-day retouch guarantee, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/), LINE, or WhatsApp with clear photos.
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome.
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 9:00 to 19:00. Walk-ins and same-day appointments welcome.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska
@@ -226,6 +226,6 @@ My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Ma
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new aftercare research, retention data from regular clients, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.

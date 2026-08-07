@@ -107,7 +107,7 @@ export default function Location({ lang = "en" }: { lang?: Lang }) {
                 <p className="font-semibold">{t.hoursLabel}</p>
                 <p className="mt-1 text-sm text-charcoal-light">
                   {lang === "th"
-                    ? `เปิดทุกวัน · 10:00–19:00`
+                    ? `เปิดทุกวัน · 9:00–19:00`
                     : `${BUSINESS.hours.days} · ${BUSINESS.hours.time}`}
                 </p>
               </div>

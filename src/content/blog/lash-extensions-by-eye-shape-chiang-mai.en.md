@@ -4,7 +4,7 @@
 
 *Disclosure: This guide is published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. It reflects the mapping methodology used at the studio. Where a different approach (a specific salon style, a different lash technique) might suit a reader better, this guide says so directly.*
 
-![Editorial illustration of six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — labelled in English and Thai, for the My Lash House lash style guide](/images/blog/eye-shape-lash-style-guide-chiang-mai.webp)
+![Editorial illustration of six eye shapes, single eyelid, double eyelid, downturned, round, hooded, and wide-set, labelled in English and Thai, for the My Lash House lash style guide](/images/blog/eye-shape-lash-style-guide-chiang-mai.webp)
 
 For a first lash extension appointment in Chiang Mai, the style choice matters more than the price. The same set will look completely different on a monolid than on a hooded eye. The right match makes a good set look like *the client* on a good morning, not like someone else's eyes pasted onto their face.
 
@@ -16,7 +16,7 @@ The right lash extension style depends on the eye shape it's going on. The start
 
 ## Quick reference: eye shape to lash style
 
-![Comparison chart: six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — each with the recommended lash extension styles and lash mappings, from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
+![Comparison chart: six eye shapes, single eyelid, double eyelid, downturned, round, hooded, and wide-set, each with the recommended lash extension styles and lash mappings, from the My Lash House Chiang Mai eye-shape style guide](/images/blog/eye-shape-lash-style-comparison-chart.webp)
 
 | Eye shape | Recommended starting style | Effect |
 |---|---|---|
@@ -29,7 +29,7 @@ The right lash extension style depends on the eye shape it's going on. The start
 
 ## What makes the My Lash House eye-shape mapping different
 
-My Lash House is a private one-on-one lash studio in San Klang, Chiang Mai. Founder Ying is a certified lash artist with 7+ years of experience. Every fan is handmade during the appointment, never premade. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 32 Google reviews. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, with walk-ins and same-day appointments accepted subject to availability.
+My Lash House is a private one-on-one lash studio in San Klang, Chiang Mai. Founder Ying is a certified lash artist with 7+ years of experience. Every fan is handmade during the appointment, never premade. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 19 Google reviews. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, with walk-ins and same-day appointments accepted subject to availability.
 
 For a broader comparison of all the specialist lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai (2026) ranked guide](/blog/best-lash-extensions-chiang-mai).
 
@@ -49,7 +49,7 @@ The six common shapes are covered in detail below. Some readers fit into two cat
 
 ### Single eyelid (ตาชั้นเดียว, monolid)
 
-![Illustration of a single eyelid (monolid) — example for lash style guide](/images/blog/eye-shapes/single-eyelid.webp)
+![Illustration of a single eyelid (monolid), example for lash style guide](/images/blog/eye-shapes/single-eyelid.webp)
 
 Recommended: **Wispy Volume** or **Light Volume**.
 
@@ -73,7 +73,7 @@ For clients who've worn mascara comfortably for years and want lashes that feel 
 
 ### Downturned eyes (หางตาตก)
 
-![Illustration of downturned eyes — outer corners lower than inner corners](/images/blog/eye-shapes/downturned.webp)
+![Illustration of downturned eyes, outer corners lower than inner corners](/images/blog/eye-shapes/downturned.webp)
 
 Recommended: **Mega Volume** with **cat-eye** mapping.
 
@@ -83,7 +83,7 @@ For a lighter daytime look, the same mapping works with Wispy Volume, a gentler 
 
 ### Round eyes (ตากลม)
 
-![Illustration of round eyes — fully open and circular](/images/blog/eye-shapes/round.webp)
+![Illustration of round eyes, fully open and circular](/images/blog/eye-shapes/round.webp)
 
 Recommended: **Russian Volume** with **doll-eye** mapping.
 
@@ -95,7 +95,7 @@ A note from the chair: many round-eyed clients are surprised by how subtle a pro
 
 ### Hooded eyes (หนังตาปิด)
 
-![Illustration of hooded eyes — extra lid skin partly covering the lash line](/images/blog/eye-shapes/hooded.webp)
+![Illustration of hooded eyes, extra lid skin partly covering the lash line](/images/blog/eye-shapes/hooded.webp)
 
 Recommended: **Wispy Volume**.
 
@@ -143,14 +143,14 @@ Add-ons available: color lashes, lash lift and tint. The studio also offers nail
 - The set actually flatters the individual face rather than copying a generic look
 - Lashes shed more evenly because the weight is matched to the natural lash strength in each zone
 - The set photographs well at multiple angles, not just the one Instagram shot
-- Fewer first-set surprises — clients know in advance whether the recommended style suits their daily routine
+- Fewer first-set surprises, clients know in advance whether the recommended style suits their daily routine
 - Retouches and infills are easier because the mapping is documented
 
 **Cons / things to consider:**
 
 - The consultation takes longer than a "pick from the menu" booking
 - A bespoke map costs slightly more time at first set (20–30 extra minutes); pricing isn't different
-- The most-dramatic style isn't always the recommendation — clients who specifically want maximum drama may need to discuss whether the eye shape supports it
+- The most-dramatic style isn't always the recommendation, clients who specifically want maximum drama may need to discuss whether the eye shape supports it
 - Two clients with similar eye shapes can walk out with different sets, which can feel surprising if a reader expects an off-the-shelf result
 
 ## What else should I think about before booking?
@@ -167,7 +167,7 @@ The right style for the eye shape is the starting point. A few practical factors
 
 ## What happens at the first appointment?
 
-A first set takes around 1.5–2.5 hours. Most of that is the application. The appointment opens with a real consultation, not a paperwork form. A red flag worth knowing: studios advertising a "30–45 minute full set" usually mean the artist isn't doing proper isolation or mapping — that's the most common cause of damaged natural lashes from extensions. The artist talks through eye shape, daily routine, and the look the client has in mind. Ying checks how the natural lashes grow, the condition they're in, and which curl and length range will sit cleanly.
+A first set takes around 1.5–2.5 hours. Most of that is the application. The appointment opens with a real consultation, not a paperwork form. A red flag worth knowing: studios advertising a "30–45 minute full set" usually mean the artist isn't doing proper isolation or mapping, that's the most common cause of damaged natural lashes from extensions. The artist talks through eye shape, daily routine, and the look the client has in mind. Ying checks how the natural lashes grow, the condition they're in, and which curl and length range will sit cleanly.
 
 She then maps the set on the closed eye, before any fans are made. Every fan is built by hand during the appointment, for the lash it's going on. The design can be adjusted in real time as the set takes shape.
 
@@ -187,7 +187,7 @@ The Thai-language version of this guide is at [/th/blog/tor-khon-ta-baeb-nai-dee
 
 For readers who can't decide between two styles, or whose eyes don't fit one of the shapes above neatly: [message on Instagram](https://www.instagram.com/my_lash_house.cnx/) with a clear photo (eyes open, eyes closed). Ying replies with a recommendation, an estimated price, and the next available appointment.
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00–19:00. Walk-ins and same-day appointments welcome.
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 9:00–19:00. Walk-ins and same-day appointments welcome.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska
@@ -197,6 +197,6 @@ My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Ma
 
 ## About the author
 
-**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new techniques, menu changes, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.

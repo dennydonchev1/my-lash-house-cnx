@@ -8,7 +8,7 @@ import { getAllPosts, getPostUrl } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Lash Extension Guides & Aftercare · My Lash House Chiang Mai",
   description:
-    "Honest lash extension guides from a certified artist in Chiang Mai — eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
+    "Honest lash extension guides from a certified artist in Chiang Mai, eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
   alternates: {
     canonical: "https://mylashhouse.com/blog",
     languages: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lash Extension Guides & Aftercare · My Lash House Chiang Mai",
     description:
-      "Honest lash extension guides from a certified artist in Chiang Mai — eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
+      "Honest lash extension guides from a certified artist in Chiang Mai, eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
     url: "https://mylashhouse.com/blog",
     type: "website",
     locale: "en_TH",

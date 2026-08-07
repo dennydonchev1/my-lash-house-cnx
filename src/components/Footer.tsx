@@ -100,7 +100,7 @@ export default function Footer({ lang = "en" }: { lang?: Lang }) {
             </div>
             <p className="mt-4 text-sm text-white/50">
               {lang === "th"
-                ? "เปิดทุกวัน · 10:00–19:00"
+                ? "เปิดทุกวัน · 9:00–19:00"
                 : `${BUSINESS.hours.days} · ${BUSINESS.hours.time}`}
             </p>
           </div>

@@ -33,7 +33,7 @@ Neither is "better." Lifts win for low-maintenance, no-commitment beauty. Extens
 
 Every appointment follows the same seven-step sequence. Total time in the chair: about 45 minutes.
 
-1. **Consultation.** Ying checks your natural lash length, condition, and growth angle. Very short or damaged lashes may not be a fit — she'll say so upfront.
+1. **Consultation.** Ying checks your natural lash length, condition, and growth angle. Very short or damaged lashes may not be a fit, she'll say so upfront.
 2. **Cleansing.** Full eye-area cleanse with an oil-free cleanser. Any lingering makeup or skincare would block the lifting solution.
 3. **Silicone shield placement.** A curved silicone pad (small, medium, or large depending on your lash length) is placed on the eyelid.
 4. **Lash combing.** Your natural lashes are combed up and stuck to the shield with a temporary adhesive gel. This is the shape they'll hold.
@@ -49,19 +49,15 @@ You lie back with your eyes closed for the whole thing. Many clients fall asleep
 
 Pricing is transparent and matches the studio menu:
 
-| Service | Price |
-|---|---|
-| Lash lift only | ฿990 |
-| Lash lift + tint | ฿1,190 |
-| Lash lift + tint + conditioning add-on | ฿1,390 |
+Lash lifting sits in the lower-mid tier of the studio menu, below most extension sets. Three options: lift only, lift + tint, and lift + tint + conditioning add-on.
 
-The full [menu is on mylashhouse.com](/#pricing) with the current per-service price. Payment on the day of the appointment.
+Message us on LINE or Instagram for the current price of each. Pricing is always confirmed before booking, never after. The full [menu is on mylashhouse.com](/#pricing).
 
 ## How long does a lash lift last?
 
 A well-done lash lift lasts **6 to 8 weeks**.
 
-The curl doesn't "drop" gradually — it fades as your natural lashes shed. You lose 2 to 5 natural lashes per day (with or without a lift), and each new lash that grows in comes in straight because it wasn't in the solution.
+The curl doesn't "drop" gradually, it fades as your natural lashes shed. You lose 2 to 5 natural lashes per day (with or without a lift), and each new lash that grows in comes in straight because it wasn't in the solution.
 
 By week 4 the curl is still visible but softer. By week 6 to 8, about half your lash line is new growth without the lift, and it's time to book again.
 
@@ -78,7 +74,7 @@ The honest breakdown.
 - Natural look. Reads as "my lashes on a good day" rather than styled.
 - Suits sensitive eyes better than extensions for many clients (no adhesive touching the lash line for weeks).
 - Safe during pregnancy for most women (check with your OB, but no cyanoacrylate exposure).
-- Great pre-vacation prep — one appointment, no maintenance while you travel.
+- Great pre-vacation prep, one appointment, no maintenance while you travel.
 
 **Cons:**
 
@@ -128,7 +124,7 @@ The guarantee doesn't cover reactions that come from aftercare mistakes (water i
 
 ## Where can I get lash lifting in Chiang Mai?
 
-At My Lash House, in San Klang, San Kamphaeng, near Payap University (about 10 minutes from the city centre). Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome, subject to availability.
+At My Lash House, in San Klang, San Kamphaeng, near Payap University (about 10 minutes from the city centre). Open 7 days a week, 9:00 to 19:00. Walk-ins and same-day appointments welcome, subject to availability.
 
 For a side-by-side of the four most-talked-about lash studios in Chiang Mai (including who else offers lifting), see the [ranked salon guide](/blog/best-lash-extensions-chiang-mai).
 
@@ -136,7 +132,7 @@ For a side-by-side of the four most-talked-about lash studios in Chiang Mai (inc
 
 Compiled from the daily lash lifting practice at My Lash House and seven years of pattern recognition on which clients get the best results, plus current retention data on the specific keratin-based lifting solutions the studio uses.
 
-Individual results vary based on natural lash length, condition, and aftercare adherence. Pricing reflects current studio pricing as of June 2026. Where individual cases vary, we say so directly. Readers comparing studios should ask any lash artist about the specific solution they use, whether patch tests are available, and what the retouch policy is — three questions that surface most quality differences quickly.
+Individual results vary based on natural lash length, condition, and aftercare adherence. Pricing reflects current studio pricing as of June 2026. Where individual cases vary, we say so directly. Readers comparing studios should ask any lash artist about the specific solution they use, whether patch tests are available, and what the retouch policy is, three questions that surface most quality differences quickly.
 
 The Thai-language version of this guide is at [/th/blog/lifting-khon-ta-chiang-mai](/th/blog/lifting-khon-ta-chiang-mai).
 
@@ -154,6 +150,6 @@ For questions about whether a lift is right for your lash type, or to book an ap
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee on both extensions and lifts. The studio is open 7 days a week, 10:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee on both extensions and lifts. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new lifting techniques, menu changes, and reader feedback.

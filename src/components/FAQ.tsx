@@ -19,7 +19,7 @@ const faqs = {
   en: [
     {
       q: "Do you offer a guarantee on the lashes?",
-      a: "Yes — every set comes with a 3-day retouch guarantee. If your extensions show abnormal shedding within 3 days due to glue failure, we'll retouch them free. The guarantee doesn't cover loss caused by avoidable factors: rubbing the lashes, getting them wet within the first 2 hours, or using oil-based cleansers (always use water-based). Just message us on Instagram within 3 days with a clear photo and we'll set up your retouch.",
+      a: "Yes, every set comes with a 3-day retouch guarantee. If your extensions show abnormal shedding within 3 days due to glue failure, we'll retouch them free. The guarantee doesn't cover loss caused by avoidable factors: rubbing the lashes, getting them wet within the first 2 hours, or using oil-based cleansers (always use water-based). Just message us on Instagram within 3 days with a clear photo and we'll set up your retouch.",
     },
     {
       q: "How much do lash extensions cost?",
@@ -35,11 +35,11 @@ const faqs = {
     },
     {
       q: "How do I book an appointment?",
-      a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 10 AM to 7 PM.",
+      a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 9 AM to 7 PM.",
     },
     {
       q: "Is the studio easy to find?",
-      a: "We're a private home studio in San Klang, near Payap University in Chiang Mai — about 10 minutes from the city center, just one ring road out from the superhighway. The official address is 89/117 Pruksa Ville. When you book we'll send you the exact map pin so it's easy to find.",
+      a: "We're a private home studio in San Klang, near Payap University in Chiang Mai, about 10 minutes from the city center, just one ring road out from the superhighway. The official address is 89/117 Pruksa Ville. When you book we'll send you the exact map pin so it's easy to find.",
     },
     {
       q: "Do you offer lash training courses?",
@@ -49,7 +49,7 @@ const faqs = {
   th: [
     {
       q: "มีรับประกันขนตาไหม?",
-      a: "มีค่ะ — ทุกเซ็ตรับประกันรีทัช 3 วัน หากขนตาหลุดผิดปกติภายใน 3 วันหลังต่อ เนื่องจากปัญหากาว เราจะรีทัชให้ฟรี การรับประกันไม่ครอบคลุมการหลุดที่เกิดจาก: การขยี้ตา โดนน้ำภายใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/เมคอัพรีมูฟเวอร์ที่มีน้ำมัน (ให้ใช้สูตรน้ำเท่านั้น) ทักมาทาง Instagram ภายใน 3 วันพร้อมรูปขนตาที่ชัด แล้วเราจะนัดรีทัชให้ค่ะ",
+      a: "มีค่ะ ทุกเซ็ตรับประกันรีทัช 3 วัน หากขนตาหลุดผิดปกติภายใน 3 วันหลังต่อ เนื่องจากปัญหากาว เราจะรีทัชให้ฟรี การรับประกันไม่ครอบคลุมการหลุดที่เกิดจาก: การขยี้ตา โดนน้ำภายใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/เมคอัพรีมูฟเวอร์ที่มีน้ำมัน (ให้ใช้สูตรน้ำเท่านั้น) ทักมาทาง Instagram ภายใน 3 วันพร้อมรูปขนตาที่ชัด แล้วเราจะนัดรีทัชให้ค่ะ",
     },
     {
       q: "ต่อขนตา ราคาเท่าไหร่?",
@@ -65,11 +65,11 @@ const faqs = {
     },
     {
       q: "จองคิวยังไง?",
-      a: "จองผ่าน LINE (@604ymska), Instagram DM (@my_lash_house.cnx) หรือโทร 085-474-7314 ค่ะ เปิดทุกวัน 10:00–19:00",
+      a: "จองผ่าน LINE (@604ymska), Instagram DM (@my_lash_house.cnx) หรือโทร 085-474-7314 ค่ะ เปิดทุกวัน 9:00–19:00",
     },
     {
       q: "ร้านอยู่ที่ไหน หาง่ายไหม?",
-      a: "ร้านอยู่ใน ต.สันกลาง ใกล้ ม.พายัพ ห่างจากตัวเมืองเชียงใหม่ประมาณ 10 นาที — เลยซูเปอร์ไฮเวย์ออกมาแค่วงในเดียว ที่อยู่ทางการคือ 89/117 หมู่บ้านพฤกษาวิลล์ ต.สันกลาง อ.สันกำแพง จ.เชียงใหม่ เป็นโฮมสตูดิโอส่วนตัว เมื่อจองคิวแล้วจะส่งพิกัดบน Google Maps ให้ค่ะ",
+      a: "ร้านอยู่ใน ต.สันกลาง ใกล้ ม.พายัพ ห่างจากตัวเมืองเชียงใหม่ประมาณ 10 นาที เลยซูเปอร์ไฮเวย์ออกมาแค่วงในเดียว ที่อยู่ทางการคือ 89/117 หมู่บ้านพฤกษาวิลล์ ต.สันกลาง อ.สันกำแพง จ.เชียงใหม่ เป็นโฮมสตูดิโอส่วนตัว เมื่อจองคิวแล้วจะส่งพิกัดบน Google Maps ให้ค่ะ",
     },
     {
       q: "มีคอร์สสอนต่อขนตาไหม?",

@@ -1,5 +1,5 @@
 // Translation dictionaries for English (default) and Thai
-// Keep keys identical between locales — components pull `t` from here.
+// Keep keys identical between locales, components pull `t` from here.
 
 export type Lang = "en" | "th";
 
@@ -29,8 +29,8 @@ export const dict = {
       eyebrow: "About the Artist",
       heading: "Meet ",
       headingHighlight: "Ying",
-      p1: "Hi, I'm Ying — a certified lash artist with over 7 years of experience creating custom eyelash extensions in Chiang Mai. I run My Lash House as a private studio just minutes from the city center, near Payap University. Every appointment is one-on-one and every fan is handmade during your session.",
-      p2: "I'm certified in advanced techniques and constantly refining my craft through workshops and training. Quality, comfort, and lash health come first — never premade fans, never rushed work.",
+      p1: "Hi, I'm Ying, a certified lash artist with over 7 years of experience creating custom eyelash extensions in Chiang Mai. I run My Lash House as a private studio just minutes from the city center, near Payap University. Every appointment is one-on-one and every fan is handmade during your session.",
+      p2: "I'm certified in advanced techniques and constantly refining my craft through workshops and training. Quality, comfort, and lash health come first, never premade fans, never rushed work.",
       p3: "Whether you want a subtle natural enhancement or dramatic mega volume, my studio is your space to relax, recharge, and leave feeling your absolute best.",
       badges: ["Certified Artist", "100% Handmade", "Private Studio", "7+ Years"],
     },
@@ -39,7 +39,7 @@ export const dict = {
       heading: "Lash Extensions",
       headingHighlight: "ต่อขนตา",
       intro:
-        "Choose your perfect volume — from subtle classics to dramatic mega sets. Every fan is handmade during your appointment for a truly custom fit.",
+        "Choose your perfect volume, from subtle classics to dramatic mega sets. Every fan is handmade during your appointment for a truly custom fit.",
       bookCta: "Book",
       addonLabel: "Add-on",
       moreServicesHeading: "More Services",
@@ -48,7 +48,7 @@ export const dict = {
       eyebrow: "Our Work",
       heading: "Lash ",
       headingHighlight: "Gallery",
-      intro: "Every set is unique — designed for your eye shape and personal style.",
+      intro: "Every set is unique, designed for your eye shape and personal style.",
       instagramCta: "See More on Instagram",
     },
     pricing: {
@@ -74,7 +74,7 @@ export const dict = {
       heading: "3-Day Retouch ",
       headingHighlight: "Guarantee",
       subhead:
-        "We stand behind every set we craft. Notice unusual shedding within 3 days of your appointment? We'll retouch you free — no hassle, no questions about who's at fault if it's a glue issue.",
+        "We stand behind every set we craft. Notice unusual shedding within 3 days of your appointment? We'll retouch you free, no hassle, no questions about who's at fault if it's a glue issue.",
       coveredLabel: "What's covered",
       coveredItems: [
         "Premature glue failure",
@@ -147,8 +147,8 @@ export const dict = {
       eyebrow: "เกี่ยวกับช่าง",
       heading: "ทำความรู้จักกับ ",
       headingHighlight: "ครูหญิง",
-      p1: "สวัสดีค่ะ ครูหญิงเองค่ะ — ช่างต่อขนตาที่ได้รับการรับรอง ประสบการณ์มากกว่า 7 ปี ในเชียงใหม่ ที่ My Lash House เป็นสตูดิโอส่วนตัว ใกล้ ม.พายัพ ห่างจากตัวเมืองเชียงใหม่เพียงไม่กี่นาที รับลูกค้าครั้งละหนึ่งท่าน ทุกพัด (fan) ทำสดด้วยมือระหว่างการต่อ ไม่ใช้ pre-made",
-      p2: "ครูหญิงได้รับการรับรองในเทคนิคขั้นสูง และพัฒนาฝีมืออย่างต่อเนื่องผ่านเวิร์กช็อปและคอร์สเทรนนิ่ง คุณภาพ ความสบาย และสุขภาพขนตามาเป็นอันดับแรกเสมอ — ไม่เร่ง ไม่ใช้ขนตาสำเร็จรูป",
+      p1: "สวัสดีค่ะ ครูหญิงเองค่ะ ช่างต่อขนตาที่ได้รับการรับรอง ประสบการณ์มากกว่า 7 ปี ในเชียงใหม่ ที่ My Lash House เป็นสตูดิโอส่วนตัว ใกล้ ม.พายัพ ห่างจากตัวเมืองเชียงใหม่เพียงไม่กี่นาที รับลูกค้าครั้งละหนึ่งท่าน ทุกพัด (fan) ทำสดด้วยมือระหว่างการต่อ ไม่ใช้ pre-made",
+      p2: "ครูหญิงได้รับการรับรองในเทคนิคขั้นสูง และพัฒนาฝีมืออย่างต่อเนื่องผ่านเวิร์กช็อปและคอร์สเทรนนิ่ง คุณภาพ ความสบาย และสุขภาพขนตามาเป็นอันดับแรกเสมอ ไม่เร่ง ไม่ใช้ขนตาสำเร็จรูป",
       p3: "ไม่ว่าคุณจะอยากได้ลุคธรรมชาติแบบเบา ๆ หรือเมก้าวอลลุ่มแบบจัดเต็ม สตูดิโอของเราคือที่ที่คุณจะได้พักผ่อนและกลับไปอย่างสวยมั่นใจ",
       badges: ["ช่างได้รับการรับรอง", "ขนตาแฮนด์เมด 100%", "สตูดิโอส่วนตัว", "ประสบการณ์ 7+ ปี"],
     },
@@ -157,7 +157,7 @@ export const dict = {
       heading: "ต่อขนตา ",
       headingHighlight: "เชียงใหม่",
       intro:
-        "เลือกสไตล์ที่ใช่สำหรับคุณ — ตั้งแต่คลาสสิกแบบธรรมชาติ ไปจนถึงเมก้าวอลลุ่มจัดเต็ม ทุกพัดทำสดด้วยมือในวันที่คุณมาต่อ ปรับให้เข้ากับรูปดวงตาของคุณโดยเฉพาะ",
+        "เลือกสไตล์ที่ใช่สำหรับคุณ ตั้งแต่คลาสสิกแบบธรรมชาติ ไปจนถึงเมก้าวอลลุ่มจัดเต็ม ทุกพัดทำสดด้วยมือในวันที่คุณมาต่อ ปรับให้เข้ากับรูปดวงตาของคุณโดยเฉพาะ",
       bookCta: "จอง",
       addonLabel: "ออปชั่นเสริม",
       moreServicesHeading: "บริการอื่น ๆ",
@@ -166,7 +166,7 @@ export const dict = {
       eyebrow: "ผลงานของเรา",
       heading: "แกลเลอรี่",
       headingHighlight: "ขนตา",
-      intro: "ทุกเซ็ตต่อขึ้นมาเฉพาะคุณ — ออกแบบให้เข้ากับรูปดวงตาและสไตล์ของคุณ",
+      intro: "ทุกเซ็ตต่อขึ้นมาเฉพาะคุณ ออกแบบให้เข้ากับรูปดวงตาและสไตล์ของคุณ",
       instagramCta: "ดูเพิ่มเติมบน Instagram",
     },
     pricing: {

@@ -67,14 +67,14 @@ export const BEAUTY_SALON_SCHEMA = {
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      opens: "10:00",
+      opens: "09:00",
       closes: "19:00",
     },
   ],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5.0",
-    reviewCount: "32",
+    reviewCount: "19",
     bestRating: 5,
   },
   sameAs: ["https://instagram.com/my_lash_house.cnx", "https://line.me/ti/p/~604ymska"],
@@ -87,11 +87,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "lifting-khon-ta-chiang-mai",
     title: {
       en: "Lash Lifting in Chiang Mai: The Complete Guide (2026)",
-      th: "ลิฟติ้งขนตา เชียงใหม่ คู่มือฉบับสมบูรณ์ (2026)",
+      th: "ลิฟติ้งขนตา คืออะไร ราคาเท่าไหร่ อยู่ได้นานไหม คู่มือฉบับสมบูรณ์ (2026)",
     },
     metaTitle: {
       en: "Lash Lifting in Chiang Mai (2026 Guide) | My Lash House",
-      th: "ลิฟติ้งขนตา เชียงใหม่ | ราคา ขั้นตอน รีวิว — My Lash House",
+      th: "ลิฟติ้งขนตา | ราคา ขั้นตอน อยู่ได้นานไหม My Lash House",
     },
     category: { en: "Lash Lifting", th: "ลิฟติ้งขนตา" },
     dek: {
@@ -100,7 +100,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     description: {
       en: "Lash lifting in Chiang Mai from a certified artist with 7+ years. What it is, how it differs from extensions, the 7-step process, pricing, aftercare, and the 3-day retouch guarantee.",
-      th: "ลิฟติ้งขนตาเชียงใหม่ จากช่างที่มีใบรับรอง 7+ ปี คืออะไร ต่างจากต่อขนตายังไง ขั้นตอน 7 ขั้น ราคา วิธีดูแล และรับประกันรีทัช 3 วัน",
+      th: "ลิฟติ้งขนตา จากช่างที่มีใบรับรอง 7+ ปี คืออะไร ต่างจากต่อขนตายังไง ขั้นตอน 7 ขั้น ราคา วิธีดูแล และรับประกันรีทัช 3 วัน",
     },
     publishedAt: "2026-06-27",
     updatedAt: "2026-06-27",
@@ -121,11 +121,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How much does lash lifting cost at My Lash House?",
-          a: "Lash lift only is ฿990. Lash lift plus tint is ฿1,190. Lash lift plus tint plus lash conditioning add-on is ฿1,390. Payment on the day of the appointment.",
+          a: "Lash lifting sits in the lower-mid tier of the studio menu, below most extension sets. Message us on LINE or Instagram for the current price list. Pricing is always confirmed before booking, never after.",
         },
         {
           q: "How long does a lash lift last?",
-          a: "6 to 8 weeks. The curl doesn't drop gradually — it fades as your natural lashes shed and new (uncurled) growth comes in. By week 6 to 8, about half your lash line is new growth and it's time to book again.",
+          a: "6 to 8 weeks. The curl doesn't drop gradually, it fades as your natural lashes shed and new (uncurled) growth comes in. By week 6 to 8, about half your lash line is new growth and it's time to book again.",
         },
         {
           q: "Does lash lifting damage natural lashes?",
@@ -137,11 +137,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Can I wear mascara after lash lifting?",
-          a: "Yes, after 24 to 48 hours. Use only water-based mascara — waterproof formulas require oil-based remover, which can over-condition and soften the curl.",
+          a: "Yes, after 24 to 48 hours. Use only water-based mascara, waterproof formulas require oil-based remover, which can over-condition and soften the curl.",
         },
         {
           q: "Where can I get lash lifting near me in Chiang Mai?",
-          a: "My Lash House is in San Klang, San Kamphaeng, near Payap University — about 10 minutes from the city centre. Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome subject to availability.",
+          a: "My Lash House is in San Klang, San Kamphaeng, near Payap University, about 10 minutes from the city centre. Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome subject to availability.",
         },
       ],
       th: [
@@ -151,7 +151,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ลิฟติ้งขนตา ราคาเท่าไหร่ที่ My Lash House",
-          a: "ลิฟติ้งอย่างเดียว ฿990 ลิฟติ้ง+ย้อมสี ฿1,190 ลิฟติ้ง+ย้อมสี+คอนดิชันเนอร์บำรุง ฿1,390 ชำระเงินในวันนัด",
+          a: "ลิฟติ้งขนตาอยู่ในระดับราคาต่ำถึงกลางของเมนูสตูดิโอ ต่ำกว่าเซตต่อขนตาส่วนใหญ่ ทักไลน์หรือไอจีเพื่อขอราคาปัจจุบัน เรายืนยันราคาก่อนจองเสมอ ไม่มีเซอร์ไพรส์",
         },
         {
           q: "ลิฟติ้งขนตา อยู่ได้นานไหม",
@@ -181,27 +181,27 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-barbie-chiang-mai",
     title: {
       en: "Barbie-Style Lash Extensions in Chiang Mai: The Complete Guide (2026)",
-      th: "ต่อขนตาทรงบาร์บี้ เชียงใหม่ คู่มือฉบับสมบูรณ์ (2026)",
+      th: "ต่อขนตาทรงบาร์บี้ คู่มือฉบับสมบูรณ์ (2026)",
     },
     metaTitle: {
       en: "Barbie-Style Lash Extensions in Chiang Mai (2026) | My Lash House",
-      th: "ต่อขนตาทรงบาร์บี้ เชียงใหม่ | ทรงปังเทรนด์ 2026 — My Lash House",
+      th: "ต่อขนตาทรงบาร์บี้ | ทรงปังเทรนด์ 2026 My Lash House",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
     dek: {
-      en: "Densely-set, glossy, cat-eye mapped — the Margot Robbie Barbie-era lash look, mapped to your actual face.",
+      en: "Densely-set, glossy, cat-eye mapped, the Margot Robbie Barbie-era lash look, mapped to your actual face.",
       th: "อัดแฟนแน่น ฟินิชเงา mapping แบบ cat-eye ลุคขนตายุค Barbie ของ Margot Robbie map เข้ากับหน้าคุณจริง ๆ",
     },
     description: {
-      en: "Barbie-style lash extensions in Chiang Mai — what makes a set 'Barbie', which eye shapes suit it, Wet vs Classic Barbie, pricing, and how My Lash House does it differently.",
-      th: "ต่อขนตาทรงบาร์บี้ เชียงใหม่ อะไรทำให้เซตเป็น 'บาร์บี้' รูปตาแบบไหนเหมาะ Wet vs Classic Barbie ราคา และ My Lash House ทำต่างจากที่อื่นยังไง",
+      en: "Barbie-style lash extensions in Chiang Mai, what makes a set 'Barbie', which eye shapes suit it, Wet vs Classic Barbie, pricing, and how My Lash House does it differently.",
+      th: "ต่อขนตาทรงบาร์บี้ อะไรทำให้เซตเป็น 'บาร์บี้' รูปตาแบบไหนเหมาะ Wet vs Classic Barbie ราคา และ My Lash House ทำต่างจากที่อื่นยังไง",
     },
     publishedAt: "2026-06-27",
     updatedAt: "2026-06-27",
     author: "Ying",
     heroImage: "/images/service-mega.jpg",
     heroImageAlt: {
-      en: "Barbie-style lash extensions at My Lash House Chiang Mai — dense Mega Volume fans with cat-eye mapping and wispy spike pieces for the wet-look Barbie aesthetic",
+      en: "Barbie-style lash extensions at My Lash House Chiang Mai, dense Mega Volume fans with cat-eye mapping and wispy spike pieces for the wet-look Barbie aesthetic",
       th: "ต่อขนตาทรงบาร์บี้ที่ My Lash House เชียงใหม่ แฟน Mega Volume อัดแน่น mapping แบบ cat-eye พร้อมเส้น spike แบบ wispy สำหรับเอสเธติกบาร์บี้ wet-look",
     },
     readingMinutes: 7,
@@ -218,11 +218,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "What's the difference between Wet Barbie and Classic Barbie?",
-          a: "Wet Barbie has more concentrated fan density at the base and a glossy wet-strand appearance — best for events and photoshoots. Classic Barbie has a slightly drier finish with more visible individual pieces — works for daily wear.",
+          a: "Wet Barbie has more concentrated fan density at the base and a glossy wet-strand appearance, best for events and photoshoots. Classic Barbie has a slightly drier finish with more visible individual pieces, works for daily wear.",
         },
         {
           q: "Can I wear Barbie lashes to work?",
-          a: "Classic Barbie in a shorter length (11–12mm) reads as full but not overtly styled and works in most office contexts. Wet Barbie is more of a special-occasion set. Conservative workplaces might find either version too much — Wispy Volume with soft cat-eye framing is the safer daily choice.",
+          a: "Classic Barbie in a shorter length (11–12mm) reads as full but not overtly styled and works in most office contexts. Wet Barbie is more of a special-occasion set. Conservative workplaces might find either version too much, Wispy Volume with soft cat-eye framing is the safer daily choice.",
         },
         {
           q: "How long do Barbie lashes last?",
@@ -270,7 +270,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     metaTitle: {
       en: "The Real Downsides of Lash Extensions (Honest Guide) | My Lash House",
-      th: "ต่อขนตา ข้อเสีย และวิธีแก้ | คู่มือจริงจากช่างเชียงใหม่",
+      th: "ต่อขนตา ข้อเสีย และวิธีแก้ | คู่มือจริงจากช่างมืออาชีพ",
     },
     category: { en: "Honest Guide", th: "คู่มือซื่อสัตย์" },
     dek: {
@@ -279,7 +279,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     description: {
       en: "The real downsides of lash extensions (and the three common myths that aren't actually downsides), from a certified Chiang Mai artist with 7+ years. Honest, not oversold.",
-      th: "ข้อเสียจริงของต่อขนตา (และ 3 ความเข้าใจผิดที่ไม่ใช่ข้อเสียจริง) จากช่างเชียงใหม่ที่มีใบรับรอง 7+ ปี ซื่อสัตย์ ไม่ขายเกินจริง",
+      th: "ข้อเสียจริงของต่อขนตา (และ 3 ความเข้าใจผิดที่ไม่ใช่ข้อเสียจริง) จากช่างที่มีใบรับรอง 7+ ปี ซื่อสัตย์ ไม่ขายเกินจริง",
     },
     publishedAt: "2026-06-27",
     updatedAt: "2026-06-27",
@@ -303,11 +303,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Can I wash my face normally with lash extensions?",
-          a: "After the first 24 hours (the adhesive cure window), yes. Use water-based cleansers only — no oil cleansers, cleansing balms, or micellar water, which dissolve the adhesive bond. Pat dry with a lint-free cloth; never rub.",
+          a: "After the first 24 hours (the adhesive cure window), yes. Use water-based cleansers only, no oil cleansers, cleansing balms, or micellar water, which dissolve the adhesive bond. Pat dry with a lint-free cloth; never rub.",
         },
         {
           q: "How much do lash extensions cost per month?",
-          a: "At refill cadence (every 2 to 3 weeks) plus a full set every 6 to 12 months, expect roughly ฿15,000 to ฿30,000 per year at Chiang Mai pricing. Style choice affects the number significantly — lighter styles like Classic 1:1 need less frequent refills than Mega Volume.",
+          a: "At refill cadence (every 2 to 3 weeks) plus a full set every 6 to 12 months, expect roughly ฿15,000 to ฿30,000 per year at Chiang Mai pricing. Style choice affects the number significantly, lighter styles like Classic 1:1 need less frequent refills than Mega Volume.",
         },
         {
           q: "Why did my lash extensions fall out so fast?",
@@ -351,16 +351,16 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "withi-doolae-khonta-lang-tor",
     title: {
       en: "How to Care for Lash Extensions: The Day-by-Day Aftercare Guide (Chiang Mai 2026)",
-      th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน 4–5 สัปดาห์ — คู่มือวันต่อวัน จากช่างมืออาชีพเชียงใหม่",
+      th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน 4 ถึง 5 สัปดาห์ คู่มือวันต่อวันจากช่างมืออาชีพ",
     },
     metaTitle: {
       en: "Lash Extension Aftercare: Day-by-Day Guide (Chiang Mai)",
-      th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน | My Lash House เชียงใหม่",
+      th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน | My Lash House",
     },
     category: { en: "Aftercare Guide", th: "คู่มือดูแลหลังต่อ" },
     description: {
       en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First 24 hours, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
-      th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างเชียงใหม่ 7+ ปี — 24 ชั่วโมงแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
+      th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างมืออาชีพ 7+ ปี 24 ชั่วโมงแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
     },
     dek: {
       en: "Master the three rules that decide whether your set lasts 4 days or 4 weeks.",
@@ -381,11 +381,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: [
         {
           q: "How many days do I have to keep my lash extensions dry after the appointment?",
-          a: "24 hours minimum — that's how long the cyanoacrylate adhesive takes to fully cure. For full bond strength, the safer rule is 48 hours. No showers with water on the face, no swimming, no steam, no heavy exercise during the cure window.",
+          a: "24 hours minimum, that's how long the cyanoacrylate adhesive takes to fully cure. For full bond strength, the safer rule is 48 hours. No showers with water on the face, no swimming, no steam, no heavy exercise during the cure window.",
         },
         {
           q: "Which cleansers are safe to use with lash extensions?",
-          a: "Water-based foaming cleansers and gel cleansers labeled 'oil-free'. The dedicated lash shampoo sent home from the appointment is the safest option for daily lash-line cleaning. Avoid oil cleansers, cleansing balms, micellar water, and makeup remover wipes — all of them shorten retention.",
+          a: "Water-based foaming cleansers and gel cleansers labeled 'oil-free'. The dedicated lash shampoo sent home from the appointment is the safest option for daily lash-line cleaning. Avoid oil cleansers, cleansing balms, micellar water, and makeup remover wipes, all of them shorten retention.",
         },
         {
           q: "Why are my lash extensions falling out fast?",
@@ -393,7 +393,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Can I use an eyelash curler with lash extensions?",
-          a: "No. Eyelash curlers bend the extensions out of shape and crack the adhesive bond at the base. The extensions themselves are pre-curled to the curl level chosen at your appointment (J, B, C, D, or L) — that curl holds for the life of the set without any additional shaping.",
+          a: "No. Eyelash curlers bend the extensions out of shape and crack the adhesive bond at the base. The extensions themselves are pre-curled to the curl level chosen at your appointment (J, B, C, D, or L), that curl holds for the life of the set without any additional shaping.",
         },
         {
           q: "Can I sleep on my side with lash extensions?",
@@ -401,21 +401,21 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How often should I get my lash extensions refilled?",
-          a: "Every 2–3 weeks for fuller styles, 3–4 weeks for lighter styles (Classic 1:1, Light Volume). The sweet spot is when about 40–60% of the original set remains — enough for the artist to map cleanly into the existing shape. If it's been 4+ weeks, a fresh full set is usually the better call.",
+          a: "Every 2–3 weeks for fuller styles, 3–4 weeks for lighter styles (Classic 1:1, Light Volume). The sweet spot is when about 40–60% of the original set remains, enough for the artist to map cleanly into the existing shape. If it's been 4+ weeks, a fresh full set is usually the better call.",
         },
         {
           q: "Can I wear mascara with lash extensions?",
-          a: "Mascara isn't necessary — the extensions already provide the mascara effect. If you absolutely need mascara for a specific event, use only water-based, lash-extension-safe formulas and apply to the tips, never the roots. Waterproof mascara is off-limits entirely because it requires oil-based remover.",
+          a: "Mascara isn't necessary, the extensions already provide the mascara effect. If you absolutely need mascara for a specific event, use only water-based, lash-extension-safe formulas and apply to the tips, never the roots. Waterproof mascara is off-limits entirely because it requires oil-based remover.",
         },
       ],
       th: [
         {
           q: "ต่อขนตามาห้ามโดนน้ำกี่วัน?",
-          a: "24 ชั่วโมงขั้นต่ำ — เป็นเวลาที่กาว cyanoacrylate ใช้ในการ cure เต็มที่ สำหรับบอนด์เต็มกำลัง กฎที่ปลอดภัยกว่าคือ 48 ชั่วโมง ห้ามอาบน้ำให้น้ำโดนหน้า ห้ามว่ายน้ำ ห้ามไอน้ำ ห้ามออกกำลังกายหนักในช่วง cure",
+          a: "24 ชั่วโมงขั้นต่ำ เป็นเวลาที่กาว cyanoacrylate ใช้ในการ cure เต็มที่ สำหรับบอนด์เต็มกำลัง กฎที่ปลอดภัยกว่าคือ 48 ชั่วโมง ห้ามอาบน้ำให้น้ำโดนหน้า ห้ามว่ายน้ำ ห้ามไอน้ำ ห้ามออกกำลังกายหนักในช่วง cure",
         },
         {
           q: "ใช้คลีนเซอร์ตัวไหนได้บ้าง?",
-          a: "คลีนเซอร์โฟมสูตรน้ำและเจลคลีนเซอร์ที่ระบุ 'oil-free' แชมพูล้างขนตาที่ทางร้านให้ติดมือไปคือตัวเลือกที่ปลอดภัยที่สุดสำหรับทำความสะอาดขอบขนตาประจำวัน หลีกเลี่ยงออยล์คลีนเซอร์ คลีนซิ่งบาล์ม น้ำ micellar และทิชชูเช็ดเครื่องสำอาง — ทุกตัวลดอายุการคงทน",
+          a: "คลีนเซอร์โฟมสูตรน้ำและเจลคลีนเซอร์ที่ระบุ 'oil-free' แชมพูล้างขนตาที่ทางร้านให้ติดมือไปคือตัวเลือกที่ปลอดภัยที่สุดสำหรับทำความสะอาดขอบขนตาประจำวัน หลีกเลี่ยงออยล์คลีนเซอร์ คลีนซิ่งบาล์ม น้ำ micellar และทิชชูเช็ดเครื่องสำอาง ทุกตัวลดอายุการคงทน",
         },
         {
           q: "ทำไมขนตาที่ต่อหลุดเร็ว?",
@@ -423,7 +423,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ใช้ที่ดัดขนตาได้ไหม?",
-          a: "ไม่ได้ ที่ดัดขนตาดัดเอ็กซ์เทนชันให้เสียทรงและทำให้บอนด์กาวที่โคนแตก เอ็กซ์เทนชันเองมีเคิร์ลตามระดับที่เลือกในวันนัด (J, B, C, D หรือ L) — เคิร์ลนั้นคงอยู่ตลอดอายุเซตโดยไม่ต้องการการดัดเพิ่ม",
+          a: "ไม่ได้ ที่ดัดขนตาดัดเอ็กซ์เทนชันให้เสียทรงและทำให้บอนด์กาวที่โคนแตก เอ็กซ์เทนชันเองมีเคิร์ลตามระดับที่เลือกในวันนัด (J, B, C, D หรือ L) เคิร์ลนั้นคงอยู่ตลอดอายุเซตโดยไม่ต้องการการดัดเพิ่ม",
         },
         {
           q: "นอนตะแคงได้ไหม?",
@@ -431,11 +431,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ต้องเติมขนตาบ่อยแค่ไหน?",
-          a: "ทุก 2–3 สัปดาห์สำหรับทรงหนา 3–4 สัปดาห์สำหรับทรงเบา (Classic 1:1, Light Volume) ช่วงที่เหมาะที่สุดคือเมื่อเซตเดิมเหลือประมาณ 40–60% — พอให้ช่างแมพทับลงในรูปเดิม ถ้าทิ้งนาน 4+ สัปดาห์ ต่อเซตใหม่มักเป็นทางเลือกที่ดีกว่า",
+          a: "ทุก 2–3 สัปดาห์สำหรับทรงหนา 3–4 สัปดาห์สำหรับทรงเบา (Classic 1:1, Light Volume) ช่วงที่เหมาะที่สุดคือเมื่อเซตเดิมเหลือประมาณ 40–60% พอให้ช่างแมพทับลงในรูปเดิม ถ้าทิ้งนาน 4+ สัปดาห์ ต่อเซตใหม่มักเป็นทางเลือกที่ดีกว่า",
         },
         {
           q: "ใส่มาสคาร่าได้ไหม?",
-          a: "มาสคาร่าไม่จำเป็น — เอ็กซ์เทนชันให้เอฟเฟกต์มาสคาร่าอยู่แล้ว ถ้าจำเป็นต้องใช้มาสคาร่าในงานเฉพาะ ใช้เฉพาะสูตรน้ำที่ใช้กับขนตาต่อได้ ทาเฉพาะปลาย ห้ามแตะโคน มาสคาร่ากันน้ำห้ามใช้เด็ดขาดเพราะต้องใช้รีมูฟเวอร์สูตรน้ำมัน",
+          a: "มาสคาร่าไม่จำเป็น เอ็กซ์เทนชันให้เอฟเฟกต์มาสคาร่าอยู่แล้ว ถ้าจำเป็นต้องใช้มาสคาร่าในงานเฉพาะ ใช้เฉพาะสูตรน้ำที่ใช้กับขนตาต่อได้ ทาเฉพาะปลาย ห้ามแตะโคน มาสคาร่ากันน้ำห้ามใช้เด็ดขาดเพราะต้องใช้รีมูฟเวอร์สูตรน้ำมัน",
         },
       ],
     },
@@ -444,12 +444,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slug: "natural-lash-extensions-chiang-mai",
     slugTh: "tor-khon-ta-baeb-thammachat",
     title: {
-      en: "Natural Lash Extensions in Chiang Mai — A Guide for Office Wear, Brides, and Anyone Who Wants \"Better Natural\"",
-      th: "ต่อขนตาแบบธรรมชาติ — สวยเหมือนไม่ได้ต่อ คู่มือสำหรับคนทำงานและงานแต่ง",
+      en: "Natural Lash Extensions in Chiang Mai, A Guide for Office Wear, Brides, and Anyone Who Wants \"Better Natural\"",
+      th: "ต่อขนตาแบบธรรมชาติ สวยเหมือนไม่ได้ต่อ คู่มือสำหรับคนทำงานและงานแต่ง",
     },
     metaTitle: {
       en: "Natural Lash Extensions in Chiang Mai (2026 Guide)",
-      th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House เชียงใหม่",
+      th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
     dek: {
@@ -457,7 +457,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "บางครั้งคุณอยากได้ขนตาที่ดูเหมือน 'ธรรมชาติแบบดีขึ้น' นี่คือวิธีที่ครูหญิงจัดทรงเบาที่สุด 4 ทรงในเมนู",
     },
     description: {
-      en: "Natural lash extensions in Chiang Mai — what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
+      en: "Natural lash extensions in Chiang Mai, what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
       th: "อยากต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อ? เลือกทรงและความหนาที่เหมาะกับชีวิตประจำวัน คู่มือจากช่างเชียงใหม่ 7+ ปี รับประกันรีทัช 3 วัน",
     },
     publishedAt: "2026-06-26",
@@ -465,8 +465,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     author: "Ying",
     heroImage: "/images/service-natural.jpg",
     heroImageAlt: {
-      en: "Close-up of a natural-style lash extension set by My Lash House Chiang Mai — light, daily-wear lashes designed to look like better natural lashes",
-      th: "ภาพระยะใกล้ของขนตาต่อทรงธรรมชาติ โดย My Lash House เชียงใหม่ — เซตเบาใส่ทุกวัน ออกแบบให้ดูเหมือนขนตาธรรมชาติที่ดีขึ้น",
+      en: "Close-up of a natural-style lash extension set by My Lash House Chiang Mai, light, daily-wear lashes designed to look like better natural lashes",
+      th: "ภาพระยะใกล้ของขนตาต่อทรงธรรมชาติ โดย My Lash House เชียงใหม่ เซตเบาใส่ทุกวัน ออกแบบให้ดูเหมือนขนตาธรรมชาติที่ดีขึ้น",
     },
     readingMinutes: 8,
     tags: ["lash extensions", "natural lashes", "classic 1:1", "office", "brides", "chiang mai", "ต่อขนตาแบบธรรมชาติ"],
@@ -478,7 +478,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How long do natural lash extensions last?",
-          a: "3–4 weeks before you'll want a refill, the same as other extension styles. Retention depends on aftercare more than style choice — water exposure in the first 24 hours and oil-based products near the eyes are the two biggest shorteners.",
+          a: "3–4 weeks before you'll want a refill, the same as other extension styles. Retention depends on aftercare more than style choice, water exposure in the first 24 hours and oil-based products near the eyes are the two biggest shorteners.",
         },
         {
           q: "How much do natural lash extensions cost at My Lash House?",
@@ -486,11 +486,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Which natural style looks the most natural?",
-          a: "Classic 1:1 is the most natural — one extension per natural lash, no density change, just length and definition. Natural Look is slightly fuller for clients who want a bit more presence in photos. Light Volume is the lightest of the volume family and adds fluffy softness without going dramatic.",
+          a: "Classic 1:1 is the most natural, one extension per natural lash, no density change, just length and definition. Natural Look is slightly fuller for clients who want a bit more presence in photos. Light Volume is the lightest of the volume family and adds fluffy softness without going dramatic.",
         },
         {
           q: "Can I wear natural lash extensions to work?",
-          a: "Yes — natural-family styles are specifically designed for daily and professional wear. Classic 1:1 and Natural Look are the most-booked styles by office workers, teachers, healthcare professionals, and women in client-facing roles.",
+          a: "Yes, natural-family styles are specifically designed for daily and professional wear. Classic 1:1 and Natural Look are the most-booked styles by office workers, teachers, healthcare professionals, and women in client-facing roles.",
         },
         {
           q: "Do I need a lash lift or tint before getting natural extensions?",
@@ -504,7 +504,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ต่อขนตาแบบธรรมชาติ อยู่ได้นานไหม?",
-          a: "3–4 สัปดาห์ก่อนต้องเติม เหมือนทรงต่อขนตาแบบอื่น การคงทนขึ้นกับการดูแลมากกว่าการเลือกทรง — การโดนน้ำใน 24 ชั่วโมงแรกและผลิตภัณฑ์น้ำมันรอบดวงตาเป็น 2 ตัวที่ตัดอายุเซตมากที่สุด",
+          a: "3–4 สัปดาห์ก่อนต้องเติม เหมือนทรงต่อขนตาแบบอื่น การคงทนขึ้นกับการดูแลมากกว่าการเลือกทรง การโดนน้ำใน 24 ชั่วโมงแรกและผลิตภัณฑ์น้ำมันรอบดวงตาเป็น 2 ตัวที่ตัดอายุเซตมากที่สุด",
         },
         {
           q: "ต่อขนตาแบบธรรมชาติ ราคาเท่าไหร่ที่ My Lash House?",
@@ -512,11 +512,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ทรงไหนคือธรรมชาติที่สุด?",
-          a: "Classic 1:1 ธรรมชาติที่สุด — ติดเอ็กซ์เทนชัน 1 เส้นต่อขนตาจริง 1 เส้น ไม่เพิ่มความหนา แค่เพิ่มความยาวและความชัด Natural Look ฟูขึ้นเล็กน้อยสำหรับลูกค้าที่อยากได้ความเด่นในรูปมากขึ้น Light Volume เบาที่สุดในกลุ่ม volume เพิ่มความนุ่มฟูโดยไม่ดราม่า",
+          a: "Classic 1:1 ธรรมชาติที่สุด ติดเอ็กซ์เทนชัน 1 เส้นต่อขนตาจริง 1 เส้น ไม่เพิ่มความหนา แค่เพิ่มความยาวและความชัด Natural Look ฟูขึ้นเล็กน้อยสำหรับลูกค้าที่อยากได้ความเด่นในรูปมากขึ้น Light Volume เบาที่สุดในกลุ่ม volume เพิ่มความนุ่มฟูโดยไม่ดราม่า",
         },
         {
           q: "ต่อขนตาแบบธรรมชาติ ใส่ทำงานได้ไหม?",
-          a: "ได้ — ทรงในกลุ่มธรรมชาติออกแบบมาเฉพาะสำหรับการใส่ทุกวันและในบริบทมืออาชีพ Classic 1:1 และ Natural Look เป็นทรงที่จองเยอะที่สุดโดยคนทำงานออฟฟิศ คุณครู บุคลากรทางการแพทย์ และผู้หญิงที่ทำงานเจอลูกค้า",
+          a: "ได้ ทรงในกลุ่มธรรมชาติออกแบบมาเฉพาะสำหรับการใส่ทุกวันและในบริบทมืออาชีพ Classic 1:1 และ Natural Look เป็นทรงที่จองเยอะที่สุดโดยคนทำงานออฟฟิศ คุณครู บุคลากรทางการแพทย์ และผู้หญิงที่ทำงานเจอลูกค้า",
         },
         {
           q: "ต้องดัดและย้อมขนตาก่อนต่อแบบธรรมชาติไหม?",
@@ -538,8 +538,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     category: { en: "Ranked Guide", th: "คู่มือจัดอันดับร้าน" },
     dek: {
-      en: "Four salons everyone talks about, ranked the honest way. Reviews, warranty, technique, accessibility — what actually matters when you're booking.",
-      th: "4 ร้านที่ทุกคนพูดถึง จัดอันดับแบบซื่อสัตย์ รีวิว รับประกัน เทคนิค และความเข้าถึง — สิ่งที่สำคัญจริง ๆ ตอนจอง",
+      en: "Four salons everyone talks about, ranked the honest way. Reviews, warranty, technique, accessibility, what actually matters when you're booking.",
+      th: "4 ร้านที่ทุกคนพูดถึง จัดอันดับแบบซื่อสัตย์ รีวิว รับประกัน เทคนิค และความเข้าถึง สิ่งที่สำคัญจริง ๆ ตอนจอง",
     },
     description: {
       en: "Top lash salons Chiang Mai 2026: 1. My Lash House (San Klang, ฿590–฿1,590, 5.0★, 3-day retouch). 2. Somsasi Studio (Nimman, 7-day warranty). 3. Eye to Eye Nimman. 4. Lash Berries. Ranked by reviews, social proof, and warranty.",
@@ -635,7 +635,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
           numberOfItems: 4,
           itemListElement: [
             // Only My Lash House gets a URL; competitors are named but unlinked
-            // (no outbound competitor links anywhere — brand-voice guardrail).
+            // (no outbound competitor links anywhere, brand-voice guardrail).
             { "@type": "ListItem", position: 1, name: "My Lash House", url: "https://mylashhouse.com/" },
             { "@type": "ListItem", position: 2, name: "Somsasi Lashes & Beauty Salon" },
             { "@type": "ListItem", position: 3, name: "Eye to Eye Nimman" },
@@ -664,14 +664,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
             {
               "@type": "OpeningHoursSpecification",
               dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              opens: "10:00",
+              opens: "09:00",
               closes: "19:00",
             },
           ],
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: "5.0",
-            reviewCount: "32",
+            reviewCount: "19",
             bestRating: 5,
           },
           sameAs: [
@@ -688,11 +688,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-yoo-dai-nan-mai",
     title: {
       en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide + 3-Day Retouch Guarantee Explained)",
-      th: "ต่อขนตาอยู่ได้นานไหม? คู่มือเชียงใหม่ 2026 + อธิบายการรับประกันรีทัช 3 วัน",
+      th: "ต่อขนตาอยู่ได้นานไหม? อยู่ได้กี่สัปดาห์ + อธิบายการรับประกันรีทัช 3 วัน (2026)",
     },
     metaTitle: {
       en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide)",
-      th: "ต่อขนตาอยู่ได้นานไหม? คู่มือเชียงใหม่ 2026",
+      th: "ต่อขนตาอยู่ได้นานไหม? อยู่ได้กี่สัปดาห์ คู่มือ 2026",
     },
     category: { en: "Longevity Guide", th: "คู่มือการคงทน" },
     dek: {
@@ -725,15 +725,15 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "What does My Lash House's 3-day retouch guarantee cover?",
-          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side — message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 2 hours, or using oil-based cleansers and removers.",
+          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side, message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 2 hours, or using oil-based cleansers and removers.",
         },
         {
           q: "Can I get lash extensions wet?",
-          a: "Not for the first 24 hours — that's when the glue is curing. After day one, normal showering and gentle washing is fine. Avoid steam rooms, saunas, and submerging your face for long periods. Always pat dry with a lint-free cloth; never rub.",
+          a: "Not for the first 24 hours, that's when the glue is curing. After day one, normal showering and gentle washing is fine. Avoid steam rooms, saunas, and submerging your face for long periods. Always pat dry with a lint-free cloth; never rub.",
         },
         {
           q: "How often should I get a refill?",
-          a: "Every 2–3 weeks is the sweet spot. The set still looks dense, and the artist has enough remaining lashes to map cleanly into. If you wait longer than 4 weeks, a refill often costs the same as a fresh full set and looks worse — better to start over.",
+          a: "Every 2–3 weeks is the sweet spot. The set still looks dense, and the artist has enough remaining lashes to map cleanly into. If you wait longer than 4 weeks, a refill often costs the same as a fresh full set and looks worse, better to start over.",
         },
         {
           q: "Will lash extensions damage my natural lashes?",
@@ -755,7 +755,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "การรับประกันรีทัช 3 วันของ My Lash House ครอบคลุมอะไรบ้าง",
-          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา — แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
+          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
         },
         {
           q: "ต่อขนตาแล้วโดนน้ำได้ไหม",
@@ -763,7 +763,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ควรเข้ามาเติมขนตาบ่อยแค่ไหน",
-          a: "ช่วง 2–3 สัปดาห์คือช่วงที่เหมาะที่สุด เซตยังดูแน่นพอ และช่างยังมีเส้นเหลือมากพอจะ map ทับได้สะอาด ถ้าทิ้งนานเกิน 4 สัปดาห์ การเติมมักราคาเท่ากับต่อเซตใหม่และผลออกมาแย่กว่า — ต่อใหม่จะดีกว่า",
+          a: "ช่วง 2–3 สัปดาห์คือช่วงที่เหมาะที่สุด เซตยังดูแน่นพอ และช่างยังมีเส้นเหลือมากพอจะ map ทับได้สะอาด ถ้าทิ้งนานเกิน 4 สัปดาห์ การเติมมักราคาเท่ากับต่อเซตใหม่และผลออกมาแย่กว่า ต่อใหม่จะดีกว่า",
         },
         {
           q: "ต่อขนตาทำให้ขนตาธรรมชาติเสียไหม",
@@ -783,11 +783,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-baeb-nai-dee",
     title: {
       en: "Which Lash Extension Style is Right for Your Eye Shape? (Chiang Mai 2026 Guide)",
-      th: "ต่อขนตาแบบไหนดี? เทียบรูปตา กับ ทรงขนตาที่เหมาะ (คู่มือเชียงใหม่ 2026)",
+      th: "ทรงต่อขนตา มีกี่แบบ เลือกยังไงให้เข้ากับรูปตา (คู่มือ 2026)",
     },
     metaTitle: {
       en: "Lash Extensions by Eye Shape: A Chiang Mai 2026 Guide",
-      th: "ต่อขนตาแบบไหนดี? คู่มือเชียงใหม่ 2026",
+      th: "ทรงต่อขนตา มีกี่แบบ เลือกยังไง | คู่มือ 2026",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
     dek: {
@@ -796,15 +796,15 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     description: {
       en: "A first-timer's eye-shape guide to lash extensions in Chiang Mai. Match monolid, hooded, round, and downturned eyes to the right style at My Lash House.",
-      th: "คู่มือมือใหม่: ดูรูปตาตัวเอง แล้วเลือกทรงต่อขนตาที่เหมาะ ตาชั้นเดียว หนังตาปิด หางตาตก ตากลม ตาห่าง ที่ My Lash House เชียงใหม่",
+      th: "คู่มือมือใหม่: ดูรูปตาตัวเอง แล้วเลือกทรงต่อขนตาที่เหมาะ ตาชั้นเดียว หนังตาปิด หางตาตก ตากลม ตาห่าง ที่ My Lash House",
     },
     publishedAt: "2026-04-30",
     updatedAt: "2026-04-30",
     author: "Ying",
     heroImage: "/images/blog/eye-shape-lash-style-guide-chiang-mai.webp",
     heroImageAlt: {
-      en: "Editorial illustration of six eye shapes — single eyelid, double eyelid, downturned, round, hooded, and wide-set — labelled in English and Thai, for the My Lash House lash style guide",
-      th: "ภาพประกอบรูปตา 6 แบบ — ตาชั้นเดียว ตาสองชั้น หางตาตก ตากลม หนังตาปิด ตาห่าง — สำหรับคู่มือเลือกทรงต่อขนตาที่ My Lash House",
+      en: "Editorial illustration of six eye shapes, single eyelid, double eyelid, downturned, round, hooded, and wide-set, labelled in English and Thai, for the My Lash House lash style guide",
+      th: "ภาพประกอบรูปตา 6 แบบ ตาชั้นเดียว ตาสองชั้น หางตาตก ตากลม หนังตาปิด ตาห่าง สำหรับคู่มือเลือกทรงต่อขนตาที่ My Lash House",
     },
     readingMinutes: 8,
     tags: ["lash extensions", "eye shape", "first-timers", "chiang mai", "ต่อขนตา"],
@@ -832,7 +832,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "What if my chosen lash style doesn't suit my eye shape once it's applied?",
-          a: "Most fine-tuning happens at your next refill — Ying adjusts the mapping, length distribution, or curl to bring the set closer to what's working for you. If you want a full stylistic change before your refill, it can be redone for a partial fee. Right after every appointment, every client gets a quick aftercare consultation — what to do and not do in the first 24 to 48 hours — so the set holds the way it was designed.",
+          a: "Most fine-tuning happens at your next refill, Ying adjusts the mapping, length distribution, or curl to bring the set closer to what's working for you. If you want a full stylistic change before your refill, it can be redone for a partial fee. Right after every appointment, every client gets a quick aftercare consultation, what to do and not do in the first 24 to 48 hours, so the set holds the way it was designed.",
         },
         {
           q: "Is My Lash House English-friendly?",
@@ -862,7 +862,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ถ้าทรงที่เลือกไม่เข้ากับรูปตาเราตอนใส่จริงล่ะ",
-          a: "การปรับเล็ก ๆ ส่วนใหญ่ทำในรอบเติมถัดไป — ครูหญิงปรับ mapping การกระจายความยาว หรือเคิร์ล ให้เข้ากับลุคที่ลงตัวกับคุณมากขึ้น ถ้าอยากเปลี่ยนทรงทั้งเซตก่อนถึงรอบเติม สามารถทำใหม่ได้ในราคาบางส่วน หลังเซตเสร็จทุกครั้ง ลูกค้าจะได้คุยสั้น ๆ เรื่องวิธีดูแล — สิ่งที่ทำได้และทำไม่ได้ใน 24-48 ชั่วโมงแรก — เพื่อให้เซตอยู่ทรงตามที่ออกแบบไว้",
+          a: "การปรับเล็ก ๆ ส่วนใหญ่ทำในรอบเติมถัดไป ครูหญิงปรับ mapping การกระจายความยาว หรือเคิร์ล ให้เข้ากับลุคที่ลงตัวกับคุณมากขึ้น ถ้าอยากเปลี่ยนทรงทั้งเซตก่อนถึงรอบเติม สามารถทำใหม่ได้ในราคาบางส่วน หลังเซตเสร็จทุกครั้ง ลูกค้าจะได้คุยสั้น ๆ เรื่องวิธีดูแล สิ่งที่ทำได้และทำไม่ได้ใน 24-48 ชั่วโมงแรก เพื่อให้เซตอยู่ทรงตามที่ออกแบบไว้",
         },
         {
           q: "ถ้าต่อขนตาครั้งแรก ควรเริ่มจากทรงไหน",

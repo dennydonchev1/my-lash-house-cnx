@@ -29,6 +29,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Thai typography: Playfair Display has no Thai glyphs, so Thai pages swap
+   the display font to Prompt and body to Sarabun. Scoped by the html lang
+   attribute, which proxy.ts + layout.tsx set per route (/th/* -> th). */
+html[lang="th"] {
+  --font-heading: var(--font-prompt);
+  --font-body: var(--font-sarabun);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

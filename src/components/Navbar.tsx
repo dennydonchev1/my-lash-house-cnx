@@ -38,7 +38,7 @@ export default function Navbar({
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between sm:h-20">
-          {/* Logo — swap between white (over hero) and black (scrolled) */}
+          {/* Logo, swap between white (over hero) and black (scrolled) */}
           <a href={lang === "th" ? "/th" : "/"} className="flex items-center">
             <Image
               src={scrolled ? "/images/logo-black.png" : "/images/logo-white.png"}

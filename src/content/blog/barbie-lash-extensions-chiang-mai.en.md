@@ -10,10 +10,10 @@ If you've been searching *ต่อขนตาทรงบาร์บี้* o
 
 A Barbie lash set is a specific combination of four things:
 
-1. **Mega Volume base** — handmade fans with 10 to 16 extensions per fan
-2. **Wispy spike pieces** — noticeably longer individual pieces scattered through the set for a spiky, feathered edge
-3. **Wet-look glossy finish** — the fans are packed densely enough that the set catches light like wet strands
-4. **Cat-eye mapping** — the longest, densest pieces sit at the outer corners for an upward lift
+1. **Mega Volume base**, handmade fans with 10 to 16 extensions per fan
+2. **Wispy spike pieces**, noticeably longer individual pieces scattered through the set for a spiky, feathered edge
+3. **Wet-look glossy finish**, the fans are packed densely enough that the set catches light like wet strands
+4. **Cat-eye mapping**, the longest, densest pieces sit at the outer corners for an upward lift
 
 Materials: 0.07mm fans, D or DD curl, 11 to 14mm length range. The result is the "I'm wearing lashes and I'm loving it" energy that carries the *Barbie* aesthetic.
 
@@ -21,15 +21,15 @@ Materials: 0.07mm fans, D or DD curl, 11 to 14mm length range. The result is the
 
 Not every eye reads Barbie the same way.
 
-**Best fit — round eyes.** The cat-eye mapping elongates round eyes without over-widening them. A doll-eye and Barbie hybrid mapping is often the perfect play here.
+**Best fit, round eyes.** The cat-eye mapping elongates round eyes without over-widening them. A doll-eye and Barbie hybrid mapping is often the perfect play here.
 
-**Best fit — almond eyes.** Classic Barbie sits beautifully on almond eyes because the natural shape already balances the outward lift.
+**Best fit, almond eyes.** Classic Barbie sits beautifully on almond eyes because the natural shape already balances the outward lift.
 
-**Handle with care — hooded eyes.** The spike pieces can disappear under the hood if the mapping isn't calibrated for the specific lid shape. Doable, but requires a longer consultation and often a slightly modified curl to make sure the wisps show past the fold.
+**Handle with care, hooded eyes.** The spike pieces can disappear under the hood if the mapping isn't calibrated for the specific lid shape. Doable, but requires a longer consultation and often a slightly modified curl to make sure the wisps show past the fold.
 
-**Handle with care — small eyes.** A full-density Barbie set can overpower small eyes. A lighter version with fewer spikes and shorter overall length usually reads better.
+**Handle with care, small eyes.** A full-density Barbie set can overpower small eyes. A lighter version with fewer spikes and shorter overall length usually reads better.
 
-**Not the strongest fit — very downturned eyes.** The outer-corner weight of cat-eye mapping fights the natural downturn. Doable, but a modified Wispy Volume with softer cat-eye framing often reads better.
+**Not the strongest fit, very downturned eyes.** The outer-corner weight of cat-eye mapping fights the natural downturn. Doable, but a modified Wispy Volume with softer cat-eye framing often reads better.
 
 For a full breakdown of every eye shape and which lash style suits which, see the [eye-shape lash style guide](/blog/lash-extensions-by-eye-shape-chiang-mai).
 
@@ -71,11 +71,11 @@ Refills are 50 to 70% of the full-set price. Because Barbie is on the heavier si
 
 Depends on your workplace, and depends on which variant.
 
-Classic Barbie in a shorter length range (11 to 12mm) reads as full lashes but not overtly styled. Fine for most office contexts. Client-facing roles in conservative industries might still find it too much — a Wispy Volume with a soft cat-eye map is the safer daily version.
+Classic Barbie in a shorter length range (11 to 12mm) reads as full lashes but not overtly styled. Fine for most office contexts. Client-facing roles in conservative industries might still find it too much, a Wispy Volume with a soft cat-eye map is the safer daily version.
 
 Wet Barbie is not really a daily-wear set. It's for events, photoshoots, holidays, or contexts where "I'm wearing lashes" is the point.
 
-If you want something in the natural family for daily wear plus the option to book Barbie for special occasions, that's a valid pattern — many clients do exactly this. The [natural lash extensions guide](/blog/natural-lash-extensions-chiang-mai) covers the lighter options.
+If you want something in the natural family for daily wear plus the option to book Barbie for special occasions, that's a valid pattern, many clients do exactly this. The [natural lash extensions guide](/blog/natural-lash-extensions-chiang-mai) covers the lighter options.
 
 ## How long do Barbie lashes last?
 
@@ -97,15 +97,15 @@ The full day-by-day rules are in the [aftercare guide](/blog/lash-extension-afte
 
 ## What does the 3-day retouch guarantee cover?
 
-Every set at My Lash House comes with a 3-day retouch guarantee — Barbie sets included. If lashes shed unusually fast in the first three days from a glue or application issue on our side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos and we book a free retouch.
+Every set at My Lash House comes with a 3-day retouch guarantee, Barbie sets included. If lashes shed unusually fast in the first three days from a glue or application issue on our side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos and we book a free retouch.
 
 The guarantee doesn't cover shedding from aftercare mistakes (water in the first 24 hours, oil-based products, face-down sleeping, rubbing).
 
 ## Where can I get Barbie-style lash extensions in Chiang Mai?
 
-At My Lash House, in San Klang, San Kamphaeng, near Payap University (about 10 minutes from the city centre). Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome, subject to availability.
+At My Lash House, in San Klang, San Kamphaeng, near Payap University (about 10 minutes from the city centre). Open 7 days a week, 9:00 to 19:00. Walk-ins and same-day appointments welcome, subject to availability.
 
-Book at least a day ahead for Barbie specifically — it's a longer appointment (120 to 180 minutes) and the schedule fills faster for weekends.
+Book at least a day ahead for Barbie specifically, it's a longer appointment (120 to 180 minutes) and the schedule fills faster for weekends.
 
 For a side-by-side of the four most-talked-about lash studios in Chiang Mai (including who else offers this style), see the [ranked salon guide](/blog/best-lash-extensions-chiang-mai).
 
@@ -131,6 +131,6 @@ For questions about whether Classic or Wet Barbie suits your eye shape, or to bo
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 32 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new style techniques, menu changes, and reader feedback.

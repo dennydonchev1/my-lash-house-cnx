@@ -97,7 +97,7 @@ const CALLOUT_MARKERS: Array<{ marker: string; variant: CalloutVariant; Icon: Lu
 ];
 
 // Editorial callout palettes. On-brand tints only (warm rose for warn, deep
-// plum for note, dusty sage-emerald for pro tip) — no functional amber/red
+// plum for note, dusty sage-emerald for pro tip), no functional amber/red
 // alert chrome. Each callout gets a soft background tint, a hairline border
 // matching the accent, and a gradient accent rule in the header bar that
 // fades from variant color into transparent.
@@ -208,8 +208,7 @@ const LABELS = {
   },
 };
 
-// Headings that are part of the article body but not procedural steps —
-// excluded from HowTo schema generation and from the visible TOC.
+// Headings that are part of the article body but not procedural steps, // excluded from HowTo schema generation and from the visible TOC.
 const NON_SECTION_HEADING_RE =
   /how was|how this guide|about the author|^faq$|send a message|send us|have .* questions|เกี่ยวกับผู้เขียน|คู่มือนี้เขียน|ส่งข้อความมา|มีคำถาม/i;
 
@@ -219,7 +218,7 @@ function extractH2s(markdown: string): string[] {
 }
 
 // Top-of-article table of contents. Only renders for posts with 4+ procedural
-// H2s — short posts don't need one and look awkward with it.
+// H2s, short posts don't need one and look awkward with it.
 function TableOfContents({ headings, lang }: { headings: string[]; lang: Lang }) {
   if (headings.length < 4) return null;
   return (
@@ -326,12 +325,12 @@ export default function BlogPost({
   const otherLang: Lang = lang === "en" ? "th" : "en";
   const otherLangHref = getPostUrl(post, otherLang);
 
-  // TOC + HowTo schema source — H2s from the markdown, minus the non-section
+  // TOC + HowTo schema source, H2s from the markdown, minus the non-section
   // headings (FAQ, About the author, contact CTA, etc.).
   const allH2s = extractH2s(content);
   const sectionH2s = allH2s.filter((h) => !NON_SECTION_HEADING_RE.test(h));
 
-  // Article schema — now references the shared Person + BeautySalon entities
+  // Article schema, now references the shared Person + BeautySalon entities
   // via stable @id so Google can connect Article → Author → Local Business as
   // a single entity graph.
   const articleSchema = {
@@ -371,7 +370,7 @@ export default function BlogPost({
     ],
   };
 
-  // HowTo schema — only generated for procedural posts (post.howTo === true).
+  // HowTo schema, only generated for procedural posts (post.howTo === true).
   // Steps are auto-built from the section H2s. Each step gets a deep-link
   // anchor so AI assistants citing the page can point readers at the specific
   // section, not just the page URL.
@@ -414,7 +413,7 @@ export default function BlogPost({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      {/* Shared entity-graph schemas — Person (Ying) and BeautySalon (the studio)
+      {/* Shared entity-graph schemas, Person (Ying) and BeautySalon (the studio)
           appear on every blog post via stable @id so Google can link Article →
           Author → Local Business as one coherent entity graph. */}
       <script
@@ -454,7 +453,7 @@ export default function BlogPost({
             </Link>
           </nav>
 
-          {/* Editorial header — kicker / title / dek / meta, all centered.
+          {/* Editorial header, kicker / title / dek / meta, all centered.
               Title is pulled from post.title and rendered here above the hero
               so the headline + intro sit in the first-30% AI-citation zone.
               The matching # heading in the markdown is suppressed below via
@@ -491,7 +490,7 @@ export default function BlogPost({
             </div>
           </header>
 
-          {/* Hero banner — wider, more dramatic crop with italic caption below.
+          {/* Hero banner, wider, more dramatic crop with italic caption below.
               Square service photos centre-crop to focal-eye region; alt text
               doubles as the figure caption. */}
           <figure className="mt-12 mb-14">
@@ -509,7 +508,7 @@ export default function BlogPost({
             </figcaption>
           </figure>
 
-          {/* Table of contents — renders only when there are 4+ section H2s.
+          {/* Table of contents, renders only when there are 4+ section H2s.
               Numbered, two-column on desktop, each item a deep-link to the
               matching slugified H2 id. */}
           <TableOfContents headings={sectionH2s} lang={lang} />
@@ -593,7 +592,7 @@ export default function BlogPost({
                 //              corner at low opacity, hairlines above/below,
                 //              no box, no fill.
                 //
-                //   > 💡 ...  -> "Note" sidebar — top hairline accent rule in
+                //   > 💡 ...  -> "Note" sidebar, top hairline accent rule in
                 //              variant color, tiny small-caps tracked label,
                 //              body in italic Playfair at body+1 scale. No
                 //              card chrome, no fill, no rounded corners.
@@ -610,7 +609,7 @@ export default function BlogPost({
                       <aside className="not-prose relative my-16 px-4 sm:px-10">
                         {/* Oversized decorative quote glyph hangs behind the
                             text in the brand rose at 12% opacity. Pure
-                            typographic ornament — no box, no fill. */}
+                            typographic ornament, no box, no fill. */}
                         <span
                           aria-hidden
                           className="pointer-events-none absolute -top-6 left-0 select-none font-heading text-[10rem] leading-none text-rose-dark/15 sm:text-[14rem]"
@@ -637,7 +636,7 @@ export default function BlogPost({
                         {/* Integrated header bar: small icon + small-caps label
                             + gradient accent rule that fades into transparent.
                             No floating icon chip, no functional-alert color
-                            language — same shape across variants, accent
+                            language, same shape across variants, accent
                             color carries the meaning. */}
                         <div className="mb-5 flex items-center gap-3">
                           <Icon
@@ -698,7 +697,7 @@ export default function BlogPost({
             />
           </section>
 
-          {/* Related reads — auto-picked from other posts by shared-tag overlap. */}
+          {/* Related reads, auto-picked from other posts by shared-tag overlap. */}
           <RelatedReads current={post} lang={lang} />
 
           {/* Back to blog link */}
