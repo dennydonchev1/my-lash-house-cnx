@@ -10,9 +10,14 @@ import { dict, NAV_LINKS_BY_LANG, type Lang } from "@/lib/i18n";
 export default function Navbar({
   lang = "en",
   otherLangHref,
+  solid = false,
 }: {
   lang?: Lang;
   otherLangHref?: string;
+  /** Force the solid (scrolled) style from the first pixel. Required on any
+      page without a dark hero (blog, services), where the transparent
+      white-text state renders invisible on the cream background. */
+  solid?: boolean;
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -28,10 +33,12 @@ export default function Navbar({
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const isSolid = solid || scrolled;
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        isSolid
           ? "bg-cream/95 backdrop-blur-md shadow-sm"
           : "bg-transparent"
       }`}
@@ -41,7 +48,7 @@ export default function Navbar({
           {/* Logo, swap between white (over hero) and black (scrolled) */}
           <a href={lang === "th" ? "/th" : "/"} className="flex items-center">
             <Image
-              src={scrolled ? "/images/logo-black.png" : "/images/logo-white.png"}
+              src={isSolid ? "/images/logo-black.png" : "/images/logo-white.png"}
               alt="My Lash House"
               width={160}
               height={60}
@@ -57,7 +64,7 @@ export default function Navbar({
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-medium tracking-wide transition-colors ${
-                  scrolled
+                  isSolid
                     ? "text-charcoal-light hover:text-plum"
                     : "text-white/90 hover:text-white"
                 }`}
@@ -69,7 +76,7 @@ export default function Navbar({
             <a
               href={otherLangPath}
               className={`flex items-center gap-1 text-sm font-medium tracking-wide transition-colors ${
-                scrolled
+                isSolid
                   ? "text-charcoal-light hover:text-plum"
                   : "text-white/90 hover:text-white"
               }`}
@@ -83,7 +90,7 @@ export default function Navbar({
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all hover:shadow-lg ${
-                scrolled
+                isSolid
                   ? "bg-plum text-white hover:bg-plum-light"
                   : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
               }`}
@@ -97,7 +104,7 @@ export default function Navbar({
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`rounded-lg p-2 transition-colors md:hidden ${
-              scrolled
+              isSolid
                 ? "text-charcoal hover:bg-cream-dark"
                 : "text-white hover:bg-white/10"
             }`}

@@ -1,6 +1,8 @@
 # Which Lash Extension Style is Right for Your Eye Shape? (Chiang Mai 2026 Guide)
 
-*Published by My Lash House · Compiled by Ying, certified lash artist · Originally published April 30, 2026 · Last updated May 12, 2026*
+There are 10 main lash extension styles to choose from, from the most natural Classic 1:1 (฿590) to the most dramatic Strip Lash (฿1,590). See every style with prices and drama levels below, then keep scrolling to match the right one to your eye shape.
+
+*Published by My Lash House · Compiled by Ying, certified lash artist · Originally published April 30, 2026 · Last updated September 23, 2026*
 
 *Disclosure: This guide is published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. It reflects the mapping methodology used at the studio. Where a different approach (a specific salon style, a different lash technique) might suit a reader better, this guide says so directly.*
 

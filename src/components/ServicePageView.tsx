@@ -60,7 +60,7 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       ))}
 
-      <Navbar lang={lang} otherLangHref={otherLangHref} />
+      <Navbar lang={lang} otherLangHref={otherLangHref} solid />
 
       <main className="bg-cream pt-24 sm:pt-28">
         <article className="mx-auto max-w-4xl px-4 pb-20 sm:px-6 lg:px-8">

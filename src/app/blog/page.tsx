@@ -33,7 +33,7 @@ export default function BlogIndex() {
 
   return (
     <>
-      <Navbar lang="en" />
+      <Navbar lang="en" solid />
       <main className="bg-cream pt-24 sm:pt-28">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 pb-20">
           <header className="text-center mb-12">

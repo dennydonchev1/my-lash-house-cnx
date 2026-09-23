@@ -441,7 +441,7 @@ export default function BlogPost({
       ))}
 
       <ReadingProgress />
-      <Navbar lang={lang} otherLangHref={otherLangHref} />
+      <Navbar lang={lang} otherLangHref={otherLangHref} solid />
 
       <main className="bg-cream pt-24 sm:pt-28">
         <article className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">

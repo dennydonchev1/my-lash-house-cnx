@@ -187,7 +187,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Barbie-Style Lash Extensions in Chiang Mai (2026) | My Lash House",
       th: "ต่อขนตาทรงบาร์บี้ | ทรงปังเทรนด์ 2026 My Lash House",
     },
-    category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
+    category: { en: "Style Guide", th: "คู่มือเลือกทรงขนตา" },
     dek: {
       en: "Densely-set, glossy, cat-eye mapped, the Margot Robbie Barbie-era lash look, mapped to your actual face.",
       th: "อัดแฟนแน่น ฟินิชเงา mapping แบบ cat-eye ลุคขนตายุค Barbie ของ Margot Robbie map เข้ากับหน้าคุณจริง ๆ",
@@ -451,7 +451,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Natural Lash Extensions in Chiang Mai (2026 Guide)",
       th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House",
     },
-    category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
+    category: { en: "Style Guide", th: "คู่มือเลือกทรงขนตา" },
     dek: {
       en: "Sometimes you want lashes that read as 'just better natural.' Here's how Ying maps the four lightest styles on the menu.",
       th: "บางครั้งคุณอยากได้ขนตาที่ดูเหมือน 'ธรรมชาติแบบดีขึ้น' นี่คือวิธีที่ครูหญิงจัดทรงเบาที่สุด 4 ทรงในเมนู",
@@ -789,7 +789,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Lash Extensions by Eye Shape: A Chiang Mai 2026 Guide",
       th: "ทรงต่อขนตา 10 แบบ พร้อมราคา เลือกยังไง | คู่มือ 2026",
     },
-    category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
+    category: { en: "Style Guide", th: "คู่มือเลือกทรงขนตา" },
     dek: {
       en: "The right lash style is the one that matches your eye shape, not the latest TikTok trend. Here's how Ying maps every set in her studio.",
       th: "ทรงต่อขนตาที่ใช่คือทรงที่เข้ากับรูปตา ไม่ใช่เทรนด์ TikTok ล่าสุด นี่คือวิธีที่ครูหญิงจัดทรงให้ลูกค้าทุกคน",
