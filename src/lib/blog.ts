@@ -783,11 +783,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-baeb-nai-dee",
     title: {
       en: "Which Lash Extension Style is Right for Your Eye Shape? (Chiang Mai 2026 Guide)",
-      th: "ทรงต่อขนตา มีกี่แบบ เลือกยังไงให้เข้ากับรูปตา (คู่มือ 2026)",
+      th: "ทรงต่อขนตา 10 แบบ พร้อมราคา เลือกยังไงให้เข้ากับรูปตา (2026)",
     },
     metaTitle: {
       en: "Lash Extensions by Eye Shape: A Chiang Mai 2026 Guide",
-      th: "ทรงต่อขนตา มีกี่แบบ เลือกยังไง | คู่มือ 2026",
+      th: "ทรงต่อขนตา 10 แบบ พร้อมราคา เลือกยังไง | คู่มือ 2026",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรง" },
     dek: {
@@ -799,7 +799,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "คู่มือมือใหม่: ดูรูปตาตัวเอง แล้วเลือกทรงต่อขนตาที่เหมาะ ตาชั้นเดียว หนังตาปิด หางตาตก ตากลม ตาห่าง ที่ My Lash House",
     },
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-09-23",
     author: "Ying",
     heroImage: "/images/blog/eye-shape-lash-style-guide-chiang-mai.webp",
     heroImageAlt: {

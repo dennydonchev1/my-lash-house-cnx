@@ -25,6 +25,7 @@ import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
 import FAQAccordion from "@/components/FAQAccordion";
 import ReadingProgress from "@/components/ReadingProgress";
+import StyleCardsGrid from "@/components/StyleCardsGrid";
 import type { BlogPostMeta } from "@/lib/blog";
 import {
   getAllPosts,
@@ -520,6 +521,17 @@ export default function BlogPost({
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
+                // A paragraph that is exactly [[STYLE_CARDS]] renders the
+                // template-v2 style-cards module (image + price + drama dots)
+                // in place. Everything else renders as a normal paragraph.
+                p: ({ children }) => {
+                  const text = extractText(children).trim();
+                  if (text === "[[STYLE_CARDS]]") {
+                    return <StyleCardsGrid lang={lang} />;
+                  }
+                  return <p>{children}</p>;
+                },
+
                 // Title is rendered above the hero via post.title; suppress the
                 // markdown H1 so it doesn't render twice. The H1 stays in the
                 // canonical .md source for plain-text export, llms.txt, etc.

@@ -117,24 +117,11 @@ The fix is the opposite map. More density and a touch more length at the inner c
 
 ## What lash styles are on the menu?
 
-For readers who want a sense of the full menu before the consultation:
+For readers who want a sense of the full menu before the consultation, all ten styles, lightest to boldest. The pink dots are the drama level.
 
-Pricing across the lash extension menu is currently ฿590–฿1,590. The live menu on [mylashhouse.com](/#pricing) has the current per-style price.
+[[STYLE_CARDS]]
 
-| Style (EN) | Style (TH) | Drama level | Best for |
-|---|---|---|---|
-| Classic 1:1 | คลาสสิก 1:1 | 1 / 5 | Mascara replacement, very natural |
-| Natural Look | ลุคธรรมชาติ | 1 / 5 | Soft daily wear |
-| Hybrid | ไฮบริด | 2 / 5 | Texture without drama |
-| Classic Volume | คลาสสิกวอลุ่ม | 2 / 5 | Polished daily |
-| Light Volume | ไลท์วอลุ่ม | 2 / 5 | Soft fullness, monolid-friendly |
-| Russian Volume | รัสเซียนวอลุ่ม | 3 / 5 | Fluffy, doll-eye mapping |
-| Wispy Volume | วิสปี้วอลุ่ม | 3 / 5 | Separated pieces, hood- and monolid-friendly |
-| Wet Look | เว็ทลุค | 3 / 5 | Glossy, just-applied-mascara finish |
-| Mega Volume | เมก้าวอลุ่ม | 4 / 5 | Cat-eye, photoshoots, weddings |
-| Strip Lash | ขนตาปลอมทั้งแถบ | varies | Event or one-off wear |
-
-Add-ons available: color lashes, lash lift and tint. The studio also offers nails and waxing services for clients who want to combine appointments.
+The live menu on [mylashhouse.com](/#pricing) always has the current per-style price. Add-ons available: color lashes (฿150 to 300), lash lift and tint. The studio also offers [nail services](/services/nails) and waxing for clients who want to combine appointments.
 
 ## Pros and cons of choosing by eye shape (vs. picking from a trend)
 
