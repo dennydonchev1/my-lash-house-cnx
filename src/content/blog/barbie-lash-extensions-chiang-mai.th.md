@@ -57,7 +57,7 @@
 
 บาร์บี้อยู่ในระดับราคา Mega Volume ของเมนู
 
-| ทรง | ราคา |
+| ทรงขนตา | ราคา |
 |---|---|
 | Mega Volume (Classic Barbie) | ฿1,190 |
 | Add-on Wet Look (Wet Barbie) | ฿1,290 |
