@@ -6,7 +6,7 @@ import MobileBookingBar from "@/components/MobileBookingBar";
 import FAQAccordion from "@/components/FAQAccordion";
 import InstagramIcon from "@/components/icons/InstagramIcon";
 import { BUSINESS } from "@/lib/constants";
-import { BEAUTY_SALON_SCHEMA, PERSON_YING_SCHEMA } from "@/lib/blog";
+import { PERSON_YING_SCHEMA } from "@/lib/blog";
 import { getServiceUrl, type ServicePage } from "@/lib/servicePages";
 import { dict, type Lang } from "@/lib/i18n";
 
@@ -56,7 +56,10 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
 
   return (
     <>
-      {[serviceSchema, faqSchema, breadcrumbSchema, PERSON_YING_SCHEMA, BEAUTY_SALON_SCHEMA].map((schema, i) => (
+      {/* BeautySalon is emitted once, sitewide, by the root layout; provider
+          references it by @id. Re-declaring it here duplicates the aggregate
+          rating and invalidates the Review snippet in GSC. */}
+      {[serviceSchema, faqSchema, breadcrumbSchema, PERSON_YING_SCHEMA].map((schema, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       ))}
 

@@ -46,39 +46,12 @@ export const PERSON_YING_SCHEMA = {
   sameAs: ["https://instagram.com/my_lash_house.cnx"],
 };
 
-export const BEAUTY_SALON_SCHEMA = {
-  "@context": "https://schema.org",
-  "@type": "BeautySalon",
-  "@id": "https://mylashhouse.com/#business",
-  name: "My Lash House Chiang Mai",
-  url: "https://mylashhouse.com/",
-  telephone: "+66854747314",
-  priceRange: "฿590–฿1,590",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "89/117 Pruksa Ville, San Klang",
-    addressLocality: "San Kamphaeng",
-    addressRegion: "Chiang Mai",
-    postalCode: "50130",
-    addressCountry: "TH",
-  },
-  geo: { "@type": "GeoCoordinates", latitude: 18.7877843, longitude: 99.0435952 },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      opens: "09:00",
-      closes: "19:00",
-    },
-  ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5.0",
-    reviewCount: "19",
-    bestRating: 5,
-  },
-  sameAs: ["https://instagram.com/my_lash_house.cnx", "https://line.me/ti/p/~604ymska"],
-};
+// NOTE: there is deliberately NO BeautySalon schema here. The root layout
+// (src/app/layout.tsx) emits the one canonical BeautySalon block, with the
+// aggregate rating, on every page. Components reference it via
+// { "@id": "https://mylashhouse.com/#business" } only. Emitting a second copy
+// puts two aggregate ratings on the page, and GSC then invalidates the Review
+// snippet with "Review has multiple aggregate ratings".
 
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
@@ -642,43 +615,9 @@ export const BLOG_POSTS: BlogPostMeta[] = [
             { "@type": "ListItem", position: 4, name: "Lash Berries" },
           ],
         },
-        {
-          "@context": "https://schema.org",
-          "@type": "BeautySalon",
-          name: "My Lash House",
-          image: "https://mylashhouse.com/images/service-mega.jpg",
-          url: "https://mylashhouse.com/",
-          telephone: "+66854747314",
-          priceRange: "฿590–฿1,590",
-          address: {
-            "@type": "PostalAddress",
-            streetAddress: "89/117 Pruksa Ville, San Klang",
-            addressLocality: "San Kamphaeng",
-            addressRegion: "Chiang Mai",
-            postalCode: "50130",
-            addressCountry: "TH",
-          },
-          // Pulled directly from the Google Business Profile URL (Plus code Q2QW+4F San Klang).
-          geo: { "@type": "GeoCoordinates", latitude: 18.7877843, longitude: 99.0435952 },
-          openingHoursSpecification: [
-            {
-              "@type": "OpeningHoursSpecification",
-              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              opens: "09:00",
-              closes: "19:00",
-            },
-          ],
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: "5.0",
-            reviewCount: "19",
-            bestRating: 5,
-          },
-          sameAs: [
-            "https://instagram.com/my_lash_house.cnx",
-            "https://line.me/ti/p/~604ymska",
-          ],
-        },
+        // The studio's BeautySalon entity (with aggregate rating) comes from the
+        // root layout; ListItem 1's url plus the sitewide @id block cover the
+        // entity linkage without a third aggregateRating on this page.
       ],
     },
   },

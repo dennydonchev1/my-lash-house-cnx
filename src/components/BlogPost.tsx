@@ -31,7 +31,6 @@ import {
   getAllPosts,
   getPostUrl,
   PERSON_YING_SCHEMA,
-  BEAUTY_SALON_SCHEMA,
 } from "@/lib/blog";
 import { dict, type Lang } from "@/lib/i18n";
 
@@ -415,16 +414,13 @@ export default function BlogPost({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      {/* Shared entity-graph schemas, Person (Ying) and BeautySalon (the studio)
-          appear on every blog post via stable @id so Google can link Article →
-          Author → Local Business as one coherent entity graph. */}
+      {/* Person (Ying) entity schema. The BeautySalon entity is emitted once,
+          sitewide, by the root layout; Article and Person reference it by
+          stable @id — re-declaring it here would give Google two aggregate
+          ratings on one page ("Review has multiple aggregate ratings"). */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_YING_SCHEMA) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(BEAUTY_SALON_SCHEMA) }}
       />
       {howToSchema && (
         <script
