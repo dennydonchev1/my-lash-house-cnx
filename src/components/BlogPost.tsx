@@ -26,6 +26,7 @@ import MobileBookingBar from "@/components/MobileBookingBar";
 import FAQAccordion from "@/components/FAQAccordion";
 import ReadingProgress from "@/components/ReadingProgress";
 import StyleCardsGrid from "@/components/StyleCardsGrid";
+import RetentionTimeline from "@/components/RetentionTimeline";
 import type { BlogPostMeta } from "@/lib/blog";
 import {
   getAllPosts,
@@ -524,6 +525,9 @@ export default function BlogPost({
                   const text = extractText(children).trim();
                   if (text === "[[STYLE_CARDS]]") {
                     return <StyleCardsGrid lang={lang} />;
+                  }
+                  if (text === "[[RETENTION_TIMELINE]]") {
+                    return <RetentionTimeline lang={lang} />;
                   }
                   return <p>{children}</p>;
                 },

@@ -627,11 +627,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-yoo-dai-nan-mai",
     title: {
       en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide + 3-Day Retouch Guarantee Explained)",
-      th: "ต่อขนตาอยู่ได้นานไหม? อยู่ได้กี่สัปดาห์ + อธิบายการรับประกันรีทัช 3 วัน (2026)",
+      th: "ต่อขนตาอยู่ได้นานไหม? 2–8 สัปดาห์ แยกตามทรง พร้อมวิธียืดอายุ (2026)",
     },
     metaTitle: {
       en: "How Long Do Lash Extensions Last? (Chiang Mai 2026 Guide)",
-      th: "ต่อขนตาอยู่ได้นานไหม? อยู่ได้กี่สัปดาห์ คู่มือ 2026",
+      th: "ต่อขนตาอยู่ได้นานไหม? 2–8 สัปดาห์ แยกตามทรง + วิธียืดอายุ",
     },
     category: { en: "Longevity Guide", th: "คู่มือการคงทน" },
     dek: {
@@ -640,10 +640,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     description: {
       en: "How long do lash extensions actually last, what affects shedding, and the aftercare rules that get you the full 3–4 weeks. Includes our 3-day retouch guarantee.",
-      th: "ต่อขนตาอยู่ได้นานแค่ไหนจริง ๆ อะไรทำให้หลุดเร็ว และวิธีดูแลที่ทำให้เซตอยู่ครบ 3–4 สัปดาห์ พร้อมรายละเอียดรับประกันรีทัช 3 วันของเรา",
+      th: "ต่อขนตาอยู่ได้ 4–8 สัปดาห์ ดูเต็มสวย 2–3 สัปดาห์แรก ดูตารางแยกตามทรง ไทม์ไลน์รายสัปดาห์ วิธียืดอายุ และรับประกันรีทัช 3 วันของ My Lash House",
     },
     publishedAt: "2026-06-07",
-    updatedAt: "2026-06-07",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-classic-volume.jpg",
     heroImageAlt: {
@@ -664,7 +664,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "What does My Lash House's 3-day retouch guarantee cover?",
-          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side, message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 2 hours, or using oil-based cleansers and removers.",
+          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side, message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 24 hours, or using oil-based cleansers and removers.",
         },
         {
           q: "Can I get lash extensions wet?",
@@ -694,7 +694,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "การรับประกันรีทัช 3 วันของ My Lash House ครอบคลุมอะไรบ้าง",
-          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
+          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 24 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
         },
         {
           q: "ต่อขนตาแล้วโดนน้ำได้ไหม",
