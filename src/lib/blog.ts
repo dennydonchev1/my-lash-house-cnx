@@ -76,7 +76,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ลิฟติ้งขนตา จากช่างที่มีใบรับรอง 7+ ปี คืออะไร ต่างจากต่อขนตายังไง ขั้นตอน 7 ขั้น ราคา วิธีดูแล และรับประกันรีทัช 3 วัน",
     },
     publishedAt: "2026-06-27",
-    updatedAt: "2026-06-27",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-wet-look.jpg",
     heroImageAlt: {
@@ -170,7 +170,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตาทรงบาร์บี้ อะไรทำให้เซตเป็น 'บาร์บี้' รูปตาแบบไหนเหมาะ Wet vs Classic Barbie ราคา และ My Lash House ทำต่างจากที่อื่นยังไง",
     },
     publishedAt: "2026-06-27",
-    updatedAt: "2026-06-27",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-mega.jpg",
     heroImageAlt: {
@@ -255,7 +255,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ข้อเสียจริงของต่อขนตา (และ 3 ความเข้าใจผิดที่ไม่ใช่ข้อเสียจริง) จากช่างที่มีใบรับรอง 7+ ปี ซื่อสัตย์ ไม่ขายเกินจริง",
     },
     publishedAt: "2026-06-27",
-    updatedAt: "2026-06-27",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-classic.jpg",
     heroImageAlt: {
@@ -276,7 +276,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Can I wash my face normally with lash extensions?",
-          a: "After the first 24 hours (the adhesive cure window), yes. Use water-based cleansers only, no oil cleansers, cleansing balms, or micellar water, which dissolve the adhesive bond. Pat dry with a lint-free cloth; never rub.",
+          a: "After the first 2 hours, yes, the fast-cure adhesive sets quickly. Use water-based cleansers only, no oil cleansers, cleansing balms, or micellar water, which dissolve the adhesive bond. Pat dry with a lint-free cloth; never rub.",
         },
         {
           q: "How much do lash extensions cost per month?",
@@ -302,7 +302,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ต่อขนตา ล้างหน้าได้ปกติไหม",
-          a: "หลัง 24 ชั่วโมงแรก (ช่วง cure ของกาว) ได้ ใช้เฉพาะคลีนเซอร์สูตรน้ำ ไม่ใช่ออยล์คลีนเซอร์ คลีนซิ่งบาล์ม หรือน้ำ micellar ที่ละลายบอนด์กาว ซับด้วยผ้าไม่มีขุย ไม่ถู",
+          a: "หลัง 2 ชั่วโมงแรกได้เลย กาว fast-cure ที่ร้านใช้เซตตัวเร็ว ใช้เฉพาะคลีนเซอร์สูตรน้ำ ไม่ใช่ออยล์คลีนเซอร์ คลีนซิ่งบาล์ม หรือน้ำ micellar ที่ละลายบอนด์กาว ซับด้วยผ้าไม่มีขุย ไม่ถู",
         },
         {
           q: "ต่อขนตา ค่าใช้จ่ายต่อเดือนเท่าไหร่",
@@ -332,8 +332,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     category: { en: "Aftercare Guide", th: "คู่มือดูแลหลังต่อ" },
     description: {
-      en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First 24 hours, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
-      th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างมืออาชีพ 7+ ปี 24 ชั่วโมงแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
+      en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First-day rules, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
+      th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างมืออาชีพ 7+ ปี กฎวันแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
     },
     dek: {
       en: "Master the three rules that decide whether your set lasts 4 days or 4 weeks.",
@@ -341,7 +341,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     howTo: true,
     publishedAt: "2026-06-26",
-    updatedAt: "2026-06-26",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-light-volume.jpg",
     heroImageAlt: {
@@ -354,7 +354,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: [
         {
           q: "How many days do I have to keep my lash extensions dry after the appointment?",
-          a: "24 hours minimum, that's how long the cyanoacrylate adhesive takes to fully cure. For full bond strength, the safer rule is 48 hours. No showers with water on the face, no swimming, no steam, no heavy exercise during the cure window.",
+          a: "Just 2 hours for plain water, My Lash House uses a fast-cure adhesive (salons on standard glue require 24 to 48 hours). For the first 24 hours, still skip swimming, steam, saunas, and heavy exercise while the bond reaches full strength.",
         },
         {
           q: "Which cleansers are safe to use with lash extensions?",
@@ -384,7 +384,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: [
         {
           q: "ต่อขนตามาห้ามโดนน้ำกี่วัน?",
-          a: "24 ชั่วโมงขั้นต่ำ เป็นเวลาที่กาว cyanoacrylate ใช้ในการ cure เต็มที่ สำหรับบอนด์เต็มกำลัง กฎที่ปลอดภัยกว่าคือ 48 ชั่วโมง ห้ามอาบน้ำให้น้ำโดนหน้า ห้ามว่ายน้ำ ห้ามไอน้ำ ห้ามออกกำลังกายหนักในช่วง cure",
+          a: "แค่ 2 ชั่วโมงสำหรับน้ำเปล่า เพราะ My Lash House ใช้กาวสูตร fast-cure (ร้านที่ใช้กาวทั่วไปต้องรอ 24 ถึง 48 ชั่วโมง) แต่ใน 24 ชั่วโมงแรกยังห้ามว่ายน้ำ ไอน้ำ ซาวน่า และออกกำลังกายหนัก ระหว่างที่บอนด์แข็งเต็มกำลัง",
         },
         {
           q: "ใช้คลีนเซอร์ตัวไหนได้บ้าง?",
@@ -434,7 +434,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "อยากต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อ? เลือกทรงและความหนาที่เหมาะกับชีวิตประจำวัน คู่มือจากช่างเชียงใหม่ 7+ ปี รับประกันรีทัช 3 วัน",
     },
     publishedAt: "2026-06-26",
-    updatedAt: "2026-06-26",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-natural.jpg",
     heroImageAlt: {
@@ -451,7 +451,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How long do natural lash extensions last?",
-          a: "3–4 weeks before you'll want a refill, the same as other extension styles. Retention depends on aftercare more than style choice, water exposure in the first 24 hours and oil-based products near the eyes are the two biggest shorteners.",
+          a: "3–4 weeks before you'll want a refill, the same as other extension styles. Retention depends on aftercare more than style choice, water before the adhesive sets (the first 2 hours) and oil-based products near the eyes are the two biggest shorteners.",
         },
         {
           q: "How much do natural lash extensions cost at My Lash House?",
@@ -477,7 +477,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ต่อขนตาแบบธรรมชาติ อยู่ได้นานไหม?",
-          a: "3–4 สัปดาห์ก่อนต้องเติม เหมือนทรงต่อขนตาแบบอื่น การคงทนขึ้นกับการดูแลมากกว่าการเลือกทรง การโดนน้ำใน 24 ชั่วโมงแรกและผลิตภัณฑ์น้ำมันรอบดวงตาเป็น 2 ตัวที่ตัดอายุเซตมากที่สุด",
+          a: "3–4 สัปดาห์ก่อนต้องเติม เหมือนทรงต่อขนตาแบบอื่น การคงทนขึ้นกับการดูแลมากกว่าการเลือกทรง การโดนน้ำก่อนกาวเซตตัว (2 ชั่วโมงแรก) และผลิตภัณฑ์น้ำมันรอบดวงตาเป็น 2 ตัวที่ตัดอายุเซตมากที่สุด",
         },
         {
           q: "ต่อขนตาแบบธรรมชาติ ราคาเท่าไหร่ที่ My Lash House?",
@@ -519,7 +519,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตา เชียงใหม่ ที่ไหนดี 2026: 1. My Lash House (สันกลาง, ฿590–฿1,590, 5.0★, รีทัช 3 วัน) 2. Somsasi Studio (นิมมาน, รับประกัน 7 วัน) 3. Eye to Eye Nimman 4. Lash Berries จัดอันดับโดยรีวิว โซเชียล และการรับประกัน",
     },
     publishedAt: "2026-05-14",
-    updatedAt: "2026-05-14",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/service-wispy.jpg",
     heroImageAlt: {
@@ -664,11 +664,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "What does My Lash House's 3-day retouch guarantee cover?",
-          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side, message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 24 hours, or using oil-based cleansers and removers.",
+          a: "Abnormal shedding within the first three days caused by a glue or application issue on our side, message us on Instagram with photos within 3 days and we book you in for a free retouch. It does not cover loss from rubbing, getting the lashes wet within the first 2 hours, or using oil-based cleansers and removers.",
         },
         {
           q: "Can I get lash extensions wet?",
-          a: "Not for the first 24 hours, that's when the glue is curing. After day one, normal showering and gentle washing is fine. Avoid steam rooms, saunas, and submerging your face for long periods. Always pat dry with a lint-free cloth; never rub.",
+          a: "Not for the first 2 hours, the fast-cure adhesive we use sets quickly (standard glue needs 24 to 48 hours). After that, normal showering and gentle washing is fine. Still avoid swimming, steam rooms, and saunas for the first 24 hours, and always pat dry with a lint-free cloth; never rub.",
         },
         {
           q: "How often should I get a refill?",
@@ -694,11 +694,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "การรับประกันรีทัช 3 วันของ My Lash House ครอบคลุมอะไรบ้าง",
-          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 24 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
+          a: "ครอบคลุมการหลุดผิดปกติภายใน 3 วันแรกจากปัญหากาวหรือเทคนิคของฝั่งเรา แชทเรา Instagram พร้อมรูปภายใน 3 วัน เราจะนัดเข้ามารีทัชฟรี ไม่ครอบคลุมเส้นที่หลุดจากการขยี้ตา โดนน้ำใน 2 ชั่วโมงแรก หรือใช้คลีนเซอร์/ที่เช็ดเครื่องสำอางสูตรน้ำมัน",
         },
         {
           q: "ต่อขนตาแล้วโดนน้ำได้ไหม",
-          a: "24 ชั่วโมงแรกห้ามโดน เป็นช่วงที่กาวยังเซตตัวอยู่ หลังจากวันแรกอาบน้ำและล้างหน้าเบา ๆ ได้ตามปกติ หลีกเลี่ยงห้องอบไอน้ำ ซาวน่า และการแช่น้ำนาน ๆ ซับให้แห้งด้วยผ้าไม่มีขุยเสมอ ห้ามถู",
+          a: "2 ชั่วโมงแรกห้ามโดน กาว fast-cure ที่ร้านใช้เซตตัวเร็ว (กาวทั่วไปต้องรอ 24 ถึง 48 ชั่วโมง) หลังจากนั้นอาบน้ำและล้างหน้าเบา ๆ ได้ตามปกติ แต่เลี่ยงว่ายน้ำ ห้องอบไอน้ำ และซาวน่าใน 24 ชั่วโมงแรก ซับให้แห้งด้วยผ้าไม่มีขุยเสมอ ห้ามถู",
         },
         {
           q: "ควรเข้ามาเติมขนตาบ่อยแค่ไหน",
@@ -738,7 +738,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "คู่มือมือใหม่: ดูรูปตาตัวเอง แล้วเลือกทรงต่อขนตาที่เหมาะ ตาชั้นเดียว หนังตาปิด หางตาตก ตากลม ตาห่าง ที่ My Lash House",
     },
     publishedAt: "2026-04-30",
-    updatedAt: "2026-09-23",
+    updatedAt: "2026-09-24",
     author: "Ying",
     heroImage: "/images/blog/eye-shape-lash-style-guide-chiang-mai.webp",
     heroImageAlt: {

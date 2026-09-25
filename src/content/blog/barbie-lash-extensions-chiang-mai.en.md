@@ -99,7 +99,7 @@ The full day-by-day rules are in the [aftercare guide](/blog/lash-extension-afte
 
 Every set at My Lash House comes with a 3-day retouch guarantee, Barbie sets included. If lashes shed unusually fast in the first three days from a glue or application issue on our side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos and we book a free retouch.
 
-The guarantee doesn't cover shedding from aftercare mistakes (water in the first 24 hours, oil-based products, face-down sleeping, rubbing).
+The guarantee doesn't cover shedding from aftercare mistakes (water in the first 2 hours, oil-based products, face-down sleeping, rubbing).
 
 ## Where can I get Barbie-style lash extensions in Chiang Mai?
 

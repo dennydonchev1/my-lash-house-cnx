@@ -64,7 +64,7 @@ Three common ones worth debunking.
 
 **"Extensions always damage your natural lashes."** False. Damage is a function of application, not extensions in general. See downside #2 above.
 
-**"You can't shower or wash your face with extensions."** Almost false. The full rule is: no water on the lashes for the first 24 hours while the adhesive cures. After that, normal showering and gentle water-based washing is fine indefinitely.
+**"You can't shower or wash your face with extensions."** Almost false. The full rule is: no water on the lashes while the adhesive sets, 24 hours with standard glue, just 2 hours with the fast-cure adhesive My Lash House uses. After that, normal showering and gentle water-based washing is fine indefinitely.
 
 **"Extensions always look fake."** False. This is about style choice. The [natural lash extensions guide](/blog/natural-lash-extensions-chiang-mai) covers the four lightest styles that read as "just better natural lashes" rather than styled.
 
@@ -82,7 +82,7 @@ Six things, in order of importance.
 
 **Commit to the refill schedule.** Book your first refill before you leave your initial appointment. Set a reminder. Skipping refills is the single fastest way to have a bad extension experience.
 
-**Follow the aftercare rules.** They're not decorative. Water in the first 24 hours halves retention. Oil-based products at the lash line dissolves the bond. Rubbing your eyes breaks it mechanically.
+**Follow the aftercare rules.** They're not decorative. Water before the adhesive sets (the first 2 hours here, up to 48 elsewhere) cuts retention hard. Oil-based products at the lash line dissolves the bond. Rubbing your eyes breaks it mechanically.
 
 ## How does My Lash House address each downside?
 
@@ -102,7 +102,7 @@ The differentiator section, because this is a page for people already skeptical.
 
 Every set comes with a 3-day retouch guarantee. If lashes shed unusually fast in the first three days from a glue or application issue on our side, message us on Instagram with photos and we book a free retouch.
 
-The guarantee doesn't cover shedding from aftercare mistakes (water in the first 24 hours, oil-based products, rubbing, face-down sleeping). More detail in the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai).
+The guarantee doesn't cover shedding from aftercare mistakes (water in the first 2 hours, oil-based products, rubbing, face-down sleeping). More detail in the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
 ## For people still on the fence
 

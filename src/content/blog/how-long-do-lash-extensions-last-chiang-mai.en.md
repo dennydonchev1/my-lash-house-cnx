@@ -25,7 +25,7 @@ A well-applied lash extension set looks full for about 2–3 weeks, holds at "st
 
 My Lash House publishes a 3-day retouch guarantee. (Somsasi publishes a 7-day extension warranty; otherwise published retouch policies are rare in the local market.) The My Lash House policy in one paragraph:
 
-> If lashes shed unusually fast in the first three days after the appointment because of a glue or application issue on the studio's side, message on Instagram with clear photos. The studio books a free retouch appointment to fix the affected lashes. The guarantee does not cover damage from rubbing, water exposure too soon after the appointment (within the first 24 hours), or oil-based products near the eyes.
+> If lashes shed unusually fast in the first three days after the appointment because of a glue or application issue on the studio's side, message on Instagram with clear photos. The studio books a free retouch appointment to fix the affected lashes. The guarantee does not cover damage from rubbing, water exposure too soon after the appointment (within the first 2 hours), or oil-based products near the eyes.
 
 **Why three days specifically.** The cyanoacrylate adhesive used in lash extensions reaches full bond strength within 24–48 hours. By day 3, any application or glue issue on the studio's side has either resolved on its own or become visible as unusual shedding. After day 3, shedding is almost always due to the natural lash cycle, aftercare, or wear, not the original application.
 
@@ -33,7 +33,7 @@ My Lash House publishes a 3-day retouch guarantee. (Somsasi publishes a 7-day ex
 
 **What's not covered, with examples.**
 
-- Showering or swimming within 24 hours (water cures glue prematurely)
+- Water within the first 2 hours, or swimming and saunas within 24 hours (interferes with the adhesive setting)
 - Sleeping face-down on the lashes
 - Using makeup remover wipes, micellar water, or any oil-based cleanser around the eyes
 - Rubbing the eyes hard or pulling at the lashes
@@ -82,7 +82,7 @@ If shedding looks like the second list, message the studio within the 3-day wind
 
 A few small habit changes meaningfully extend retention:
 
-**The first 24 hours.** No water, no steam, no sweat. This is when the adhesive completes its cure. Water exposure during this window dramatically shortens the set's life.
+**The first 2 hours: no water at all.** The fast-cure adhesive at My Lash House sets quickly, so normal showering is fine after 2 hours (salons using standard glue make you wait 24 to 48). Still skip swimming, saunas, steam, and heavy sweat for the first 24 hours while the bond reaches full strength.
 
 **Daily aftercare.** Gentle cleaning with a lash shampoo every morning or evening. Built-up oils from skincare, eye makeup, or natural skin oils dissolve the adhesive bond over time. Clean lashes hold longer than dirty ones, which is counterintuitive but consistent across every retention study.
 
@@ -134,7 +134,7 @@ A common timing pattern for regulars: full set every 2–3 months, with 2–3 in
 
 The honest list:
 
-- Water exposure within the first 24 hours (showering, swimming, washing the face heavily)
+- Water within the first 2 hours, or swimming, saunas, and heavy sweat within the first 24 hours
 - Oil-based products applied near the eyes within 72 hours
 - Rubbing the eyes hard, especially while sleeping
 - Using makeup remover wipes or micellar water on the lashes

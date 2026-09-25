@@ -162,7 +162,7 @@ She then maps the set on the closed eye, before any fans are made. Every fan is 
 
 The client lies back with eyes closed for the application. The studio is quiet, one client at a time, no rushing. Many clients fall asleep, which is fine.
 
-Aftercare is covered in detail at the end. The short version: no water for the first 24 hours, no oil-based products near the eyes, and a gentle clean with lash shampoo every day after that.
+Aftercare is covered in detail at the end. The short version: no water for the first 2 hours (the studio's fast-cure adhesive sets quickly), no swimming or steam on day one, no oil-based products near the eyes, and a gentle clean with lash shampoo every day after that.
 
 Every set comes with a **3-day retouch guarantee**. If lashes shed unusually fast in the first three days because of a glue or application issue on the studio's side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos. The studio will book the client in for a free retouch. The guarantee doesn't cover damage from rubbing, water exposure too soon after the appointment, or oil-based products.
 

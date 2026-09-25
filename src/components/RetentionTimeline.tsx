@@ -20,10 +20,10 @@ const STAGES: {
   {
     fullness: 5,
     period: { en: "Days 0–3", th: "วันที่ 0–3" },
-    title: { en: "Glue fully cures", th: "กาวเซตตัวเต็มกำลัง" },
+    title: { en: "Bond reaches full strength", th: "บอนด์กาวแข็งเต็มกำลัง" },
     note: {
-      en: "No water, no oils, no rubbing",
-      th: "งดน้ำ งดผลิตภัณฑ์น้ำมัน งดขยี้ตา",
+      en: "No water first 2 hrs; no swim, steam, oils",
+      th: "งดน้ำ 2 ชม.แรก งดว่ายน้ำ ไอน้ำ น้ำมัน",
     },
   },
   {

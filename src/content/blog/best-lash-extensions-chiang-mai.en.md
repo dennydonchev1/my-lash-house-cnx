@@ -169,7 +169,7 @@ Lash extensions don't suit everyone. Decide whether they fit your routine before
 
 - **Cost over time.** Extensions need infill appointments every 2–4 weeks. Annual cost adds up. Set a budget you're comfortable with before starting.
 - **Time commitment.** Initial sets take 90–180 minutes. Infills take 60–90 minutes.
-- **Lifestyle adjustments.** Avoid oil-based cleansers and heavy water exposure for the first 24–48 hours. Side-sleepers may experience faster shedding.
+- **Lifestyle adjustments.** Avoid oil-based cleansers, and follow your studio's water rule, 24–48 hours with standard adhesive, as little as 2 hours with fast-cure glue (what My Lash House uses). Side-sleepers may experience faster shedding.
 - **Risk if done poorly.** Bad application can damage natural lashes, especially if isolation is rushed or fans are too heavy. Choosing a careful artist matters more than choosing a cheap one.
 - **Allergic reactions.** Reactions to lash adhesive happen to a small percentage of clients. Tell your artist about any sensitivities before your first set, and ask about a patch test if you're worried.
 

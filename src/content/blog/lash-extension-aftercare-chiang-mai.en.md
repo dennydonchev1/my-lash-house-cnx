@@ -2,7 +2,7 @@
 
 If you're reading this at 11pm because you just realized you can't wash your face the way you usually do, you're in the right place.
 
-The short version: keep your lashes dry for 24 hours, stay away from oil-based anything near your eyes, and brush them daily with a clean spoolie. Do that, and your set lasts a full 3 to 4 weeks. Skip it, and you're back booking a refill in week 2 wondering what happened.
+The short version: keep your lashes dry for the first 2 hours (My Lash House uses a fast-cure adhesive; standard glue needs 24 to 48), skip swimming, steam, and heavy sweat for the first day, stay away from oil-based anything near your eyes, and brush them daily with a clean spoolie. Do that, and your set lasts a full 3 to 4 weeks. Skip it, and you're back booking a refill in week 2 wondering what happened.
 
 This is the practical day-by-day handbook. Real rules, why they matter, and which ones you can relax on once you know what you're doing.
 
@@ -12,7 +12,7 @@ This is the practical day-by-day handbook. Real rules, why they matter, and whic
 
 Three things move the needle on retention, and only three.
 
-**One**, keep the lashes dry for 24 hours so the cyanoacrylate adhesive can fully cure.
+**One**, keep the lashes dry for the first 2 hours while the fast-cure adhesive sets, and give the bond a full day before swimming, steam, or heavy sweat.
 
 **Two**, skip oil-based skincare and makeup near your eye area indefinitely. Oil dissolves the adhesive bond, every time.
 
@@ -22,15 +22,15 @@ Everything else (sleep position, mascara, eyelash curlers, refill cadence) matte
 
 > ❝ The single most expensive mistake clients make isn't the brand of mascara or the wrong cleanser. It's an oil eye cream applied right at the lash line for two weeks straight.
 
-## What do I do in the first 24 hours after my appointment?
+## What do I do on the first day after my appointment?
 
 This is the curing window, and it's the one rule you absolutely cannot bend.
 
 The cyanoacrylate adhesive used in lash extensions takes a full day to reach maximum bond strength. Water exposure during this window weakens those bonds permanently. There's no fixing it after the fact.
 
-> ⚠️ No showers with water on your face, no swimming, no steam, no heavy sweating, no makeup near your eyes, and no sleeping face-down. For the first 24 hours, this part really isn't optional.
+> ⚠️ No water on the lashes at all for the first 2 hours. For the rest of day one: no swimming, no steam, no heavy sweating, no makeup near your eyes, and no sleeping face-down. Normal showering is fine after the first 2 hours, our fast-cure adhesive sets quickly, just keep the water pressure off your face.
 
-### What to avoid for the first 24 hours
+### What to avoid on day one
 
 - Showers with water directly on your face
 - Swimming, hot springs, the ocean
@@ -48,7 +48,7 @@ The cyanoacrylate adhesive used in lash extensions takes a full day to reach max
 - Light walking and movement
 - Working at your screen
 
-If you absolutely have to exercise in the first 24 hours, keep your heart rate low enough that sweat doesn't form. A short walk is fine. A hot yoga class is a no.
+If you absolutely have to exercise on day one, keep your heart rate low enough that sweat doesn't form. A short walk is fine. A hot yoga class is a no.
 
 ![Hybrid lash style by My Lash House Chiang Mai, daily-wear set that benefits most from the first-week aftercare rules](/images/service-hybrid.jpg)
 
@@ -192,7 +192,7 @@ The guarantee covers abnormal shedding within the first three days caused by a g
 
 ### What counts as aftercare shedding (not covered)?
 
-- Water exposure in the first 24 hours
+- Water exposure in the first 2 hours
 - Use of oil-based products near the eyes
 - Rubbing your eyes
 - Sleeping face-down

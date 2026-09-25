@@ -103,7 +103,7 @@ Most clients in the natural family find within the first week that they don't re
 
 Aftercare is the same as for heavier styles. The lighter materials don't change the rules, they change how forgiving the set is when something goes slightly wrong.
 
-The short version: no water for the first 24 hours; no oil-based products near the eyes; clean daily with a lash shampoo; brush gently with the spoolie provided; sleep on your back when possible.
+The short version: no water for the first 2 hours (fast-cure adhesive), no swimming or steam on day one; no oil-based products near the eyes; clean daily with a lash shampoo; brush gently with the spoolie provided; sleep on your back when possible.
 
 For the full aftercare guide with the day-by-day breakdown and what voids the 3-day retouch guarantee, see the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
@@ -111,7 +111,7 @@ For the full aftercare guide with the day-by-day breakdown and what voids the 3-
 
 Every set at My Lash House comes with a 3-day retouch guarantee, including natural family styles. If lashes shed unusually fast in the first three days because of a glue or application issue on the studio's side, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with photos. The studio books a free retouch appointment.
 
-The guarantee doesn't cover damage from rubbing, water exposure within 24 hours, or oil-based products. Standard shedding from day 4 onward is the natural lash cycle, not a covered issue.
+The guarantee doesn't cover damage from rubbing, water exposure within the first 2 hours, or oil-based products. Standard shedding from day 4 onward is the natural lash cycle, not a covered issue.
 
 ## How was this guide written?
 
