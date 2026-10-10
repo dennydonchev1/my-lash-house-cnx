@@ -7,6 +7,7 @@ import Gallery from "@/components/Gallery";
 import StyleFinder from "@/components/StyleFinder";
 import Pricing from "@/components/Pricing";
 import Guarantee from "@/components/Guarantee";
+import Training from "@/components/Training";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -85,6 +86,7 @@ export default function HomeTh() {
         <Gallery lang="th" />
         <Pricing lang="th" />
         <Guarantee lang="th" />
+        <Training lang="th" />
         <Reviews lang="th" />
         <FAQ lang="th" />
         <Location lang="th" />

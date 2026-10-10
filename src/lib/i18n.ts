@@ -70,6 +70,17 @@ export const dict = {
       ],
       ctaButton: "Book Your Appointment",
     },
+    training: {
+      eyebrow: "Lash Training",
+      heading: "Learn lashes with ",
+      headingHighlight: "Ying",
+      subhead:
+        "A 2-day hands-on course in the studio. Thai and international volume styles, lash design, supplies provided, a mannequin and then a live model, and a certificate when you finish. For working artists, and for visitors who want to take a real skill home.",
+      bullets: ["2 full days, supplies provided", "Mannequin practice, then a live model", "Certificate on completion"],
+      cta: "See the course",
+      ctaHref: "/services/lash-training",
+      ctaSecondary: "Ask on LINE",
+    },
     guarantee: {
       eyebrow: "Our Promise",
       heading: "3-Day Retouch ",
@@ -189,6 +200,17 @@ export const dict = {
       ],
       ctaButton: "จองคิวต่อขนตา",
     },
+    training: {
+      eyebrow: "คอร์สเรียนต่อขนตา",
+      heading: "เรียนต่อขนตากับ",
+      headingHighlight: "ครูหญิง",
+      subhead:
+        "คอร์ส 2 วันเต็มในสตูดิโอ สไตล์ไทยและสากล วอลลุ่มและการออกแบบทรง อุปกรณ์มีให้ ฝึกบนหุ่นแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ เหมาะกับช่างที่อยากอัปสกิล และคนที่มาเชียงใหม่แล้วอยากได้ทักษะติดตัวกลับไป",
+      bullets: ["2 วันเต็ม อุปกรณ์มีให้", "ฝึกบนหุ่น แล้วลงมือกับนางแบบจริง", "จบแล้วได้ใบประกาศ"],
+      cta: "ดูรายละเอียดคอร์ส",
+      ctaHref: "/th/services/lash-training",
+      ctaSecondary: "ทักไลน์สอบถาม",
+    },
     guarantee: {
       eyebrow: "คำสัญญาของเรา",
       heading: "รับประกัน",
@@ -251,6 +273,7 @@ export const NAV_LINKS_BY_LANG = {
     { label: "Services", href: "#services" },
     { label: "Gallery", href: "#gallery" },
     { label: "Pricing", href: "#pricing" },
+    { label: "Training", href: "/services/lash-training" },
     { label: "Reviews", href: "#reviews" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: "#contact" },
@@ -259,6 +282,7 @@ export const NAV_LINKS_BY_LANG = {
     { label: "บริการ", href: "#services" },
     { label: "ผลงาน", href: "#gallery" },
     { label: "ราคา", href: "#pricing" },
+    { label: "คอร์สเรียน", href: "/th/services/lash-training" },
     { label: "รีวิว", href: "#reviews" },
     { label: "บทความ", href: "/th/blog" },
     { label: "ติดต่อ", href: "#contact" },

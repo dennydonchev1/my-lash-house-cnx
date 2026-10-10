@@ -6,6 +6,7 @@ import Gallery from "@/components/Gallery";
 import StyleFinder from "@/components/StyleFinder";
 import Pricing from "@/components/Pricing";
 import Guarantee from "@/components/Guarantee";
+import Training from "@/components/Training";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -30,6 +31,7 @@ export default function Home() {
         <Gallery lang="en" />
         <Pricing lang="en" />
         <Guarantee lang="en" />
+        <Training lang="en" />
         <Reviews lang="en" />
         <FAQ lang="en" />
         <Location lang="en" />

@@ -223,10 +223,11 @@ export const OTHER_SERVICES = [
   {
     name: "Lash Training",
     thai: "สอนต่อขนตา",
+    href: "/services/lash-training",
     description:
-      "Professional certification courses for aspiring lash artists. Learn handmade fan techniques.",
+      "A 2-day hands-on course: Thai and international volume styles, mannequin then a live model, certificate included.",
     descriptionTh:
-      "คอร์สสอนต่อขนตามืออาชีพ มีใบประกาศรับรอง สอนเทคนิคทำพัดด้วยมือ",
+      "คอร์ส 2 วันเต็ม สไตล์ไทยและสากล ฝึกบนหุ่นแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ",
     icon: "GraduationCap",
   },
 ] as const;

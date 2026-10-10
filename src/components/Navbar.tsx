@@ -58,7 +58,7 @@ export default function Navbar({
           </a>
 
           {/* Desktop Nav */}
-          <div className="hidden items-center gap-8 md:flex">
+          <div className="hidden items-center gap-6 lg:flex xl:gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -89,7 +89,7 @@ export default function Navbar({
               href={BUSINESS.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all hover:shadow-lg ${
+              className={`inline-flex items-center gap-2 whitespace-nowrap rounded-full px-5 py-2.5 text-sm font-semibold transition-all hover:shadow-lg ${
                 isSolid
                   ? "bg-plum text-white hover:bg-plum-light"
                   : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
@@ -103,7 +103,7 @@ export default function Navbar({
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`rounded-lg p-2 transition-colors md:hidden ${
+            className={`rounded-lg p-2 transition-colors lg:hidden ${
               isSolid
                 ? "text-charcoal hover:bg-cream-dark"
                 : "text-white hover:bg-white/10"
@@ -117,8 +117,8 @@ export default function Navbar({
 
       {/* Mobile Menu */}
       <div
-        className={`overflow-hidden transition-all duration-300 md:hidden ${
-          isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        className={`overflow-hidden transition-all duration-300 lg:hidden ${
+          isOpen ? "max-h-[40rem] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <div className="space-y-1 bg-cream/95 px-4 pb-6 pt-2 backdrop-blur-md">

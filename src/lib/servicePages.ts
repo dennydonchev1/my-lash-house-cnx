@@ -317,7 +317,172 @@ export const NAILS_PAGE: ServicePage = {
   },
 };
 
-export const SERVICE_PAGES: ServicePage[] = [LASH_LIFTING_PAGE, NAILS_PAGE];
+export const LASH_TRAINING_PAGE: ServicePage = {
+  slug: "lash-training",
+  serviceType: "Lash extension training course",
+  en: {
+    h1: "Lash Training Course in Chiang Mai",
+    metaTitle: "Lash Training Course Chiang Mai | 2-Day Certified Course - My Lash House",
+    metaDescription:
+      "A 2-day hands-on lash extension course at My Lash House, Chiang Mai. Thai and international volume styles and lash design, supplies provided, mannequin practice then a live model, certificate on completion.",
+    eyebrow: "Course",
+    quickAnswer:
+      "My Lash House runs a 2-day hands-on lash extension course in San Klang, Chiang Mai. You learn Thai and international volume styles and lash design from Ying, a certified artist with 7+ years at the lash bed. Supplies are provided, you practice on a mannequin and then on a live model, and you finish with a certificate. Course dates are arranged directly with Ying.",
+    heroImage: null,
+    heroImageAlt: "",
+    sections: [
+      {
+        heading: "How the two days run",
+        paragraphs: [
+          "Two full days in the studio, with your supplies laid out before you arrive. Day one is technique and hands-on practice. Day two moves to a mannequin, then a full set on a live model, with Ying at your shoulder correcting as you go.",
+        ],
+        bullets: [
+          "Supplies provided for both days",
+          "Thai style and international style sets",
+          "Volume technique and lash design, mapped to the eye",
+          "Day two: mannequin practice, then a live model",
+          "Certificate on completion",
+        ],
+      },
+      {
+        heading: "Who this course is for",
+        paragraphs: [
+          "Two kinds of students sit at this table. Working lash artists who want to add volume and design to what they already do, and visitors to Chiang Mai who would rather fly home with a skill than a souvenir. Tell us where you are starting from when you message.",
+        ],
+      },
+      {
+        heading: "Why learn here",
+        paragraphs: [
+          "You learn in a working studio, not a classroom. Every technique you see is the one Ying uses on paying clients: 100% handmade fans, styles mapped to the eye, and a standard she backs with a 3-day retouch guarantee. The point is that you leave able to do the work.",
+        ],
+      },
+    ],
+    optionsHeading: "What you work on",
+    options: [
+      { name: "Thai style", note: "How Thai-style sets are built and mapped" },
+      { name: "International style", note: "The looks international clients ask for, mapped the same way" },
+      { name: "Volume", note: "Handmade fans, from the first fan to a full set" },
+      { name: "Design", note: "Mapping each style to the eye in front of you" },
+    ],
+    pricingNote:
+      "The course fee depends on the format and what is included, so it is quoted personally. Message us on LINE or Instagram with your experience level and the dates you have in mind. Ying confirms the fee before anything is booked.",
+    faqHeading: "Course questions",
+    faq: [
+      {
+        q: "How long is the lash training course?",
+        a: "Two full days at the studio in San Klang. Day one is technique and practice, day two is a mannequin and then a live model.",
+      },
+      {
+        q: "Do I need experience to join?",
+        a: "No. Beginners and working artists both take the course. Tell us where you are starting from when you message and the two days are shaped around it.",
+      },
+      {
+        q: "Do I practice on a real person?",
+        a: "Yes. On day two you work on a mannequin first and then complete a set on a live model.",
+      },
+      {
+        q: "Are supplies included?",
+        a: "Yes. Everything you need for both days is provided at the studio.",
+      },
+      {
+        q: "Do I get a certificate?",
+        a: "Yes, a My Lash House certificate on completion.",
+      },
+      {
+        q: "How much does the course cost?",
+        a: "The fee depends on the format, so it is quoted personally on LINE or Instagram before anything is booked.",
+      },
+    ],
+    ctaHeading: "Ask about the next course",
+    ctaText: "Message us on LINE or Instagram with your experience level and the dates you have in mind. Ying answers personally.",
+    relatedLinks: [
+      { label: "Lash styles by eye shape, the guide", href: "/blog/lash-extensions-by-eye-shape-chiang-mai" },
+      { label: "How long lash extensions last, honestly", href: "/blog/how-long-do-lash-extensions-last-chiang-mai" },
+    ],
+  },
+  th: {
+    h1: "เรียนต่อขนตา คอร์ส 2 วัน สไตล์ไทยและสากล",
+    metaTitle: "เรียนต่อขนตา คอร์ส 2 วัน มีใบประกาศ สไตล์ไทยและสากล - My Lash House",
+    metaDescription:
+      "เรียนต่อขนตากับครูหญิง My Lash House เชียงใหม่ คอร์ส 2 วันเต็ม สไตล์ไทยและสากล วอลลุ่มและการออกแบบทรง อุปกรณ์มีให้ ฝึกบนหุ่นแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ",
+    eyebrow: "คอร์สเรียน",
+    quickAnswer:
+      "My Lash House เปิดคอร์สเรียนต่อขนตา 2 วันเต็มที่สตูดิโอสันกลาง เชียงใหม่ เรียนสไตล์ไทยและสไตล์สากล วอลลุ่มและการออกแบบทรง กับครูหญิง ช่างเซอร์ติฟายด์ประสบการณ์ 7 ปีขึ้นไป อุปกรณ์มีให้ครบ ฝึกบนหุ่นก่อนแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ นัดวันเรียนกับครูหญิงโดยตรง",
+    heroImage: null,
+    heroImageAlt: "",
+    sections: [
+      {
+        heading: "2 วันเรียนอะไรบ้าง",
+        paragraphs: [
+          "สองวันเต็มที่สตูดิโอ อุปกรณ์จัดเตรียมไว้ให้ก่อนคุณมาถึง วันแรกคือเทคนิคและการฝึกมือ วันที่สองฝึกบนหุ่น แล้วปิดท้ายด้วยการต่อเซตจริงให้นางแบบ โดยมีครูหญิงอยู่ข้าง ๆ คอยแก้ให้ทันที",
+        ],
+        bullets: [
+          "อุปกรณ์มีให้ครบทั้งสองวัน",
+          "เซตสไตล์ไทยและสไตล์สากล",
+          "เทคนิควอลลุ่มและการออกแบบทรงให้เข้ากับรูปตา",
+          "วันที่สอง: ฝึกบนหุ่น แล้วลงมือกับนางแบบจริง",
+          "จบแล้วได้ใบประกาศ",
+        ],
+      },
+      {
+        heading: "คอร์สนี้เหมาะกับใคร",
+        paragraphs: [
+          "นักเรียนที่โต๊ะนี้มีสองแบบ ช่างต่อขนตาที่อยากเพิ่มวอลลุ่มและการออกแบบทรงเข้าไปในฝีมือที่มีอยู่แล้ว กับคนที่มาเชียงใหม่แล้วอยากกลับบ้านพร้อมทักษะ ไม่ใช่แค่ของฝาก บอกมาตอนทักว่าคุณเริ่มจากตรงไหน",
+        ],
+      },
+      {
+        heading: "ทำไมต้องเรียนที่นี่",
+        paragraphs: [
+          "คุณเรียนในสตูดิโอที่ทำงานจริง ไม่ใช่ห้องเรียน ทุกเทคนิคที่เห็นคือเทคนิคเดียวกับที่ครูหญิงใช้กับลูกค้าทุกวัน แฟนขนตาทำมือ 100% ทรงที่ออกแบบตามรูปตา และมาตรฐานที่กล้ารับประกันรีทัช 3 วัน เป้าหมายคือคุณกลับไปทำได้จริง",
+        ],
+      },
+    ],
+    optionsHeading: "สิ่งที่ได้ฝึก",
+    options: [
+      { name: "สไตล์ไทย", note: "โครงสร้างและการวางทรงของเซตแบบไทย" },
+      { name: "สไตล์สากล", note: "ลุคที่ลูกค้าต่างชาตินิยม วางทรงด้วยหลักเดียวกัน" },
+      { name: "วอลลุ่ม", note: "แฟนทำมือ ตั้งแต่พัดแรกจนครบเซต" },
+      { name: "การออกแบบทรง", note: "แมปทรงให้เข้ากับรูปตาตรงหน้า" },
+    ],
+    pricingNote:
+      "ค่าคอร์สขึ้นอยู่กับรูปแบบและสิ่งที่รวมอยู่ในคอร์ส จึงแจ้งเป็นรายบุคคล ทักไลน์หรือไอจีพร้อมบอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงยืนยันราคาก่อนจองเสมอ",
+    faqHeading: "คำถามเรื่องคอร์สเรียนต่อขนตา",
+    faq: [
+      {
+        q: "เรียนต่อขนตา ใช้เวลากี่วัน",
+        a: "2 วันเต็มที่สตูดิโอสันกลาง วันแรกเทคนิคและฝึกมือ วันที่สองฝึกบนหุ่นแล้วลงมือกับนางแบบจริง",
+      },
+      {
+        q: "ไม่มีพื้นฐาน เรียนได้ไหม",
+        a: "ได้ค่ะ ทั้งผู้เริ่มต้นและช่างที่ทำงานอยู่แล้วเรียนคอร์สนี้ บอกมาตอนทักว่าเริ่มจากตรงไหน แล้วสองวันจะถูกวางให้เข้ากับคุณ",
+      },
+      {
+        q: "ได้ฝึกกับคนจริงไหม",
+        a: "ได้ค่ะ วันที่สองฝึกบนหุ่นก่อน แล้วต่อเซตจริงให้นางแบบจนครบ",
+      },
+      {
+        q: "ต้องเตรียมอุปกรณ์เองไหม",
+        a: "ไม่ต้องค่ะ อุปกรณ์สำหรับทั้งสองวันมีให้ที่สตูดิโอ",
+      },
+      {
+        q: "เรียนจบได้ใบประกาศไหม",
+        a: "ได้ค่ะ ใบประกาศจาก My Lash House เมื่อเรียนจบ",
+      },
+      {
+        q: "เรียนต่อขนตา ราคาเท่าไหร่",
+        a: "ค่าคอร์สขึ้นอยู่กับรูปแบบคอร์ส จึงแจ้งเป็นรายบุคคลทางไลน์หรือไอจีก่อนจอง",
+      },
+    ],
+    ctaHeading: "สอบถามคอร์สรอบถัดไป",
+    ctaText: "ทักไลน์หรือไอจี บอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงตอบเองค่ะ",
+    relatedLinks: [
+      { label: "ทรงต่อขนตาแบบไหนเข้ากับรูปตา", href: "/th/blog/tor-khon-ta-baeb-nai-dee" },
+      { label: "ต่อขนตาอยู่ได้นานไหม คู่มือฉบับตรง ๆ", href: "/th/blog/tor-khon-ta-yoo-dai-nan-mai" },
+    ],
+  },
+};
+
+export const SERVICE_PAGES: ServicePage[] = [LASH_LIFTING_PAGE, NAILS_PAGE, LASH_TRAINING_PAGE];
 
 export function getServicePage(slug: string): ServicePage | null {
   return SERVICE_PAGES.find((s) => s.slug === slug) ?? null;
