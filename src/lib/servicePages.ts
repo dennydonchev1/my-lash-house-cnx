@@ -17,6 +17,8 @@ export type ServicePageContent = {
   metaDescription: string;
   eyebrow: string;
   quickAnswer: string;
+  /** Optional page-specific trust items replacing the two lash-extension ones (handmade fans, shower after 2 hours) that are wrong for lifts and nails. */
+  trustItems?: [string, string];
   heroImage: string | null;
   heroImageAlt: string;
   sections: ServiceSection[];
@@ -40,47 +42,118 @@ export type ServicePage = {
 export const LASH_LIFTING_PAGE: ServicePage = {
   slug: "lash-lifting",
   serviceType: "Lash lifting",
+  // 2026-10-11: this page is the single home for the lash lifting cluster.
+  // The former guide posts (/blog/lash-lifting-chiang-mai and
+  // /th/blog/lifting-khon-ta-chiang-mai) were merged in here and now permanently redirect to
+  // this URL (next.config.ts). Search Console showed this page with 72
+  // impressions vs 6 for the posts, so the service URL kept the cluster.
   en: {
     h1: "Lash Lifting in Chiang Mai",
-    metaTitle: "Lash Lifting Chiang Mai | Process, Results, Booking - My Lash House",
+    metaTitle: "Lash Lift Chiang Mai: Process, Results, Price | My Lash House",
     metaDescription:
-      "Lash lifting in Chiang Mai at My Lash House, San Kamphaeng near Payap University. Naturally curled lashes for 6 to 8 weeks, no extensions. 3-day retouch guarantee, book on LINE or Instagram.",
+      "Lash lift in Chiang Mai: what it is, the 7-step process, how long it lasts, honest pros and cons, and pricing. Certified artist, 3-day retouch guarantee. San Kamphaeng, near Payap University.",
     eyebrow: "Service",
+    trustItems: ["No refills needed", "Lasts 6 to 8 weeks"],
     quickAnswer:
-      "Lash lifting curls your natural lashes upward from the base, lasting 6 to 8 weeks with zero daily maintenance. No synthetic fans, no refill cycle, about 45 minutes in the chair. At My Lash House in San Klang, every lift comes with the same 3-day retouch guarantee as our extension sets.",
+      "A lash lift curls your natural lashes upward from the base and lasts 6 to 8 weeks with zero daily maintenance. No synthetic fans, no refill cycle, about 45 minutes in the chair. At My Lash House in San Klang, Chiang Mai, every lift comes with the same 3-day retouch guarantee as our extension sets.",
     heroImage: "/images/service-wet-look.jpg",
     heroImageAlt: "Naturally curled lashes after a lash lifting treatment at My Lash House Chiang Mai",
     sections: [
       {
-        heading: "What happens at your appointment",
+        heading: "What is a lash lift?",
         paragraphs: [
-          "Seven steps, about 45 minutes, eyes closed the whole time. Many clients fall asleep. That's allowed.",
-        ],
-        bullets: [
-          "Consultation: Ying checks your lash length, condition, and growth angle",
-          "Cleanse: oil-free prep so the solution takes evenly",
-          "Shield placement: silicone pad sized to your lashes",
-          "Combing: lashes set into the shape they'll hold",
-          "Lifting solution: 8 to 12 minutes at the base, never the tips",
-          "Setting solution: locks in the curl",
-          "Optional tint + conditioning treatment",
+          "A lash lift is the modern version of a lash perm. A silicone shield sits on your eyelid, your natural lashes are combed up over it, and a gentle keratin-based lifting lotion goes on at the base for 8 to 12 minutes. A setting solution locks the curl in place.",
+          "You leave with your own lashes curled up, looking longer and more open, with nothing synthetic added. An optional tint deepens the color for a mascara-like finish.",
         ],
       },
       {
-        heading: "Who lash lifting suits best",
+        heading: "Lash lift vs lash extensions: what's the difference?",
         paragraphs: [
-          "Naturally long but straight lashes get the most dramatic result. Also the right pick for pregnant women avoiding extension adhesive, anyone who wants zero daily maintenance, travelers who want 6 to 8 worry-free weeks, and clients whose eyes have reacted to extension glue before.",
+          "They solve different problems. Neither is better; one of them is better for you.",
+        ],
+        bullets: [
+          "What's added: a lift adds nothing and curls your own lashes; extensions add handmade fans to each natural lash",
+          "How long it lasts: a lift lasts 6 to 8 weeks; an extension set lasts 3 to 4 weeks with refills every 2 to 3 weeks",
+          "Daily care: none for a lift after the first 24 hours; extensions need daily cleaning and brushing",
+          "The look: a lift reads as your lashes on their best day; extensions read fuller, darker and more defined",
+          "Time in the chair: about 45 minutes for a lift; about 1.5 to 2.5 hours for a proper premium extension set",
+        ],
+      },
+      {
+        heading: "What happens at your lash lift appointment?",
+        paragraphs: [
+          "Seven steps, about 45 minutes, eyes closed the whole time. Many clients fall asleep. That's allowed.",
+          "A patch test is available if you have a history of sensitivity to eye products. Message ahead and Ying will schedule one 48 hours before your appointment.",
+        ],
+        bullets: [
+          "Consultation: Ying checks your lash length, condition and growth angle, and tells you honestly if a lift will suit you",
+          "Cleanse: an oil-free prep so the solution takes evenly",
+          "Shield placement: a silicone pad sized to your lash length",
+          "Combing: lashes set into the shape they'll hold",
+          "Lifting solution: 8 to 12 minutes at the base, never the tips",
+          "Setting solution: locks in the curl",
+          "Optional tint and conditioning treatment",
+        ],
+      },
+      {
+        heading: "How long does a lash lift last?",
+        paragraphs: [
+          "6 to 8 weeks. The curl doesn't drop; it fades as your natural lashes shed. Everyone loses a few lashes a day, lift or no lift, and each new lash grows in straight because it was never in the solution.",
+          "By week 4 the curl is softer but still visible. By week 6 to 8 about half your lash line is new growth, and it's time to book again. There's no refill for a lift; the next visit is a fresh treatment.",
+        ],
+      },
+      {
+        heading: "What are the benefits of a lash lift?",
+        paragraphs: ["The reasons clients come back every two months:"],
+        bullets: [
+          "No commitment: one appointment, 6 to 8 weeks of results",
+          "Zero daily maintenance after the first 24 hours",
+          "A natural look that reads as your own lashes",
+          "No adhesive on your lash line for weeks, which many sensitive eyes prefer",
+          "Easy travel prep: one visit and nothing to maintain on the road",
+        ],
+      },
+      {
+        heading: "What are the downsides of a lash lift?",
+        paragraphs: [
+          "The honest list, because you should hear it before you book, not after.",
+        ],
+        bullets: [
+          "It needs healthy, reasonably long natural lashes; very short or brittle lashes may not lift dramatically",
+          "It curls what you have but adds no length; if you want visible extra length, extensions are the better pick",
+          "It follows the shape your lashes already grow in, so it can't correct asymmetry the way custom-mapped extensions can",
+          "Waterproof mascara is harder to remove from lifted lashes",
+          "Harsh solutions or over-processing can dry lashes out, which is why the artist matters as much as the treatment",
+        ],
+      },
+      {
+        heading: "Who is a lash lift right for?",
+        paragraphs: [
+          "Naturally long but straight lashes get the most dramatic result. A lift also suits anyone who wants zero daily maintenance, travelers who want 6 to 8 worry-free weeks, first-timers testing the waters before extensions, and clients whose eyes have reacted to extension glue before. Many pregnant clients choose a lift to avoid extension adhesive; check with your doctor first.",
           "Very short or brittle lashes may not lift dramatically. Ying will tell you honestly at consultation, before anything is applied.",
+        ],
+      },
+      {
+        heading: "Lash lift, lash perm, keratin lift: are they the same?",
+        paragraphs: [
+          "Yes, mostly. Lash perm is the older name for the same idea. A keratin lift is a lash lift that uses keratin-based solutions and usually ends with a conditioning step, which is how we do every lift at the studio.",
+        ],
+      },
+      {
+        heading: "How do I care for lifted lashes?",
+        paragraphs: [
+          "First 24 hours: no water, steam or makeup on the lashes, and no sleeping face-down. The solution needs a full day to set.",
+          "First week: keep oil-based skincare off the lash line; it won't dissolve a lift but it can soften the curl. After that, gentle cleansing with a water-based cleanser is all they need.",
         ],
       },
       {
         heading: "The 3-day retouch guarantee applies here too",
         paragraphs: [
-          "If the curl takes unevenly or one eye lifts less than the other in the first three days, message us with photos and we re-lift the affected area free. Same policy as our extension sets, because the standard shouldn't change by service.",
+          "If the curl takes unevenly or one eye lifts less than the other in the first three days, message us with photos and we re-lift the affected area free. Same policy as our extension sets, because the standard shouldn't change by service. It doesn't cover issues caused by water in the first 24 hours, oil on the lash line, or sleeping face-down.",
         ],
       },
     ],
-    optionsHeading: "Your options",
+    optionsHeading: "Lash lift options and price",
     options: [
       { name: "Lash lift", note: "The curl, nothing else" },
       { name: "Lash lift + tint", note: "Curl plus a mascara-depth tint" },
@@ -107,56 +180,121 @@ export const LASH_LIFTING_PAGE: ServicePage = {
         a: "Lift if you want low maintenance and your natural lashes are already decent length. Extensions if you want added volume, length, or drama your natural lashes don't have. Ask at consultation and you'll get an honest answer, not an upsell.",
       },
       {
-        q: "Where can I get a lash lift near Payap University?",
-        a: "My Lash House is in San Klang, San Kamphaeng, walking distance from Payap University and about 10 minutes from the Chiang Mai city centre. Open daily 9:00 to 19:00, walk-ins welcome subject to availability.",
+        q: "Where can I get a lash lift in Chiang Mai?",
+        a: "My Lash House is in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the Chiang Mai city centre. Open daily 9:00 to 19:00, walk-ins welcome subject to availability.",
       },
     ],
     ctaHeading: "Book your lash lift",
     ctaText: "Message us on LINE or Instagram with the option you want and your preferred day. Ying confirms the price and slot personally.",
     relatedLinks: [
-      { label: "The complete lash lifting guide", href: "/blog/lash-lifting-chiang-mai" },
-      { label: "Lash lifting vs extensions, compared honestly", href: "/blog/natural-lash-extensions-chiang-mai" },
+      { label: "Eyelash extensions in Chiang Mai", href: "/" },
+      { label: "Natural lash extensions, if you want more than a lift", href: "/blog/natural-lash-extensions-chiang-mai" },
+      { label: "Lash aftercare: the 24-hour rule explained", href: "/blog/lash-extension-aftercare-chiang-mai" },
     ],
   },
   th: {
-    h1: "ลิฟติ้งขนตา เชียงใหม่",
-    metaTitle: "ลิฟติ้งขนตา เชียงใหม่ | ขั้นตอน ผลลัพธ์ จองคิว - My Lash House",
+    h1: "ลิฟติ้งขนตา คืออะไร อยู่ได้นานไหม เหมาะกับใคร",
+    metaTitle: "ลิฟติ้งขนตา คืออะไร ข้อเสีย อยู่ได้นานไหม ราคา | My Lash House",
     metaDescription:
-      "ลิฟติ้งขนตา เชียงใหม่ ที่ My Lash House สันกำแพง ใกล้ ม.พายัพ ขนตางอนธรรมชาติ 6 ถึง 8 สัปดาห์ ไม่ต้องต่อ รับประกันรีทัช 3 วัน จองผ่าน LINE หรือ Instagram",
+      "ลิฟติ้งขนตา คือการดัดขนตาจริงให้งอนนาน 6 ถึง 8 สัปดาห์ ไม่ต้องต่อ อ่านขั้นตอน ข้อดี ข้อเสีย วิธีดูแล และราคา จากช่างที่มีใบรับรอง รับประกันรีทัช 3 วัน ที่ My Lash House สันกำแพง เชียงใหม่",
     eyebrow: "บริการ",
+    trustItems: ["ไม่ต้องเติม", "อยู่ได้ 6 ถึง 8 สัปดาห์"],
     quickAnswer:
-      "ลิฟติ้งขนตาดัดขนตาจริงให้งอนขึ้นจากโคน อยู่ได้ 6 ถึง 8 สัปดาห์โดยไม่ต้องดูแลรายวัน ไม่มีแฟนสังเคราะห์ ไม่มีรอบเติม ใช้เวลาประมาณ 45 นาที ที่ My Lash House สันกลาง ทุกลิฟติ้งมีรับประกันรีทัช 3 วันเหมือนเซตต่อขนตา",
+      "ลิฟติ้งขนตา คือการดัดขนตาจริงให้งอนขึ้นจากโคน อยู่ได้ 6 ถึง 8 สัปดาห์โดยไม่ต้องดูแลรายวัน ไม่มีแฟนสังเคราะห์ ไม่มีรอบเติม ใช้เวลาประมาณ 45 นาที ที่ My Lash House สันกลาง เชียงใหม่ ทุกลิฟติ้งมีรับประกันรีทัช 3 วันเหมือนเซตต่อขนตา",
     heroImage: "/images/service-wet-look.jpg",
     heroImageAlt: "ขนตางอนธรรมชาติหลังทำลิฟติ้งขนตาที่ My Lash House เชียงใหม่",
     sections: [
       {
-        heading: "วันนัดเป็นยังไง",
-        paragraphs: ["7 ขั้นตอน ประมาณ 45 นาที หลับตาตลอด ลูกค้าหลายคนหลับไปเลย อนุญาตค่ะ"],
-        bullets: [
-          "ปรึกษา: ครูหญิงเช็กความยาว สภาพ และมุมการขึ้นของขนตา",
-          "ทำความสะอาด: เตรียมผิวแบบไร้น้ำมันให้น้ำยาจับสม่ำเสมอ",
-          "วางแผ่นซิลิโคน: ขนาดพอดีกับขนตาของคุณ",
-          "หวีจัดทรง: ขนตาถูกจัดเข้ารูปที่จะคงอยู่",
-          "น้ำยาลิฟติ้ง: 8 ถึง 12 นาทีที่โคน ไม่แตะปลาย",
-          "น้ำยาเซต: ล็อกความโค้ง",
-          "ย้อมสี + บำรุง (ถ้าเลือก)",
+        heading: "ลิฟติ้งขนตา คืออะไร",
+        paragraphs: [
+          "ลิฟติ้งขนตาคือการดัดขนตาแบบสมัยใหม่ วางแผ่นซิลิโคนบนเปลือกตา หวีขนตาจริงขึ้นไปพาดแผ่น แล้วทาน้ำยาเคราตินอ่อน ๆ ที่โคนขน 8 ถึง 12 นาที ตามด้วยน้ำยาเซตเพื่อล็อกความโค้ง",
+          "ออกจากร้านด้วยขนตาของตัวเองที่งอนขึ้น ดูยาวและเปิดตากว่าเดิม โดยไม่มีอะไรสังเคราะห์เพิ่มเลย ถ้าอยากให้เข้มขึ้นเหมือนทามาสคาร่า เลือกย้อมสีเพิ่มได้",
         ],
       },
       {
-        heading: "ลิฟติ้งเหมาะกับใครที่สุด",
+        heading: "ลิฟติ้งขนตา ต่างจากต่อขนตายังไง",
+        paragraphs: ["สองบริการนี้แก้ปัญหาคนละแบบ ไม่มีอันไหนดีกว่า มีแค่อันที่ใช่กับคุณมากกว่า"],
+        bullets: [
+          "เพิ่มอะไร: ลิฟติ้งไม่เพิ่มอะไรเลย ดัดขนตาจริงอย่างเดียว ส่วนต่อขนตาคือติดแฟนทำมือที่ขนตาจริงทีละเส้น",
+          "อยู่ได้นานแค่ไหน: ลิฟติ้ง 6 ถึง 8 สัปดาห์ ต่อขนตา 3 ถึง 4 สัปดาห์ และควรเติมทุก 2 ถึง 3 สัปดาห์",
+          "การดูแล: ลิฟติ้งแทบไม่ต้องดูแลหลัง 24 ชั่วโมงแรก ต่อขนตาต้องล้างและหวีทุกวัน",
+          "ลุค: ลิฟติ้งคือขนตาตัวเองในวันที่สวยที่สุด ต่อขนตาคือเต็มขึ้น เข้มขึ้น ชัดขึ้น",
+          "เวลาบนเตียง: ลิฟติ้งประมาณ 45 นาที เซตต่อขนตาพรีเมียมประมาณ 1.5 ถึง 2.5 ชั่วโมง",
+        ],
+      },
+      {
+        heading: "ขั้นตอนลิฟติ้งขนตา ใช้เวลานานไหม",
         paragraphs: [
-          "ขนตายาวธรรมชาติแต่ตรงได้ผลเด่นที่สุด และเป็นตัวเลือกที่ใช่สำหรับคุณแม่ตั้งครรภ์ที่เลี่ยงกาวต่อขนตา คนที่ไม่อยากดูแลรายวัน นักเดินทางที่อยากสบาย 6 ถึง 8 สัปดาห์ และลูกค้าที่ตาเคยแพ้กาวต่อขนตา",
+          "7 ขั้นตอน ประมาณ 45 นาที หลับตาตลอด ลูกค้าหลายคนหลับไปเลย อนุญาตค่ะ",
+          "ใครเคยแพ้ผลิตภัณฑ์รอบดวงตา ทักมาก่อนวันนัดได้เลย ครูหญิงนัด patch test ให้ล่วงหน้า 48 ชั่วโมง",
+        ],
+        bullets: [
+          "ปรึกษา: ครูหญิงเช็กความยาว สภาพ และมุมการขึ้นของขนตา แล้วบอกตรง ๆ ว่าลิฟติ้งเหมาะกับคุณไหม",
+          "ทำความสะอาด: เตรียมผิวแบบไร้น้ำมันให้น้ำยาจับสม่ำเสมอ",
+          "วางแผ่นซิลิโคน: เลือกขนาดให้พอดีกับความยาวขนตา",
+          "หวีจัดทรง: ขนตาถูกจัดเข้ารูปที่จะคงอยู่",
+          "น้ำยาลิฟติ้ง: 8 ถึง 12 นาทีที่โคน ไม่แตะปลาย",
+          "น้ำยาเซต: ล็อกความโค้ง",
+          "ย้อมสีและบำรุง (ถ้าเลือก)",
+        ],
+      },
+      {
+        heading: "ลิฟติ้งขนตา อยู่ได้นานไหม",
+        paragraphs: [
+          "6 ถึง 8 สัปดาห์ ความโค้งไม่ได้ค่อย ๆ ตก แต่จางไปตามขนตาที่ผลัดตามธรรมชาติ ทุกคนขนตาหลุดวันละไม่กี่เส้นอยู่แล้ว ทำลิฟติ้งหรือไม่ก็เท่ากัน และเส้นใหม่ที่งอกขึ้นมาจะตรงเพราะไม่เคยโดนน้ำยา",
+          "สัปดาห์ที่ 4 ยังงอนแต่นุ่มลง สัปดาห์ที่ 6 ถึง 8 ประมาณครึ่งหนึ่งเป็นเส้นใหม่ ถึงเวลานัดรอบถัดไป ลิฟติ้งไม่มีการเติม นัดถัดไปคือทำใหม่ทั้งหมด",
+        ],
+      },
+      {
+        heading: "ลิฟติ้งขนตา ดีไหม",
+        paragraphs: ["เหตุผลที่ลูกค้ากลับมาทำทุกสองเดือน"],
+        bullets: [
+          "ไม่ผูกมัด นัดเดียวสวยได้ 6 ถึง 8 สัปดาห์",
+          "หลัง 24 ชั่วโมงแรกแทบไม่ต้องดูแลอะไรเลย",
+          "ลุคธรรมชาติ ดูเป็นขนตาของคุณเอง",
+          "ไม่มีกาวอยู่ที่ขอบขนตาเป็นสัปดาห์ ตาไวหลายคนชอบตรงนี้",
+          "เหมาะก่อนเดินทาง ทำครั้งเดียว ไม่ต้องห่วงระหว่างเที่ยว",
+        ],
+      },
+      {
+        heading: "ลิฟติ้งขนตา ข้อเสีย ที่ควรรู้ก่อนทำ",
+        paragraphs: ["รายการตรง ๆ เพราะควรรู้ก่อนจอง ไม่ใช่หลังจอง"],
+        bullets: [
+          "ต้องมีขนตาจริงที่แข็งแรงและยาวพอสมควร ขนตาสั้นมากหรือเปราะอาจลิฟติ้งได้ไม่เด่น",
+          "ลิฟติ้งดัดสิ่งที่มีอยู่ แต่ไม่ได้เพิ่มความยาว ถ้าอยากได้ความยาวที่เห็นชัด ต่อขนตาตอบโจทย์กว่า",
+          "ความโค้งตามทรงที่ขนตาขึ้นอยู่แล้ว จึงแก้ความไม่สมมาตรไม่ได้เท่าการต่อขนตาแบบ mapping เฉพาะตัว",
+          "มาสคาร่ากันน้ำล้างออกจากขนตาที่ลิฟติ้งยากกว่า",
+          "น้ำยาแรงหรือปล่อยนานเกินทำให้ขนตาแห้งได้ ช่างที่ทำจึงสำคัญพอ ๆ กับตัวบริการ",
+        ],
+      },
+      {
+        heading: "ลิฟติ้งขนตา เหมาะกับใคร",
+        paragraphs: [
+          "ขนตายาวธรรมชาติแต่ตรงได้ผลเด่นที่สุด และเหมาะกับคนที่ไม่อยากดูแลรายวัน สายเที่ยวที่อยากสบาย 6 ถึง 8 สัปดาห์ มือใหม่ที่อยากลองก่อนต่อขนตา และคนที่ตาเคยแพ้กาวต่อขนตา คุณแม่ตั้งครรภ์หลายคนเลือกลิฟติ้งเพื่อเลี่ยงกาว แต่ควรปรึกษาแพทย์ก่อน",
           "ขนตาสั้นมากหรือเปราะอาจลิฟติ้งไม่เด่น ครูหญิงบอกตรง ๆ ตอนปรึกษา ก่อนเริ่มทำอะไรทั้งนั้น",
+        ],
+      },
+      {
+        heading: "ดัดขนตาถาวร ลิฟขนตา ลิปติ้งขนตา คืออันเดียวกันไหม",
+        paragraphs: [
+          "ใช่ค่ะ คืออันเดียวกัน ลิฟขนตาและลิปติ้งขนตาเป็นคำที่คนพิมพ์ค้นหากันบ่อย ส่วนดัดขนตาถาวรเป็นชื่อเรียกแบบเดิม ถึงจะเรียกว่าถาวร แต่ความโค้งอยู่ได้ 6 ถึง 8 สัปดาห์ตามรอบการผลัดของขนตา ไม่ได้อยู่ตลอดไป ที่ร้านใช้น้ำยาเคราตินและจบด้วยขั้นตอนบำรุงทุกครั้ง",
+        ],
+      },
+      {
+        heading: "ดูแลขนตาหลังลิฟติ้งยังไง",
+        paragraphs: [
+          "24 ชั่วโมงแรก: ห้ามโดนน้ำ ห้ามไอน้ำ ห้ามแต่งตา และห้ามนอนคว่ำ น้ำยาต้องใช้เวลาเต็มวันในการเซตตัว",
+          "สัปดาห์แรก: เลี่ยงสกินแคร์ที่มีน้ำมันตรงขอบขนตา น้ำมันไม่ทำให้ลิฟติ้งหลุด แต่ทำให้ความโค้งนุ่มลงได้ หลังจากนั้นล้างเบา ๆ ด้วยคลีนเซอร์สูตรน้ำก็พอ",
         ],
       },
       {
         heading: "รับประกันรีทัช 3 วัน ใช้กับลิฟติ้งด้วย",
         paragraphs: [
-          "ถ้าความโค้งขึ้นไม่สม่ำเสมอ หรือตาข้างหนึ่งลิฟติ้งน้อยกว่าอีกข้างใน 3 วันแรก ส่งรูปทักมา เราลิฟติ้งซ้ำบริเวณนั้นให้ฟรี นโยบายเดียวกับเซตต่อขนตา เพราะมาตรฐานไม่ควรเปลี่ยนตามบริการ",
+          "ถ้าความโค้งขึ้นไม่สม่ำเสมอ หรือตาข้างหนึ่งงอนน้อยกว่าอีกข้างใน 3 วันแรก ส่งรูปทักมา เราลิฟติ้งซ้ำบริเวณนั้นให้ฟรี นโยบายเดียวกับเซตต่อขนตา เพราะมาตรฐานไม่ควรเปลี่ยนตามบริการ ไม่ครอบคลุมกรณีโดนน้ำใน 24 ชั่วโมงแรก ทาน้ำมันที่ขอบขนตา หรือนอนคว่ำ",
         ],
       },
     ],
-    optionsHeading: "ตัวเลือกของคุณ",
+    optionsHeading: "ลิฟติ้งขนตา ราคาและตัวเลือก",
     options: [
       { name: "ลิฟติ้งขนตา", note: "ดัดความโค้งอย่างเดียว" },
       { name: "ลิฟติ้ง + ย้อมสี", note: "ความโค้งพร้อมสีเข้มระดับมาสคาร่า" },
@@ -183,15 +321,16 @@ export const LASH_LIFTING_PAGE: ServicePage = {
         a: "ลิฟติ้งถ้าอยากดูแลน้อยและขนตาจริงยาวพอสมควรอยู่แล้ว ต่อถ้าอยากได้วอลุ่ม ความยาว หรือดราม่าที่ขนตาจริงไม่มี ถามตอนปรึกษาแล้วจะได้คำตอบตรง ๆ ไม่ใช่การขายของ",
       },
       {
-        q: "ลิฟติ้งขนตา ใกล้ฉัน ที่ไหนดีแถว ม.พายัพ",
-        a: "My Lash House อยู่สันกลาง สันกำแพง เดินจาก ม.พายัพได้ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 9:00 ถึง 19:00 รับ walk-in ตามคิวว่าง",
+        q: "ลิฟติ้งขนตา เชียงใหม่ ทำที่ไหนดี",
+        a: "My Lash House อยู่สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 9:00 ถึง 19:00 รับ walk-in ตามคิวว่าง",
       },
     ],
     ctaHeading: "จองลิฟติ้งขนตา",
     ctaText: "ทักไลน์หรือไอจีพร้อมตัวเลือกที่ต้องการและวันที่สะดวก ครูหญิงยืนยันราคาและคิวให้เอง",
     relatedLinks: [
-      { label: "คู่มือลิฟติ้งขนตาฉบับเต็ม", href: "/th/blog/lifting-khon-ta-chiang-mai" },
-      { label: "ลิฟติ้ง vs ต่อขนตา เทียบกันตรง ๆ", href: "/th/blog/tor-khon-ta-baeb-thammachat" },
+      { label: "ต่อขนตา เชียงใหม่ ที่ไหนดี เทียบ 4 ร้าน", href: "/th/blog/tor-khon-ta-chiang-mai-tee-nai-dee" },
+      { label: "ต่อขนตาแบบธรรมชาติ ถ้าอยากได้มากกว่าลิฟติ้ง", href: "/th/blog/tor-khon-ta-baeb-thammachat" },
+      { label: "วิธีดูแลขนตาหลังต่อ กฎ 24 ชั่วโมง", href: "/th/blog/withi-doolae-khonta-lang-tor" },
     ],
   },
 };
@@ -205,6 +344,7 @@ export const NAILS_PAGE: ServicePage = {
     metaDescription:
       "Nail services at My Lash House Chiang Mai, San Kamphaeng near Payap University. Gel, extensions, and nail art in the same private studio as your lash appointment. Book on LINE.",
     eyebrow: "Service",
+    trustItems: ["Private one-to-one studio", "Nails and lashes in one visit"],
     quickAnswer:
       "My Lash House offers gel nails, nail extensions, and nail art in the same private San Klang studio as our lash services. Book nails alongside your lash appointment and walk out fully done, or book nails on their own. One artist, one client at a time, same standard.",
     heroImage: null,
@@ -263,6 +403,7 @@ export const NAILS_PAGE: ServicePage = {
     metaDescription:
       "บริการทำเล็บที่ My Lash House เชียงใหม่ สันกำแพง ใกล้ ม.พายัพ เจล ต่อเล็บ เพ้นท์เล็บ ในสตูดิโอส่วนตัวเดียวกับนัดต่อขนตา จองผ่าน LINE",
     eyebrow: "บริการ",
+    trustItems: ["สตูดิโอส่วนตัว 1 ต่อ 1", "ทำเล็บและขนตาได้ในนัดเดียว"],
     quickAnswer:
       "My Lash House ให้บริการเจล ต่อเล็บ และเพ้นท์เล็บ ในสตูดิโอส่วนตัวที่สันกลางเดียวกับบริการขนตา จองเล็บคู่กับนัดต่อขนตาแล้วออกจากร้านแบบครบจบ หรือจองเล็บอย่างเดียวก็ได้ ช่างคนเดียว ลูกค้าทีละคน มาตรฐานเดียวกัน",
     heroImage: null,

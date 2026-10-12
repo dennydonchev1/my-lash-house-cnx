@@ -35,9 +35,9 @@ const sarabun = Sarabun({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mylashhouse.com"),
-  title: "Lash Extensions Chiang Mai · 100% Handmade Fans · My Lash House",
+  title: "Eyelash Extensions Chiang Mai · 100% Handmade · My Lash House",
   description:
-    "Premium eyelash extensions in Chiang Mai, near Payap University. 100% handmade fans by a certified artist with 7+ years experience. Open daily 9am–7pm.",
+    "Eyelash and lash extensions in Chiang Mai from ฿590: 100% handmade fans by a certified artist with 7+ years, a 3-day retouch guarantee, and lash lifts. San Kamphaeng near Payap University, open daily 9:00 to 19:00.",
   icons: {
     icon: [
       { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },

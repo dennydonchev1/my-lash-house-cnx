@@ -11,8 +11,8 @@ import { getServiceUrl, type ServicePage } from "@/lib/servicePages";
 import { dict, type Lang } from "@/lib/i18n";
 
 const L = {
-  en: { home: "Home", trust1: "5.0 across 19 Google reviews", trust2: "3-day retouch guarantee", trust3: "100% handmade fans", trust4: "Shower after 2 hours", line: "Book on LINE", ig: "DM on Instagram" },
-  th: { home: "หน้าหลัก", trust1: "5.0 จาก 19 รีวิว Google", trust2: "รับประกันรีทัช 3 วัน", trust3: "แฟนขนตาทำมือ 100%", trust4: "อาบน้ำได้หลัง 2 ชั่วโมง", line: "จองผ่าน LINE", ig: "ทัก IG" },
+  en: { home: "Home", trust1: `5.0 across ${BUSINESS.reviewCount} Google reviews`, trust2: "3-day retouch guarantee", trust3: "100% handmade fans", trust4: "Shower after 2 hours", line: "Book on LINE", ig: "DM on Instagram" },
+  th: { home: "หน้าหลัก", trust1: `5.0 จาก ${BUSINESS.reviewCount} รีวิว Google`, trust2: "รับประกันรีทัช 3 วัน", trust3: "แฟนขนตาทำมือ 100%", trust4: "อาบน้ำได้หลัง 2 ชั่วโมง", line: "จองผ่าน LINE", ig: "ทัก IG" },
 };
 
 export default function ServicePageView({ page, lang }: { page: ServicePage; lang: Lang }) {
@@ -92,8 +92,8 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
             <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs uppercase tracking-widest text-charcoal-light">
               <span className="flex items-center gap-1.5"><span className="text-gold">★★★★★</span> {t.trust1}</span>
               <span className="flex items-center gap-1.5"><ShieldCheck className="h-3.5 w-3.5 text-rose-dark" /> {t.trust2}</span>
-              <span>{t.trust3}</span>
-              <span>{t.trust4}</span>
+              <span>{c.trustItems ? c.trustItems[0] : t.trust3}</span>
+              <span>{c.trustItems ? c.trustItems[1] : t.trust4}</span>
             </div>
 
             {/* Primary CTAs */}
