@@ -39,16 +39,18 @@ export default function Hero({ lang = "en" }: { lang?: Lang }) {
           </div>
 
           {/* Heading */}
-          <h1 className="font-heading text-5xl font-bold leading-tight text-white sm:text-6xl md:text-7xl lg:text-8xl">
-            My{" "}
-            <span className="italic text-rose-light">Lash</span>{" "}
-            House
+          {/* The H1 carries the brand plus the head query (2026-10-11): the
+              keyword line used to be a <p>, which left the H1 as the brand only. */}
+          <h1 className="font-heading text-white">
+            <span className="block text-5xl font-bold leading-tight sm:text-6xl md:text-7xl lg:text-8xl">
+              My{" "}
+              <span className="italic text-rose-light">Lash</span>{" "}
+              House
+            </span>
+            <span className="mx-auto mt-4 block max-w-2xl font-body text-base font-medium tracking-wide text-white/90 sm:text-lg">
+              {t.seoSubhead}
+            </span>
           </h1>
-
-          {/* Subhead, keyword-rich H2 for SEO */}
-          <p className="mx-auto mt-4 max-w-2xl text-base font-medium tracking-wide text-white/90 sm:text-lg">
-            {t.seoSubhead}
-          </p>
 
           {/* Tagline */}
           <p className="mx-auto mt-2 max-w-xl text-base font-light tracking-wide text-white/70 sm:text-lg">
