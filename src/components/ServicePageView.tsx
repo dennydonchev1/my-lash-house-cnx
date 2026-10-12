@@ -92,8 +92,8 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
             <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs uppercase tracking-widest text-charcoal-light">
               <span className="flex items-center gap-1.5"><span className="text-gold">★★★★★</span> {t.trust1}</span>
               <span className="flex items-center gap-1.5"><ShieldCheck className="h-3.5 w-3.5 text-rose-dark" /> {t.trust2}</span>
-              <span>{t.trust3}</span>
-              <span>{t.trust4}</span>
+              <span>{c.trustItems ? c.trustItems[0] : t.trust3}</span>
+              <span>{c.trustItems ? c.trustItems[1] : t.trust4}</span>
             </div>
 
             {/* Primary CTAs */}

@@ -17,6 +17,8 @@ export type ServicePageContent = {
   metaDescription: string;
   eyebrow: string;
   quickAnswer: string;
+  /** Optional page-specific trust items replacing the two lash-extension ones (handmade fans, shower after 2 hours) that are wrong for lifts and nails. */
+  trustItems?: [string, string];
   heroImage: string | null;
   heroImageAlt: string;
   sections: ServiceSection[];
@@ -50,7 +52,8 @@ export const LASH_LIFTING_PAGE: ServicePage = {
     metaTitle: "Lash Lift Chiang Mai: Process, Results, Price | My Lash House",
     metaDescription:
       "Lash lift in Chiang Mai: what it is, the 7-step process, how long it lasts, honest pros and cons, and pricing. Certified artist, 3-day retouch guarantee. San Kamphaeng, near Payap University.",
-    eyebrow: "Service + guide",
+    eyebrow: "Service",
+    trustItems: ["No refills needed", "Lasts 6 to 8 weeks"],
     quickAnswer:
       "A lash lift curls your natural lashes upward from the base and lasts 6 to 8 weeks with zero daily maintenance. No synthetic fans, no refill cycle, about 45 minutes in the chair. At My Lash House in San Klang, Chiang Mai, every lift comes with the same 3-day retouch guarantee as our extension sets.",
     heroImage: "/images/service-wet-look.jpg",
@@ -194,7 +197,8 @@ export const LASH_LIFTING_PAGE: ServicePage = {
     metaTitle: "ลิฟติ้งขนตา คืออะไร ข้อเสีย อยู่ได้นานไหม ราคา | My Lash House",
     metaDescription:
       "ลิฟติ้งขนตา คือการดัดขนตาจริงให้งอนนาน 6 ถึง 8 สัปดาห์ ไม่ต้องต่อ อ่านขั้นตอน ข้อดี ข้อเสีย วิธีดูแล และราคา จากช่างที่มีใบรับรอง รับประกันรีทัช 3 วัน ที่ My Lash House สันกำแพง เชียงใหม่",
-    eyebrow: "บริการ + คู่มือ",
+    eyebrow: "บริการ",
+    trustItems: ["ไม่ต้องเติม", "อยู่ได้ 6 ถึง 8 สัปดาห์"],
     quickAnswer:
       "ลิฟติ้งขนตา คือการดัดขนตาจริงให้งอนขึ้นจากโคน อยู่ได้ 6 ถึง 8 สัปดาห์โดยไม่ต้องดูแลรายวัน ไม่มีแฟนสังเคราะห์ ไม่มีรอบเติม ใช้เวลาประมาณ 45 นาที ที่ My Lash House สันกลาง เชียงใหม่ ทุกลิฟติ้งมีรับประกันรีทัช 3 วันเหมือนเซตต่อขนตา",
     heroImage: "/images/service-wet-look.jpg",
@@ -340,6 +344,7 @@ export const NAILS_PAGE: ServicePage = {
     metaDescription:
       "Nail services at My Lash House Chiang Mai, San Kamphaeng near Payap University. Gel, extensions, and nail art in the same private studio as your lash appointment. Book on LINE.",
     eyebrow: "Service",
+    trustItems: ["Private one-to-one studio", "Nails and lashes in one visit"],
     quickAnswer:
       "My Lash House offers gel nails, nail extensions, and nail art in the same private San Klang studio as our lash services. Book nails alongside your lash appointment and walk out fully done, or book nails on their own. One artist, one client at a time, same standard.",
     heroImage: null,
@@ -398,6 +403,7 @@ export const NAILS_PAGE: ServicePage = {
     metaDescription:
       "บริการทำเล็บที่ My Lash House เชียงใหม่ สันกำแพง ใกล้ ม.พายัพ เจล ต่อเล็บ เพ้นท์เล็บ ในสตูดิโอส่วนตัวเดียวกับนัดต่อขนตา จองผ่าน LINE",
     eyebrow: "บริการ",
+    trustItems: ["สตูดิโอส่วนตัว 1 ต่อ 1", "ทำเล็บและขนตาได้ในนัดเดียว"],
     quickAnswer:
       "My Lash House ให้บริการเจล ต่อเล็บ และเพ้นท์เล็บ ในสตูดิโอส่วนตัวที่สันกลางเดียวกับบริการขนตา จองเล็บคู่กับนัดต่อขนตาแล้วออกจากร้านแบบครบจบ หรือจองเล็บอย่างเดียวก็ได้ ช่างคนเดียว ลูกค้าทีละคน มาตรฐานเดียวกัน",
     heroImage: null,
