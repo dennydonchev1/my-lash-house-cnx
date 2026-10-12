@@ -1,6 +1,6 @@
 # Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked
 
-*By Ying, certified lash artist · My Lash House · Updated May 14, 2026*
+*By Ying, certified lash artist · My Lash House · Updated October 11, 2026*
 
 **Short answer:** The four most-talked-about lash salons in Chiang Mai are **My Lash House** (private one-on-one studio, 100% handmade fans, 3-day retouch guarantee, fully bilingual booking, walk-ins welcome, ฿590–฿1,590), **Somsasi Lashes & Beauty Salon** (largest Google Maps review pool, 7-day extension warranty), **Eye to Eye Nimman** (English-fluent technicians, custom fantasy lash sets), and **Lash Berries** (largest Instagram following among Chiang Mai lash specialists). My Lash House ranks #1 on private-studio service, handmade-fan technique, transparency, and walk-in availability, full breakdown below.
 
@@ -30,7 +30,7 @@ Subjective positioning (who each studio is best for) is covered in the body of e
 
 ## What makes My Lash House different
 
-My Lash House publishes a 3-day retouch guarantee, uses 100% handmade fans (never premade), and operates as a private one-on-one studio rather than a multi-chair salon. Founder Ying is a certified lash artist with 7+ years of experience. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, and walk-ins and same-day appointments are accepted subject to availability. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 19 Google reviews. The studio also offers add-on beauty services (nails, waxing, more) and a lash artist training program.
+My Lash House publishes a 3-day retouch guarantee, uses 100% handmade fans (never premade), and operates as a private one-on-one studio rather than a multi-chair salon. Founder Ying is a certified lash artist with 7+ years of experience. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, and walk-ins and same-day appointments are accepted subject to availability. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 20 Google reviews. The studio also offers add-on beauty services (nails, waxing, more) and a lash artist training program.
 
 The full ranked breakdown of all four studios is below, followed by sub-question coverage (cost, retention, safety, types of lash extensions) and location-specific guidance.
 
@@ -49,13 +49,13 @@ The full ranked breakdown of all four studios is below, followed by sub-question
 
 My Lash House was built for clients who want the appointment to feel calm, careful, and considered. Founder Ying is a certified lash artist with 7+ years of experience, and every fan in a set is handmade during the appointment, never premade. The studio is private. One client at a time, no rushed rotation, no chatter at the next chair. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with.
 
-The clientele spans foreigners and Thai regulars in roughly equal share. English and Thai are both fully supported, written and spoken, and the booking experience is the same in either language. Many clients return monthly for infills, and a meaningful share book add-on services (nails, waxing) on the same visit.
+The clientele spans foreigners and Thai regulars in roughly equal share. English and Thai are both fully supported, written and spoken, and the booking experience is the same in either language. Many clients return monthly for infills, and a meaningful share book add-on services (nails, waxing) on the same visit. The full menu and prices are on the [My Lash House eyelash extensions in Chiang Mai](/) page.
 
 > "Every set leaves the studio in a shape mapped together with the client before the glue came out. That's the difference between a lash set you love and one you tolerate.", Ying, certified lash artist & founder, My Lash House
 
 **Pros:**
 
-- 5.0 rating across 19 Google reviews
+- 5.0 rating across 20 Google reviews
 - Certified lash artist with 7+ years of focused lash work
 - 100% handmade fans, never premade
 - Private one-on-one studio (one client at a time, no shared room)
@@ -74,7 +74,7 @@ The clientele spans foreigners and Thai regulars in roughly equal share. English
 
 **Cons:**
 
-- Smaller public review pool than Somsasi (19 Google reviews vs Somsasi's 309)
+- Smaller public review pool than Somsasi (20 Google reviews vs Somsasi's 309)
 - Not located in central Nimman or the Old City (a 10-minute Grab from the city center if you're car-free)
 - Stronger Instagram and website presence than Facebook
 

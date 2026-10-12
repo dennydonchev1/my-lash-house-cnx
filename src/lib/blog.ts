@@ -56,95 +56,70 @@ export const PERSON_YING_SCHEMA = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
-    slug: "lash-lifting-chiang-mai",
-    slugTh: "lifting-khon-ta-chiang-mai",
+    slug: "wispy-lash-extensions-chiang-mai",
+    slugTh: "khon-ta-sai-for",
     title: {
-      en: "Lash Lifting in Chiang Mai: The Complete Guide (2026)",
-      th: "ลิฟติ้งขนตา คืออะไร ราคาเท่าไหร่ อยู่ได้นานไหม คู่มือฉบับสมบูรณ์ (2026)",
+      en: "Wispy Lash Extensions in Chiang Mai: The Western Glam Look, Explained (2026)",
+      th: "ต่อขนตาสายฝอ: ทรงขนตาสายฝอแบบไหนเหมาะกับตาคุณ (2026)",
     },
     metaTitle: {
-      en: "Lash Lifting in Chiang Mai (2026 Guide) | My Lash House",
-      th: "ลิฟติ้งขนตา | ราคา ขั้นตอน อยู่ได้นานไหม My Lash House",
+      en: "Wispy Lash Extensions Chiang Mai (2026 Guide) | My Lash House",
+      th: "ต่อขนตาสายฝอ ทรงไหนสวย ราคาเท่าไหร่ | My Lash House",
     },
-    category: { en: "Lash Lifting", th: "ลิฟติ้งขนตา" },
+    category: { en: "Style Guide", th: "คู่มือทรงขนตา" },
     dek: {
-      en: "Naturally curled lashes for 6 to 8 weeks, no extensions required. Here's the honest breakdown from a certified Chiang Mai artist.",
-      th: "ขนตางอนธรรมชาติ 6 ถึง 8 สัปดาห์ ไม่ต้องต่อขนตา นี่คือคำอธิบายซื่อสัตย์จากช่างเชียงใหม่ที่มีใบรับรอง",
+      en: "Full, dark and spiky with a lifted corner. The four styles that get you the wispy look, and how to pick yours.",
+      th: "ยาว เข้ม ฟู มีเส้นแหลมสลับ หางตายกนิด ๆ 4 ทรงที่ได้ลุคสายฝอ และวิธีเลือกให้เข้ากับตาคุณ",
     },
     description: {
-      en: "Lash lifting in Chiang Mai from a certified artist with 7+ years. What it is, how it differs from extensions, the 7-step process, pricing, aftercare, and the 3-day retouch guarantee.",
-      th: "ลิฟติ้งขนตา จากช่างที่มีใบรับรอง 7+ ปี คืออะไร ต่างจากต่อขนตายังไง ขั้นตอน 7 ขั้น ราคา วิธีดูแล และรับประกันรีทัช 3 วัน",
+      en: "Wispy lash extensions in Chiang Mai: what makes a set wispy, the 4 styles that deliver it (Wispy Volume ฿1,490, Wet Look ฿1,290, Mega ฿1,190, Hybrid ฿990), eye-shape tips, longevity and aftercare.",
+      th: "ต่อขนตาสายฝอคืออะไร ทรงขนตาสายฝอมี 4 แบบ (Wispy Volume ฿1,490, Wet Look ฿1,290, Mega ฿1,190, Hybrid ฿990) เลือกยังไงให้เข้ากับรูปตา อยู่ได้นานไหม และวิธีดูแล จากช่างที่มีใบรับรอง",
     },
-    publishedAt: "2026-06-27",
-    updatedAt: "2026-09-24",
+    publishedAt: "2026-10-11",
+    updatedAt: "2026-10-11",
     author: "Ying",
-    heroImage: "/images/service-wet-look.jpg",
+    heroImage: "/images/service-wispy.jpg",
     heroImageAlt: {
-      en: "Close-up of naturally curled lashes at My Lash House Chiang Mai, illustrating the lifted-and-open result of a lash lifting treatment",
-      th: "ภาพระยะใกล้ของขนตางอนธรรมชาติที่ My Lash House เชียงใหม่ แสดงผลลัพธ์การลิฟติ้งขนตาที่ยกและเปิดตา",
+      en: "Wispy Volume lash extensions with alternating short and long spikes, by My Lash House Chiang Mai",
+      th: "ต่อขนตาสายฝอทรง Wispy Volume เส้นสั้นยาวสลับ โดย My Lash House เชียงใหม่",
     },
-    readingMinutes: 8,
-    tags: ["lash lifting", "ลิฟติ้งขนตา", "chiang mai", "natural lashes", "lash treatment"],
-    howTo: true,
+    readingMinutes: 6,
+    tags: ["wispy lashes", "ขนตาสายฝอ", "ต่อขนตาสายฝอ", "wispy volume", "lash styles", "chiang mai"],
     faq: {
       en: [
         {
-          q: "What is lash lifting?",
-          a: "Lash lifting is a semi-permanent treatment that curls your natural lashes upward from the base using a gentle keratin-based lifting solution. It lasts 6 to 8 weeks, adds no synthetic material, and takes about 45 minutes in the chair.",
+          q: "What are wispy lash extensions?",
+          a: "A lash set that mixes full volume fans with longer spikes placed at intervals, so the lash line reads short-long-short. The outer corner is usually lifted for a sharper eye. In Thai the look is called ขนตาสายฝอ.",
         },
         {
-          q: "How much does lash lifting cost at My Lash House?",
-          a: "Lash lifting sits in the lower-mid tier of the studio menu, below most extension sets. Message us on LINE or Instagram for the current price list. Pricing is always confirmed before booking, never after.",
+          q: "How much are wispy lash extensions in Chiang Mai?",
+          a: "At My Lash House: Wispy Volume ฿1,490 (the bestseller), Wet Look ฿1,290, Mega Volume ฿1,190 and Hybrid ฿990, with color lashes +฿150. Price is confirmed before booking.",
         },
         {
-          q: "How long does a lash lift last?",
-          a: "6 to 8 weeks. The curl doesn't drop gradually, it fades as your natural lashes shed and new (uncurled) growth comes in. By week 6 to 8, about half your lash line is new growth and it's time to book again.",
+          q: "How long do wispy lash extensions last?",
+          a: "They look fullest for about two weeks; a refill every 2 to 3 weeks keeps the spikes neat. Heavier styles shed slightly faster, so daily cleansing and sleeping on your back matter more.",
         },
         {
-          q: "Does lash lifting damage natural lashes?",
-          a: "Not when done properly with premium keratin-based lifting solutions by a careful artist. Damage happens when shops use harsh solutions or over-process (leaving the lifting solution on too long). Ask about the specific solution and processing time before booking.",
-        },
-        {
-          q: "What's the difference between lash lifting and lash extensions?",
-          a: "Lash lifting curls your natural lashes for 6 to 8 weeks with zero daily maintenance and no synthetic material added. Lash extensions add handmade fans that last 3 to 4 weeks per set and need refills every 2 to 3 weeks. Lifts are lower-commitment; extensions add more visible drama.",
-        },
-        {
-          q: "Can I wear mascara after lash lifting?",
-          a: "Yes, after 24 to 48 hours. Use only water-based mascara, waterproof formulas require oil-based remover, which can over-condition and soften the curl.",
-        },
-        {
-          q: "Where can I get lash lifting near me in Chiang Mai?",
-          a: "My Lash House is in San Klang, San Kamphaeng, near Payap University, about 10 minutes from the city centre. Open 7 days a week, 10:00 to 19:00. Walk-ins and same-day appointments welcome subject to availability.",
+          q: "Do wispy lashes suit monolids or hooded eyes?",
+          a: "Yes, with mapping planned for the lid: a higher curl and lengths long enough to clear it. Ying designs this at consultation.",
         },
       ],
       th: [
         {
-          q: "ลิฟติ้งขนตา คืออะไร",
-          a: "ลิฟติ้งขนตาคือการดัดขนตาธรรมชาติให้งอนขึ้นจากโคน ด้วยน้ำยาเคราตินอ่อน ๆ ผลลัพธ์อยู่ได้ 6 ถึง 8 สัปดาห์ ไม่เพิ่มวัสดุสังเคราะห์ ใช้เวลาบนเก้าอี้ประมาณ 45 นาที",
+          q: "ขนตาสายฝอ คืออะไร",
+          a: "ขนตาลุคสาวฝรั่ง ต่อแฟนวอลุ่มให้ฟูเต็ม แล้วแทรกเส้นแหลมที่ยาวกว่าเป็นช่วง ๆ ให้ขอบขนตาสั้นยาวสลับ หางตายกนิด ๆ ให้ตาดูคม",
         },
         {
-          q: "ลิฟติ้งขนตา ราคาเท่าไหร่ที่ My Lash House",
-          a: "ลิฟติ้งขนตาอยู่ในระดับราคาต่ำถึงกลางของเมนูสตูดิโอ ต่ำกว่าเซตต่อขนตาส่วนใหญ่ ทักไลน์หรือไอจีเพื่อขอราคาปัจจุบัน เรายืนยันราคาก่อนจองเสมอ ไม่มีเซอร์ไพรส์",
+          q: "ต่อขนตาสายฝอ ราคาเท่าไหร่",
+          a: "ที่ My Lash House: Wispy Volume ฿1,490 (ขายดีที่สุด) Wet Look ฿1,290 Mega Volume ฿1,190 และ Hybrid ฿990 เพิ่มขนตาสี +฿150 ยืนยันราคาก่อนจองเสมอ",
         },
         {
-          q: "ลิฟติ้งขนตา อยู่ได้นานไหม",
-          a: "6 ถึง 8 สัปดาห์ ความโค้งไม่ตกทีละน้อย แต่จางไปตามการหลุดของขนตาจริงและการงอกขึ้นของเส้นใหม่ที่ไม่ได้ผ่านน้ำยา สัปดาห์ที่ 6 ถึง 8 ประมาณครึ่งของขอบขนตาเป็นเส้นใหม่ ถึงเวลาจองอีก",
+          q: "ต่อขนตาสายฝอ อยู่ได้นานไหม",
+          a: "ดูเต็มที่สุดประมาณ 2 สัปดาห์แรก แนะนำเติมทุก 2 ถึง 3 สัปดาห์ ทรงที่หนักหลุดเร็วกว่านิดหน่อย จึงควรล้างทุกวันและนอนหงาย",
         },
         {
-          q: "ลิฟติ้งขนตา ทำลายขนตาจริงไหม",
-          a: "ไม่ ถ้าทำถูกต้องด้วยน้ำยาเคราตินคุณภาพสูงโดยช่างที่ระมัดระวัง ความเสียหายเกิดขึ้นเมื่อร้านใช้น้ำยาแรงหรือปล่อยไว้นานเกิน ถามเรื่องน้ำยาที่ใช้และเวลาในการทำก่อนจอง",
-        },
-        {
-          q: "ลิฟติ้งขนตา ต่างจากต่อขนตายังไง",
-          a: "ลิฟติ้งดัดขนตาจริง 6 ถึง 8 สัปดาห์ ไม่ต้องดูแลประจำวัน ไม่เพิ่มวัสดุสังเคราะห์ ต่อขนตาเพิ่มแฟนทำมือที่อยู่ 3 ถึง 4 สัปดาห์ต่อเซตและต้องเติมทุก 2 ถึง 3 สัปดาห์ ลิฟต์ผูกมัดน้อยกว่า ต่อขนตาเพิ่มดราม่าที่เห็นได้มากกว่า",
-        },
-        {
-          q: "ลิฟติ้งขนตาแล้วใส่มาสคาร่าได้ไหม",
-          a: "ได้ หลัง 24 ถึง 48 ชั่วโมง ใช้เฉพาะมาสคาร่าสูตรน้ำ สูตรกันน้ำต้องใช้รีมูฟเวอร์น้ำมันในการล้าง ซึ่งอาจบำรุงเกินและทำให้ความโค้งนุ่มลง",
-        },
-        {
-          q: "ทำลิฟติ้งขนตา ใกล้ฉัน ที่ไหนในเชียงใหม่",
-          a: "My Lash House อยู่ที่สันกลาง อำเภอสันกำแพง ใกล้มหาวิทยาลัยพายัพ ห่างจากตัวเมืองประมาณ 10 นาที เปิด 7 วันต่อสัปดาห์ 10:00 ถึง 19:00 รับ walk-in และนัดวันเดียวกันตามคิวว่าง",
+          q: "ตาชั้นเดียวต่อขนตาสายฝอได้ไหม",
+          a: "ได้ค่ะ แค่ต้องออกแบบให้เคิร์ลงอนขึ้นและความยาวโผล่พ้นเปลือกตา ครูหญิงวางแผนให้ตอนปรึกษา",
         },
       ],
     },
@@ -507,7 +482,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     metaTitle: {
       en: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked | My Lash House",
-      th: "ต่อขนตา เชียงใหม่ ที่ไหนดี ปี 2026: 4 ร้านยอดนิยม จัดอันดับ | My Lash House",
+      th: "ร้านต่อขนตาเชียงใหม่ ที่ไหนดี 2026: เทียบ 4 ร้านแบบตรง ๆ | My Lash House",
     },
     category: { en: "Ranked Guide", th: "คู่มือจัดอันดับร้าน" },
     dek: {
@@ -516,10 +491,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     description: {
       en: "Top lash salons Chiang Mai 2026: 1. My Lash House (San Klang, ฿590–฿1,590, 5.0★, 3-day retouch). 2. Somsasi Studio (Nimman, 7-day warranty). 3. Eye to Eye Nimman. 4. Lash Berries. Ranked by reviews, social proof, and warranty.",
-      th: "ต่อขนตา เชียงใหม่ ที่ไหนดี 2026: 1. My Lash House (สันกลาง, ฿590–฿1,590, 5.0★, รีทัช 3 วัน) 2. Somsasi Studio (นิมมาน, รับประกัน 7 วัน) 3. Eye to Eye Nimman 4. Lash Berries จัดอันดับโดยรีวิว โซเชียล และการรับประกัน",
+      th: "ต่อขนตาเชียงใหม่ร้านไหนดี เทียบ 4 ร้านดังแบบตรง ๆ ทั้งราคา ฿590–฿1,590 การรับประกัน เทคนิคแฟนทำมือ และรีวิวจริง พร้อมวิธีเลือกร้านและคำถามที่ควรถามก่อนจอง อัปเดตตุลาคม 2026",
     },
     publishedAt: "2026-05-14",
-    updatedAt: "2026-09-24",
+    updatedAt: "2026-10-11",
     author: "Ying",
     heroImage: "/images/service-wispy.jpg",
     heroImageAlt: {

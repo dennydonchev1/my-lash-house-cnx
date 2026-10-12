@@ -125,12 +125,14 @@ For questions about whether Classic or Wet Barbie suits your eye shape, or to bo
 - LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
+Not sure Barbie is your style yet? The full menu of [eyelash extensions in Chiang Mai](/) is on the homepage, every style from ฿590 with the 3-day retouch guarantee.
+
 ---
 
 ## About the author
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 19 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new style techniques, menu changes, and reader feedback.

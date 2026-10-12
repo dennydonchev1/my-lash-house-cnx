@@ -17,7 +17,7 @@ export const dict = {
     hero: {
       ratedBadge: "★★★★★ 5.0 Rated",
       guaranteeBadge: "3-Day Retouch Guarantee",
-      seoSubhead: "Lash Extensions in Chiang Mai · ต่อขนตา เชียงใหม่",
+      seoSubhead: "Eyelash Extensions in Chiang Mai · ต่อขนตา เชียงใหม่",
       tagline: "Private Studio · Near Payap University",
       usp1: "100% Handmade Fans",
       usp2: "Certified Artist",
