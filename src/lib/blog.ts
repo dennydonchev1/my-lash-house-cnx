@@ -57,6 +57,75 @@ export const PERSON_YING_SCHEMA = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "wet-look-lash-extensions-chiang-mai",
+    slugTh: "khon-ta-wet-look",
+    title: {
+      en: "Wet Look Lash Extensions in Chiang Mai: What They Are and Who They Suit (2026)",
+      th: "ขนตา wet look คืออะไร ต่อขนตาทรงเวทลุคแบบไหนเหมาะกับคุณ (2026)",
+    },
+    metaTitle: {
+      en: "Wet Look Lash Extensions Chiang Mai (2026 Guide) | My Lash House",
+      th: "ขนตา wet look คืออะไร ต่อขนตาเวทลุค ราคา | My Lash House",
+    },
+    category: { en: "Style Guide", th: "คู่มือทรงขนตา" },
+    dek: {
+      en: "Sharp, glossy spikes with visible gaps. How wet look differs from volume, who it suits, and the three versions.",
+      th: "เส้นรวบเป็นแท่งแหลม เงา คม เห็นช่องไฟ ต่างจากวอลุ่มยังไง เหมาะกับใคร และมีกี่แบบ",
+    },
+    description: {
+      en: "Wet look lash extensions in Chiang Mai: closed glossy spikes vs regular volume, eye-shape tips, the 3 versions (everyday, wispy, Wet Barbie), price (฿1,290), longevity and aftercare.",
+      th: "ขนตา wet look คืออะไร ต่างจากวอลุ่มธรรมดายังไง เหมาะกับรูปตาแบบไหน มี 3 แบบ (ใส่ทุกวัน สายฝอ Wet Barbie) ราคา ฿1,290 อยู่ได้นานไหม และวิธีดูแล จากช่างที่มีใบรับรอง",
+    },
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
+    author: "Ying",
+    heroImage: "/images/service-wet-look.jpg",
+    heroImageAlt: {
+      en: "Wet look lash extensions with closed, glossy spikes, by My Lash House Chiang Mai",
+      th: "ขนตาทรงเวทลุค เส้นรวบเป็นแท่งเงา โดย My Lash House เชียงใหม่",
+    },
+    readingMinutes: 6,
+    tags: ["wet look lashes", "ขนตา wet look", "ขนตาเวทลุค", "ต่อขนตา wet look", "lash styles", "chiang mai"],
+    faq: {
+      en: [
+        {
+          q: "What are wet look lash extensions?",
+          a: "Lash extensions where each handmade fan is closed into a sharp spike, giving a glossy, defined, just-wet look with visible gaps between spikes.",
+        },
+        {
+          q: "How much are wet look lash extensions in Chiang Mai?",
+          a: "Wet Look is ฿1,290 at My Lash House, with color lashes +฿150. The more dramatic Wet Barbie builds on Mega Volume. Price is confirmed before booking.",
+        },
+        {
+          q: "How long do wet look lashes last?",
+          a: "They look sharpest for about two weeks; a refill every 2 to 3 weeks keeps the spikes evenly spaced.",
+        },
+        {
+          q: "Can I wear mascara with wet look lashes?",
+          a: "Skip it. Mascara glues the spikes together and makes them hard to clean. The style already gives the defined, mascara-like finish.",
+        },
+      ],
+      th: [
+        {
+          q: "ขนตา wet look คืออะไร",
+          a: "ขนตาต่อที่รวบแฟนทำมือแต่ละช่อให้เป็นแท่งแหลม ได้ลุคเงา คม เหมือนขนตาเปียก และเห็นช่องไฟระหว่างแท่งชัด",
+        },
+        {
+          q: "ต่อขนตาเวทลุค ราคาเท่าไหร่",
+          a: "Wet Look ราคา ฿1,290 ที่ My Lash House เพิ่มขนตาสี +฿150 ถ้าอยากได้ Wet Barbie จะใช้ฐาน Mega Volume ยืนยันราคาก่อนจองเสมอ",
+        },
+        {
+          q: "ขนตา wet look อยู่ได้นานไหม",
+          a: "ดูคมที่สุดประมาณ 2 สัปดาห์แรก แนะนำเติมทุก 2 ถึง 3 สัปดาห์ให้แท่งเรียงสวยสม่ำเสมอ",
+        },
+        {
+          q: "ต่อขนตา wet look ทามาสคาร่าได้ไหม",
+          a: "ไม่แนะนำ มาสคาร่าทำให้แท่งติดกันเป็นก้อนและล้างยาก ลุคนี้ให้ความคมแบบมาสคาร่าอยู่แล้ว",
+        },
+      ],
+    },
+  },
+  {
     slug: "wispy-lash-extensions-chiang-mai",
     slugTh: "khon-ta-sai-for",
     title: {
