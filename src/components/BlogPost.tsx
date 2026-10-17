@@ -478,6 +478,14 @@ export default function BlogPost({
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs uppercase tracking-widest text-charcoal-light">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/ying-lash-artist-avatar.webp"
+                alt={lang === "en" ? "Ying, certified lash artist" : "ครูหญิง ช่างต่อขนตา"}
+                width={32}
+                height={32}
+                className="h-8 w-8 rounded-full object-cover ring-2 ring-rose/30"
+              />
               <span className="text-charcoal">
                 {L.by}{" "}
                 <span className="font-semibold text-plum">{post.author}</span>

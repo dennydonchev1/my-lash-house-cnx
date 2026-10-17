@@ -33,6 +33,8 @@ export const dict = {
       p2: "I'm certified in advanced techniques and constantly refining my craft through workshops and training. Quality, comfort, and lash health come first, never premade fans, never rushed work.",
       p3: "Whether you want a subtle natural enhancement or dramatic mega volume, my studio is your space to relax, recharge, and leave feeling your absolute best.",
       badges: ["Certified Artist", "100% Handmade", "Private Studio", "7+ Years"],
+      photoAlt: "Ying, certified lash artist and founder of My Lash House, holding a trophy and certificate at the HAB Southern International Contest 2022 in Phuket",
+      photoCaption: "Ying at the HAB Southern International Contest 2022, Phuket",
     },
     services: {
       eyebrow: "Our Services",
@@ -152,6 +154,8 @@ export const dict = {
       p2: "ครูหญิงได้รับการรับรองในเทคนิคขั้นสูง และพัฒนาฝีมืออย่างต่อเนื่องผ่านเวิร์กช็อปและคอร์สเทรนนิ่ง คุณภาพ ความสบาย และสุขภาพขนตามาเป็นอันดับแรกเสมอ ไม่เร่ง ไม่ใช้ขนตาสำเร็จรูป",
       p3: "ไม่ว่าคุณจะอยากได้ลุคธรรมชาติแบบเบา ๆ หรือเมก้าวอลลุ่มแบบจัดเต็ม สตูดิโอของเราคือที่ที่คุณจะได้พักผ่อนและกลับไปอย่างสวยมั่นใจ",
       badges: ["ช่างได้รับการรับรอง", "ขนตาแฮนด์เมด 100%", "สตูดิโอส่วนตัว", "ประสบการณ์ 7+ ปี"],
+      photoAlt: "ครูหญิง ช่างต่อขนตาและผู้ก่อตั้ง My Lash House ถือถ้วยรางวัลและใบประกาศ ในงาน HAB Southern International Contest 2022 ที่ภูเก็ต",
+      photoCaption: "ครูหญิงในงาน HAB Southern International Contest 2022 ภูเก็ต",
     },
     services: {
       eyebrow: "บริการของเรา",
