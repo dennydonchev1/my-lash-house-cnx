@@ -43,6 +43,7 @@ export const PERSON_YING_SCHEMA = {
   worksFor: { "@id": "https://mylashhouse.com/#business" },
   knowsLanguage: ["en", "th"],
   url: "https://mylashhouse.com/",
+  image: "https://mylashhouse.com/images/ying-lash-artist-hab-contest-2022.webp",
   sameAs: ["https://instagram.com/my_lash_house.cnx"],
 };
 
