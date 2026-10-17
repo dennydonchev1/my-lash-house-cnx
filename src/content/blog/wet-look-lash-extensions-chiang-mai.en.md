@@ -1,6 +1,6 @@
 # Wet Look Lash Extensions in Chiang Mai: What They Are and Who They Suit (2026)
 
-*By Ying, certified lash artist · My Lash House · Published October 19, 2026*
+*By Ying, certified lash artist · My Lash House · Published October 17, 2026*
 
 Wet look lash extensions look like your lashes just came out of the water: fans closed into sharp, glossy spikes with visible gaps between them. The eye reads bigger and more defined, like three coats of good mascara, without any mascara at all.
 

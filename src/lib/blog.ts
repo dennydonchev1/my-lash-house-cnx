@@ -76,8 +76,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: "Wet look lash extensions in Chiang Mai: closed glossy spikes vs regular volume, eye-shape tips, the 3 versions (everyday, wispy, Wet Barbie), price (฿1,290), longevity and aftercare.",
       th: "ขนตา wet look คืออะไร ต่างจากวอลุ่มธรรมดายังไง เหมาะกับรูปตาแบบไหน มี 3 แบบ (ใส่ทุกวัน สายฝอ Wet Barbie) ราคา ฿1,290 อยู่ได้นานไหม และวิธีดูแล จากช่างที่มีใบรับรอง",
     },
-    publishedAt: "2026-10-19",
-    updatedAt: "2026-10-19",
+    publishedAt: "2026-10-17",
+    updatedAt: "2026-10-17",
     author: "Ying",
     heroImage: "/images/service-wet-look.jpg",
     heroImageAlt: {
