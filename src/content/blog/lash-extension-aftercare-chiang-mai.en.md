@@ -1,24 +1,24 @@
-# How to Care for Lash Extensions: Your Day-by-Day Aftercare Guide (Chiang Mai 2026)
+# Lash Extension Aftercare: Day 1, Week 1 and Every Day After (Chiang Mai 2026)
 
 If you're reading this at 11pm because you just realized you can't wash your face the way you usually do, you're in the right place.
 
-The short version: keep your lashes dry for the first 2 hours (My Lash House uses a fast-cure adhesive; standard glue needs 24 to 48), skip swimming, steam, and heavy sweat for the first day, stay away from oil-based anything near your eyes, and brush them daily with a clean spoolie. Do that, and your set lasts a full 3 to 4 weeks. Skip it, and you're back booking a refill in week 2 wondering what happened.
+*By Ying, certified lash artist · My Lash House, San Klang, Chiang Mai · Updated October 24, 2026*
 
-This is the practical day-by-day handbook. Real rules, why they matter, and which ones you can relax on once you know what you're doing.
+This is the practical day-by-day handbook: the aftercare we talk through with every client at the end of their appointment, the reasons behind each rule, and which ones you can relax once you know what you're doing.
 
-*Published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. This guide reflects the aftercare we talk through with every client at the end of their appointment.*
+## The short answer
 
-## What's the quickest aftercare summary?
+Keep your lash extensions completely dry for the first 2 hours (My Lash House uses a fast-cure adhesive; standard glue needs 24 to 48). For the rest of day one, skip swimming, steam and heavy sweat. From then on, keep oil-based products away from your eyes, clean your lashes daily with an oil-free foam cleanser, brush them with a clean spoolie, and pat dry instead of rubbing. Do that and a properly applied set lasts 3 to 4 weeks before a refill.
 
-Three things move the needle on retention, and only three.
+## Aftercare at a glance
 
-**One**, keep the lashes dry for the first 2 hours while the fast-cure adhesive sets, and give the bond a full day before swimming, steam, or heavy sweat.
-
-**Two**, skip oil-based skincare and makeup near your eye area indefinitely. Oil dissolves the adhesive bond, every time.
-
-**Three**, clean daily with a foam lash shampoo and brush through with your spoolie.
-
-Everything else (sleep position, mascara, eyelash curlers, refill cadence) matters at the margins. Nail the big three and a properly applied set lasts the full 3 to 4 weeks. Skip them and the set halves in lifespan no matter how good your artist is.
+| When | Do | Avoid |
+|---|---|---|
+| First 2 hours | Keep the lashes completely dry | Water, tears, touching or rubbing |
+| Rest of day one | Shower normally, face out of the stream | Swimming, sauna, hot yoga, heavy sweat |
+| First week | Switch to oil-free cleansers around the eyes | Oil cleansers, balms, makeup wipes, micellar water |
+| Every day | Foam cleanse, brush with the spoolie, pat dry | Rubbing, eyelash curlers, waterproof mascara |
+| Every 2 to 3 weeks | Book a refill | Waiting past 4 weeks |
 
 > ❝ The single most expensive mistake clients make isn't the brand of mascara or the wrong cleanser. It's an oil eye cream applied right at the lash line for two weeks straight.
 
@@ -26,7 +26,7 @@ Everything else (sleep position, mascara, eyelash curlers, refill cadence) matte
 
 This is the curing window, and it's the one rule you absolutely cannot bend.
 
-The cyanoacrylate adhesive used in lash extensions takes a full day to reach maximum bond strength. Water exposure during this window weakens those bonds permanently. There's no fixing it after the fact.
+Lash adhesive keeps strengthening for about a day after your appointment. Our fast-cure formula is safe from plain water after 2 hours, but steam, heat and heavy sweat in the first day can still weaken a bond that hasn't reached full strength. Water in the first 2 hours weakens it permanently; there's no fixing that after the fact.
 
 > ⚠️ No water on the lashes at all for the first 2 hours. For the rest of day one: no swimming, no steam, no heavy sweating, no makeup near your eyes, and no sleeping face-down. Normal showering is fine after the first 2 hours, our fast-cure adhesive sets quickly, just keep the water pressure off your face.
 
@@ -113,10 +113,10 @@ A short list of things that, in 7+ years on the chair, consistently halve a set'
 - **Eyelash curlers** (bend the extensions out of shape and crack the bond)
 - **Rubbing your eyes**, especially when you're sleepy or itchy
 - **Picking or pulling at loose extensions** (let them shed naturally)
-- **Sauna, steam room, hot yoga in the first 48 hours** (moisture plus heat weakens fresh bonds)
+- **Sauna, steam room, hot yoga in the first 24 hours** (moisture plus heat weakens fresh bonds)
 - **Sleeping face-down on your lashes for hours**
 
-The sauna rule relaxes after the first 48 hours. After that, occasional steam exposure is fine. Just rinse and pat dry afterward.
+The sauna rule relaxes after the first day. After that, occasional steam is fine. Just rinse and pat dry afterward.
 
 ![Russian Volume lashes by My Lash House Chiang Mai, heavier styles need the most disciplined aftercare to hit their full retention window](/images/service-russian.jpg)
 
@@ -132,17 +132,15 @@ Yes, more than people expect. A few local factors worth planning around.
 
 **Motorbike dust and rain.** If you ride, a clear pair of glasses or a helmet visor protects the set from grit and direct rain spray. Both shorten retention more than weather alone.
 
-## What if I'm flying within 48 hours of my appointment?
+## Can I fly right after my lash appointment?
 
-Tourists and short-stay visitors ask this constantly. The honest version:
+Yes, once the first 2 hours have passed. Cabin pressure does nothing to the bond. The two real risks on a plane are dry cabin air, which makes your eyes itchy, and rubbing them when you doze off.
 
-**Within 24 hours, don't fly if you can avoid it.** Cabin pressure is fine, but the dry recycled cabin air pulls moisture out of everything including the curing adhesive. If you have to fly, drink water aggressively, skip eye makeup, and bring saline mist (not eye drops with preservatives, which can drip onto the lashes).
+- Bring a saline mist, not eye drops that can run onto the lashes
+- Skip eye makeup for the flight
+- Keep your hands off your face, especially when you're sleepy
 
-**Between 24 and 48 hours, flying is fine** with one rule: avoid touching your face the entire flight. The cabin is dirtier than you think and the temptation to rub when you're sleepy is the real risk.
-
-**After 48 hours, fly normally.** The set is fully cured.
-
-If you're visiting Chiang Mai and want a set before you fly home, book the appointment for the morning of day 2 of your trip at minimum. That gives a 48-hour buffer before any return flight. For shorter trips, lash lift might be the better call, it has no cure window.
+Visiting Chiang Mai? Booking your set in the first days of the trip gives you fresh lashes for the whole stay, plus time to message us if anything needs the 3-day retouch before you fly home.
 
 ## How should I sleep without losing lashes?
 
@@ -156,7 +154,7 @@ A pillow pressing against your lashes for 6 to 8 hours a night slowly breaks dow
 
 **Stomach sleepers** lose lashes the fastest of all. If switching positions isn't realistic, a silk pillowcase reduces friction enough to help.
 
-> ✅ A silk pillowcase is a worthwhile investment for anyone who can't sleep on their back. Less friction. Doesn't absorb skin oils the way cotton does. Extends retention by an estimated 20 to 30%. Plus, your hair will thank you.
+> ✅ A silk pillowcase is a worthwhile investment for anyone who can't sleep on their back. Less friction, and it doesn't absorb skin oils the way cotton does. Your hair will thank you too.
 
 ## When should I come in for a refill?
 
@@ -166,47 +164,29 @@ Lighter styles like Classic 1:1 and Light Volume hold a bit longer and can stret
 
 The sweet spot for a refill is when your set has retained roughly 40 to 60% of the original extensions. Enough remains for Ying to map cleanly into the existing shape. Not so few that the appointment becomes a near-rebuild.
 
-### How do I know I waited too long?
-
-- More than 50% of the set has shed
-- Visible gaps along your lash line
-- Remaining extensions are growing out at angles that don't sit cleanly
-- The set no longer looks like the original design
-
-If it's been 4+ weeks, a refill often costs about the same as a fresh full set and looks worse afterward. Start fresh instead.
+Waited longer than 4 weeks, or lost more than half the set? A refill then costs about the same as a fresh full set and looks worse afterward, so start fresh instead.
 
 If you're three weeks in and worried about how much you've shed, the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai) breaks down what's normal at each week.
 
+## What should I buy for lash extension aftercare?
+
+You don't need much, and nothing expensive:
+
+- An oil-free foam lash cleanser
+- The soft cleansing brush and spoolie we send home with you
+- A lint-free cloth or tissue for patting dry
+- A silk pillowcase, if you can't sleep on your back
+- A saline mist, if you fly or sit in strong air conditioning
+
+Check every product near your eyes for oils, balms and micellar formulas before it goes anywhere near your lash line.
+
 ## What does the 3-day retouch guarantee cover?
 
-Every set at My Lash House comes with a 3-day retouch guarantee.
-
-The guarantee covers abnormal shedding within the first three days caused by a glue or application issue on our side. Not normal natural-lash shedding. Not aftercare mistakes.
-
-### What counts as an application issue (covered)?
-
-- Losing more than 5 extensions per eye in the first three days
-- Shedding clustered in one zone (often the outer corner)
-- Extensions coming off without the natural lash attached (suggests glue bond failure)
-- One eye shedding dramatically more than the other
-
-### What counts as aftercare shedding (not covered)?
-
-- Water exposure in the first 2 hours
-- Use of oil-based products near the eyes
-- Rubbing your eyes
-- Sleeping face-down
-- Using makeup remover wipes or micellar water
-
-To claim the guarantee, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with clear photos of the affected area within 3 days of your appointment. We'll book you in for a free retouch.
+Abnormal shedding in the first 3 days caused by the glue or the application is retouched free. Shedding from aftercare slips (water in the first 2 hours, oil-based products, rubbing) isn't covered. To claim it, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with clear photos within 3 days of your appointment. The full breakdown of what counts, with examples, is in [how long lash extensions last](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
 ## How was this guide written?
 
-This guide is compiled from the aftercare consultation we give every client at the end of their appointment, plus seven years of pattern recognition on which habits actually move retention.
-
-Retention timeframes reflect typical results across multiple clients and lash types. Individual results vary based on skin type, sleep position, and aftercare adherence. The 3-day retouch policy reflects the published policy at My Lash House as of June 2026. Where individual cases vary, we say so directly.
-
-Readers comparing studios should ask any lash artist about their retouch policy, isolation technique, and aftercare guidance. Three signals of how seriously a studio takes long-term retention versus just selling sets. For a side-by-side of the four most-talked-about lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai ranked guide](/blog/best-lash-extensions-chiang-mai).
+It's the aftercare consultation Ying gives every client at the end of the appointment, plus 7+ years of seeing which habits actually change how long a set lasts. Individual results vary with skin type, sleep position and how closely the routine is followed.
 
 The Thai-language version of this guide is at [/th/blog/withi-doolae-khonta-lang-tor](/th/blog/withi-doolae-khonta-lang-tor).
 

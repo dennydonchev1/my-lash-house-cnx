@@ -1,6 +1,6 @@
 # Natural Lash Extensions in Chiang Mai, A Guide for Office Wear, Brides, and Anyone Who Wants "Better Natural"
 
-*Published by My Lash House · Compiled by Ying, certified lash artist · Published June 26, 2026 · Last updated June 26, 2026*
+*Published by My Lash House · Compiled by Ying, certified lash artist · Published June 26, 2026 · Last updated October 24, 2026*
 
 *Disclosure: This guide is published by My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. It reflects the studio's approach to mapping subtle, work-appropriate lash sets. Where another style or service might suit a reader better, this guide says so directly.*
 
@@ -105,7 +105,7 @@ Aftercare is the same as for heavier styles. The lighter materials don't change 
 
 The short version: no water for the first 2 hours (fast-cure adhesive), no swimming or steam on day one; no oil-based products near the eyes; clean daily with a lash shampoo; brush gently with the spoolie provided; sleep on your back when possible.
 
-For the full aftercare guide with the day-by-day breakdown and what voids the 3-day retouch guarantee, see the [longevity and retouch guide](/blog/how-long-do-lash-extensions-last-chiang-mai).
+For the full day-by-day routine, see the [lash extension aftercare guide](/blog/lash-extension-aftercare-chiang-mai). For what's normal shedding week by week and what the 3-day retouch guarantee covers, see [how long lash extensions last](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
 ## The 3-day retouch guarantee
 
