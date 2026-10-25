@@ -529,13 +529,25 @@ export default function BlogPost({
                 // A paragraph that is exactly [[STYLE_CARDS]] renders the
                 // template-v2 style-cards module (image + price + drama dots)
                 // in place. Everything else renders as a normal paragraph.
-                p: ({ children }) => {
+                p: ({ node, children }) => {
                   const text = extractText(children).trim();
                   if (text === "[[STYLE_CARDS]]") {
                     return <StyleCardsGrid lang={lang} />;
                   }
                   if (text === "[[RETENTION_TIMELINE]]") {
                     return <RetentionTimeline lang={lang} />;
+                  }
+                  // Images render as <figure> (see img below). A <figure>
+                  // inside <p> is invalid HTML: the browser splits it apart,
+                  // React hydration fails (error #418) and the client
+                  // re-render duplicates every JSON-LD block on the page,
+                  // which Google reports as "Review has multiple aggregate
+                  // ratings". So a paragraph holding an image is unwrapped.
+                  const hasImage = node?.children?.some(
+                    (c) => c.type === "element" && c.tagName === "img"
+                  );
+                  if (hasImage) {
+                    return <>{children}</>;
                   }
                   return <p>{children}</p>;
                 },
