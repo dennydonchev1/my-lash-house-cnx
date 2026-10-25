@@ -368,16 +368,16 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slug: "lash-extension-aftercare-chiang-mai",
     slugTh: "withi-doolae-khonta-lang-tor",
     title: {
-      en: "How to Care for Lash Extensions: The Day-by-Day Aftercare Guide (Chiang Mai 2026)",
+      en: "Lash Extension Aftercare: Day 1, Week 1 and Every Day After (Chiang Mai 2026)",
       th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน 4 ถึง 5 สัปดาห์ คู่มือวันต่อวันจากช่างมืออาชีพ",
     },
     metaTitle: {
-      en: "Lash Extension Aftercare: Day-by-Day Guide (Chiang Mai)",
+      en: "Lash Extension Aftercare Chiang Mai: Day 1, Week 1, Daily Routine",
       th: "วิธีดูแลขนตาหลังต่อ ให้อยู่ได้นาน | My Lash House",
     },
     category: { en: "Aftercare Guide", th: "คู่มือดูแลหลังต่อ" },
     description: {
-      en: "Day-by-day lash extension aftercare from a certified Chiang Mai artist with 7+ years. First-day rules, weekly habits, what to avoid, sleep position, and what the 3-day retouch guarantee actually covers.",
+      en: "Lash extension aftercare from a certified Chiang Mai artist: the 2-hour dry rule with fast-cure glue, day-one limits, safe cleansers, daily cleaning, sleep, flying, Chiang Mai heat and rain, and what to buy.",
       th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างมืออาชีพ 7+ ปี กฎวันแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
     },
     dek: {
@@ -386,7 +386,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     howTo: true,
     publishedAt: "2026-06-26",
-    updatedAt: "2026-09-24",
+    updatedAt: "2026-10-24",
     author: "Ying",
     heroImage: "/images/service-light-volume.jpg",
     heroImageAlt: {
@@ -463,23 +463,23 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     slugTh: "tor-khon-ta-baeb-thammachat",
     title: {
       en: "Natural Lash Extensions in Chiang Mai, A Guide for Office Wear, Brides, and Anyone Who Wants \"Better Natural\"",
-      th: "ต่อขนตาแบบธรรมชาติ สวยเหมือนไม่ได้ต่อ คู่มือสำหรับคนทำงานและงานแต่ง",
+      th: "ต่อขนตาแบบธรรมชาติ แบบไหนดี สวยเหมือนไม่ได้ต่อ (2026)",
     },
     metaTitle: {
-      en: "Natural Lash Extensions in Chiang Mai (2026 Guide)",
-      th: "ต่อขนตาแบบธรรมชาติ ที่เหมาะกับคนทำงาน | My Lash House",
+      en: "Natural Lash Extensions Chiang Mai: Classic 1:1 vs Light Volume (2026)",
+      th: "ต่อขนตาแบบธรรมชาติ เส้นต่อเส้น แบบไหนดี ราคา | My Lash House",
     },
     category: { en: "Style Guide", th: "คู่มือเลือกทรงขนตา" },
     dek: {
       en: "Sometimes you want lashes that read as 'just better natural.' Here's how Ying maps the four lightest styles on the menu.",
-      th: "บางครั้งคุณอยากได้ขนตาที่ดูเหมือน 'ธรรมชาติแบบดีขึ้น' นี่คือวิธีที่ครูหญิงจัดทรงเบาที่สุด 4 ทรงในเมนู",
+      th: "เส้นต่อเส้นหรือวอลลุ่มเบา 4 ทรงที่ดูเหมือนขนตาตัวเอง พร้อมราคาและวิธีเลือกให้เข้ากับขนตาจริง",
     },
     description: {
       en: "Natural lash extensions in Chiang Mai, what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
-      th: "อยากต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อ? เลือกทรงและความหนาที่เหมาะกับชีวิตประจำวัน คู่มือจากช่างเชียงใหม่ 7+ ปี รับประกันรีทัช 3 วัน",
+      th: "ต่อขนตาแบบธรรมชาติคืออะไร เส้นต่อเส้น (Classic 1:1) ต่างจาก Hybrid และ Light Volume ยังไง 4 ทรงที่สวยเหมือนไม่ได้ต่อ ราคาเริ่ม ฿590 อยู่ได้ 3 ถึง 4 สัปดาห์ จากช่างที่มีใบรับรอง 7 ปี",
     },
     publishedAt: "2026-06-26",
-    updatedAt: "2026-09-24",
+    updatedAt: "2026-10-24",
     author: "Ying",
     heroImage: "/images/service-natural.jpg",
     heroImageAlt: {
@@ -487,9 +487,13 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ภาพระยะใกล้ของขนตาต่อทรงธรรมชาติ โดย My Lash House เชียงใหม่ เซตเบาใส่ทุกวัน ออกแบบให้ดูเหมือนขนตาธรรมชาติที่ดีขึ้น",
     },
     readingMinutes: 8,
-    tags: ["lash extensions", "natural lashes", "classic 1:1", "office", "brides", "chiang mai", "ต่อขนตาแบบธรรมชาติ"],
+    tags: ["lash extensions", "natural lashes", "classic 1:1", "office", "brides", "chiang mai", "ต่อขนตาแบบธรรมชาติ", "ต่อขนตาเส้นต่อเส้น", "ต่อขนตาธรรมชาติ"],
     faq: {
       en: [
+        {
+          q: "What are classic (1:1) lash extensions?",
+          a: "Classic 1:1 means one extension on each natural lash: no fans, no added density, just length and definition, like mascara that stays on. It is the most natural style on the menu, ฿590 at My Lash House.",
+        },
         {
           q: "Do natural lash extensions actually look like 'just my own lashes'?",
           a: "Yes, when the curl, length, and density are calibrated to your own lashes. Classic 1:1 is the most natural style on the menu and looks indistinguishable from good genetic lashes. Natural Look and Light Volume are slightly fuller but still read as 'better natural' rather than styled.",
@@ -516,6 +520,10 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
       ],
       th: [
+        {
+          q: "ต่อขนตาเส้นต่อเส้น คืออะไร?",
+          a: "ต่อขนตาเส้นต่อเส้น (Classic 1:1) คือการติดขนตาเส้นใหม่ 1 เส้นบนขนตาจริง 1 เส้น ไม่มีพัด ไม่เพิ่มความฟู ได้ความยาวและความชัดเหมือนปัดมาสคาร่า เป็นทรงที่ดูธรรมชาติที่สุดในเมนู ราคา ฿590 ที่ My Lash House",
+        },
         {
           q: "ต่อขนตาแบบธรรมชาติ ดูเหมือนไม่ได้ต่อจริงไหม?",
           a: "ใช่ เมื่อเคิร์ล ความยาว และความหนาปรับให้พอดีกับขนตาตัวเอง Classic 1:1 เป็นทรงที่ธรรมชาติที่สุดในเมนูและดูแยกไม่ออกจากขนตาพันธุกรรมดี Natural Look และ Light Volume ฟูขึ้นนิดหน่อยแต่ยังดู 'ธรรมชาติแบบดีขึ้น' ไม่ใช่ผ่านการสไตล์",

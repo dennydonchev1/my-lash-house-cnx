@@ -80,7 +80,7 @@ If shedding looks like the second list, message the studio within the 3-day wind
 
 ## What can I do to extend the life of my lash extensions?
 
-A few small habit changes meaningfully extend retention:
+A few small habit changes meaningfully extend retention (the full routine is in the [lash extension aftercare guide](/blog/lash-extension-aftercare-chiang-mai)):
 
 **The first 2 hours: no water at all.** The fast-cure adhesive at My Lash House sets quickly, so normal showering is fine after 2 hours (salons using standard glue make you wait 24 to 48). Still skip swimming, saunas, steam, and heavy sweat for the first 24 hours while the bond reaches full strength.
 
