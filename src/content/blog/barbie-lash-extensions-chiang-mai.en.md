@@ -17,6 +17,8 @@ At My Lash House, Barbie lashes are built on our Wispy Volume set with extra fla
 - **A long, lifted outer corner.** The longest lengths sit at the outer third and lift the eye in a cat-eye direction.
 - **Optional pink accents.** A few colored lashes for the full Barbie effect, or keep it all black.
 
+![A full, fluffy Wispy Volume set with a lifted outer corner, the base of our Barbie lashes, real work by Ying at My Lash House Chiang Mai](/images/blog/barbie-lash-extensions-wispy-volume-chiang-mai.webp)
+
 Lengths usually run 10 to 15 mm. Ying picks them based on how long and strong your natural lashes are, because a set heavier than your natural lashes can carry sheds early and damages them. We don't do that.
 
 ## Barbie lashes vs wispy lashes: what's the difference?
