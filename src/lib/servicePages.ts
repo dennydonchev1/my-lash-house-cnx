@@ -51,7 +51,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
     h1: "Lash Lifting in Chiang Mai",
     metaTitle: "Lash Lift Chiang Mai: Process, Results, Price | My Lash House",
     metaDescription:
-      "Lash lift in Chiang Mai: what it is, the 7-step process, how long it lasts, honest pros and cons, and pricing. Certified artist, 3-day retouch guarantee. San Kamphaeng, near Payap University.",
+      "Lash lift in Chiang Mai: what it is, the 7-step process, how long it lasts, honest pros and cons, and price. Certified artist, 3-day retouch guarantee.",
     eyebrow: "Service",
     trustItems: ["No refills needed", "Lasts 6 to 8 weeks"],
     quickAnswer:
@@ -196,7 +196,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
     h1: "ลิฟติ้งขนตา คืออะไร อยู่ได้นานไหม เหมาะกับใคร",
     metaTitle: "ลิฟติ้งขนตา คืออะไร ข้อเสีย อยู่ได้นานไหม ราคา | My Lash House",
     metaDescription:
-      "ลิฟติ้งขนตา คือการดัดขนตาจริงให้งอนนาน 6 ถึง 8 สัปดาห์ ไม่ต้องต่อ อ่านขั้นตอน ข้อดี ข้อเสีย วิธีดูแล และราคา จากช่างที่มีใบรับรอง รับประกันรีทัช 3 วัน ที่ My Lash House สันกำแพง เชียงใหม่",
+      "ลิฟติ้งขนตา คือการดัดขนตาจริงให้งอนนาน 6 ถึง 8 สัปดาห์ ไม่ต้องต่อ ขั้นตอน ข้อดี ข้อเสีย วิธีดูแล และราคา รับประกันรีทัช 3 วัน ที่ My Lash House เชียงใหม่",
     eyebrow: "บริการ",
     trustItems: ["ไม่ต้องเติม", "อยู่ได้ 6 ถึง 8 สัปดาห์"],
     quickAnswer:
@@ -342,7 +342,7 @@ export const NAILS_PAGE: ServicePage = {
     h1: "Nails in Chiang Mai, While Your Lashes Set",
     metaTitle: "Nails Chiang Mai | Gel, Extensions, Nail Art - My Lash House",
     metaDescription:
-      "Nail services at My Lash House Chiang Mai, San Kamphaeng near Payap University. Gel, extensions, and nail art in the same private studio as your lash appointment. Book on LINE.",
+      "Nail services at My Lash House Chiang Mai: gel, extensions and nail art in the same private studio as your lash appointment, near Payap University.",
     eyebrow: "Service",
     trustItems: ["Private one-to-one studio", "Nails and lashes in one visit"],
     quickAnswer:

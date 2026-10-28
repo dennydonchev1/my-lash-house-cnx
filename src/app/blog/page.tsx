@@ -8,7 +8,7 @@ import { getAllPosts, getPostUrl } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Lash Extension Guides & Aftercare · My Lash House Chiang Mai",
   description:
-    "Honest lash extension guides from a certified artist in Chiang Mai, eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
+    "Honest lash extension guides from a certified Chiang Mai artist: style and eye-shape matching, aftercare, how long lashes last, and your first appointment.",
   alternates: {
     canonical: "https://mylashhouse.com/blog",
     languages: {
@@ -20,10 +20,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lash Extension Guides & Aftercare · My Lash House Chiang Mai",
     description:
-      "Honest lash extension guides from a certified artist in Chiang Mai, eye-shape style matching, aftercare tips, longevity advice, and what to expect at your first appointment.",
+      "Honest lash extension guides from a certified Chiang Mai artist: style and eye-shape matching, aftercare, how long lashes last, and your first appointment.",
     url: "https://mylashhouse.com/blog",
     type: "website",
     locale: "en_TH",
+    images: [{ url: "/images/service-wispy.jpg", alt: "Wispy volume lash extensions by My Lash House Chiang Mai" }],
   },
 };
 
@@ -31,8 +32,32 @@ export default function BlogIndex() {
   const posts = getAllPosts();
   const [featured, ...rest] = posts;
 
+  // Blog listing schema: one entry per post, linked to the sitewide
+  // BeautySalon and Person entities by @id.
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": "https://mylashhouse.com/blog#blog",
+    name: "Lash Extension Guides & Aftercare",
+    url: "https://mylashhouse.com/blog",
+    inLanguage: "en",
+    publisher: { "@id": "https://mylashhouse.com/#business" },
+    blogPost: posts.map((p) => ({
+      "@type": "BlogPosting",
+      headline: p.title.en,
+      url: `https://mylashhouse.com${getPostUrl(p, "en")}`,
+      datePublished: p.publishedAt,
+      dateModified: p.updatedAt ?? p.publishedAt,
+      author: { "@id": "https://mylashhouse.com/#ying" },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <Navbar lang="en" solid />
       <main className="bg-cream pt-24 sm:pt-28">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 pb-20">

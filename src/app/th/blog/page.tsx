@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     url: "https://mylashhouse.com/th/blog",
     type: "website",
     locale: "th_TH",
+    images: [{ url: "/images/service-wispy.jpg", alt: "ขนตาสายฝอ Wispy Volume โดย My Lash House เชียงใหม่" }],
   },
 };
 
@@ -31,8 +32,32 @@ export default function BlogIndexTh() {
   const posts = getAllPosts();
   const [featured, ...rest] = posts;
 
+  // Blog listing schema: one entry per post, linked to the sitewide
+  // BeautySalon and Person entities by @id.
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": "https://mylashhouse.com/th/blog#blog",
+    name: "คู่มือต่อขนตาและวิธีดูแล",
+    url: "https://mylashhouse.com/th/blog",
+    inLanguage: "th",
+    publisher: { "@id": "https://mylashhouse.com/#business" },
+    blogPost: posts.map((p) => ({
+      "@type": "BlogPosting",
+      headline: p.title.th,
+      url: `https://mylashhouse.com${getPostUrl(p, "th")}`,
+      datePublished: p.publishedAt,
+      dateModified: p.updatedAt ?? p.publishedAt,
+      author: { "@id": "https://mylashhouse.com/#ying" },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <Navbar lang="th" solid />
       <main className="bg-cream pt-24 sm:pt-28">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 pb-20">

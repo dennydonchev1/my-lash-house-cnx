@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mylashhouse.com"),
   title: "Eyelash Extensions Chiang Mai · 100% Handmade · My Lash House",
   description:
-    "Eyelash and lash extensions in Chiang Mai from ฿590: 100% handmade fans by a certified artist with 7+ years, a 3-day retouch guarantee, and lash lifts. San Kamphaeng near Payap University, open daily 9:00 to 19:00.",
+    "Eyelash extensions in Chiang Mai from ฿590: 100% handmade fans by a certified artist with 7+ years, a 3-day retouch guarantee, and lash lifts. Open daily.",
   icons: {
     icon: [
       { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
@@ -170,6 +170,8 @@ export default async function RootLayout({
     },
     priceRange: "฿590–฿1,590",
     image: "https://mylashhouse.com/images/service-wispy.jpg",
+    logo: "https://mylashhouse.com/icon-512.png",
+    founder: { "@id": "https://mylashhouse.com/#ying" },
     sameAs: [
       BUSINESS.instagramUrl,
       BUSINESS.facebookUrl,
