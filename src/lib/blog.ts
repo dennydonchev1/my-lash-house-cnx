@@ -73,8 +73,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "เส้นรวบเป็นแท่งแหลม เงา คม เห็นช่องไฟ ต่างจากวอลุ่มยังไง เหมาะกับใคร และมีกี่แบบ",
     },
     description: {
-      en: "Wet look lash extensions in Chiang Mai: closed glossy spikes vs regular volume, eye-shape tips, the 3 versions (everyday, wispy, Wet Barbie), price (฿1,290), longevity and aftercare.",
-      th: "ขนตา wet look คืออะไร ต่างจากวอลุ่มธรรมดายังไง เหมาะกับรูปตาแบบไหน มี 3 แบบ (ใส่ทุกวัน สายฝอ Wet Barbie) ราคา ฿1,290 อยู่ได้นานไหม และวิธีดูแล จากช่างที่มีใบรับรอง",
+      en: "Wet look lash extensions in Chiang Mai: glossy closed spikes vs regular volume, 3 versions, eye-shape tips, price ฿1,290, how long they last and aftercare.",
+      th: "ขนตา wet look คืออะไร ต่างจากวอลุ่มยังไง มี 3 แบบ (ใส่ทุกวัน สายฝอ Wet Barbie) เหมาะกับรูปตาไหน ราคา ฿1,290 อยู่ได้นานไหม และวิธีดูแล",
     },
     publishedAt: "2026-10-17",
     updatedAt: "2026-10-17",
@@ -142,8 +142,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ยาว เข้ม ฟู มีเส้นแหลมสลับ หางตายกนิด ๆ 4 ทรงที่ได้ลุคสายฝอ และวิธีเลือกให้เข้ากับตาคุณ",
     },
     description: {
-      en: "Wispy lash extensions in Chiang Mai: what makes a set wispy, the 4 styles that deliver it (Wispy Volume ฿1,490, Wet Look ฿1,290, Mega ฿1,190, Hybrid ฿990), eye-shape tips, longevity and aftercare.",
-      th: "ต่อขนตาสายฝอคืออะไร ทรงขนตาสายฝอมี 4 แบบ (Wispy Volume ฿1,490, Wet Look ฿1,290, Mega ฿1,190, Hybrid ฿990) เลือกยังไงให้เข้ากับรูปตา อยู่ได้นานไหม และวิธีดูแล จากช่างที่มีใบรับรอง",
+      en: "Wispy lash extensions in Chiang Mai: what makes a set wispy, 4 styles from ฿990 to ฿1,490 (Wispy Volume is the bestseller), eye-shape tips and aftercare.",
+      th: "ต่อขนตาสายฝอคืออะไร มี 4 แบบ ราคา ฿990 ถึง ฿1,490 (Wispy Volume ขายดีที่สุด) เลือกยังไงให้เข้ากับรูปตา อยู่ได้นานไหม และวิธีดูแล",
     },
     publishedAt: "2026-10-11",
     updatedAt: "2026-10-11",
@@ -211,7 +211,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ทำบนฐานสายฝอ แล้วเติมความปัง ฟูแน่นกว่า หางตาเชิดกว่า และเลือกแซมขนตาสีชมพูได้",
     },
     description: {
-      en: "Barbie lash extensions in Chiang Mai: what the look is, how it differs from wispy lashes, who it suits, price (฿1,490), how long it lasts and how to book at My Lash House.",
+      en: "Barbie lash extensions in Chiang Mai: the full, fluffy doll look, how it differs from wispy, who it suits, price ฿1,490, how long it lasts and how to book.",
       th: "ต่อขนตาทรงบาร์บี้ คืออะไร ต่างจากสายฝอยังไง เหมาะกับใคร ราคา ฿1,490 อยู่ได้นานไหม และวิธีจองที่ My Lash House",
     },
     publishedAt: "2026-06-27",
@@ -288,7 +288,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "5 การแลกจริง 3 ความเข้าใจผิดที่พบบ่อย และวิธีที่ช่างระมัดระวังรับมือทุกข้อ",
     },
     description: {
-      en: "The real downsides of lash extensions (and the three common myths that aren't actually downsides), from a certified Chiang Mai artist with 7+ years. Honest, not oversold.",
+      en: "The real downsides of lash extensions, plus 3 myths that aren't downsides at all. An honest guide from a certified Chiang Mai lash artist with 7+ years.",
       th: "ข้อเสียจริงของต่อขนตา (และ 3 ความเข้าใจผิดที่ไม่ใช่ข้อเสียจริง) จากช่างที่มีใบรับรอง 7+ ปี ซื่อสัตย์ ไม่ขายเกินจริง",
     },
     publishedAt: "2026-06-27",
@@ -369,7 +369,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     },
     category: { en: "Aftercare Guide", th: "คู่มือดูแลหลังต่อ" },
     description: {
-      en: "Lash extension aftercare from a certified Chiang Mai artist: the 2-hour dry rule with fast-cure glue, day-one limits, safe cleansers, daily cleaning, sleep, flying, Chiang Mai heat and rain, and what to buy.",
+      en: "Lash extension aftercare from a Chiang Mai lash artist: the 2-hour dry rule, day-one limits, safe cleansers, daily cleaning, sleep, flying and what to buy.",
       th: "คู่มือดูแลขนตาต่อแบบวันต่อวันจากช่างมืออาชีพ 7+ ปี กฎวันแรก กฎประจำวัน สิ่งที่ต้องเลี่ยง ท่านอน และรับประกันรีทัช 3 วันครอบคลุมอะไร",
     },
     dek: {
@@ -467,8 +467,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "เส้นต่อเส้นหรือวอลลุ่มเบา 4 ทรงที่ดูเหมือนขนตาตัวเอง พร้อมราคาและวิธีเลือกให้เข้ากับขนตาจริง",
     },
     description: {
-      en: "Natural lash extensions in Chiang Mai, what 'natural' means, the four lighter styles (Classic 1:1, Natural Look, Light Volume, Hybrid), pricing, and who picks them. From a certified artist with 7+ years.",
-      th: "ต่อขนตาแบบธรรมชาติคืออะไร เส้นต่อเส้น (Classic 1:1) ต่างจาก Hybrid และ Light Volume ยังไง 4 ทรงที่สวยเหมือนไม่ได้ต่อ ราคาเริ่ม ฿590 อยู่ได้ 3 ถึง 4 สัปดาห์ จากช่างที่มีใบรับรอง 7 ปี",
+      en: "Natural lash extensions in Chiang Mai: Classic 1:1, Natural Look, Light Volume and Hybrid compared, prices from ฿590, and who each style suits best.",
+      th: "ต่อขนตาแบบธรรมชาติคืออะไร เส้นต่อเส้น (Classic 1:1) ต่างจาก Hybrid และ Light Volume ยังไง 4 ทรงสวยเหมือนไม่ได้ต่อ ราคาเริ่ม ฿590 อยู่ได้ 3 ถึง 4 สัปดาห์",
     },
     publishedAt: "2026-06-26",
     updatedAt: "2026-10-24",
@@ -551,8 +551,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "ต่อขนตา เชียงใหม่ ที่ไหนดี ปี 2026: 4 ร้านยอดนิยม จัดอันดับ",
     },
     metaTitle: {
-      en: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked | My Lash House",
-      th: "ร้านต่อขนตาเชียงใหม่ ที่ไหนดี 2026: เทียบ 4 ร้านแบบตรง ๆ | My Lash House",
+      en: "Best Lash Extensions in Chiang Mai (2026): 4 Top-Rated Salons Ranked",
+      th: "ร้านต่อขนตาเชียงใหม่ ที่ไหนดี 2026: เทียบ 4 ร้านแบบตรง ๆ",
     },
     category: { en: "Ranked Guide", th: "คู่มือจัดอันดับร้าน" },
     dek: {
@@ -560,8 +560,8 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "4 ร้านที่ทุกคนพูดถึง จัดอันดับแบบซื่อสัตย์ รีวิว รับประกัน เทคนิค และความเข้าถึง สิ่งที่สำคัญจริง ๆ ตอนจอง",
     },
     description: {
-      en: "Top lash salons Chiang Mai 2026: 1. My Lash House (San Klang, ฿590–฿1,590, 5.0★, 3-day retouch). 2. Somsasi Studio (Nimman, 7-day warranty). 3. Eye to Eye Nimman. 4. Lash Berries. Ranked by reviews, social proof, and warranty.",
-      th: "ต่อขนตาเชียงใหม่ร้านไหนดี เทียบ 4 ร้านดังแบบตรง ๆ ทั้งราคา ฿590–฿1,590 การรับประกัน เทคนิคแฟนทำมือ และรีวิวจริง พร้อมวิธีเลือกร้านและคำถามที่ควรถามก่อนจอง อัปเดตตุลาคม 2026",
+      en: "Top lash salons in Chiang Mai 2026: 1. My Lash House (5.0★, from ฿590, 3-day retouch), 2. Somsasi Studio, 3. Eye to Eye Nimman, 4. Lash Berries.",
+      th: "ต่อขนตาเชียงใหม่ร้านไหนดี เทียบ 4 ร้านดังแบบตรง ๆ ทั้งราคา การรับประกัน แฟนทำมือ และรีวิวจริง พร้อมคำถามที่ควรถามก่อนจอง อัปเดตตุลาคม 2026",
     },
     publishedAt: "2026-05-14",
     updatedAt: "2026-10-11",

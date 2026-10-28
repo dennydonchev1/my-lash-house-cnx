@@ -31,7 +31,6 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
     areaServed: { "@type": "City", name: "Chiang Mai" },
     description: c.metaDescription,
     url: canonicalUrl,
-    inLanguage: lang === "th" ? "th-TH" : "en-TH",
   };
 
   const faqSchema = {

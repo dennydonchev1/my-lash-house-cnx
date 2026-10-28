@@ -30,6 +30,7 @@ export async function generateMetadata({
       url: thUrl,
       type: "website",
       locale: "th_TH",
+      images: [{ url: page.th.heroImage ?? "/images/service-mega.jpg", alt: page.th.heroImageAlt }],
     },
   };
 }
