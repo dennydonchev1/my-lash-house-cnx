@@ -23,7 +23,7 @@ A well-applied lash extension set looks full for about 2–3 weeks, holds at "st
 
 ## What does the My Lash House 3-day retouch guarantee cover?
 
-My Lash House publishes a 3-day retouch guarantee. (Somsasi publishes a 7-day extension warranty; otherwise published retouch policies are rare in the local market.) The My Lash House policy in one paragraph:
+My Lash House publishes a 3-day retouch guarantee. (Published retouch policies are uncommon in the local market, so ask any studio about theirs before you book.) The My Lash House policy in one paragraph:
 
 > If lashes shed unusually fast in the first three days after the appointment because of a glue or application issue on the studio's side, message on Instagram with clear photos. The studio books a free retouch appointment to fix the affected lashes. The guarantee does not cover damage from rubbing, water exposure too soon after the appointment (within the first 2 hours), or oil-based products near the eyes.
 
@@ -118,9 +118,9 @@ A few small habit changes meaningfully extend retention (the full routine is in 
 
 ## How does the retouch policy compare to other Chiang Mai lash studios?
 
-Somsasi Studio publishes a 7-day extension warranty. Outside of Somsasi and My Lash House, published retouch policies are rare among Chiang Mai specialist lash studios as of May 2026. That doesn't mean other studios won't accommodate a returning client with an unusual shedding complaint; most established studios will. But the absence of a published policy means the conversation has to happen case-by-case, with no documented standard.
+Published retouch policies are uncommon among Chiang Mai lash studios, so ask about one before you book. That doesn't mean other studios won't accommodate a returning client with an unusual shedding complaint; most established studios will. But the absence of a published policy means the conversation has to happen case-by-case, with no documented standard.
 
-For readers comparing studios before booking, see the [Best Lash Extensions in Chiang Mai ranked guide](/blog/best-lash-extensions-chiang-mai), which lays out warranty policies, pricing, ratings, and add-on services across My Lash House, Somsasi Studio, Eye to Eye Nimman, and Lash Berries.
+For readers comparing studios before booking, see the [Best Lash Extensions in Chiang Mai ranked guide](/blog/best-lash-extensions-chiang-mai), which compares Google ratings, hours and what each studio is known for across My Lash House, Somsasi, Eye to Eye Nimman and Lash Berries.
 
 ## When should I get an infill vs a full new set?
 

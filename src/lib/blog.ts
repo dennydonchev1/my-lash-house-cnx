@@ -649,11 +649,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: "4 ร้านที่ทุกคนพูดถึง จัดอันดับแบบซื่อสัตย์ รีวิว รับประกัน เทคนิค และความเข้าถึง สิ่งที่สำคัญจริง ๆ ตอนจอง",
     },
     description: {
-      en: "Top lash salons in Chiang Mai 2026: 1. My Lash House (5.0★, from ฿590, 3-day retouch), 2. Somsasi Studio, 3. Eye to Eye Nimman, 4. Lash Berries.",
-      th: "ต่อขนตาเชียงใหม่ร้านไหนดี เทียบ 4 ร้านดังแบบตรง ๆ ทั้งราคา การรับประกัน แฟนทำมือ และรีวิวจริง พร้อมคำถามที่ควรถามก่อนจอง อัปเดตตุลาคม 2026",
+      en: "Top lash salons in Chiang Mai 2026: 1. My Lash House (5.0★, from ฿590, 3-day retouch), 2. Somsasi, 3. Eye to Eye Nimman, 4. Lash Berries.",
+      th: "ต่อขนตาเชียงใหม่ร้านไหนดี เทียบ 4 ร้านดังแบบตรง ๆ ทั้งราคา การรับประกัน แฟนทำมือ และรีวิวจริง พร้อมคำถามที่ควรถามก่อนจอง อัปเดตพฤศจิกายน 2026",
     },
     publishedAt: "2026-05-14",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-11-01",
     author: "Ying",
     heroImage: "/images/service-wispy.jpg",
     heroImageAlt: {
@@ -666,11 +666,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: [
         {
           q: "What's the best lash salon in Chiang Mai?",
-          a: "For a private one-on-one studio with handmade fans, certified artist, fully bilingual booking, and a published 3-day retouch guarantee, My Lash House is the top pick in this guide. For the largest Google Maps review history in Nimman with a 7-day extension warranty, Somsasi. For English-fluent technicians in Nimman, Eye to Eye Nimman. For an Instagram-driven studio in the Old City, Lash Berries.",
+          a: "For a private one-on-one studio with handmade fans, a certified artist, bilingual booking and a published 3-day retouch guarantee, My Lash House is the top pick in this guide (which My Lash House writes). For the biggest Google review count in Nimman, Somsasi. For an English-speaking artist in Nimman with late hours, Eye to Eye Nimman. For the Old City, Lash Berries.",
         },
         {
           q: "Where can I get lash extensions in Chiang Mai with English-speaking booking?",
-          a: "My Lash House and Eye to Eye Nimman both handle bookings comfortably in English. My Lash House is fully bilingual across all booking channels. Somsasi and Lash Berries handle English via DM but lead with Thai content.",
+          a: "My Lash House books in English and Thai on every channel. Eye to Eye Nimman's reviewers single out an artist who speaks English well. For Somsasi and Lash Berries, message first and ask.",
         },
         {
           q: "What's the difference between handmade and premade lash fans?",
@@ -678,7 +678,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Will lash extensions damage my natural lashes?",
-          a: "Properly applied extensions don't damage natural lashes. Damage usually comes from oversized fans on weak lashes, poor isolation that lets two natural lashes glue together, or rough at-home removal. The 0.05mm handmade fans used at My Lash House are isolated one natural lash at a time and shed naturally with the lash they're attached to.",
+          a: "Properly applied extensions don't damage natural lashes. Damage usually comes from oversized fans on weak lashes, poor isolation that lets two natural lashes glue together, or rough at-home removal. At My Lash House every handmade fan is isolated on one natural lash and sheds naturally with the lash it's attached to.",
         },
         {
           q: "Can I wear mascara with lash extensions?",
@@ -690,7 +690,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Is this list ranked by quality or popularity?",
-          a: "It's ranked by the editorial team's read of which studios are most-talked-about and doing the strongest specialist lash work in Chiang Mai today, weighted across Google Maps reviews, Instagram presence, craft signals (handmade vs premade fans, isolation technique, retouch policy), and accessibility (English support, booking ease, location).",
+          a: "Neither alone. My Lash House wrote it and ranks itself first on craft signals (handmade vs pre-made fans, isolation, retouch policy), transparency and accessibility. Google ratings and review counts for every studio are listed so you can weigh popularity yourself; they were checked on November 1, 2026.",
         },
         {
           q: "Are there any salons missing from this list that should be added?",
@@ -700,35 +700,35 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: [
         {
           q: "ร้านต่อขนตาที่ดีที่สุดในเชียงใหม่คือร้านไหน?",
-          a: "สำหรับสตูดิโอส่วนตัว 1 ต่อ 1 พร้อมแฟนทำมือ ช่างมีใบรับรอง จองสองภาษาเต็มรูปแบบ และรับประกันรีทัช 3 วันที่เผยแพร่ไว้ My Lash House คือคำแนะนำอันดับแรกของคู่มือ สำหรับประวัติรีวิว Google ยาวนานที่สุดในนิมมานพร้อมรับประกันรีทัช 7 วัน Somsasi สำหรับช่างพูดภาษาอังกฤษคล่องในนิมมาน Eye to Eye Nimman สำหรับสตูดิโอที่ขับเคลื่อนด้วย Instagram ในเมืองเก่า Lash Berries",
+          a: "ถ้าอยากได้สตูดิโอส่วนตัว 1 ต่อ 1 แฟนทำมือ ช่างมีใบรับรอง จองได้สองภาษา และรับประกันรีทัช 3 วัน คู่มือนี้ (ซึ่ง My Lash House เป็นคนเขียน) ให้ My Lash House เป็นอันดับแรก ถ้าอยากได้ร้านในนิมมานที่รีวิว Google เยอะที่สุด เลือก Somsasi ถ้าอยากได้ช่างพูดอังกฤษในนิมมานที่เปิดดึก เลือก Eye to Eye Nimman ถ้าอยู่โซนเมืองเก่า เลือก Lash Berries",
         },
         {
           q: "ต่อขนตาในเชียงใหม่ที่จองภาษาอังกฤษได้ ที่ไหนดี?",
-          a: "My Lash House และ Eye to Eye Nimman ทั้งคู่จัดการการจองภาษาอังกฤษได้สบาย My Lash House รองรับสองภาษาเต็มรูปแบบในทุกช่องทางจอง Somsasi และ Lash Berries จัดการภาษาอังกฤษได้ผ่าน DM แต่เน้นคอนเทนต์ภาษาไทย",
+          a: "My Lash House จองได้ทั้งไทยและอังกฤษทุกช่องทาง ส่วน Eye to Eye Nimman ลูกค้ารีวิวว่าช่างพูดอังกฤษได้ดี สำหรับ Somsasi และ Lash Berries ทักไปถามก่อนได้เลย",
         },
         {
           q: "แฟนทำมือกับแฟนสำเร็จรูป ต่างกันยังไง?",
-          a: "แฟนทำมือปั้นโดยช่างต่อขนตาในระหว่างนัด ขนาดพอดีกับขนตาจริงแต่ละเส้น แฟนสำเร็จรูปมาจากซัพพลายเออร์เป็นกลุ่มสำเร็จ หนักกว่า ปรับแต่งน้อยกว่า และหลุดเร็วกว่าบนขนตาบอบบาง การแลกคือราคา แฟนสำเร็จรูปต่อถูกกว่า แต่การคงทนและสุขภาพขนตาจริงเสียทั้งสองอย่าง",
+          a: "แฟนทำมือ ช่างจับช่อเองระหว่างต่อ ให้พอดีกับขนตาจริงแต่ละเส้น แฟนสำเร็จรูปมาจากโรงงานเป็นช่อสำเร็จ ปรับได้น้อยกว่า และอาจหนักและหลุดเร็วกว่าบนขนตาที่บาง แฟนสำเร็จรูปทำให้ต่อได้เร็วและราคาถูกลง แต่แลกมากับความทนและสุขภาพขนตาจริง",
         },
         {
           q: "ต่อขนตาจะทำลายขนตาธรรมชาติไหม?",
-          a: "ขนตาที่ต่อถูกต้องไม่ทำลายขนตาธรรมชาติ ความเสียหายเกิดจากแฟนใหญ่เกินไปบนขนตาบอบบาง การแยกขนไม่ดีจนติดสองเส้นเข้าด้วยกัน หรือการดึงออกเองที่บ้าน แฟน 0.05 มม. ที่ใช้ที่ My Lash House ติดทีละเส้น และหลุดไปพร้อมขนตาที่ติดตามวงจรธรรมชาติ",
+          a: "ถ้าต่ออย่างถูกวิธี ขนตาจริงไม่เสีย ความเสียหายมักมาจากแฟนที่ใหญ่เกินขนตาจริง การแยกขนไม่ดีจนขนตาจริงติดกัน หรือการดึงออกเองที่บ้าน ที่ My Lash House แฟนทำมือทุกพัดติดบนขนตาจริงทีละเส้น และหลุดไปพร้อมเส้นนั้นตามรอบผลัดธรรมชาติ",
         },
         {
           q: "ใช้มาสคาร่ากับขนตาต่อได้ไหม?",
-          a: "โดยทั่วไปไม่ มาสคาร่าลดการคงทนอย่างมากและถอดออกได้ยากโดยไม่ทำลายบอนด์ เอ็กซ์เทนชันเองให้เอฟเฟกต์มาสคาร่าอยู่แล้ว",
+          a: "ไม่แนะนำ มาสคาร่าทำให้ขนตาต่อหลุดเร็วขึ้นมากและล้างออกยากโดยไม่ทำให้กาวเสีย ขนตาต่อให้ลุคแบบทามาสคาร่าอยู่แล้ว",
         },
         {
           q: "My Lash House คุยภาษาอังกฤษได้ไหม?",
-          a: "ได้ การจองและการคุยรองรับสองภาษาเต็มรูปแบบ (อังกฤษ + ไทย) สตูดิโอดูแลเหมือนกันในทั้งสองภาษา อยู่ที่สันกลาง ใกล้มหาวิทยาลัยพายัพ ห่างจากใจกลางเมืองเชียงใหม่ประมาณ 10 นาที",
+          a: "ได้ จองและคุยได้ทั้งภาษาอังกฤษและไทย ดูแลเหมือนกันทั้งสองภาษา สตูดิโออยู่ที่สันกลาง ใกล้มหาวิทยาลัยพายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที",
         },
         {
           q: "ลำดับนี้เรียงตามคุณภาพหรือความนิยม?",
-          a: "เรียงตามการอ่านของทีมเรียบเรียงว่าใครถูกพูดถึงมากที่สุดและทำงานเฉพาะทางขนตาแข็งแรงที่สุดในเชียงใหม่วันนี้ โดยพิจารณาจากรีวิว Google Maps การปรากฏตัวบน Instagram สัญญาณงานฝีมือ (แฟนทำมือ vs สำเร็จรูป การแยกขน นโยบายรีทัช) และความเข้าถึง (รองรับภาษาอังกฤษ ความง่ายในการจอง ทำเล)",
+          a: "ไม่ใช่อย่างใดอย่างหนึ่ง My Lash House เป็นคนเขียนและให้ร้านตัวเองอันดับ 1 จากงานฝีมือ (แฟนทำมือหรือสำเร็จรูป การแยกขน การรับประกัน) ความโปร่งใส และความสะดวก ส่วนคะแนนและจำนวนรีวิว Google ของทุกร้าน เราใส่ไว้ให้ดูเองได้ ข้อมูล ณ วันที่ 1 พฤศจิกายน 2026",
         },
         {
           q: "มีร้านที่ควรเพิ่มในลิสต์นี้ที่หายไปไหม?",
-          a: "อาจมี ตลาดต่อขนตาเชียงใหม่กระจายตัวบนเพจเฟซบุ๊ก สตูดิโอที่มีแต่ไอจี และช่างที่ทำงานที่บ้านที่ไม่โฆษณาในวงกว้าง",
+          a: "อาจมี ร้านต่อขนตาในเชียงใหม่มีเยอะมาก ทั้งร้านที่มีแค่เพจเฟซบุ๊ก ร้านที่มีแค่ไอจี และช่างที่รับงานที่บ้านโดยไม่ได้โฆษณา",
         },
       ],
     },
