@@ -96,7 +96,7 @@ The differentiator section, because this is a page for people already skeptical.
 
 **On bad application:** Every set starts with a real consultation about your eye shape, daily context, and the look you want. Mapping happens on your closed eye before any glue is applied. If the shape isn't working during application, we adjust in real time.
 
-**On commitment cost:** Transparent pricing published on the site (฿590 to ฿1,590 across the full menu), and we always give the actual refill price at the start of every refill appointment so there are no surprises.
+**On commitment cost:** Transparent pricing published on the site ([฿590 to ฿1,590 across the full menu](/blog/lash-extension-prices-chiang-mai)), and we always give the actual refill price at the start of every refill appointment so there are no surprises.
 
 ## What does the 3-day retouch guarantee cover?
 
