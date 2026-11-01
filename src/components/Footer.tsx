@@ -43,6 +43,12 @@ export default function Footer({ lang = "en" }: { lang?: Lang }) {
                   {link.label}
                 </a>
               ))}
+              <a
+                href={lang === "th" ? "/th/about" : "/about"}
+                className="text-sm text-white/70 transition-colors hover:text-white"
+              >
+                {lang === "th" ? "รู้จักครูหญิง" : "About Ying"}
+              </a>
             </div>
           </div>
 
@@ -100,7 +106,7 @@ export default function Footer({ lang = "en" }: { lang?: Lang }) {
             </div>
             <p className="mt-4 text-sm text-white/50">
               {lang === "th"
-                ? "เปิดทุกวัน · 9:00–19:00"
+                ? "เปิดทุกวัน · 10:00–19:00"
                 : `${BUSINESS.hours.days} · ${BUSINESS.hours.time}`}
             </p>
           </div>

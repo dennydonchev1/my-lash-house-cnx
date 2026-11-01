@@ -121,7 +121,7 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
           {/* Options */}
           <section className="mt-14">
             <h2 className="text-center font-heading text-2xl font-bold sm:text-3xl">{c.optionsHeading}</h2>
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            <div className={`mt-8 grid gap-4 ${c.options.length === 4 ? "sm:grid-cols-2 md:grid-cols-4" : "sm:grid-cols-3"}`}>
               {c.options.map((o) => (
                 <div key={o.name} className="rounded-2xl border border-cream-dark bg-white p-6 text-center">
                   <p className="font-heading text-lg font-bold">{o.name}</p>
@@ -154,6 +154,25 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
               )}
             </section>
           ))}
+
+          {/* Photo strip (optional) */}
+          {c.gallery && (
+            <section className="mt-14">
+              <span aria-hidden className="block h-px w-16 bg-rose-dark/50" />
+              <h2 className="mt-6 font-heading text-2xl font-bold sm:text-3xl">{c.gallery.heading}</h2>
+              <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
+                {c.gallery.photos.map((ph) => (
+                  <figure key={ph.src}>
+                    <div className="aspect-square overflow-hidden rounded-xl bg-cream-dark">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={ph.src} alt={ph.alt} loading="lazy" className="h-full w-full object-cover" />
+                    </div>
+                    <figcaption className="mt-2 text-xs leading-snug text-charcoal-light">{ph.caption}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* FAQ */}
           <section className="mt-16 border-t border-cream-dark pt-12">
@@ -191,7 +210,7 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
       </main>
 
       <Footer lang={lang} />
-      <MobileBookingBar lang={lang} />
+      <MobileBookingBar lang={lang} variant={page.slug === "lash-training" ? "course" : "booking"} />
     </>
   );
 }

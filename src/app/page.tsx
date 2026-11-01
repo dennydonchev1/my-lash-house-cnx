@@ -1,11 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Studio from "@/components/Studio";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import StyleFinder from "@/components/StyleFinder";
 import Pricing from "@/components/Pricing";
 import Guarantee from "@/components/Guarantee";
+import Training from "@/components/Training";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -25,11 +27,13 @@ export default function Home() {
       <main>
         <Hero lang="en" />
         <About lang="en" />
+        <Studio lang="en" />
         <Services lang="en" />
         <StyleFinder lang="en" />
         <Gallery lang="en" />
         <Pricing lang="en" />
         <Guarantee lang="en" />
+        <Training lang="en" />
         <Reviews lang="en" />
         <FAQ lang="en" />
         <Location lang="en" />

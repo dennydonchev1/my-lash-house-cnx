@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Studio from "@/components/Studio";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import StyleFinder from "@/components/StyleFinder";
 import Pricing from "@/components/Pricing";
 import Guarantee from "@/components/Guarantee";
+import Training from "@/components/Training";
 import Reviews from "@/components/Reviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -16,7 +18,7 @@ import MobileBookingBar from "@/components/MobileBookingBar";
 export const metadata: Metadata = {
   title: "ต่อขนตา เชียงใหม่ · My Lash House (สันกำแพง) · ราคาเริ่ม 590 บาท",
   description:
-    "ร้านต่อขนตา เชียงใหม่ · ใกล้ ม.พายัพ · ลิฟติ้งขนตา, ขนตาแบบธรรมชาติ, คลาสสิก, วอลลุ่ม, วิสปี้, เมก้า · ราคาเริ่ม 590 บาท · เปิดทุกวัน 9:00-19:00",
+    "ร้านต่อขนตา เชียงใหม่ · ใกล้ ม.พายัพ · ลิฟติ้งขนตา, ขนตาแบบธรรมชาติ, คลาสสิก, วอลลุ่ม, วิสปี้, เมก้า · ราคาเริ่ม 590 บาท · เปิดทุกวัน 10:00-19:00",
   keywords: [
     "ต่อขนตา",
     "ต่อขนตา เชียงใหม่",
@@ -80,11 +82,13 @@ export default function HomeTh() {
       <main>
         <Hero lang="th" />
         <About lang="th" />
+        <Studio lang="th" />
         <Services lang="th" />
         <StyleFinder lang="th" />
         <Gallery lang="th" />
         <Pricing lang="th" />
         <Guarantee lang="th" />
+        <Training lang="th" />
         <Reviews lang="th" />
         <FAQ lang="th" />
         <Location lang="th" />

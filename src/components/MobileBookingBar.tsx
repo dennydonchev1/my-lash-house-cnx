@@ -13,7 +13,19 @@ const LABEL = {
   th: "\u0e08\u0e2d\u0e07\u0e1c\u0e48\u0e32\u0e19 LINE \u00b7 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19 \u0e3f590",
 };
 
-export default function MobileBookingBar({ lang = "en" }: { lang?: Lang }) {
+const COURSE_LABEL = {
+  en: "Ask about the course on LINE",
+  th: "\u0e2a\u0e2d\u0e1a\u0e16\u0e32\u0e21\u0e04\u0e2d\u0e23\u0e4c\u0e2a\u0e17\u0e32\u0e07 LINE",
+};
+
+export default function MobileBookingBar({
+  lang = "en",
+  variant = "booking",
+}: {
+  lang?: Lang;
+  /** "course" drops the ฿590 price anchor, which refers to extension sets, not the course fee. */
+  variant?: "booking" | "course";
+}) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -35,7 +47,7 @@ export default function MobileBookingBar({ lang = "en" }: { lang?: Lang }) {
         className="relative flex w-full items-center justify-center rounded-full bg-[#06C755] py-3.5 text-base font-semibold text-white shadow-lg"
       >
         <MessageCircle className="absolute left-5 h-5 w-5" />
-        <span>{LABEL[lang]}</span>
+        <span>{variant === "course" ? COURSE_LABEL[lang] : LABEL[lang]}</span>
       </a>
     </div>
   );

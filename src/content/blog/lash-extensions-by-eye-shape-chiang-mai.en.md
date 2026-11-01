@@ -63,6 +63,8 @@ Curl is the other half of the decision. A stronger curl (CC or D depending on na
 
 Skip: Mega Volume in long lengths. The added weight can pull the lid down and undo the lift.
 
+![Before and after lash extensions at My Lash House Chiang Mai: on eyes with a barely visible crease, the longer pieces clear the lid and open the eye](/images/blog/lash-extensions-before-after-chiang-mai.webp)
+
 ### Double eyelid (ตาสองชั้น)
 
 ![Illustration of a double eyelid eye shape](/images/blog/eye-shapes/double-eyelid.webp)
@@ -176,7 +178,7 @@ The Thai-language version of this guide is at [/th/blog/tor-khon-ta-baeb-nai-dee
 
 For readers who can't decide between two styles, or whose eyes don't fit one of the shapes above neatly: [message on Instagram](https://www.instagram.com/my_lash_house.cnx/) with a clear photo (eyes open, eyes closed). Ying replies with a recommendation, an estimated price, and the next available appointment.
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 9:00–19:00. Walk-ins and same-day appointments welcome.
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00–19:00. Walk-ins and same-day appointments welcome.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - LINE: @604ymska
@@ -188,6 +190,6 @@ Found your shape? The full menu of [eyelash extensions in Chiang Mai](/) shows e
 
 ## About the author
 
-**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+**Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00–19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
 This guide is updated quarterly to reflect new techniques, menu changes, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.

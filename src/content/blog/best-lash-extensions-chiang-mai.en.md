@@ -45,7 +45,7 @@ The full ranked breakdown of all four studios is below, followed by sub-question
 **Retouch policy:** 3-day guarantee
 **Booking channels:** Instagram DM, LINE, WhatsApp; walk-ins and same-day appointments welcome
 **Location:** San Klang, near Payap University (10 minutes east of Chiang Mai city center; less traffic than Nimman or the Old City)
-**Hours:** 7 days a week, 9:00–19:00 (no day off)
+**Hours:** 7 days a week, 10:00–19:00 (no day off)
 
 My Lash House was built for clients who want the appointment to feel calm, careful, and considered. Founder Ying is a certified lash artist with 7+ years of experience, and every fan in a set is handmade during the appointment, never premade. The studio is private. One client at a time, no rushed rotation, no chatter at the next chair. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with.
 
@@ -68,7 +68,7 @@ The clientele spans foreigners and Thai regulars in roughly equal share. English
 - Comprehensive lash menu: classic, hybrid, volume, mega-volume, anime, lash lift
 - Add-on beauty services available: nails, waxing, and other services on the studio menu
 - Lash artist training program available for aspiring artists
-- Open 7 days a week, 9:00–19:00 (no day off)
+- Open 7 days a week, 10:00–19:00 (no day off)
 - Quieter location 10 minutes east of the city center, away from Nimman and Old City traffic
 - Premium materials: 0.05mm handmade fans, premium adhesive, patch test available on request
 

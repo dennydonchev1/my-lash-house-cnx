@@ -159,7 +159,7 @@ export default async function RootLayout({
         "Saturday",
         "Sunday",
       ],
-      opens: "09:00",
+      opens: "10:00",
       closes: "19:00",
     },
     aggregateRating: {
@@ -244,7 +244,7 @@ export default async function RootLayout({
         name: "How do I book an appointment at My Lash House?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "You can book via LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. The studio is open daily from 9 AM to 7 PM.",
+          text: "You can book via LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. The studio is open daily from 10 AM to 7 PM.",
         },
       },
       {

@@ -28,6 +28,8 @@ Four styles on the studio menu deliver the look. They differ in density and fini
 
 The bestseller. Short and long lengths alternate for maximum dimension: full and fluffy, with visible spikes. If your saved photos show fluffy lashes with longer spikes poking through, this is the one. ฿1,490, color lashes +฿150.
 
+![Close-up of a Wispy Volume lash extension set by My Lash House Chiang Mai: full, fluffy and textured, with longer spikes](/images/blog/wispy-volume-lash-extensions-close-up-my-lash-house.webp)
+
 ### Wet Look: wispy with a glossy, sharp finish
 
 Fans are closed into sharp spikes with a glossy, just-out-of-the-water finish. Very camera-friendly. Pick it if you like crisp definition more than softness. ฿1,290. With mixed lengths it becomes the "wet look wispy" style many clients ask for by name.
@@ -87,7 +89,7 @@ The full rules are in the [lash aftercare guide](/blog/lash-extension-aftercare-
 
 ## Where can I get wispy lash extensions in Chiang Mai?
 
-At My Lash House in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the city centre. Open daily 9:00 to 19:00. A wispy set takes about 1.5 to 2.5 hours, so book a day ahead for the best slot. Comparing studios first? See the [ranked guide to the best lash extensions in Chiang Mai](/blog/best-lash-extensions-chiang-mai), or the full menu of [eyelash extensions in Chiang Mai](/) on our homepage.
+At My Lash House in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the city centre. Open daily 10:00 to 19:00. A wispy set takes about 1.5 to 2.5 hours, so book a day ahead for the best slot. Comparing studios first? See the [ranked guide to the best lash extensions in Chiang Mai](/blog/best-lash-extensions-chiang-mai), or the full menu of [eyelash extensions in Chiang Mai](/) on our homepage.
 
 ## Book your wispy set
 
@@ -105,4 +107,4 @@ The Thai-language version of this guide is at [/th/blog/khon-ta-sai-for](/th/blo
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, and supports both English and Thai across all booking channels.
+My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, accepts walk-ins and same-day appointments, and supports both English and Thai across all booking channels.

@@ -36,15 +36,27 @@ export const PERSON_YING_SCHEMA = {
   "@type": "Person",
   "@id": "https://mylashhouse.com/#ying",
   name: "Ying",
-  alternateName: "ครูหญิง",
+  alternateName: ["ครูหญิง", "Wanchanok Kaewdanklang", "วรรณชนก แก้วด่านกลาง"],
   jobTitle: "Certified Lash Artist & Founder",
   description:
     "Certified eyelash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. Trained in classic, hybrid, volume, and mega-volume techniques; works exclusively with 100% handmade fans.",
   worksFor: { "@id": "https://mylashhouse.com/#business" },
   knowsLanguage: ["en", "th"],
-  url: "https://mylashhouse.com/",
+  url: "https://mylashhouse.com/about",
   image: "https://mylashhouse.com/images/ying-lash-artist-hab-contest-2022.webp",
   sameAs: ["https://instagram.com/my_lash_house.cnx"],
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    name: "Certificate of Professional Qualification: Eyelash Technician, Level 3",
+    credentialCategory: "Professional Qualification",
+    dateCreated: "2024-08-01",
+    recognizedBy: {
+      "@type": "Organization",
+      name: "Thailand Professional Qualification Institute (Public Organization)",
+      alternateName: "TPQI",
+      url: "https://www.tpqi.go.th",
+    },
+  },
 };
 
 // NOTE: there is deliberately NO BeautySalon schema here. The root layout

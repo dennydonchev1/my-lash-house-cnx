@@ -488,7 +488,7 @@ export default function BlogPost({
               />
               <span className="text-charcoal">
                 {L.by}{" "}
-                <span className="font-semibold text-plum">{post.author}</span>
+                <Link href={lang === "th" ? "/th/about" : "/about"} className="font-semibold text-plum underline-offset-2 hover:underline">{post.author}</Link>
                 {lang === "en" ? ", Certified Lash Artist" : " ช่างต่อขนตามีใบรับรอง"}
               </span>
               <span className="text-rose/40">•</span>
