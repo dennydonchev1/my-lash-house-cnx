@@ -589,7 +589,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       en: [
         {
           q: "What's the best lash salon in Chiang Mai?",
-          a: "For a private one-on-one studio with handmade fans, certified artist, fully bilingual booking, walk-ins welcome, and a published 3-day retouch guarantee, My Lash House is the top pick in this guide. For the largest Google Maps review history in Nimman with a 7-day extension warranty, Somsasi. For English-fluent technicians in Nimman, Eye to Eye Nimman. For an Instagram-driven studio in the Old City, Lash Berries.",
+          a: "For a private one-on-one studio with handmade fans, certified artist, fully bilingual booking, and a published 3-day retouch guarantee, My Lash House is the top pick in this guide. For the largest Google Maps review history in Nimman with a 7-day extension warranty, Somsasi. For English-fluent technicians in Nimman, Eye to Eye Nimman. For an Instagram-driven studio in the Old City, Lash Berries.",
         },
         {
           q: "Where can I get lash extensions in Chiang Mai with English-speaking booking?",
@@ -613,7 +613,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "Is this list ranked by quality or popularity?",
-          a: "It's ranked by the editorial team's read of which studios are most-talked-about and doing the strongest specialist lash work in Chiang Mai today, weighted across Google Maps reviews, Instagram presence, craft signals (handmade vs premade fans, isolation technique, retouch policy), and accessibility (English support, booking ease, walk-in availability, location).",
+          a: "It's ranked by the editorial team's read of which studios are most-talked-about and doing the strongest specialist lash work in Chiang Mai today, weighted across Google Maps reviews, Instagram presence, craft signals (handmade vs premade fans, isolation technique, retouch policy), and accessibility (English support, booking ease, location).",
         },
         {
           q: "Are there any salons missing from this list that should be added?",
@@ -623,7 +623,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       th: [
         {
           q: "ร้านต่อขนตาที่ดีที่สุดในเชียงใหม่คือร้านไหน?",
-          a: "สำหรับสตูดิโอส่วนตัว 1 ต่อ 1 พร้อมแฟนทำมือ ช่างมีใบรับรอง จองสองภาษาเต็มรูปแบบ รับ walk-in และรับประกันรีทัช 3 วันที่เผยแพร่ไว้ My Lash House คือคำแนะนำอันดับแรกของคู่มือ สำหรับประวัติรีวิว Google ยาวนานที่สุดในนิมมานพร้อมรับประกันรีทัช 7 วัน Somsasi สำหรับช่างพูดภาษาอังกฤษคล่องในนิมมาน Eye to Eye Nimman สำหรับสตูดิโอที่ขับเคลื่อนด้วย Instagram ในเมืองเก่า Lash Berries",
+          a: "สำหรับสตูดิโอส่วนตัว 1 ต่อ 1 พร้อมแฟนทำมือ ช่างมีใบรับรอง จองสองภาษาเต็มรูปแบบ และรับประกันรีทัช 3 วันที่เผยแพร่ไว้ My Lash House คือคำแนะนำอันดับแรกของคู่มือ สำหรับประวัติรีวิว Google ยาวนานที่สุดในนิมมานพร้อมรับประกันรีทัช 7 วัน Somsasi สำหรับช่างพูดภาษาอังกฤษคล่องในนิมมาน Eye to Eye Nimman สำหรับสตูดิโอที่ขับเคลื่อนด้วย Instagram ในเมืองเก่า Lash Berries",
         },
         {
           q: "ต่อขนตาในเชียงใหม่ที่จองภาษาอังกฤษได้ ที่ไหนดี?",
@@ -647,7 +647,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "ลำดับนี้เรียงตามคุณภาพหรือความนิยม?",
-          a: "เรียงตามการอ่านของทีมเรียบเรียงว่าใครถูกพูดถึงมากที่สุดและทำงานเฉพาะทางขนตาแข็งแรงที่สุดในเชียงใหม่วันนี้ โดยพิจารณาจากรีวิว Google Maps การปรากฏตัวบน Instagram สัญญาณงานฝีมือ (แฟนทำมือ vs สำเร็จรูป การแยกขน นโยบายรีทัช) และความเข้าถึง (รองรับภาษาอังกฤษ ความง่ายในการจอง รับ walk-in ทำเล)",
+          a: "เรียงตามการอ่านของทีมเรียบเรียงว่าใครถูกพูดถึงมากที่สุดและทำงานเฉพาะทางขนตาแข็งแรงที่สุดในเชียงใหม่วันนี้ โดยพิจารณาจากรีวิว Google Maps การปรากฏตัวบน Instagram สัญญาณงานฝีมือ (แฟนทำมือ vs สำเร็จรูป การแยกขน นโยบายรีทัช) และความเข้าถึง (รองรับภาษาอังกฤษ ความง่ายในการจอง ทำเล)",
         },
         {
           q: "มีร้านที่ควรเพิ่มในลิสต์นี้ที่หายไปไหม?",
