@@ -71,7 +71,15 @@ export const dict = {
         "100% handmade fans",
         "Fast-cure adhesive, shower after just 2 hours",
         "Aftercare guidance",
+        "Lower lashes at no extra charge",
       ],
+      guides: {
+        lead: "Planning your set?",
+        links: [
+          { label: "Why lash prices differ between studios", href: "/blog/lash-extension-prices-chiang-mai" },
+          { label: "Which style suits your eye shape", href: "/blog/lash-extensions-by-eye-shape-chiang-mai" },
+        ],
+      },
       ctaButton: "Book Your Appointment",
     },
     studio: {
@@ -233,7 +241,15 @@ export const dict = {
         "ขนตาแฮนด์เมด 100%",
         "กาว fast-cure อาบน้ำได้หลังต่อแค่ 2 ชั่วโมง",
         "คำแนะนำการดูแลรักษา",
+        "ต่อขนตาล่างได้ ไม่คิดเพิ่ม",
       ],
+      guides: {
+        lead: "กำลังเลือกเซตอยู่ใช่ไหมคะ",
+        links: [
+          { label: "ทำไมแต่ละร้านราคาไม่เท่ากัน", href: "/th/blog/tor-khon-ta-raka-tao-rai" },
+          { label: "ทรงไหนเหมาะกับรูปตาคุณ", href: "/th/blog/tor-khon-ta-baeb-nai-dee" },
+        ],
+      },
       ctaButton: "จองคิวต่อขนตา",
     },
     studio: {
@@ -334,21 +350,21 @@ export type Dict = typeof dict.en;
 
 export const NAV_LINKS_BY_LANG = {
   en: [
-    { label: "Services", href: "#services" },
-    { label: "Gallery", href: "#gallery" },
-    { label: "Pricing", href: "#pricing" },
+    { label: "Services", href: "/#services" },
+    { label: "Gallery", href: "/#gallery" },
+    { label: "Pricing", href: "/#pricing" },
     { label: "Training", href: "/services/lash-training" },
-    { label: "Reviews", href: "#reviews" },
+    { label: "Reviews", href: "/#reviews" },
     { label: "Blog", href: "/blog" },
-    { label: "Contact", href: "#contact" },
+    { label: "Contact", href: "/#contact" },
   ],
   th: [
-    { label: "บริการ", href: "#services" },
-    { label: "ผลงาน", href: "#gallery" },
-    { label: "ราคา", href: "#pricing" },
+    { label: "บริการ", href: "/th#services" },
+    { label: "ผลงาน", href: "/th#gallery" },
+    { label: "ราคา", href: "/th#pricing" },
     { label: "คอร์สเรียน", href: "/th/services/lash-training" },
-    { label: "รีวิว", href: "#reviews" },
+    { label: "รีวิว", href: "/th#reviews" },
     { label: "บทความ", href: "/th/blog" },
-    { label: "ติดต่อ", href: "#contact" },
+    { label: "ติดต่อ", href: "/th#contact" },
   ],
 } as const;

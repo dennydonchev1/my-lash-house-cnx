@@ -71,7 +71,7 @@ Across the studio menu, the natural family sits in the lower price tier. Pricing
 | Hybrid | 2 / 5 | ฿990 |
 | Light Volume | 2 / 5 | ฿1,090 |
 
-Add-on services available: color lashes (฿150–300), lash lift and tint. The studio also offers nails and waxing for clients who want to combine appointments.
+Add-on services available: color lashes (฿150 to ฿300), [lash lift and tint](/services/lash-lifting). The studio also offers [nails](/services/nails) and waxing for clients who want to combine appointments.
 
 ## How natural differs from Volume and Mega Volume
 
@@ -129,7 +129,7 @@ My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Ma
 - LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
-Want to compare the natural styles with the rest of the menu? Every option is on our [eyelash extensions in Chiang Mai](/) page, from ฿590.
+Want to compare the natural styles with the rest of the menu? Every option is on our [eyelash extensions in Chiang Mai](/) page, from ฿590, and the [lash extension price guide](/blog/lash-extension-prices-chiang-mai) explains why prices differ between studios.
 
 ---
 
