@@ -69,6 +69,83 @@ export const PERSON_YING_SCHEMA = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "lash-extension-prices-chiang-mai",
+    slugTh: "tor-khon-ta-raka-tao-rai",
+    title: {
+      en: "How Much Are Lash Extensions in Chiang Mai? 2026 Price Guide",
+      th: "ต่อขนตาราคาเท่าไหร่ ทำไมแต่ละร้านราคาไม่เท่ากัน (2026)",
+    },
+    metaTitle: {
+      en: "Lash Extension Prices Chiang Mai (2026 Menu) | My Lash House",
+      th: "ต่อขนตาราคาเท่าไหร่ ราคาต่อขนตาทุกแบบ 2026 | My Lash House",
+    },
+    category: { en: "Price Guide", th: "คู่มือราคา" },
+    dek: {
+      en: "Our full menu from ฿590 to ฿1,590, why one studio charges ฿299 and another ฿1,500, and what to ask before you book.",
+      th: "เมนูเต็ม ฿590 ถึง ฿1,590 ทำไมร้านหนึ่ง 299 อีกร้าน 1,500 และควรถามอะไรก่อนจอง",
+    },
+    description: {
+      en: "Lash extension prices in Chiang Mai: our full 2026 menu from ฿590 to ฿1,590, why prices vary between studios, refills, add-ons and what to ask first.",
+      th: "ต่อขนตาราคาเท่าไหร่ เมนูเต็ม ฿590 ถึง ฿1,590 ทำไมแต่ละร้านราคาไม่เท่ากัน ต่อขนตากี่บาทถึงคุ้ม และค่าใช้จ่ายที่ควรถามก่อนจอง",
+    },
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    author: "Ying",
+    heroImage: "/images/service-hybrid.jpg",
+    heroImageAlt: {
+      en: "Hybrid lash extensions (฿990) by My Lash House Chiang Mai, one of ten sets on the menu",
+      th: "ต่อขนตาไฮบริด (฿990) โดย My Lash House เชียงใหม่ หนึ่งในสิบเซตของเมนู",
+    },
+    readingMinutes: 5,
+    tags: ["lash extension prices", "ต่อขนตา ราคา", "ราคาต่อขนตา", "ต่อขนตาราคาเท่าไหร่", "ต่อขนตากี่บาท", "chiang mai"],
+    faq: {
+      en: [
+        {
+          q: "How much are lash extensions in Chiang Mai?",
+          a: "Prices range from a few hundred baht to well over a thousand. At My Lash House a full set costs ฿590 to ฿1,590, and the most booked style, Wispy Volume, is ฿1,490. The price is confirmed before we start.",
+        },
+        {
+          q: "Are lower lashes extra?",
+          a: "Not at My Lash House. Lower lashes are included in the set price at no extra charge; just ask when you book.",
+        },
+        {
+          q: "Why are some lash extensions so cheap?",
+          a: "Usually pre-made fans, a shorter appointment, or fewer lashes. Ask whether the fans are handmade, how long the set takes, and whether early shedding is fixed for free.",
+        },
+        {
+          q: "How much is a lash refill?",
+          a: "Message us on LINE (@604ymska) for the current refill price. Ying gives the actual price at the start of every refill, and we recommend a refill every 2 to 3 weeks.",
+        },
+        {
+          q: "Can I walk in?",
+          a: "No, My Lash House works by appointment only. Book on LINE, Instagram or WhatsApp.",
+        },
+      ],
+      th: [
+        {
+          q: "ต่อขนตาราคาเท่าไหร่",
+          a: "ในไทยมีตั้งแต่หลักร้อยไปจนถึงหลักพัน ที่ My Lash House เซตเต็มราคา ฿590 ถึง ฿1,590 ทรงที่จองเยอะสุดคือ Wispy Volume ฿1,490 ครูหญิงยืนยันราคาก่อนเริ่มทุกครั้ง",
+        },
+        {
+          q: "ต่อขนตาล่างคิดเงินเพิ่มไหม",
+          a: "ที่ My Lash House ไม่คิดเพิ่ม ขนตาล่างรวมในราคาเซต บอกครูหญิงได้เลยตอนจอง",
+        },
+        {
+          q: "ทำไมต่อขนตาแต่ละร้านราคาไม่เท่ากัน",
+          a: "ส่วนใหญ่มาจากพัดทำมือหรือสำเร็จรูป เวลาที่ใช้ต่อ ฝีมือช่าง วัสดุ และสิ่งที่รวมอยู่ในราคา เช่น ขนตาล่างหรือการรับประกันรีทัช",
+        },
+        {
+          q: "ต่อขนตากี่บาทถึงจะคุ้ม",
+          a: "ดูราคาต่อวันที่ขนตาสวย ไม่ใช่ราคาต่อครั้ง เซตที่ทำดีสวยเต็มที่ 2 ถึง 3 สัปดาห์ก่อนเติม เซตที่หลุดในสัปดาห์แรกจ่ายแพงกว่าต่อวันเสมอ",
+        },
+        {
+          q: "เติมขนตาราคาเท่าไหร่",
+          a: "ทักถามราคาเติมทาง LINE @604ymska ครูหญิงแจ้งราคาจริงก่อนเริ่มทุกนัด แนะนำเติมทุก 2 ถึง 3 สัปดาห์",
+        },
+      ],
+    },
+  },
+  {
     slug: "wet-look-lash-extensions-chiang-mai",
     slugTh: "khon-ta-wet-look",
     title: {

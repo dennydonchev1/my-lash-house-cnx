@@ -399,6 +399,9 @@ export default function BlogPost({
     year: "numeric",
     month: "long",
     day: "numeric",
+    // publishedAt is a bare date (parsed as UTC midnight); format in UTC so a
+    // server or browser west of UTC never shows the day before.
+    timeZone: "UTC",
   });
 
   return (
