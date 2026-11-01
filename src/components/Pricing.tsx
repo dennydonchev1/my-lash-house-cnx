@@ -1,4 +1,5 @@
-import { Check } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, Check } from "lucide-react";
 import Instagram from "@/components/icons/InstagramIcon";
 import { LASH_SERVICES, LASH_ADDON, BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
@@ -86,6 +87,23 @@ export default function Pricing({ lang = "en" }: { lang?: Lang }) {
                 <Check className="h-4 w-4 text-plum" />
                 {item}
               </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Guides: hand readers deciding on a set to the price and eye-shape guides */}
+        <div className="animate-on-scroll mx-auto mt-8 max-w-3xl text-center text-sm text-charcoal-light">
+          <span className="font-semibold text-charcoal">{t.guides.lead}</span>
+          <div className="mt-2 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+            {t.guides.links.map((g) => (
+              <Link
+                key={g.href}
+                href={g.href}
+                className="inline-flex items-center gap-1.5 font-semibold text-plum underline-offset-2 transition-colors hover:text-rose-dark hover:underline"
+              >
+                {g.label}
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
             ))}
           </div>
         </div>

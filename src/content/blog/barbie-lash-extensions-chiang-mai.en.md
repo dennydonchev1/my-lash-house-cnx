@@ -38,7 +38,7 @@ Torn between the two? The [wispy lash extensions guide](/blog/wispy-lash-extensi
 
 - **You love a statement.** You want your lashes to be the feature, without heavy eye makeup.
 - **Round and almond eyes.** The lifted corner elongates the eye.
-- **Monolids and hooded eyes.** Yes. Ying chooses a stronger curl so the lashes clear the lid.
+- **Monolids and hooded eyes.** Yes. Ying chooses a stronger curl so the lashes clear the lid. More in the [eye shape guide](/blog/lash-extensions-by-eye-shape-chiang-mai).
 - **Events, shoots and parties.** The set photographs well from every angle.
 
 If your workplace calls for something quieter, wear [natural lash extensions](/blog/natural-lash-extensions-chiang-mai) day to day and switch to Barbie for an event. Plenty of our clients do exactly that.
@@ -54,7 +54,7 @@ Want a glossier version? See Wet Barbie in the [wet look lash extensions guide](
 
 ## How long do Barbie lashes last?
 
-A well-applied set looks its best for 2 to 3 weeks, then a refill brings back the fullness. Dense, fluffy sets need a daily wash with an oil-free foam cleanser, because tightly packed fans trap makeup and skin oil. The full routine is in the [lash extension aftercare guide](/blog/lash-extension-aftercare-chiang-mai).
+A well-applied set looks its best for 2 to 3 weeks, then a refill brings back the fullness ([how long lash extensions last](/blog/how-long-do-lash-extensions-last-chiang-mai)). Dense, fluffy sets need a daily wash with an oil-free foam cleanser, because tightly packed fans trap makeup and skin oil. The full routine is in the [lash extension aftercare guide](/blog/lash-extension-aftercare-chiang-mai).
 
 If lashes shed abnormally in the first 3 days because of the glue or the application, message us photos on Instagram and we retouch them free.
 

@@ -19,7 +19,7 @@ Ratings, review counts and hours from each studio's Google listing on November 1
 
 ## What makes My Lash House different
 
-My Lash House publishes a 3-day retouch guarantee, uses 100% handmade fans (never pre-made), and works as a private one-on-one studio rather than a multi-chair salon. Founder Ying has 7+ years of lash experience and holds Thailand's national Eyelash Technician Level 3 qualification from TPQI. Booking works in English and Thai on Instagram, LINE and WhatsApp, and every visit is by appointment. Prices are published: ฿590 to ฿1,590 across the full menu ([full price guide](/blog/lash-extension-prices-chiang-mai)). Current rating: 5.0 across 20 Google reviews. The studio also offers nails, waxing and a lash artist training course.
+My Lash House publishes a 3-day retouch guarantee, uses 100% handmade fans (never pre-made), and works as a private one-on-one studio rather than a multi-chair salon. Founder Ying has 7+ years of lash experience and holds Thailand's national Eyelash Technician Level 3 qualification from TPQI. Booking works in English and Thai on Instagram, LINE and WhatsApp, and every visit is by appointment. Prices are published: ฿590 to ฿1,590 across the full menu ([full price guide](/blog/lash-extension-prices-chiang-mai)). Current rating: 5.0 across 20 Google reviews. The studio also offers [nails](/services/nails), waxing and a [lash artist training course](/services/lash-training).
 
 The full ranked breakdown of all four studios is below, followed by common questions (cost, retention, safety, lash types) and location-specific guidance.
 
@@ -51,7 +51,7 @@ English and Thai are both fully supported, written and spoken, and booking works
 - English and Thai, written and spoken
 - Three booking channels: Instagram DM, LINE, WhatsApp
 - Published prices across the full menu, with lower lashes included at no extra charge
-- Full lash menu: classic, natural, hybrid, volume, mega volume, wet look, wispy, plus lash lifting
+- Full lash menu: classic, [natural](/blog/natural-lash-extensions-chiang-mai), hybrid, volume, mega volume, [wet look](/blog/wet-look-lash-extensions-chiang-mai), [wispy](/blog/wispy-lash-extensions-chiang-mai), plus [lash lifting](/services/lash-lifting)
 - Add-on services: nails and waxing
 - Lash artist training course
 - Open 7 days a week, 10:00 to 19:00
@@ -119,7 +119,7 @@ A full set in Chiang Mai can cost anything from a few hundred baht to well over 
 
 ### How long do lash extensions last?
 
-A well-applied set lasts 2 to 4 weeks before a refill, with the natural shedding cycle of your real lashes setting the limit. You shed a few natural lashes every day, and an extension goes with each one. Heavier styles (mega volume) shed faster than lighter styles (classic) because of the extra weight. Side-sleepers and people often in the water shed faster too. With My Lash House's 3-day retouch guarantee, unusual early shedding caused by the glue or the application is covered. After that, book a refill every 2 to 4 weeks to keep the look full.
+A well-applied set lasts 2 to 4 weeks before a refill, with the natural shedding cycle of your real lashes setting the limit. You shed a few natural lashes every day, and an extension goes with each one. Heavier styles (mega volume) shed faster than lighter styles (classic) because of the extra weight. Side-sleepers and people often in the water shed faster too. With My Lash House's 3-day retouch guarantee, unusual early shedding caused by the glue or the application is covered. After that, book a refill every 2 to 4 weeks to keep the look full. The full timeline is in [how long do lash extensions last](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
 ### Are lash extensions safe?
 

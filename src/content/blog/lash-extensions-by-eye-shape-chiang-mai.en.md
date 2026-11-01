@@ -14,7 +14,7 @@ This guide outlines how Ying maps lashes at My Lash House. Every fan is handmade
 
 ## The short answer
 
-The right lash extension style depends on the eye shape it's going on. The starting points: **Wispy Volume or Light Volume for monolids** (lifts the lid); **Classic Volume or Hybrid for double eyelids** (soft and balanced); **Mega Volume with cat-eye mapping for downturned eyes** (lifts the outer corner); **Russian Volume with doll-eye mapping for round eyes** (elongates without widening); **Wispy Volume for hooded eyes** (stays visible past the hood); **Hybrid or Classic Volume with inner-corner weight for wide-set eyes** (visual centre of gravity moves inward). Each row in the quick-reference table below is a starting point. The final design is refined during the in-person consultation, once the artist can see how the client's natural lashes actually grow.
+The right lash extension style depends on the eye shape it's going on. The starting points: **[Wispy Volume](/blog/wispy-lash-extensions-chiang-mai) or Light Volume for monolids** (lifts the lid); **Classic Volume or Hybrid for double eyelids** (soft and balanced); **Mega Volume with cat-eye mapping for downturned eyes** (lifts the outer corner); **Russian Volume with doll-eye mapping for round eyes** (elongates without widening); **Wispy Volume for hooded eyes** (stays visible past the hood); **Hybrid or Classic Volume with inner-corner weight for wide-set eyes** (visual centre of gravity moves inward). Each row in the quick-reference table below is a starting point. The final design is refined during the in-person consultation, once the artist can see how the client's natural lashes actually grow.
 
 ## Quick reference: eye shape to lash style
 
@@ -31,7 +31,7 @@ The right lash extension style depends on the eye shape it's going on. The start
 
 ## What makes the My Lash House eye-shape mapping different
 
-My Lash House is a private one-on-one lash studio in San Klang, Chiang Mai. Founder Ying is a certified lash artist with 7+ years of experience. Every fan is handmade during the appointment, never premade. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 20 Google reviews. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, and every visit is by appointment.
+My Lash House is a private one-on-one lash studio in San Klang, Chiang Mai. Founder Ying is a certified lash artist with 7+ years of experience. Every fan is handmade during the appointment, never premade. Custom mapping happens on the closed eye before any glue touches a lash, so the shape designed at the start is the shape the client actually leaves with. Pricing is transparent: [฿590 to ฿1,590 across the full menu](/blog/lash-extension-prices-chiang-mai). Current rating: 5.0 across 20 Google reviews. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, and every visit is by appointment.
 
 For a broader comparison of all the specialist lash studios in Chiang Mai, see the [Best Lash Extensions in Chiang Mai (2026) ranked guide](/blog/best-lash-extensions-chiang-mai).
 
@@ -125,7 +125,7 @@ For readers who want a sense of the full menu before the consultation, all ten s
 
 [[STYLE_CARDS]]
 
-The live menu on [mylashhouse.com](/#pricing) always has the current per-style price. Add-ons available: color lashes (฿150 to 300), lash lift and tint. The studio also offers [nail services](/services/nails) and waxing for clients who want to combine appointments.
+The live menu on [mylashhouse.com](/#pricing) always has the current per-style price. Add-ons available: color lashes (฿150 to 300), [lash lift and tint](/services/lash-lifting). Why prices differ between studios is covered in the [lash extension price guide](/blog/lash-extension-prices-chiang-mai). The studio also offers [nail services](/services/nails) and waxing for clients who want to combine appointments.
 
 ## Pros and cons of choosing by eye shape (vs. picking from a trend)
 

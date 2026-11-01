@@ -126,7 +126,7 @@ For readers comparing studios before booking, see the [Best Lash Extensions in C
 
 **Infill**, when the set still has 40–60% of the original extensions in place. The technician fills in the gaps, replaces a few that have grown out of place, and the set looks refreshed. Time: 60–90 minutes. Cost: roughly 50–70% of a new full set.
 
-**Full new set**, when the set has lost more than 60% of the extensions, when natural lashes have grown out enough that the remaining extensions are sitting awkwardly, or when the client wants to change style. Time: 90–180 minutes depending on style. Cost: full set price (฿590–฿1,590 at My Lash House).
+**Full new set**, when the set has lost more than 60% of the extensions, when natural lashes have grown out enough that the remaining extensions are sitting awkwardly, or when the client wants to change style. Time: 90–180 minutes depending on style. Cost: full set price ([฿590 to ฿1,590 at My Lash House](/blog/lash-extension-prices-chiang-mai)).
 
 A common timing pattern for regulars: full set every 2–3 months, with 2–3 infills in between.
 
@@ -152,9 +152,9 @@ For clients who want to compare studios before risking a first appointment elsew
 
 ## What about lash lifting? How long does a lash lift last?
 
-A lash lift is a separate service. It uses a chemical solution to curl the natural lashes upward, with no extensions involved. A lift typically lasts **6–8 weeks**, longer than a single extension set but shorter than a fully maintained extension cycle. There's no infill for a lift: when the curl drops, the next lift appointment is a fresh treatment. My Lash House offers lash lifting within the same ฿590–฿1,590 menu range. The 3-day retouch guarantee doesn't apply to lifts (the chemistry is different and the failure mode is different).
+A lash lift is a separate service. It uses a chemical solution to curl the natural lashes upward, with no extensions involved. A lift typically lasts **6–8 weeks**, longer than a single extension set but shorter than a fully maintained extension cycle. There's no infill for a lift: when the curl drops, the next lift appointment is a fresh treatment. My Lash House offers [lash lifting](/services/lash-lifting) within the same ฿590 to ฿1,590 menu range. The 3-day retouch guarantee doesn't apply to lifts (the chemistry is different and the failure mode is different).
 
-For more on lift options and the at-a-glance comparison of where to get a lash lift in Chiang Mai, see the [Best Lash Extensions in Chiang Mai guide](/blog/best-lash-extensions-chiang-mai).
+For the lift process, options and aftercare, see the [lash lift in Chiang Mai page](/services/lash-lifting). To compare where else to get one in the city, see the [Best Lash Extensions in Chiang Mai guide](/blog/best-lash-extensions-chiang-mai).
 
 ## How was this guide written?
 
