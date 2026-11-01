@@ -28,8 +28,6 @@ Four styles on the studio menu deliver the look. They differ in density and fini
 
 The bestseller. Short and long lengths alternate for maximum dimension: full and fluffy, with visible spikes. If your saved photos show fluffy lashes with longer spikes poking through, this is the one. ฿1,490, color lashes +฿150.
 
-![Close-up of a Wispy Volume lash extension set by My Lash House Chiang Mai: full, fluffy and textured, with longer spikes](/images/blog/wispy-volume-lash-extensions-close-up-my-lash-house.webp)
-
 ### Wet Look: wispy with a glossy, sharp finish
 
 Fans are closed into sharp spikes with a glossy, just-out-of-the-water finish. Very camera-friendly. Pick it if you like crisp definition more than softness. ฿1,290. With mixed lengths it becomes the "wet look wispy" style many clients ask for by name.

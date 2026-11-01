@@ -127,9 +127,9 @@ export const ABOUT_PAGE: Record<Lang, AboutContent> = {
       ],
       photos: [
         {
-          src: "/images/blog/wispy-volume-lash-extensions-close-up-my-lash-house.webp",
-          alt: "Close-up of a wispy volume lash extension set by My Lash House Chiang Mai",
-          caption: "Wispy Volume, the studio's bestseller",
+          src: "/images/blog/y-lash-extensions-close-up-my-lash-house.webp",
+          alt: "Close-up of a Y lash (YY) extension set by My Lash House Chiang Mai",
+          caption: "Y lashes (YY), real work by Ying",
         },
         {
           src: "/images/about/my-lash-house-lash-extension-portfolio.webp",
@@ -242,9 +242,9 @@ export const ABOUT_PAGE: Record<Lang, AboutContent> = {
       paragraphs: ["ตัวอย่างงานจากไอจีของร้าน ทุกเซตออกแบบตามตาลูกค้า และใช้แฟนทำมือ"],
       photos: [
         {
-          src: "/images/blog/wispy-volume-lash-extensions-close-up-my-lash-house.webp",
-          alt: "ต่อขนตาวอลลุ่มสไตล์สายฝอ ภาพใกล้ ผลงาน My Lash House เชียงใหม่",
-          caption: "Wispy Volume ทรงขายดีของร้าน",
+          src: "/images/blog/y-lash-extensions-close-up-my-lash-house.webp",
+          alt: "ต่อขนตาแกน Y (YY) ภาพใกล้ ผลงาน My Lash House เชียงใหม่",
+          caption: "ขนตาแกน Y (YY) ผลงานครูหญิง",
         },
         {
           src: "/images/about/my-lash-house-lash-extension-portfolio.webp",
