@@ -35,7 +35,7 @@ const faqs = {
     },
     {
       q: "How do I book an appointment?",
-      a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 9 AM to 7 PM.",
+      a: "You can book through LINE (@604ymska), Instagram DM (@my_lash_house.cnx), or call 085-474-7314. We're open daily from 10 AM to 7 PM.",
     },
     {
       q: "Is the studio easy to find?",
@@ -65,7 +65,7 @@ const faqs = {
     },
     {
       q: "จองคิวยังไง?",
-      a: "จองผ่าน LINE (@604ymska), Instagram DM (@my_lash_house.cnx) หรือโทร 085-474-7314 ค่ะ เปิดทุกวัน 9:00–19:00",
+      a: "จองผ่าน LINE (@604ymska), Instagram DM (@my_lash_house.cnx) หรือโทร 085-474-7314 ค่ะ เปิดทุกวัน 10:00–19:00",
     },
     {
       q: "ร้านอยู่ที่ไหน หาง่ายไหม?",

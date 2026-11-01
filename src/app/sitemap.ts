@@ -82,6 +82,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
     },
+    ...(["/about", "/th/about"] as const).map((path) => ({
+      url: `${base}${path}`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+      alternates: {
+        languages: {
+          en: `${base}/about`,
+          th: `${base}/th/about`,
+        },
+      },
+    })),
     ...blogPosts,
     ...SERVICE_PAGES.flatMap((svc) => [
       {

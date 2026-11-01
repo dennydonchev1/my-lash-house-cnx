@@ -24,7 +24,7 @@ export const BUSINESS = {
   },
   hours: {
     days: "Open Daily",
-    time: "9:00 AM – 7:00 PM",
+    time: "10:00 AM – 7:00 PM",
   },
   mapEmbedUrl:
     "https://maps.google.com/maps?q=My+Lash+House+Chiang+Mai,89/117+Pruksa+Ville,San+Klang,San+Kamphaeng,Chiang+Mai+50130&hl=en&z=16&output=embed",
@@ -271,4 +271,5 @@ export const GALLERY_IMAGES = [
   { src: "/images/service-wispy.jpg", alt: "Wispy volume lash extensions" },
   { src: "/images/service-strip.jpg", alt: "Strip lash extensions" },
   { src: "/images/service-color.jpg", alt: "Color lash extensions accent" },
+  { src: "/images/blog/wispy-volume-lash-extensions-close-up-my-lash-house.webp", alt: "Wispy volume lash extensions close-up by My Lash House Chiang Mai" },
 ] as const;

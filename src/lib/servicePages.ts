@@ -21,6 +21,8 @@ export type ServicePageContent = {
   trustItems?: [string, string];
   heroImage: string | null;
   heroImageAlt: string;
+  /** Optional photo strip shown after the sections (real studio photos only). */
+  gallery?: { heading: string; photos: { src: string; alt: string; caption: string }[] };
   sections: ServiceSection[];
   optionsHeading: string;
   options: { name: string; note: string }[];
@@ -181,7 +183,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       },
       {
         q: "Where can I get a lash lift in Chiang Mai?",
-        a: "My Lash House is in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the Chiang Mai city centre. Open daily 9:00 to 19:00, walk-ins welcome subject to availability.",
+        a: "My Lash House is in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the Chiang Mai city centre. Open daily 10:00 to 19:00, walk-ins welcome subject to availability.",
       },
     ],
     ctaHeading: "Book your lash lift",
@@ -322,7 +324,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       },
       {
         q: "ลิฟติ้งขนตา เชียงใหม่ ทำที่ไหนดี",
-        a: "My Lash House อยู่สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 9:00 ถึง 19:00 รับ walk-in ตามคิวว่าง",
+        a: "My Lash House อยู่สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 10:00 ถึง 19:00 รับ walk-in ตามคิวว่าง",
       },
     ],
     ctaHeading: "จองลิฟติ้งขนตา",
@@ -383,7 +385,7 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "Where is the studio?",
-        a: "San Klang, San Kamphaeng, near Payap University, about 10 minutes from the Chiang Mai city centre. Open daily 9:00 to 19:00.",
+        a: "San Klang, San Kamphaeng, near Payap University, about 10 minutes from the Chiang Mai city centre. Open daily 10:00 to 19:00.",
       },
       {
         q: "Do walk-ins work for nails?",
@@ -442,7 +444,7 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "ร้านอยู่ที่ไหน",
-        a: "สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 9:00 ถึง 19:00",
+        a: "สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 10:00 ถึง 19:00",
       },
       {
         q: "Walk-in ทำเล็บได้ไหม",
@@ -463,14 +465,26 @@ export const LASH_TRAINING_PAGE: ServicePage = {
   serviceType: "Lash extension training course",
   en: {
     h1: "Lash Training Course in Chiang Mai",
-    metaTitle: "Lash Training Course Chiang Mai | 2-Day Certified Course - My Lash House",
+    metaTitle: "Lash Training Course Chiang Mai: 2-Day Advanced Volume Course",
     metaDescription:
-      "A 2-day hands-on lash extension course at My Lash House, Chiang Mai. Thai and international volume styles and lash design, supplies provided, mannequin practice then a live model, certificate on completion.",
+      "A 2-day hands-on lash course in Chiang Mai with a TPQI-certified artist: Thai and international volume styles, mannequin then a live model, certificate.",
     eyebrow: "Course",
     quickAnswer:
-      "My Lash House runs a 2-day hands-on lash extension course in San Klang, Chiang Mai. You learn Thai and international volume styles and lash design from Ying, a certified artist with 7+ years at the lash bed. Supplies are provided, you practice on a mannequin and then on a live model, and you finish with a certificate. Course dates are arranged directly with Ying.",
-    heroImage: null,
-    heroImageAlt: "",
+      "My Lash House runs the Advanced Volume Eyelash Extension Course, two hands-on days in San Klang, Chiang Mai. You learn Thai and international volume styles and lash design from Ying, a TPQI Level 3 certified eyelash technician with 7+ years at the lash bed. Supplies are provided, you practice on a mannequin and then on a live model, and you finish with a My Lash House Certificate of Completion. Course dates are arranged directly with Ying.",
+    heroImage: "/images/course/lash-training-course-chiang-mai-certificate-and-live-model.webp",
+    heroImageAlt: "A graduate receiving her Certificate of Completion, and live model practice with Ying, in the Advanced Volume Eyelash Extension Course at My Lash House, Chiang Mai",
+    trustItems: ["TPQI Level 3 certified teacher", "Certificate of Completion"],
+    gallery: {
+      heading: "Inside the course",
+      photos: [
+        { src: "/images/course/lash-course-mannequin-coaching-chiang-mai.webp", alt: "Ying coaching a student on a mannequin during the lash training course at My Lash House Chiang Mai", caption: "Day two starts on a mannequin, with Ying at your shoulder." },
+        { src: "/images/course/lash-course-live-model-session-chiang-mai.webp", alt: "Ying guiding a student through a full lash set on a live model at My Lash House Chiang Mai", caption: "Then a full set on a live model, checked fan by fan." },
+        { src: "/images/course/lash-course-student-work-chiang-mai.webp", alt: "Wispy volume lash set completed by a student in the My Lash House lash training course", caption: "Student work from the course." },
+        { src: "/images/course/lash-course-student-at-work-chiang-mai.webp", alt: "Lash training student practising fan placement on a mannequin at My Lash House studio", caption: "Practice in a working studio, not a classroom." },
+        { src: "/images/course/lash-course-mannequin-practice-chiang-mai.webp", alt: "Ying showing a student fan placement on a mannequin during the lash course", caption: "Mapping on the mannequin, step by step." },
+        { src: "/images/course/lash-course-graduate-certificate-chiang-mai.webp", alt: "Thai lash course graduate holding her My Lash House certificate with Ying", caption: "Thai and international students train here." },
+      ],
+    },
     sections: [
       {
         heading: "How the two days run",
@@ -495,6 +509,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
         heading: "Why learn here",
         paragraphs: [
           "You learn in a working studio, not a classroom. Every technique you see is the one Ying uses on paying clients: 100% handmade fans, styles mapped to the eye, and a standard she backs with a 3-day retouch guarantee. The point is that you leave able to do the work.",
+          "Ying holds Thailand's national professional qualification for eyelash technicians, Level 3, from the Thailand Professional Qualification Institute (TPQI), and has competed at the HAB Southern International Contest 2022 and the Northern Beauty Contest 2023.",
         ],
       },
     ],
@@ -527,7 +542,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
       },
       {
         q: "Do I get a certificate?",
-        a: "Yes, a My Lash House certificate on completion.",
+        a: "Yes. You receive a My Lash House Certificate of Completion for the Advanced Volume Eyelash Extension Course, signed by Ying.",
       },
       {
         q: "How much does the course cost?",
@@ -537,6 +552,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
     ctaHeading: "Ask about the next course",
     ctaText: "Message us on LINE or Instagram with your experience level and the dates you have in mind. Ying answers personally.",
     relatedLinks: [
+      { label: "About Ying: certificates and competitions", href: "/about" },
       { label: "Lash styles by eye shape, the guide", href: "/blog/lash-extensions-by-eye-shape-chiang-mai" },
       { label: "How long lash extensions last, honestly", href: "/blog/how-long-do-lash-extensions-last-chiang-mai" },
     ],
@@ -545,12 +561,24 @@ export const LASH_TRAINING_PAGE: ServicePage = {
     h1: "เรียนต่อขนตา คอร์ส 2 วัน สไตล์ไทยและสากล",
     metaTitle: "เรียนต่อขนตา คอร์ส 2 วัน มีใบประกาศ สไตล์ไทยและสากล - My Lash House",
     metaDescription:
-      "เรียนต่อขนตากับครูหญิง My Lash House เชียงใหม่ คอร์ส 2 วันเต็ม สไตล์ไทยและสากล วอลลุ่มและการออกแบบทรง อุปกรณ์มีให้ ฝึกบนหุ่นแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ",
+      "เรียนต่อขนตากับครูหญิง ช่างคุณวุฒิวิชาชีพระดับ 3 คอร์ส 2 วันเต็ม สไตล์ไทยและสากล วอลลุ่มและการออกแบบทรง ฝึกบนหุ่นแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ",
     eyebrow: "คอร์สเรียน",
     quickAnswer:
-      "My Lash House เปิดคอร์สเรียนต่อขนตา 2 วันเต็มที่สตูดิโอสันกลาง เชียงใหม่ เรียนสไตล์ไทยและสไตล์สากล วอลลุ่มและการออกแบบทรง กับครูหญิง ช่างเซอร์ติฟายด์ประสบการณ์ 7 ปีขึ้นไป อุปกรณ์มีให้ครบ ฝึกบนหุ่นก่อนแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ นัดวันเรียนกับครูหญิงโดยตรง",
-    heroImage: null,
-    heroImageAlt: "",
+      "My Lash House เปิดคอร์ส Advanced Volume Eyelash Extension เรียน 2 วันเต็มที่สตูดิโอสันกลาง เชียงใหม่ เรียนสไตล์ไทยและสไตล์สากล วอลลุ่มและการออกแบบทรง กับครูหญิง ช่างต่อขนตาคุณวุฒิวิชาชีพระดับ 3 (TPQI) ประสบการณ์ 7 ปีขึ้นไป อุปกรณ์มีให้ครบ ฝึกบนหุ่นก่อนแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ Certificate of Completion นัดวันเรียนกับครูหญิงโดยตรง",
+    heroImage: "/images/course/lash-training-course-chiang-mai-certificate-and-live-model.webp",
+    heroImageAlt: "นักเรียนรับใบประกาศนียบัตร และฝึกต่อขนตากับนางแบบจริง ในคอร์สเรียนต่อขนตา Advanced Volume ที่ My Lash House เชียงใหม่",
+    trustItems: ["ครูคุณวุฒิวิชาชีพ ระดับ 3", "ได้ใบประกาศเมื่อเรียนจบ"],
+    gallery: {
+      heading: "บรรยากาศในคอร์สเรียน",
+      photos: [
+        { src: "/images/course/lash-course-mannequin-coaching-chiang-mai.webp", alt: "ครูหญิงสอนนักเรียนต่อขนตาบนหุ่น ในคอร์สเรียนต่อขนตาที่ My Lash House เชียงใหม่", caption: "วันที่สองเริ่มฝึกบนหุ่น มีครูหญิงอยู่ข้าง ๆ" },
+        { src: "/images/course/lash-course-live-model-session-chiang-mai.webp", alt: "ครูหญิงสอนนักเรียนต่อขนตาเซตเต็มให้นางแบบจริงที่ My Lash House เชียงใหม่", caption: "จากนั้นต่อเซตเต็มให้นางแบบจริง ครูตรวจทีละแฟน" },
+        { src: "/images/course/lash-course-student-work-chiang-mai.webp", alt: "ผลงานต่อขนตาวอลลุ่มสไตล์สายฝอของนักเรียนคอร์ส My Lash House", caption: "ผลงานนักเรียนในคอร์ส" },
+        { src: "/images/course/lash-course-student-at-work-chiang-mai.webp", alt: "นักเรียนฝึกวางแฟนขนตาบนหุ่นที่สตูดิโอ My Lash House", caption: "เรียนในสตูดิโอที่ทำงานจริง ไม่ใช่ห้องเรียน" },
+        { src: "/images/course/lash-course-mannequin-practice-chiang-mai.webp", alt: "ครูหญิงสอนการวางแฟนขนตาบนหุ่นให้นักเรียนในคอร์สเรียนต่อขนตา", caption: "ฝึกวางทรงบนหุ่น ทีละขั้น" },
+        { src: "/images/course/lash-course-graduate-certificate-chiang-mai.webp", alt: "นักเรียนคนไทยถือใบประกาศนียบัตรคอร์สเรียนต่อขนตาคู่กับครูหญิง", caption: "มีทั้งนักเรียนคนไทยและต่างชาติ" },
+      ],
+    },
     sections: [
       {
         heading: "2 วันเรียนอะไรบ้าง",
@@ -575,6 +603,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
         heading: "ทำไมต้องเรียนที่นี่",
         paragraphs: [
           "คุณเรียนในสตูดิโอที่ทำงานจริง ไม่ใช่ห้องเรียน ทุกเทคนิคที่เห็นคือเทคนิคเดียวกับที่ครูหญิงใช้กับลูกค้าทุกวัน แฟนขนตาทำมือ 100% ทรงที่ออกแบบตามรูปตา และมาตรฐานที่กล้ารับประกันรีทัช 3 วัน เป้าหมายคือคุณกลับไปทำได้จริง",
+          "ครูหญิงได้รับคุณวุฒิวิชาชีพช่างต่อขนตา ระดับ 3 จากสถาบันคุณวุฒิวิชาชีพ (องค์การมหาชน) และเคยลงแข่งขันต่อขนตาในงาน HAB Southern International Contest 2022 และ Northern Beauty Contest 2023",
         ],
       },
     ],
@@ -607,7 +636,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
       },
       {
         q: "เรียนจบได้ใบประกาศไหม",
-        a: "ได้ค่ะ ใบประกาศจาก My Lash House เมื่อเรียนจบ",
+        a: "ได้ค่ะ ใบประกาศนียบัตร Certificate of Completion คอร์ส Advanced Volume Eyelash Extension จาก My Lash House ลงนามโดยครูหญิง",
       },
       {
         q: "เรียนต่อขนตา ราคาเท่าไหร่",
@@ -617,6 +646,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
     ctaHeading: "สอบถามคอร์สรอบถัดไป",
     ctaText: "ทักไลน์หรือไอจี บอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงตอบเองค่ะ",
     relatedLinks: [
+      { label: "รู้จักครูหญิง ใบรับรองและงานแข่งขัน", href: "/th/about" },
       { label: "ทรงต่อขนตาแบบไหนเข้ากับรูปตา", href: "/th/blog/tor-khon-ta-baeb-nai-dee" },
       { label: "ต่อขนตาอยู่ได้นานไหม คู่มือฉบับตรง ๆ", href: "/th/blog/tor-khon-ta-yoo-dai-nan-mai" },
     ],

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Studio from "@/components/Studio";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import StyleFinder from "@/components/StyleFinder";
@@ -26,6 +27,7 @@ export default function Home() {
       <main>
         <Hero lang="en" />
         <About lang="en" />
+        <Studio lang="en" />
         <Services lang="en" />
         <StyleFinder lang="en" />
         <Gallery lang="en" />

@@ -1,4 +1,5 @@
-import { Award, Heart, Shield, Sparkles } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, Award, Heart, Shield, Sparkles } from "lucide-react";
 import { dict, type Lang } from "@/lib/i18n";
 
 const ICONS = [Award, Sparkles, Heart, Shield];
@@ -56,6 +57,14 @@ export default function About({ lang = "en" }: { lang?: Lang }) {
                 );
               })}
             </div>
+
+            <Link
+              href={t.moreHref}
+              className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-plum transition-colors hover:text-rose-dark"
+            >
+              {t.moreLink}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </div>

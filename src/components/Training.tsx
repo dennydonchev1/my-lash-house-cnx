@@ -43,11 +43,17 @@ export default function Training({ lang = "en" }: { lang?: Lang }) {
           </div>
 
           <div className="animate-on-scroll md:col-span-2">
-            <div className="rounded-2xl border border-plum/20 bg-plum/5 p-6 shadow-sm">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-plum/15">
-                <GraduationCap className="h-6 w-6 text-plum" />
+            <div className="overflow-hidden rounded-2xl bg-cream-dark shadow-sm">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={t.image} alt={t.imageAlt} loading="lazy" className="aspect-[4/3] w-full object-cover object-top" />
+            </div>
+            <div className="mt-4 rounded-2xl border border-plum/20 bg-plum/5 p-6 shadow-sm">
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-plum/15">
+                  <GraduationCap className="h-5 w-5 text-plum" />
+                </div>
               </div>
-              <ul className="mt-5 space-y-3">
+              <ul className="mt-4 space-y-3">
                 {t.bullets.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-charcoal">
                     <Check className="mt-0.5 h-4 w-4 shrink-0 text-plum" />

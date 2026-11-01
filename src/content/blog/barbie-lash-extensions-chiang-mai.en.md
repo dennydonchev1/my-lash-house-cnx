@@ -66,7 +66,7 @@ Send us a photo of the lashes you love (a TikTok or Instagram screenshot works) 
 - LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University, about 10 minutes from the city centre. Open daily, 9:00 to 19:00. Booking your first set? Every style and price for [eyelash extensions in Chiang Mai](/) is on the homepage.
+My Lash House is in San Klang, San Kamphaeng, near Payap University, about 10 minutes from the city centre. Open daily, 10:00 to 19:00. Booking your first set? Every style and price for [eyelash extensions in Chiang Mai](/) is on the homepage.
 
 ---
 
@@ -74,4 +74,4 @@ My Lash House is in San Klang, San Kamphaeng, near Payap University, about 10 mi
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 9:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
+My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, accepts walk-ins and same-day appointments, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
