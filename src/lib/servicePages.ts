@@ -183,7 +183,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       },
       {
         q: "Where can I get a lash lift in Chiang Mai?",
-        a: "My Lash House is in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the Chiang Mai city centre. Open daily 10:00 to 19:00, walk-ins welcome subject to availability.",
+        a: "My Lash House is in San Klang, San Kamphaeng, near Payap University and about 10 minutes from the Chiang Mai city centre. Open daily 10:00 to 19:00, by appointment only.",
       },
     ],
     ctaHeading: "Book your lash lift",
@@ -324,7 +324,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       },
       {
         q: "ลิฟติ้งขนตา เชียงใหม่ ทำที่ไหนดี",
-        a: "My Lash House อยู่สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 10:00 ถึง 19:00 รับ walk-in ตามคิวว่าง",
+        a: "My Lash House อยู่สันกลาง สันกำแพง ใกล้ ม.พายัพ ห่างตัวเมืองเชียงใหม่ประมาณ 10 นาที เปิดทุกวัน 10:00 ถึง 19:00 รับเฉพาะลูกค้าที่จองคิวล่วงหน้า",
       },
     ],
     ctaHeading: "จองลิฟติ้งขนตา",
@@ -388,8 +388,8 @@ export const NAILS_PAGE: ServicePage = {
         a: "San Klang, San Kamphaeng, near Payap University, about 10 minutes from the Chiang Mai city centre. Open daily 10:00 to 19:00.",
       },
       {
-        q: "Do walk-ins work for nails?",
-        a: "Subject to availability, yes. Same-day messages on LINE usually get a same-day answer.",
+        q: "Can I just walk in for nails?",
+        a: "No, nails are by appointment too. Message on LINE and you will usually get an answer the same day.",
       },
     ],
     ctaHeading: "Book your nails",
@@ -448,7 +448,7 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "Walk-in ทำเล็บได้ไหม",
-        a: "ได้ตามคิวว่าง ทักไลน์วันเดียวกันมักได้คำตอบวันเดียวกัน",
+        a: "ไม่ได้ค่ะ ทำเล็บก็ต้องจองคิวล่วงหน้าเหมือนกัน ทักไลน์มาได้เลย ส่วนใหญ่ตอบภายในวันเดียวกัน",
       },
     ],
     ctaHeading: "จองทำเล็บ",

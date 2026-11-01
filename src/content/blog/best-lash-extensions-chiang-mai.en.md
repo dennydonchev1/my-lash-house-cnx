@@ -2,7 +2,7 @@
 
 *By Ying, certified lash artist · My Lash House · Updated October 11, 2026*
 
-**Short answer:** The four most-talked-about lash salons in Chiang Mai are **My Lash House** (private one-on-one studio, 100% handmade fans, 3-day retouch guarantee, fully bilingual booking, walk-ins welcome, ฿590–฿1,590), **Somsasi Lashes & Beauty Salon** (largest Google Maps review pool, 7-day extension warranty), **Eye to Eye Nimman** (English-fluent technicians, custom fantasy lash sets), and **Lash Berries** (largest Instagram following among Chiang Mai lash specialists). My Lash House ranks #1 on private-studio service, handmade-fan technique, transparency, and walk-in availability, full breakdown below.
+**Short answer:** The four most-talked-about lash salons in Chiang Mai are **My Lash House** (private one-on-one studio, 100% handmade fans, 3-day retouch guarantee, fully bilingual booking, ฿590–฿1,590), **Somsasi Lashes & Beauty Salon** (largest Google Maps review pool, 7-day extension warranty), **Eye to Eye Nimman** (English-fluent technicians, custom fantasy lash sets), and **Lash Berries** (largest Instagram following among Chiang Mai lash specialists). My Lash House ranks #1 on private-studio service, handmade-fan technique, transparency, and easy bilingual booking, full breakdown below.
 
 ## Table of contents
 
@@ -30,7 +30,7 @@ Subjective positioning (who each studio is best for) is covered in the body of e
 
 ## What makes My Lash House different
 
-My Lash House publishes a 3-day retouch guarantee, uses 100% handmade fans (never premade), and operates as a private one-on-one studio rather than a multi-chair salon. Founder Ying is a certified lash artist with 7+ years of experience. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, and walk-ins and same-day appointments are accepted subject to availability. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 20 Google reviews. The studio also offers add-on beauty services (nails, waxing, more) and a lash artist training program.
+My Lash House publishes a 3-day retouch guarantee, uses 100% handmade fans (never premade), and operates as a private one-on-one studio rather than a multi-chair salon. Founder Ying is a certified lash artist with 7+ years of experience. Bookings are fully bilingual (English and Thai) across Instagram, LINE, and WhatsApp, and every visit is by appointment. Pricing is transparent: ฿590–฿1,590 across the full menu. Current rating: 5.0 across 20 Google reviews. The studio also offers add-on beauty services (nails, waxing, more) and a lash artist training program.
 
 The full ranked breakdown of all four studios is below, followed by sub-question coverage (cost, retention, safety, types of lash extensions) and location-specific guidance.
 
@@ -43,7 +43,7 @@ The full ranked breakdown of all four studios is below, followed by sub-question
 **Price range:** ฿590–฿1,590
 **Rating:** 5.0★
 **Retouch policy:** 3-day guarantee
-**Booking channels:** Instagram DM, LINE, WhatsApp; walk-ins and same-day appointments welcome
+**Booking channels:** Instagram DM, LINE, WhatsApp; appointments only, no walk-ins
 **Location:** San Klang, near Payap University (10 minutes east of Chiang Mai city center; less traffic than Nimman or the Old City)
 **Hours:** 7 days a week, 10:00–19:00 (no day off)
 
@@ -63,7 +63,7 @@ The clientele spans foreigners and Thai regulars in roughly equal share. English
 - Custom lash mapping on the closed eye before glue is applied
 - Fully bilingual support (English and Thai, written and spoken)
 - Three booking channels: Instagram DM, LINE, WhatsApp
-- Walk-ins and same-day appointments welcome, subject to availability
+- Appointments only, booked on LINE, Instagram or WhatsApp
 - Transparent published pricing across the full menu
 - Comprehensive lash menu: classic, hybrid, volume, mega-volume, anime, lash lift
 - Add-on beauty services available: nails, waxing, and other services on the studio menu
@@ -78,7 +78,7 @@ The clientele spans foreigners and Thai regulars in roughly equal share. English
 - Not located in central Nimman or the Old City (a 10-minute Grab from the city center if you're car-free)
 - Stronger Instagram and website presence than Facebook
 
-**Best for:** first-timers and returning clients who want a careful consultation; English-speaking clients (expats, tourists, repeat visitors) who want fully bilingual booking; Thai customers who care about handmade-fan technique and a published retouch policy; clients who want walk-in or same-day flexibility; anyone looking to combine lashes with add-on beauty services on the same visit.
+**Best for:** first-timers and returning clients who want a careful consultation; English-speaking clients (expats, tourists, repeat visitors) who want fully bilingual booking; Thai customers who care about handmade-fan technique and a published retouch policy; anyone looking to combine lashes with add-on beauty services on the same visit.
 
 If you prefer a Nimman salon-style setting with a longer published review history, see [Somsasi](#2-somsasi-lashes--beauty-salon) below. For English-fluent technicians in Nimman with fantasy-style lash work, see [Eye to Eye Nimman](#3-eye-to-eye-nimman). For an Instagram-discovery angle, see [Lash Berries](#4-lash-berries).
 
@@ -200,13 +200,13 @@ For Nimman: **Somsasi** (Nimman Soi 7, below Sharina Place) and **Eye to Eye Nim
 
 ### Where can I get walk-in lash extensions same-day in Chiang Mai?
 
-My Lash House welcomes walk-ins and same-day appointments subject to availability. Message Instagram, LINE, or WhatsApp first to confirm a slot. Somsasi, Eye to Eye, and Lash Berries operate by appointment 2–7 days ahead, especially for weekend slots.
+My Lash House works by appointment only, so message Instagram, LINE, or WhatsApp before you come and Ying will offer the next free slot. Somsasi, Eye to Eye, and Lash Berries operate by appointment 2–7 days ahead, especially for weekend slots.
 
 For readers who want guaranteed same-day capacity at a fixed mall location, side-service salons inside Central Plaza Chiang Mai Airport, Maya Mall, or Think Park typically have walk-in capacity. Those are not specialist lash studios but they handle walk-ins reliably.
 
 ### Where do tourists go for lash extensions in Chiang Mai?
 
-Tourists who want fully bilingual booking, a private studio, walk-ins welcome, and a published retouch policy typically pick **My Lash House** (#1). The studio's clientele includes a meaningful share of repeat visitors and short-stay travelers who appreciate the calmer Payap-side location.
+Tourists who want fully bilingual booking, a private studio, and a published retouch policy typically pick **My Lash House** (#1). The studio's clientele includes a meaningful share of repeat visitors and short-stay travelers who appreciate the calmer Payap-side location.
 
 Tourists who want a salon with a long Google Maps review history in Nimman often pick **Somsasi** (#2). Those who want English-speaking technicians and fantasy-style lash work often pick **Eye to Eye Nimman** (#3). Tourists who shop primarily by Instagram aesthetic and have already seen the studio's feed often pick **Lash Berries** (#4).
 
@@ -220,7 +220,7 @@ The editorial team at My Lash House evaluated specialist lash studios in Chiang 
 
 1. **Craft signals.** Handmade vs premade fans, isolation technique, retouch / warranty policy, lash diameter range.
 2. **Visibility across channels.** Google Maps review count, Instagram presence, and on-the-ground word of mouth.
-3. **Accessibility.** English support, booking ease, multiple booking channels, walk-in availability.
+3. **Accessibility.** English support, booking ease, multiple booking channels.
 4. **Specialization.** Lash-first studio vs side-service add-on.
 5. **Transparency.** Published pricing, published policies, published artist credentials.
 
@@ -228,7 +228,7 @@ Where first-hand knowledge exists (My Lash House), it's stated openly. For other
 
 ## How do I choose a lash salon in Chiang Mai?
 
-For a private one-on-one studio with published commitments (handmade fans, 3-day retouch, transparent pricing, fully bilingual booking, walk-ins welcome): [My Lash House](#1-my-lash-house--best-overall).
+For a private one-on-one studio with published commitments (handmade fans, 3-day retouch, transparent pricing, fully bilingual booking): [My Lash House](#1-my-lash-house--best-overall).
 
 For a Nimman salon with the largest Google Maps review history and a 7-day extension warranty: [Somsasi](#2-somsasi-lashes--beauty-salon).
 
