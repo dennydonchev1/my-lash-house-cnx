@@ -30,7 +30,7 @@ export const HOME_FAQS = {
     },
     {
       q: "Do you offer lash training courses?",
-      a: "Yes! We offer professional certification courses for aspiring lash artists. You'll learn handmade fan techniques from a certified instructor with 7+ years of experience. Contact us for course details and scheduling.",
+      a: "Yes. A 2-day hands-on course at the studio: Thai and international volume styles and lash design, supplies provided, mannequin practice and then a live model, with a certificate on completion. Dates and the fee are arranged directly on LINE or Instagram.",
     },
   ],
   th: [
@@ -60,7 +60,7 @@ export const HOME_FAQS = {
     },
     {
       q: "มีคอร์สสอนต่อขนตาไหม?",
-      a: "มีค่ะ คอร์สสอนต่อขนตามืออาชีพ มีใบประกาศรับรอง สอนเทคนิคทำพัดด้วยมือจากครูที่มีประสบการณ์ 7+ ปี ติดต่อสอบถามรายละเอียดและตารางเรียนได้",
+      a: "มีค่ะ คอร์ส 2 วันเต็มที่สตูดิโอ สไตล์ไทยและสากล วอลลุ่มและการออกแบบทรง อุปกรณ์มีให้ ฝึกบนหุ่นแล้วลงมือกับนางแบบจริง จบแล้วได้ใบประกาศ นัดวันเรียนและสอบถามค่าคอร์สทางไลน์หรือไอจีค่ะ",
     },
   ],
 } as const;

@@ -191,7 +191,7 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
       </main>
 
       <Footer lang={lang} />
-      <MobileBookingBar lang={lang} />
+      <MobileBookingBar lang={lang} variant={page.slug === "lash-training" ? "course" : "booking"} />
     </>
   );
 }
