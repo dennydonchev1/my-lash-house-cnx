@@ -271,5 +271,5 @@ export const GALLERY_IMAGES = [
   { src: "/images/service-wispy.jpg", alt: "Wispy volume lash extensions" },
   { src: "/images/service-strip.jpg", alt: "Strip lash extensions" },
   { src: "/images/service-color.jpg", alt: "Color lash extensions accent" },
-  { src: "/images/blog/wispy-volume-lash-extensions-close-up-my-lash-house.webp", alt: "Wispy volume lash extensions close-up by My Lash House Chiang Mai" },
+  { src: "/images/blog/y-lash-extensions-close-up-my-lash-house.webp", alt: "Y lash (YY) extensions close-up by My Lash House Chiang Mai" },
 ] as const;
