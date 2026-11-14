@@ -1,5 +1,6 @@
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import Link from "next/link";
-import { ArrowRight, Check, GraduationCap, MessageCircle } from "lucide-react";
+import { ArrowRight, Check, GraduationCap } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { dict, type Lang } from "@/lib/i18n";
 
@@ -31,12 +32,12 @@ export default function Training({ lang = "en" }: { lang?: Lang }) {
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href={BUSINESS.lineUrl}
+                href={BUSINESS.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-plum/30 px-6 py-3 text-sm font-semibold text-plum transition-all hover:bg-plum/5"
               >
-                <MessageCircle className="h-4 w-4" />
+                <WhatsAppIcon className="h-4 w-4" />
                 {t.ctaSecondary}
               </a>
             </div>

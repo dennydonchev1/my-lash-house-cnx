@@ -129,7 +129,6 @@ The Thai-language version of this guide is at [/th/blog/tor-khon-ta-khor-sia](/t
 Not sure whether extensions are right for your lash type or lifestyle? [Message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) with a clear photo of your eyes and a note on what you're trying to figure out. Ying replies personally with an honest recommendation, no sales pressure.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
-- LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
 Still weighing it up? Our [Chiang Mai eyelash extension studio](/) page lays out every style and price from ฿590, plus the 3-day retouch guarantee that covers the downsides above.

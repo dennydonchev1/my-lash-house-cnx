@@ -63,7 +63,6 @@ If lashes shed abnormally in the first 3 days because of the glue or the applica
 Send us a photo of the lashes you love (a TikTok or Instagram screenshot works) and a clear photo of your eyes. Ying will tell you how she would adapt the look to your eyes, the price, and the next free slot. Book at least a day ahead, since the set takes about 2 hours.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
-- LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
 My Lash House is in San Klang, San Kamphaeng, near Payap University, about 10 minutes from the city centre. Open daily, 10:00 to 19:00. Booking your first set? Every style and price for [eyelash extensions in Chiang Mai](/) is on the homepage.

@@ -192,12 +192,11 @@ The Thai-language version of this guide is at [/th/blog/withi-doolae-khonta-lang
 
 ## Save this guide. Then book your next refill.
 
-For specific aftercare questions, concerns about an existing set, or to claim the 3-day retouch guarantee, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/), LINE, or WhatsApp with clear photos.
+For specific aftercare questions, concerns about an existing set, or to claim the 3-day retouch guarantee, [message us on Instagram](https://www.instagram.com/my_lash_house.cnx/) or WhatsApp with clear photos.
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00 to 19:00. By appointment only: book on LINE, Instagram or WhatsApp.
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00 to 19:00. By appointment only: book on Instagram or WhatsApp.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
-- LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
 Booking your first set rather than a refill? Start with our [eyelash extensions in Chiang Mai](/) page: every style, every price, one private studio.
@@ -210,4 +209,4 @@ Booking your first set rather than a refill? Start with our [eyelash extensions 
 
 My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, works by appointment only, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
-This guide is updated quarterly to reflect new aftercare research, retention data from regular clients, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.
+This guide is updated quarterly to reflect new aftercare research, retention data from regular clients, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via WhatsApp +66 85 474 7314.

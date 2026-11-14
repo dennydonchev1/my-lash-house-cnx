@@ -1,4 +1,4 @@
-import { Heart, Camera, Globe, MessageCircle, Phone } from "lucide-react";
+import { Heart, Camera, Globe, Phone } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { dict, NAV_LINKS_BY_LANG, type Lang } from "@/lib/i18n";
 
@@ -58,15 +58,6 @@ export default function Footer({ lang = "en" }: { lang?: Lang }) {
               {t.connectHeading}
             </p>
             <div className="mt-4 flex flex-col gap-2">
-              <a
-                href={BUSINESS.lineUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/70 transition-colors hover:text-white"
-              >
-                <MessageCircle className="h-4 w-4" />
-                LINE {BUSINESS.line}
-              </a>
               <a
                 href={BUSINESS.whatsappUrl}
                 target="_blank"

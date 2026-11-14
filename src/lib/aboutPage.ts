@@ -100,7 +100,7 @@ export const ABOUT_PAGE: Record<Lang, AboutContent> = {
       heading: "The studio you'll walk into",
       paragraphs: [
         "My Lash House is a private studio in a house in Pruksa Ville, San Klang, near Payap University. Look for the My Lash House sign by the front door. Shoes come off at the rack, as in most Thai homes and studios, and then it's one calm room with two lash beds and a nail corner.",
-        "Open daily, 10:00 to 19:00. Message on LINE to book your time.",
+        "Open daily, 10:00 to 19:00. Message on WhatsApp to book your time.",
       ],
       photos: [
         {
@@ -144,7 +144,7 @@ export const ABOUT_PAGE: Record<Lang, AboutContent> = {
       ],
     },
     ctaHeading: "Book with Ying",
-    ctaText: "Send a photo of your eyes and the look you like on LINE or Instagram. Ying answers personally.",
+    ctaText: "Send a photo of your eyes and the look you like on WhatsApp or Instagram. Ying answers personally.",
     homeLabel: "Home",
   },
   th: {
@@ -217,7 +217,7 @@ export const ABOUT_PAGE: Record<Lang, AboutContent> = {
       heading: "สตูดิโอที่คุณจะได้มา",
       paragraphs: [
         "My Lash House เป็นสตูดิโอส่วนตัวในบ้านที่พฤกษาวิลล์ สันกลาง ใกล้มหาวิทยาลัยพายัพ มองหาป้าย My Lash House หน้าประตู ถอดรองเท้าไว้ที่ชั้นวาง แล้วเข้ามาในห้องสงบ ๆ ที่มีเตียงต่อขนตา 2 เตียงและมุมทำเล็บ",
-        "เปิดทุกวัน 10:00 ถึง 19:00 ทักไลน์จองเวลาก่อนมานะคะ",
+        "เปิดทุกวัน 10:00 ถึง 19:00 ทักไอจีหรือ WhatsApp จองเวลาก่อนมานะคะ",
       ],
       photos: [
         {
@@ -259,7 +259,7 @@ export const ABOUT_PAGE: Record<Lang, AboutContent> = {
       ],
     },
     ctaHeading: "จองคิวกับครูหญิง",
-    ctaText: "ส่งรูปตาของคุณกับลุคที่ชอบมาทางไลน์หรือไอจี ครูหญิงตอบเองค่ะ",
+    ctaText: "ส่งรูปตาของคุณกับลุคที่ชอบมาทางไอจีหรือ WhatsApp ครูหญิงตอบเองค่ะ",
     homeLabel: "หน้าแรก",
   },
 };

@@ -1,8 +1,9 @@
 "use client";
 
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, RotateCcw, MessageCircle } from "lucide-react";
+import { ArrowRight, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { BUSINESS, LASH_SERVICES } from "@/lib/constants";
 import type { Lang } from "@/lib/i18n";
@@ -11,7 +12,7 @@ import InstagramIcon from "@/components/icons/InstagramIcon";
 // The 4-tap style finder. Answers map onto the same eye-shape -> style logic
 // Ying uses on the chair (documented in the eye-shape guide post). The result
 // is a starting-point recommendation, not a diagnosis; the CTA hands off to
-// LINE/IG where the real consultation happens.
+// Instagram/WhatsApp where the real consultation happens.
 
 type EyeShape = "monolid" | "double" | "downturned" | "round" | "hooded" | "wideset" | "unsure";
 type Context = "work" | "daily" | "event" | "bridal";
@@ -53,7 +54,7 @@ const T = {
     resultEyebrow: "Your starting point",
     resultWhy: "Why this one",
     dramaLabel: "Drama level",
-    ctaLine: "Book on LINE",
+    ctaWhatsApp: "Book on WhatsApp",
     ctaIg: "DM on Instagram",
     restart: "Start over",
     deepDive: "Read the full eye-shape guide",
@@ -95,7 +96,7 @@ const T = {
     resultEyebrow: "จุดเริ่มต้นของคุณ",
     resultWhy: "ทำไมทรงนี้",
     dramaLabel: "ระดับดราม่า",
-    ctaLine: "จองผ่าน LINE",
+    ctaWhatsApp: "จองผ่าน WhatsApp",
     ctaIg: "ทัก IG",
     restart: "เริ่มใหม่",
     deepDive: "อ่านคู่มือเทียบรูปตาฉบับเต็ม",
@@ -308,13 +309,13 @@ export default function StyleFinder({ lang = "en" }: { lang?: Lang }) {
                     </p>
                     <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:justify-start">
                       <a
-                        href={BUSINESS.lineUrl}
+                        href={BUSINESS.whatsappUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 rounded-full bg-[#06C755] px-6 py-3 text-sm font-semibold text-white transition-all hover:opacity-90"
+                        className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white transition-all hover:opacity-90"
                       >
-                        <MessageCircle className="h-4 w-4" />
-                        {t.ctaLine}
+                        <WhatsAppIcon className="h-4 w-4" />
+                        {t.ctaWhatsApp}
                       </a>
                       <a
                         href={BUSINESS.instagramUrl}

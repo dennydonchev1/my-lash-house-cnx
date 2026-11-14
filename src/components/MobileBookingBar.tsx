@@ -1,21 +1,22 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { MessageCircle } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
+import InstagramIcon from "@/components/icons/InstagramIcon";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import type { Lang } from "@/lib/i18n";
 
-// Template v2 sticky booking bar: LINE green, price-anchored label.
-// LINE is the primary Thai booking channel; the price anchor answers the
+// Template v2 sticky booking bar. Ying books on Instagram and WhatsApp only
+// (no LINE, Nov 2026), so the bar carries both. The price anchor answers the
 // "how much" hesitation before it forms.
 const LABEL = {
-  en: "Book on LINE \u00b7 From \u0e3f590",
-  th: "\u0e08\u0e2d\u0e07\u0e1c\u0e48\u0e32\u0e19 LINE \u00b7 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19 \u0e3f590",
+  en: { lead: "Book your set · From ฿590", ig: "Instagram", wa: "WhatsApp" },
+  th: { lead: "จองคิว · เริ่มต้น ฿590", ig: "Instagram", wa: "WhatsApp" },
 };
 
-const COURSE_LABEL = {
-  en: "Ask about the course on LINE",
-  th: "\u0e2a\u0e2d\u0e1a\u0e16\u0e32\u0e21\u0e04\u0e2d\u0e23\u0e4c\u0e2a\u0e17\u0e32\u0e07 LINE",
+const COURSE_LEAD = {
+  en: "Ask about the course",
+  th: "สอบถามคอร์ส",
 };
 
 export default function MobileBookingBar({
@@ -34,21 +35,36 @@ export default function MobileBookingBar({
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const t = LABEL[lang];
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 border-t border-rose/20 bg-cream/95 px-4 py-3 backdrop-blur-md transition-transform duration-300 md:hidden ${
+      className={`fixed bottom-0 left-0 right-0 z-50 border-t border-rose/20 bg-cream/95 px-4 pb-3 pt-2 backdrop-blur-md transition-transform duration-300 md:hidden ${
         visible ? "translate-y-0" : "translate-y-full"
       }`}
     >
-      <a
-        href={BUSINESS.lineUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="relative flex w-full items-center justify-center rounded-full bg-[#06C755] py-3.5 text-base font-semibold text-white shadow-lg"
-      >
-        <MessageCircle className="absolute left-5 h-5 w-5" />
-        <span>{variant === "course" ? COURSE_LABEL[lang] : LABEL[lang]}</span>
-      </a>
+      <p className="mb-2 text-center text-xs font-semibold text-charcoal-light">
+        {variant === "course" ? COURSE_LEAD[lang] : t.lead}
+      </p>
+      <div className="grid grid-cols-2 gap-3">
+        <a
+          href={BUSINESS.instagramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-full bg-plum py-3 text-sm font-semibold text-white shadow-lg"
+        >
+          <InstagramIcon className="h-4 w-4" />
+          <span>{t.ig}</span>
+        </a>
+        <a
+          href={BUSINESS.whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 rounded-full bg-[#25D366] py-3 text-sm font-semibold text-white shadow-lg"
+        >
+          <WhatsAppIcon className="h-4 w-4" />
+          <span>{t.wa}</span>
+        </a>
+      </div>
     </div>
   );
 }
