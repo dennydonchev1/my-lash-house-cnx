@@ -2,7 +2,6 @@ import {
   MapPin,
   Phone,
   Clock,
-  MessageCircle,
   Camera,
 } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
@@ -20,8 +19,8 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 );
 
 const contactMethodLabels = {
-  en: { line: "LINE", whatsapp: "WhatsApp", phone: "Call / Text", instagram: "Instagram" },
-  th: { line: "LINE", whatsapp: "WhatsApp", phone: "โทร / ข้อความ", instagram: "Instagram" },
+  en: { whatsapp: "WhatsApp", phone: "Call / Text", instagram: "Instagram" },
+  th: { whatsapp: "WhatsApp", phone: "โทร / ข้อความ", instagram: "Instagram" },
 };
 
 export default function Location({ lang = "en" }: { lang?: Lang }) {
@@ -34,12 +33,6 @@ export default function Location({ lang = "en" }: { lang?: Lang }) {
       value: BUSINESS.instagram,
       href: BUSINESS.instagramUrl,
       primary: true,
-    },
-    {
-      icon: MessageCircle,
-      label: labels.line,
-      value: BUSINESS.line,
-      href: BUSINESS.lineUrl,
     },
     {
       icon: WhatsAppIcon,

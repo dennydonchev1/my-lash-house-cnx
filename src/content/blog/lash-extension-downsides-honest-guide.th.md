@@ -129,7 +129,6 @@
 ไม่แน่ใจว่าต่อขนตาเหมาะกับขนตาหรือไลฟ์สไตล์ของคุณ [ทักไอจีมา](https://www.instagram.com/my_lash_house.cnx/) พร้อมรูปตาชัด ๆ และโน้ตว่ากำลังจะตัดสินใจเรื่องอะไร ครูหญิงตอบกลับด้วยคำแนะนำซื่อสัตย์ ไม่มีการกดดันขาย
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
-- LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
 ---

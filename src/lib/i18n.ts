@@ -119,7 +119,7 @@ export const dict = {
       imageAlt: "Ying checking a student's work during live model practice in the My Lash House lash course",
       cta: "See the course",
       ctaHref: "/services/lash-training",
-      ctaSecondary: "Ask on LINE",
+      ctaSecondary: "Ask on WhatsApp",
     },
     guarantee: {
       eyebrow: "Our Promise",
@@ -289,7 +289,7 @@ export const dict = {
       imageAlt: "ครูหญิงตรวจงานนักเรียนระหว่างฝึกต่อขนตากับนางแบบจริง ในคอร์สเรียนต่อขนตา My Lash House",
       cta: "ดูรายละเอียดคอร์ส",
       ctaHref: "/th/services/lash-training",
-      ctaSecondary: "ทักไลน์สอบถาม",
+      ctaSecondary: "ทัก WhatsApp สอบถาม",
     },
     guarantee: {
       eyebrow: "คำสัญญาของเรา",

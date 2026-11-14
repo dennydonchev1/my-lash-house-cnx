@@ -1,5 +1,6 @@
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import Link from "next/link";
-import { ArrowRight, Check, MessageCircle, ShieldCheck } from "lucide-react";
+import { ArrowRight, Check, ShieldCheck } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
@@ -11,8 +12,8 @@ import { getServiceUrl, type ServicePage } from "@/lib/servicePages";
 import { dict, type Lang } from "@/lib/i18n";
 
 const L = {
-  en: { home: "Home", trust1: `5.0 across ${BUSINESS.reviewCount} Google reviews`, trust2: "3-day retouch guarantee", trust3: "100% handmade fans", trust4: "Shower after 2 hours", line: "Book on LINE", ig: "DM on Instagram" },
-  th: { home: "หน้าหลัก", trust1: `5.0 จาก ${BUSINESS.reviewCount} รีวิว Google`, trust2: "รับประกันรีทัช 3 วัน", trust3: "แฟนขนตาทำมือ 100%", trust4: "อาบน้ำได้หลัง 2 ชั่วโมง", line: "จองผ่าน LINE", ig: "ทัก IG" },
+  en: { home: "Home", trust1: `5.0 across ${BUSINESS.reviewCount} Google reviews`, trust2: "3-day retouch guarantee", trust3: "100% handmade fans", trust4: "Shower after 2 hours", whatsapp: "WhatsApp", ig: "DM on Instagram" },
+  th: { home: "หน้าหลัก", trust1: `5.0 จาก ${BUSINESS.reviewCount} รีวิว Google`, trust2: "รับประกันรีทัช 3 วัน", trust3: "แฟนขนตาทำมือ 100%", trust4: "อาบน้ำได้หลัง 2 ชั่วโมง", whatsapp: "WhatsApp", ig: "ทัก IG" },
 };
 
 export default function ServicePageView({ page, lang }: { page: ServicePage; lang: Lang }) {
@@ -97,9 +98,9 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
 
             {/* Primary CTAs */}
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-              <a href={BUSINESS.lineUrl} target="_blank" rel="noopener noreferrer"
-                 className="inline-flex items-center gap-2 rounded-full bg-[#06C755] px-7 py-3.5 text-sm font-semibold text-white transition-all hover:opacity-90">
-                <MessageCircle className="h-4 w-4" /> {t.line}
+              <a href={BUSINESS.whatsappUrl} target="_blank" rel="noopener noreferrer"
+                 className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-7 py-3.5 text-sm font-semibold text-white transition-all hover:opacity-90">
+                <WhatsAppIcon className="h-4 w-4" /> {t.whatsapp}
               </a>
               <a href={BUSINESS.instagramUrl} target="_blank" rel="noopener noreferrer"
                  className="inline-flex items-center gap-2 rounded-full bg-plum px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-plum-light">
@@ -189,9 +190,9 @@ export default function ServicePageView({ page, lang }: { page: ServicePage; lan
             <h2 className="font-heading text-2xl font-bold sm:text-3xl">{c.ctaHeading}</h2>
             <p className="mx-auto mt-3 max-w-xl text-charcoal-light">{c.ctaText}</p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-              <a href={BUSINESS.lineUrl} target="_blank" rel="noopener noreferrer"
-                 className="inline-flex items-center gap-2 rounded-full bg-[#06C755] px-7 py-3.5 text-sm font-semibold text-white transition-all hover:opacity-90">
-                <MessageCircle className="h-4 w-4" /> {t.line}
+              <a href={BUSINESS.whatsappUrl} target="_blank" rel="noopener noreferrer"
+                 className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-7 py-3.5 text-sm font-semibold text-white transition-all hover:opacity-90">
+                <WhatsAppIcon className="h-4 w-4" /> {t.whatsapp}
               </a>
               <a href={BUSINESS.instagramUrl} target="_blank" rel="noopener noreferrer"
                  className="inline-flex items-center gap-2 rounded-full bg-plum px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-plum-light">

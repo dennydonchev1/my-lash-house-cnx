@@ -123,10 +123,9 @@ The Thai-language version of this guide is at [/th/blog/tor-khon-ta-baeb-thammac
 
 For readers torn between the natural family and a Volume set, or unsure which natural style suits their context: [message on Instagram](https://www.instagram.com/my_lash_house.cnx/) with a clear photo of your eyes (open and closed) and a note on what context the lashes are for (work, wedding, daily). Ying replies with a recommendation, an estimated price, and the next available appointment.
 
-My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00–19:00. By appointment only: book on LINE, Instagram or WhatsApp.
+My Lash House is in San Klang, San Kamphaeng, near Payap University in Chiang Mai (about 10 minutes from the city centre). Open 7 days a week, 10:00–19:00. By appointment only: book on Instagram or WhatsApp.
 
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
-- LINE: @604ymska
 - WhatsApp: +66 85 474 7314
 
 Want to compare the natural styles with the rest of the menu? Every option is on our [eyelash extensions in Chiang Mai](/) page, from ฿590, and the [lash extension price guide](/blog/lash-extension-prices-chiang-mai) explains why prices differ between studios.
@@ -137,4 +136,4 @@ Want to compare the natural styles with the rest of the menu? Every option is on
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans. My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00–19:00, works by appointment only, supports both English and Thai across all booking channels, and offers add-on beauty services (nails, waxing) and a lash artist training program.
 
-This guide is updated quarterly to reflect new techniques, menu changes, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via LINE @604ymska.
+This guide is updated quarterly to reflect new techniques, menu changes, and reader feedback. Lash artists, beauty editors, or readers with corrections can reach the studio at [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx) or via WhatsApp +66 85 474 7314.

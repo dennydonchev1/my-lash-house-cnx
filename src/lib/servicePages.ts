@@ -5,7 +5,7 @@ import type { Lang } from "./i18n";
 // with local packs, unlike the national informational blog posts).
 //
 // PRICING RULE: never invent numbers. Options are listed without prices until
-// Ying confirms the real figures; the CTA hands off to LINE where price is
+// Ying confirms the real figures; the CTA hands off to Instagram or WhatsApp where price is
 // always confirmed before booking.
 
 export type ServiceFaq = { q: string; a: string };
@@ -162,7 +162,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       { name: "Lash lift + tint + conditioning", note: "The full treatment with a strengthening finish" },
     ],
     pricingNote:
-      "Lifting sits in the lower-mid tier of our menu, below most extension sets. Message us on LINE or Instagram for the current price of each option. Price is always confirmed before booking, never after.",
+      "Lifting sits in the lower-mid tier of our menu, below most extension sets. Message us on WhatsApp or Instagram for the current price of each option. Price is always confirmed before booking, never after.",
     faqHeading: "Lash lifting questions",
     faq: [
       {
@@ -187,7 +187,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       },
     ],
     ctaHeading: "Book your lash lift",
-    ctaText: "Message us on LINE or Instagram with the option you want and your preferred day. Ying confirms the price and slot personally.",
+    ctaText: "Message us on WhatsApp or Instagram with the option you want and your preferred day. Ying confirms the price and slot personally.",
     relatedLinks: [
       { label: "Eyelash extensions in Chiang Mai", href: "/" },
       { label: "Natural lash extensions, if you want more than a lift", href: "/blog/natural-lash-extensions-chiang-mai" },
@@ -303,7 +303,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       { name: "ลิฟติ้ง + ย้อมสี + บำรุง", note: "ครบทุกขั้นตอนพร้อมทรีตเมนต์เสริมแรง" },
     ],
     pricingNote:
-      "ลิฟติ้งอยู่ในระดับราคาต่ำถึงกลางของเมนู ต่ำกว่าเซตต่อขนตาส่วนใหญ่ ทักไลน์หรือไอจีเพื่อขอราคาปัจจุบันของแต่ละแบบ เรายืนยันราคาก่อนจองเสมอ",
+      "ลิฟติ้งอยู่ในระดับราคาต่ำถึงกลางของเมนู ต่ำกว่าเซตต่อขนตาส่วนใหญ่ ทักไอจีหรือ WhatsApp เพื่อขอราคาปัจจุบันของแต่ละแบบ เรายืนยันราคาก่อนจองเสมอ",
     faqHeading: "คำถามเรื่องลิฟติ้งขนตา",
     faq: [
       {
@@ -328,7 +328,7 @@ export const LASH_LIFTING_PAGE: ServicePage = {
       },
     ],
     ctaHeading: "จองลิฟติ้งขนตา",
-    ctaText: "ทักไลน์หรือไอจีพร้อมตัวเลือกที่ต้องการและวันที่สะดวก ครูหญิงยืนยันราคาและคิวให้เอง",
+    ctaText: "ทักไอจีหรือ WhatsApp พร้อมตัวเลือกที่ต้องการและวันที่สะดวก ครูหญิงยืนยันราคาและคิวให้เอง",
     relatedLinks: [
       { label: "ต่อขนตา เชียงใหม่ ที่ไหนดี เทียบ 4 ร้าน", href: "/th/blog/tor-khon-ta-chiang-mai-tee-nai-dee" },
       { label: "ต่อขนตาแบบธรรมชาติ ถ้าอยากได้มากกว่าลิฟติ้ง", href: "/th/blog/tor-khon-ta-baeb-thammachat" },
@@ -372,7 +372,7 @@ export const NAILS_PAGE: ServicePage = {
       { name: "Nail art", note: "Hand-drawn designs, priced by detail" },
     ],
     pricingNote:
-      "Message us on LINE or Instagram with a photo of the look you want and we'll quote the exact price before you book. No surprises at the studio.",
+      "Message us on WhatsApp or Instagram with a photo of the look you want and we'll quote the exact price before you book. No surprises at the studio.",
     faqHeading: "Nail questions",
     faq: [
       {
@@ -381,7 +381,7 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "Do you do nail art from a reference photo?",
-        a: "Yes. Send the photo on LINE or Instagram and you'll get an honest answer on whether it's doable, how long it takes, and the exact price.",
+        a: "Yes. Send the photo on WhatsApp or Instagram and you'll get an honest answer on whether it's doable, how long it takes, and the exact price.",
       },
       {
         q: "Where is the studio?",
@@ -389,11 +389,11 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "Can I just walk in for nails?",
-        a: "No, nails are by appointment too. Message on LINE and you will usually get an answer the same day.",
+        a: "No, nails are by appointment too. Message on WhatsApp and you will usually get an answer the same day.",
       },
     ],
     ctaHeading: "Book your nails",
-    ctaText: "Send a reference photo on LINE or Instagram and Ying will quote the price and next available slot.",
+    ctaText: "Send a reference photo on WhatsApp or Instagram and Ying will quote the price and next available slot.",
     relatedLinks: [
       { label: "See the lash services menu", href: "/#services" },
       { label: "Which lash style suits your eye shape", href: "/blog/lash-extensions-by-eye-shape-chiang-mai" },
@@ -403,7 +403,7 @@ export const NAILS_PAGE: ServicePage = {
     h1: "ทำเล็บ เชียงใหม่ ระหว่างรอขนตาเซ็ตตัว",
     metaTitle: "ทำเล็บ เชียงใหม่ | เจล ต่อเล็บ เพ้นท์เล็บ - My Lash House",
     metaDescription:
-      "บริการทำเล็บที่ My Lash House เชียงใหม่ สันกำแพง ใกล้ ม.พายัพ เจล ต่อเล็บ เพ้นท์เล็บ ในสตูดิโอส่วนตัวเดียวกับนัดต่อขนตา จองผ่าน LINE",
+      "บริการทำเล็บที่ My Lash House เชียงใหม่ สันกำแพง ใกล้ ม.พายัพ เจล ต่อเล็บ เพ้นท์เล็บ ในสตูดิโอส่วนตัวเดียวกับนัดต่อขนตา จองผ่านไอจีหรือ WhatsApp",
     eyebrow: "บริการ",
     trustItems: ["สตูดิโอส่วนตัว 1 ต่อ 1", "ทำเล็บและขนตาได้ในนัดเดียว"],
     quickAnswer:
@@ -431,7 +431,7 @@ export const NAILS_PAGE: ServicePage = {
       { name: "เพ้นท์เล็บ", note: "ลายวาดมือ ราคาตามรายละเอียด" },
     ],
     pricingNote:
-      "ทักไลน์หรือไอจีพร้อมรูปลุคที่อยากได้ เราเสนอราคาชัดเจนก่อนจอง ไม่มีเซอร์ไพรส์ที่ร้าน",
+      "ทักไอจีหรือ WhatsApp พร้อมรูปลุคที่อยากได้ เราเสนอราคาชัดเจนก่อนจอง ไม่มีเซอร์ไพรส์ที่ร้าน",
     faqHeading: "คำถามเรื่องเล็บ",
     faq: [
       {
@@ -440,7 +440,7 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "เพ้นท์ตามรูปตัวอย่างได้ไหม",
-        a: "ได้ ส่งรูปมาทางไลน์หรือไอจี แล้วจะได้คำตอบตรง ๆ ว่าทำได้ไหม ใช้เวลาเท่าไหร่ ราคาเท่าไหร่",
+        a: "ได้ ส่งรูปมาทางไอจีหรือ WhatsApp แล้วจะได้คำตอบตรง ๆ ว่าทำได้ไหม ใช้เวลาเท่าไหร่ ราคาเท่าไหร่",
       },
       {
         q: "ร้านอยู่ที่ไหน",
@@ -448,11 +448,11 @@ export const NAILS_PAGE: ServicePage = {
       },
       {
         q: "Walk-in ทำเล็บได้ไหม",
-        a: "ไม่ได้ค่ะ ทำเล็บก็ต้องจองคิวล่วงหน้าเหมือนกัน ทักไลน์มาได้เลย ส่วนใหญ่ตอบภายในวันเดียวกัน",
+        a: "ไม่ได้ค่ะ ทำเล็บก็ต้องจองคิวล่วงหน้าเหมือนกัน ทักไอจีหรือ WhatsApp มาได้เลย ส่วนใหญ่ตอบภายในวันเดียวกัน",
       },
     ],
     ctaHeading: "จองทำเล็บ",
-    ctaText: "ส่งรูปตัวอย่างมาทางไลน์หรือไอจี ครูหญิงเสนอราคาและคิวว่างถัดไปให้เอง",
+    ctaText: "ส่งรูปตัวอย่างมาทางไอจีหรือ WhatsApp ครูหญิงเสนอราคาและคิวว่างถัดไปให้เอง",
     relatedLinks: [
       { label: "ดูเมนูบริการขนตา", href: "/th#services" },
       { label: "ทรงขนตาแบบไหนเข้ากับรูปตาคุณ", href: "/th/blog/tor-khon-ta-baeb-nai-dee" },
@@ -521,7 +521,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
       { name: "Design", note: "Mapping each style to the eye in front of you" },
     ],
     pricingNote:
-      "The course fee depends on the format and what is included, so it is quoted personally. Message us on LINE or Instagram with your experience level and the dates you have in mind. Ying confirms the fee before anything is booked.",
+      "The course fee depends on the format and what is included, so it is quoted personally. Message us on WhatsApp or Instagram with your experience level and the dates you have in mind. Ying confirms the fee before anything is booked.",
     faqHeading: "Course questions",
     faq: [
       {
@@ -546,11 +546,11 @@ export const LASH_TRAINING_PAGE: ServicePage = {
       },
       {
         q: "How much does the course cost?",
-        a: "The fee depends on the format, so it is quoted personally on LINE or Instagram before anything is booked.",
+        a: "The fee depends on the format, so it is quoted personally on WhatsApp or Instagram before anything is booked.",
       },
     ],
     ctaHeading: "Ask about the next course",
-    ctaText: "Message us on LINE or Instagram with your experience level and the dates you have in mind. Ying answers personally.",
+    ctaText: "Message us on WhatsApp or Instagram with your experience level and the dates you have in mind. Ying answers personally.",
     relatedLinks: [
       { label: "About Ying: certificates and competitions", href: "/about" },
       { label: "Lash styles by eye shape, the guide", href: "/blog/lash-extensions-by-eye-shape-chiang-mai" },
@@ -615,7 +615,7 @@ export const LASH_TRAINING_PAGE: ServicePage = {
       { name: "การออกแบบทรง", note: "แมปทรงให้เข้ากับรูปตาตรงหน้า" },
     ],
     pricingNote:
-      "ค่าคอร์สขึ้นอยู่กับรูปแบบและสิ่งที่รวมอยู่ในคอร์ส จึงแจ้งเป็นรายบุคคล ทักไลน์หรือไอจีพร้อมบอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงยืนยันราคาก่อนจองเสมอ",
+      "ค่าคอร์สขึ้นอยู่กับรูปแบบและสิ่งที่รวมอยู่ในคอร์ส จึงแจ้งเป็นรายบุคคล ทักไอจีหรือ WhatsApp พร้อมบอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงยืนยันราคาก่อนจองเสมอ",
     faqHeading: "คำถามเรื่องคอร์สเรียนต่อขนตา",
     faq: [
       {
@@ -640,11 +640,11 @@ export const LASH_TRAINING_PAGE: ServicePage = {
       },
       {
         q: "เรียนต่อขนตา ราคาเท่าไหร่",
-        a: "ค่าคอร์สขึ้นอยู่กับรูปแบบคอร์ส จึงแจ้งเป็นรายบุคคลทางไลน์หรือไอจีก่อนจอง",
+        a: "ค่าคอร์สขึ้นอยู่กับรูปแบบคอร์ส จึงแจ้งเป็นรายบุคคลทางไอจีหรือ WhatsApp ก่อนจอง",
       },
     ],
     ctaHeading: "สอบถามคอร์สรอบถัดไป",
-    ctaText: "ทักไลน์หรือไอจี บอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงตอบเองค่ะ",
+    ctaText: "ทักไอจีหรือ WhatsApp บอกพื้นฐานที่มีและช่วงวันที่สะดวก ครูหญิงตอบเองค่ะ",
     relatedLinks: [
       { label: "รู้จักครูหญิง ใบรับรองและงานแข่งขัน", href: "/th/about" },
       { label: "ทรงต่อขนตาแบบไหนเข้ากับรูปตา", href: "/th/blog/tor-khon-ta-baeb-nai-dee" },

@@ -7,8 +7,6 @@ export const BUSINESS = {
   phone: "085-474-7314",
   phoneTel: "+66854747314",
   email: "",
-  line: "@604ymska",
-  lineUrl: "https://page.line.me/604ymska",
   whatsapp: "+66 85 474 7314",
   whatsappUrl: "https://wa.me/66854747314",
   instagram: "@my_lash_house.cnx",

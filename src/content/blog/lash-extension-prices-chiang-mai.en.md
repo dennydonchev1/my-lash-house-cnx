@@ -22,9 +22,9 @@ Every price below is for a full set. No hidden fees.
 |---|---|
 | Color lashes | +฿150 to ฿300 |
 | Lower lashes | Included in the set price, just ask |
-| Refill | Message us on LINE; Ying confirms the price before every refill |
-| Removal | Message us on LINE |
-| Lash lift | Message us on LINE; details on the [lash lift page](/services/lash-lifting) |
+| Refill | Message us on WhatsApp; Ying confirms the price before every refill |
+| Removal | Message us on WhatsApp |
+| Lash lift | Message us on WhatsApp; details on the [lash lift page](/services/lash-lifting) |
 
 Not sure which style suits you? Start with the [lash extensions by eye shape guide](/blog/lash-extensions-by-eye-shape-chiang-mai).
 
@@ -62,7 +62,7 @@ Our menu by budget:
 
 Before booking any studio, ask about four things: the refill price, the removal fee, whether color lashes cost extra, and whether lower lashes cost extra. A studio that answers all four up front is unlikely to surprise you when you pay.
 
-We recommend a refill every 2 to 3 weeks. Message us on LINE for the refill price; Ying gives the actual price at the start of every refill appointment. The full timeline is in [how long do lash extensions last](/blog/how-long-do-lash-extensions-last-chiang-mai).
+We recommend a refill every 2 to 3 weeks. Message us on WhatsApp for the refill price; Ying gives the actual price at the start of every refill appointment. The full timeline is in [how long do lash extensions last](/blog/how-long-do-lash-extensions-last-chiang-mai).
 
 ## Where to get lash extensions in Chiang Mai with clear prices
 
@@ -70,9 +70,8 @@ My Lash House is in San Klang, San Kamphaeng, near Payap University and about 10
 
 ## Check the price and book
 
-Send a straight-on photo of your open eyes and a photo of the lashes you love on LINE or Instagram. Ying replies personally with the style she recommends, the price, and her next free slot.
+Send a straight-on photo of your open eyes and a photo of the lashes you love on WhatsApp or Instagram. Ying replies personally with the style she recommends, the price, and her next free slot.
 
-- LINE: @604ymska
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - WhatsApp: +66 85 474 7314
 

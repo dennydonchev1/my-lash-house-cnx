@@ -114,11 +114,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "How much is a lash refill?",
-          a: "Message us on LINE (@604ymska) for the current refill price. Ying gives the actual price at the start of every refill, and we recommend a refill every 2 to 3 weeks.",
+          a: "Message us on WhatsApp (+66 85 474 7314) for the current refill price. Ying gives the actual price at the start of every refill, and we recommend a refill every 2 to 3 weeks.",
         },
         {
           q: "Can I walk in?",
-          a: "No, My Lash House works by appointment only. Book on LINE, Instagram or WhatsApp.",
+          a: "No, My Lash House works by appointment only. Book on Instagram or WhatsApp.",
         },
       ],
       th: [
@@ -140,7 +140,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         },
         {
           q: "เติมขนตาราคาเท่าไหร่",
-          a: "ทักถามราคาเติมทาง LINE @604ymska ครูหญิงแจ้งราคาจริงก่อนเริ่มทุกนัด แนะนำเติมทุก 2 ถึง 3 สัปดาห์",
+          a: "ทักถามราคาเติมทาง WhatsApp +66 85 474 7314 ครูหญิงแจ้งราคาจริงก่อนเริ่มทุกนัด แนะนำเติมทุก 2 ถึง 3 สัปดาห์",
         },
       ],
     },

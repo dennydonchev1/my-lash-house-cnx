@@ -91,9 +91,8 @@ At My Lash House in San Klang, San Kamphaeng, near Payap University and about 10
 
 ## Book your wispy set
 
-Send a straight-on photo of your open eyes and a photo of the wispy look you love on LINE or Instagram. Ying replies personally with the style she recommends, the price, and her next free slot.
+Send a straight-on photo of your open eyes and a photo of the wispy look you love on WhatsApp or Instagram. Ying replies personally with the style she recommends, the price, and her next free slot.
 
-- LINE: @604ymska
 - Instagram: [@my_lash_house.cnx](https://instagram.com/my_lash_house.cnx)
 - WhatsApp: +66 85 474 7314
 
