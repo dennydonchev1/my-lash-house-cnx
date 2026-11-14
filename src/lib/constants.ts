@@ -29,7 +29,7 @@ export const BUSINESS = {
   googleMapsUrl:
     "https://www.google.com/maps/place/My+Lash+House+Chiang+Mai/@18.7870732,99.0412865,17z",
   rating: 5.0,
-  reviewCount: 20,
+  reviewCount: 22,
 } as const;
 
 export const NAV_LINKS = [

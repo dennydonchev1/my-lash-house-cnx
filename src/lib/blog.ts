@@ -69,6 +69,51 @@ export const PERSON_YING_SCHEMA = {
 // Single source of truth for all blog posts. Add new entries here.
 export const BLOG_POSTS: BlogPostMeta[] = [
   {
+    slug: "lower-lash-extensions-chiang-mai",
+    slugTh: "tor-khon-ta-lang",
+    title: {
+      en: "Lower Lash Extensions in Chiang Mai: Who They Suit and What to Expect (2026)",
+      th: "ต่อขนตาล่าง ดีไหม เหมาะกับใคร อยู่ได้นานแค่ไหน (2026)",
+    },
+    metaTitle: {
+      en: "Lower Lash Extensions Chiang Mai (2026 Guide) | My Lash House",
+      th: "ต่อขนตาล่าง ดีไหม เหมาะกับใคร ราคา | My Lash House",
+    },
+    category: { en: "Style Guide", th: "คู่มือทรงขนตา" },
+    dek: {
+      en: "What lower lashes do for your eyes, who should skip them, how long they last, and why they cost nothing extra here.",
+      th: "ต่อขนตาล่างช่วยอะไร ใครควรข้าม อยู่ได้นานแค่ไหน และทำไมที่ร้านเราไม่คิดเพิ่ม",
+    },
+    description: {
+      en: "Lower lash extensions in Chiang Mai: who they suit, who should skip them, how long they last, aftercare, and why they are included in the set price.",
+      th: "ต่อขนตาล่างดีไหม เหมาะกับใคร ข้อเสีย อยู่ได้กี่วัน ดูแลยังไง และราคาเท่าไหร่ ที่ My Lash House รวมในราคาเซต ไม่คิดเพิ่ม",
+    },
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    author: "Ying",
+    heroImage: "/images/service-natural.jpg",
+    heroImageAlt: {
+      en: "Natural Look lash extensions by My Lash House Chiang Mai",
+      th: "ต่อขนตา Natural Look โดย My Lash House เชียงใหม่",
+    },
+    readingMinutes: 4,
+    tags: ["lower lash extensions", "bottom lash extensions", "ต่อขนตาล่าง", "ขนตาล่าง", "chiang mai"],
+    faq: {
+      en: [
+        { q: "What are lower lash extensions?", a: "Short, fine extensions placed one by one on your bottom lashes. They open the eye, balance a full upper set and replace lower mascara." },
+        { q: "How long do lower lash extensions last?", a: "Shorter than upper lashes, because the lower lash line meets tears, skincare and friction all day. Most people top them up at their regular refill every 2 to 3 weeks." },
+        { q: "Are lower lash extensions extra?", a: "Not at My Lash House. Lower lashes are included in the set price at no extra charge. Ask for them when you book." },
+        { q: "Who should not get lower lash extensions?", a: "People with watery or sensitive eyes, a heavy under-eye skincare routine, or a habit of sleeping face down may find they shed too fast to be worth it." },
+      ],
+      th: [
+        { q: "ต่อขนตาล่าง คืออะไร", a: "คือการต่อขนตาเส้นสั้นและบางทีละเส้นบนขนตาล่างจริง ช่วยให้ตาดูโตขึ้น บาลานซ์กับขนตาบน และไม่ต้องปัดมาสคาร่าล่าง" },
+        { q: "ต่อขนตาล่าง อยู่ได้กี่วัน", a: "อยู่ได้สั้นกว่าขนตาบน เพราะโดนน้ำตา สกินแคร์ และการเสียดสีทั้งวัน ส่วนใหญ่เติมพร้อมรอบเติมขนตาบนทุก 2 ถึง 3 สัปดาห์" },
+        { q: "ต่อขนตาล่าง ราคาเท่าไหร่", a: "ที่ My Lash House รวมอยู่ในราคาเซต ไม่คิดเพิ่ม บอกครูหญิงได้เลยตอนจองคิว" },
+        { q: "ต่อขนตาล่าง มีข้อเสียไหม", a: "หลุดเร็วกว่าขนตาบน และไม่เหมาะกับคนตาแฉะ ใช้สกินแคร์ใต้ตาเนื้อเข้มข้น หรือนอนคว่ำ" },
+      ],
+    },
+  },
+  {
     slug: "lash-extension-prices-chiang-mai",
     slugTh: "tor-khon-ta-raka-tao-rai",
     title: {
