@@ -21,7 +21,7 @@ Every price below is for a full set. No hidden fees.
 | Service | Price |
 |---|---|
 | Color lashes | +฿150 to ฿300 |
-| Lower lashes | Included in the set price, just ask |
+| [Lower lashes](/blog/lower-lash-extensions-chiang-mai) | Included in the set price, just ask |
 | Refill | Message us on WhatsApp; Ying confirms the price before every refill |
 | Removal | Message us on WhatsApp |
 | Lash lift | Message us on WhatsApp; details on the [lash lift page](/services/lash-lifting) |
@@ -83,4 +83,4 @@ The Thai-language version of this guide is at [/th/blog/tor-khon-ta-raka-tao-rai
 
 **Ying** is a certified lash artist with 7+ years of experience and the founder of My Lash House, a private one-on-one lash studio in San Klang, Chiang Mai. She trained in classic, hybrid, volume, and mega-volume extension techniques and works exclusively with 100% handmade fans.
 
-My Lash House holds a 5.0 rating across 20 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, works by appointment only, and supports both English and Thai across all booking channels.
+My Lash House holds a 5.0 rating across 22 Google reviews and offers a published 3-day retouch guarantee. The studio is open 7 days a week, 10:00 to 19:00, works by appointment only, and supports both English and Thai across all booking channels.
